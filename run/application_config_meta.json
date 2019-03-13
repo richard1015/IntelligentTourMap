@@ -1,0 +1,293 @@
+{
+  "keys": "/Users/richard/github/IntelligentTourMap/config/config.default.js",
+  "middleware": "/Users/richard/github/IntelligentTourMap/config/config.default.js",
+  "cors": {
+    "origin": "/Users/richard/github/IntelligentTourMap/config/config.default.js",
+    "allowMethods": "/Users/richard/github/IntelligentTourMap/config/config.default.js"
+  },
+  "security": {
+    "csrf": {
+      "enable": "/Users/richard/github/IntelligentTourMap/config/config.default.js",
+      "ignoreJSON": "/Users/richard/github/IntelligentTourMap/config/config.default.js",
+      "useSession": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/richard/github/IntelligentTourMap/config/config.default.js",
+    "protocolWhiteList": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "mongodbUrl": "/Users/richard/github/IntelligentTourMap/config/config.default.js",
+  "mongodbName": "/Users/richard/github/IntelligentTourMap/config/config.default.js",
+  "session": {
+    "maxAge": "/Users/richard/github/IntelligentTourMap/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/richard/github/IntelligentTourMap/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/richard/github/IntelligentTourMap/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/richard/github/IntelligentTourMap/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/richard/github/IntelligentTourMap/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/richard/github/IntelligentTourMap/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/richard/github/IntelligentTourMap/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/richard/github/IntelligentTourMap/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/richard/github/IntelligentTourMap/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/richard/github/IntelligentTourMap/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/richard/github/IntelligentTourMap/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/richard/github/IntelligentTourMap/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/richard/github/IntelligentTourMap/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/richard/github/IntelligentTourMap/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/richard/github/IntelligentTourMap/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/richard/github/IntelligentTourMap/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/richard/github/IntelligentTourMap/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/richard/github/IntelligentTourMap/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/richard/github/IntelligentTourMap/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/richard/github/IntelligentTourMap/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/richard/github/IntelligentTourMap/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/richard/github/IntelligentTourMap/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/richard/github/IntelligentTourMap/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/richard/github/IntelligentTourMap/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/richard/github/IntelligentTourMap/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/richard/github/IntelligentTourMap/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/richard/github/IntelligentTourMap/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/richard/github/IntelligentTourMap/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/richard/github/IntelligentTourMap/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/richard/github/IntelligentTourMap/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/richard/github/IntelligentTourMap/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/richard/github/IntelligentTourMap/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/richard/github/IntelligentTourMap/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/richard/github/IntelligentTourMap/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/richard/github/IntelligentTourMap/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/richard/github/IntelligentTourMap/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/richard/github/IntelligentTourMap/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/richard/github/IntelligentTourMap/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/richard/github/IntelligentTourMap/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+  "name": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "version": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "description": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "private": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "mongodb": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "stop": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "dev": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "debug": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "test": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "cov": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "lint": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "ci": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "autod": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "url": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "license": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "strict": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "depth": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "env": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "level": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "logging": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "port": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js"
+}

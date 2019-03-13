@@ -1,0 +1,609 @@
+2019-03-13 10:42:44,694 ERROR 23946 [-/127.0.0.1/-/10ms GET /user] nodejs.TypeError: this.ctx.getMongodb is not a function
+    at UserController.index (/Users/richard/github/IntelligentTourMap/app/controller/user.js:8:18)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:45:18)
+    at /Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+    at /Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:36:12
+
+pid: 23946
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 11:22:24,252 ERROR 26848 nodejs.ClusterClientNoResponseError: client no response in 78931ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/richard/github/IntelligentTourMap/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 26848
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 11:31:06,975 ERROR 27523 [-/127.0.0.1/-/10258ms GET /user] nodejs.ReferenceError: ctx is not defined
+    at UserController.index (/Users/richard/github/IntelligentTourMap/app/controller/user.js:7:26)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:45:18)
+    at /Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+    at /Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:36:12
+
+pid: 27523
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 11:31:10,830 ERROR 27523 [-/127.0.0.1/-/3779ms GET /user] nodejs.ReferenceError: ctx is not defined
+    at UserController.index (/Users/richard/github/IntelligentTourMap/app/controller/user.js:7:26)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:45:18)
+    at /Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+    at /Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:36:12
+
+pid: 27523
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 13:15:52,198 ERROR 27522 nodejs.ClusterClientNoResponseError: client no response in 77445ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/richard/github/IntelligentTourMap/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 27522
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 13:20:23,825 ERROR 30006 nodejs.TypeError: db.collection is not a function
+    at app.getMongodb.then.db (/Users/richard/github/IntelligentTourMap/app/service/user.js:11:39)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 30006
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 13:20:38,959 ERROR 30006 nodejs.TypeError: db.collection is not a function
+    at app.getMongodb.then.db (/Users/richard/github/IntelligentTourMap/app/service/user.js:11:39)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 30006
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 13:20:51,139 ERROR 30024 nodejs.TypeError: db.collection is not a function
+    at app.getMongodb.then.db (/Users/richard/github/IntelligentTourMap/app/service/user.js:11:39)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 30024
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 13:21:04,902 ERROR 30061 nodejs.TypeError: db.collection is not a function
+    at app.getMongodb.then.db (/Users/richard/github/IntelligentTourMap/app/service/user.js:11:39)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 30061
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 13:21:06,205 ERROR 30061 nodejs.TypeError: db.collection is not a function
+    at app.getMongodb.then.db (/Users/richard/github/IntelligentTourMap/app/service/user.js:11:39)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 30061
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 13:21:29,198 ERROR 30061 nodejs.TypeError: db.collection is not a function
+    at app.getMongodb.then.db (/Users/richard/github/IntelligentTourMap/app/service/user.js:11:39)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 30061
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 13:22:54,541 ERROR 30132 nodejs.TypeError: db.collection is not a function
+    at app.getMongodb.then.db (/Users/richard/github/IntelligentTourMap/app/service/user.js:11:37)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 30132
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 13:22:55,215 ERROR 30132 nodejs.TypeError: db.collection is not a function
+    at app.getMongodb.then.db (/Users/richard/github/IntelligentTourMap/app/service/user.js:11:37)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 30132
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 13:24:31,140 ERROR 30242 nodejs.TypeError: db.collection is not a function
+    at app.getMongodb.then.db (/Users/richard/github/IntelligentTourMap/app/service/user.js:12:37)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 30242
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 13:25:51,601 ERROR 30234 nodejs.ClusterClientNoResponseError: client no response in 65895ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/richard/github/IntelligentTourMap/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 30234
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 13:29:25,847 ERROR 30325 nodejs.TypeError: db.collection is not a function
+    at app.getMongodb.then.db (/Users/richard/github/IntelligentTourMap/app/service/user.js:12:37)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 30325
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 13:30:39,317 ERROR 30571 nodejs.TypeError: db.collection is not a function
+    at app.getMongodb.then.db (/Users/richard/github/IntelligentTourMap/app/service/user.js:12:37)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 30571
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 13:32:14,640 ERROR 30842 nodejs.ClusterClientNoResponseError: client no response in 78938ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/richard/github/IntelligentTourMap/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 30842
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 13:33:21,484 ERROR 30850 nodejs.TypeError: db.collection is not a function
+    at app.getMongodb.then.db (/Users/richard/github/IntelligentTourMap/app/service/user.js:12:37)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 30850
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 13:56:29,223 ERROR 31849 nodejs.TypeError: Cannot read property 'close' of undefined (uncaughtException throw 1 times on pid:31849)
+    at /Users/richard/github/IntelligentTourMap/app/service/user.js:19:28
+    at result (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at cursor.close (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/cursor_ops.js:224:62)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:893:14)
+    at _endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:904:37)
+    at Cursor._endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb-core/lib/cursor.js:195:5)
+    at Cursor._endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:226:59)
+
+pid: 31849
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 13:58:16,606 ERROR 32081 nodejs.TypeError: Cannot read property 'close' of undefined (uncaughtException throw 1 times on pid:32081)
+    at /Users/richard/github/IntelligentTourMap/app/service/user.js:19:28
+    at result (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at cursor.close (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/cursor_ops.js:224:62)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:893:14)
+    at _endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:904:37)
+    at Cursor._endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb-core/lib/cursor.js:195:5)
+    at Cursor._endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:226:59)
+
+pid: 32081
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 14:00:38,084 ERROR 32272 nodejs.TypeError: Cannot read property 'close' of undefined (uncaughtException throw 1 times on pid:32272)
+    at /Users/richard/github/IntelligentTourMap/app/service/user.js:19:28
+    at result (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at cursor.close (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/cursor_ops.js:224:62)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:893:14)
+    at _endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:904:37)
+    at Cursor._endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb-core/lib/cursor.js:195:5)
+    at Cursor._endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:226:59)
+
+pid: 32272
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 14:00:44,245 ERROR 32337 nodejs.TypeError: Cannot read property 'close' of undefined (uncaughtException throw 1 times on pid:32337)
+    at /Users/richard/github/IntelligentTourMap/app/service/user.js:19:28
+    at result (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at cursor.close (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/cursor_ops.js:224:62)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:893:14)
+    at _endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:904:37)
+    at Cursor._endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb-core/lib/cursor.js:195:5)
+    at Cursor._endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:226:59)
+
+pid: 32337
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 14:01:47,613 ERROR 32738 nodejs.TypeError: Cannot read property 'close' of undefined (uncaughtException throw 1 times on pid:32738)
+    at /Users/richard/github/IntelligentTourMap/app/service/user.js:19:28
+    at result (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at cursor.close (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/cursor_ops.js:224:62)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:893:14)
+    at _endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:904:37)
+    at Cursor._endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb-core/lib/cursor.js:195:5)
+    at Cursor._endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:226:59)
+
+pid: 32738
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 14:06:08,115 ERROR 33287 [-/127.0.0.1/-/29ms GET /user] nodejs.TypeError: Cannot read property 'find' of undefined
+    at Promise (/Users/richard/github/IntelligentTourMap/app/service/user.js:17:24)
+    at new Promise (<anonymous>)
+    at UserService.list (/Users/richard/github/IntelligentTourMap/app/service/user.js:15:22)
+    at UserController.index (/Users/richard/github/IntelligentTourMap/app/controller/user.js:7:50)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:45:18)
+
+pid: 33287
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 14:06:46,047 ERROR 33308 [-/127.0.0.1/-/18ms GET /user] nodejs.TypeError: Cannot read property 'find' of undefined
+    at Promise (/Users/richard/github/IntelligentTourMap/app/service/user.js:17:24)
+    at new Promise (<anonymous>)
+    at UserService.list (/Users/richard/github/IntelligentTourMap/app/service/user.js:15:22)
+    at UserController.index (/Users/richard/github/IntelligentTourMap/app/controller/user.js:7:50)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:45:18)
+
+pid: 33308
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 14:06:47,024 ERROR 33308 [-/127.0.0.1/-/5ms GET /user] nodejs.TypeError: Cannot read property 'find' of undefined
+    at Promise (/Users/richard/github/IntelligentTourMap/app/service/user.js:17:24)
+    at new Promise (<anonymous>)
+    at UserService.list (/Users/richard/github/IntelligentTourMap/app/service/user.js:15:22)
+    at UserController.index (/Users/richard/github/IntelligentTourMap/app/controller/user.js:7:50)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:45:18)
+
+pid: 33308
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 14:07:16,650 ERROR 33332 [-/127.0.0.1/-/20ms GET /user] nodejs.TypeError: Cannot read property 'find' of undefined
+    at Promise (/Users/richard/github/IntelligentTourMap/app/service/user.js:17:24)
+    at new Promise (<anonymous>)
+    at UserService.list (/Users/richard/github/IntelligentTourMap/app/service/user.js:15:22)
+    at UserController.index (/Users/richard/github/IntelligentTourMap/app/controller/user.js:7:50)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:45:18)
+
+pid: 33332
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 14:07:17,790 ERROR 33332 [-/127.0.0.1/-/6ms GET /user] nodejs.TypeError: Cannot read property 'find' of undefined
+    at Promise (/Users/richard/github/IntelligentTourMap/app/service/user.js:17:24)
+    at new Promise (<anonymous>)
+    at UserService.list (/Users/richard/github/IntelligentTourMap/app/service/user.js:15:22)
+    at UserController.index (/Users/richard/github/IntelligentTourMap/app/controller/user.js:7:50)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:45:18)
+
+pid: 33332
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 14:07:43,335 ERROR 33356 [-/127.0.0.1/-/16ms GET /user] nodejs.TypeError: Cannot read property 'find' of undefined
+    at Promise (/Users/richard/github/IntelligentTourMap/app/service/user.js:17:28)
+    at new Promise (<anonymous>)
+    at UserService.list (/Users/richard/github/IntelligentTourMap/app/service/user.js:15:22)
+    at UserController.index (/Users/richard/github/IntelligentTourMap/app/controller/user.js:7:50)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:45:18)
+
+pid: 33356
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 14:08:13,465 ERROR 33407 [-/127.0.0.1/-/21ms GET /user] nodejs.TypeError: Cannot read property 'find' of undefined
+    at Promise (/Users/richard/github/IntelligentTourMap/app/service/user.js:17:28)
+    at new Promise (<anonymous>)
+    at UserService.list (/Users/richard/github/IntelligentTourMap/app/service/user.js:15:22)
+    at UserController.index (/Users/richard/github/IntelligentTourMap/app/controller/user.js:7:50)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:45:18)
+
+pid: 33407
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 14:09:26,221 ERROR 33482 [-/127.0.0.1/-/19ms GET /user] nodejs.TypeError: Cannot read property 'find' of undefined
+    at Promise (/Users/richard/github/IntelligentTourMap/app/service/user.js:17:28)
+    at new Promise (<anonymous>)
+    at UserService.list (/Users/richard/github/IntelligentTourMap/app/service/user.js:15:22)
+    at UserController.index (/Users/richard/github/IntelligentTourMap/app/controller/user.js:7:50)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:45:18)
+
+pid: 33482
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 14:21:22,728 ERROR 33279 nodejs.ClusterClientNoResponseError: client no response in 74714ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/richard/github/IntelligentTourMap/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 33279
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 15:26:45,535 ERROR 35919 nodejs.ClusterClientNoResponseError: client no response in 65090ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/richard/github/IntelligentTourMap/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 35919
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 15:28:51,922 ERROR 36163 nodejs.ReferenceError: resolve is not defined (uncaughtException throw 1 times on pid:36163)
+    at /Users/richard/github/IntelligentTourMap/app/service/user.js:44:21
+    at result (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:414:17)
+    at session.endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:400:37)
+    at ClientSession.endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb-core/lib/sessions.js:129:41)
+    at executeCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:397:17)
+    at bulk.execute (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/collection_ops.js:162:5)
+    at result (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at executeCommands (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/bulk/ordered.js:138:12)
+
+pid: 36163
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 15:54:46,992 ERROR 37277 nodejs.ReferenceError: resolve is not defined (uncaughtException throw 1 times on pid:37277)
+    at /Users/richard/github/IntelligentTourMap/app/service/user.js:35:25
+    at result (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:414:17)
+    at session.endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:401:11)
+    at ClientSession.endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb-core/lib/sessions.js:129:41)
+    at executeCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:397:17)
+    at updateCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/collection_ops.js:1362:3)
+    at updateDocuments (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/collection_ops.js:1451:62)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at coll.s.topology.update (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/collection_ops.js:1416:5)
+    at /Users/richard/github/IntelligentTourMap/node_modules/mongodb-core/lib/connection/pool.js:532:18
+
+pid: 37277
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 15:56:19,379 ERROR 37242 nodejs.ClusterClientNoResponseError: client no response in 72367ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/richard/github/IntelligentTourMap/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 37242
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 15:58:17,216 ERROR 37695 nodejs.ReferenceError: resolve is not defined (uncaughtException throw 1 times on pid:37695)
+    at /Users/richard/github/IntelligentTourMap/app/service/user.js:35:25
+    at result (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:414:17)
+    at session.endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:401:11)
+    at ClientSession.endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb-core/lib/sessions.js:129:41)
+    at executeCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:397:17)
+    at updateCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/collection_ops.js:1362:3)
+    at updateDocuments (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/collection_ops.js:1451:62)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at coll.s.topology.update (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/collection_ops.js:1416:5)
+    at /Users/richard/github/IntelligentTourMap/node_modules/mongodb-core/lib/connection/pool.js:532:18
+
+pid: 37695
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 15:59:49,523 ERROR 37747 nodejs.ReferenceError: resolve is not defined (uncaughtException throw 1 times on pid:37747)
+    at /Users/richard/github/IntelligentTourMap/app/service/user.js:35:25
+    at result (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:414:17)
+    at session.endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:401:11)
+    at ClientSession.endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb-core/lib/sessions.js:129:41)
+    at executeCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:397:17)
+    at updateCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/collection_ops.js:1362:3)
+    at updateDocuments (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/collection_ops.js:1451:62)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at coll.s.topology.update (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/collection_ops.js:1416:5)
+    at /Users/richard/github/IntelligentTourMap/node_modules/mongodb-core/lib/connection/pool.js:532:18
+
+pid: 37747
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 15:59:49,507 ERROR 37669 nodejs.ClusterClientNoResponseError: client no response in 69631ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/richard/github/IntelligentTourMap/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 37669
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 16:01:07,794 ERROR 37812 nodejs.ReferenceError: resolve is not defined (uncaughtException throw 1 times on pid:37812)
+    at /Users/richard/github/IntelligentTourMap/app/service/user.js:35:25
+    at result (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:414:17)
+    at session.endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:401:11)
+    at ClientSession.endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb-core/lib/sessions.js:129:41)
+    at executeCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:397:17)
+    at updateCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/collection_ops.js:1362:3)
+    at updateDocuments (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/collection_ops.js:1451:62)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at coll.s.topology.update (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/collection_ops.js:1416:5)
+    at /Users/richard/github/IntelligentTourMap/node_modules/mongodb-core/lib/connection/pool.js:532:18
+
+pid: 37812
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 16:01:07,807 ERROR 37812 nodejs.ServerNoResponseError: server 127.0.0.1:54518 no response in 20964ms, maybe the socket is end on the other side. (address: 127.0.0.1:54518)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (/Users/richard/github/IntelligentTourMap/node_modules/tcp-base/lib/base.js:427:21)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ServerNoResponseError"
+pid: 37812
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 16:01:18,750 ERROR 37835 nodejs.ReferenceError: reject is not defined (uncaughtException throw 1 times on pid:37835)
+    at /Users/richard/github/IntelligentTourMap/app/service/user.js:32:34
+    at err (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:415:14)
+    at session.endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:399:27)
+    at ClientSession.endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb-core/lib/sessions.js:129:41)
+    at executeCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:397:17)
+    at updateCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/collection_ops.js:1351:19)
+    at updateDocuments (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/collection_ops.js:1451:62)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at coll.s.topology.update (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/collection_ops.js:1414:14)
+    at /Users/richard/github/IntelligentTourMap/node_modules/mongodb-core/lib/connection/pool.js:532:18
+
+pid: 37835
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 16:02:29,531 ERROR 37669 nodejs.ClusterClientNoResponseError: client no response in 60445ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/richard/github/IntelligentTourMap/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 37669
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 16:04:49,553 ERROR 37669 nodejs.ClusterClientNoResponseError: client no response in 75501ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/richard/github/IntelligentTourMap/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 37669
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 16:09:28,509 ERROR 37916 nodejs.ReferenceError: resolve is not defined (uncaughtException throw 1 times on pid:37916)
+    at /Users/richard/github/IntelligentTourMap/app/service/user.js:36:25
+    at result (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:414:17)
+    at session.endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:401:11)
+    at ClientSession.endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb-core/lib/sessions.js:129:41)
+    at executeCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:397:17)
+    at updateCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/collection_ops.js:1362:3)
+    at updateDocuments (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/collection_ops.js:1451:62)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at coll.s.topology.update (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/collection_ops.js:1416:5)
+    at /Users/richard/github/IntelligentTourMap/node_modules/mongodb-core/lib/connection/pool.js:532:18
+
+pid: 37916
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 16:09:28,520 ERROR 37916 nodejs.ServerNoResponseError: server 127.0.0.1:54518 no response in 28270ms, maybe the socket is end on the other side. (address: 127.0.0.1:54518)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (/Users/richard/github/IntelligentTourMap/node_modules/tcp-base/lib/base.js:427:21)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ServerNoResponseError"
+pid: 37916
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 16:11:09,899 ERROR 38112 nodejs.ReferenceError: reject is not defined (uncaughtException throw 1 times on pid:38112)
+    at /Users/richard/github/IntelligentTourMap/app/service/user.js:32:34
+    at err (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:415:14)
+    at session.endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:399:27)
+    at ClientSession.endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb-core/lib/sessions.js:129:41)
+    at executeCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:397:17)
+    at updateCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/collection_ops.js:1351:19)
+    at updateDocuments (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/collection_ops.js:1451:62)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at coll.s.topology.update (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/collection_ops.js:1414:14)
+    at /Users/richard/github/IntelligentTourMap/node_modules/mongodb-core/lib/connection/pool.js:532:18
+
+pid: 38112
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 16:13:16,229 ERROR 38211 nodejs.ReferenceError: resolve is not defined (uncaughtException throw 1 times on pid:38211)
+    at /Users/richard/github/IntelligentTourMap/app/service/user.js:36:25
+    at result (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:414:17)
+    at session.endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:401:11)
+    at ClientSession.endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb-core/lib/sessions.js:129:41)
+    at executeCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:397:17)
+    at updateCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/collection_ops.js:1362:3)
+    at updateDocuments (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/collection_ops.js:1451:62)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at coll.s.topology.update (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/collection_ops.js:1416:5)
+    at /Users/richard/github/IntelligentTourMap/node_modules/mongodb-core/lib/connection/pool.js:532:18
+
+pid: 38211
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 16:23:30,583 ERROR 38750 [-/127.0.0.1/-/49107ms DELETE /user/destroy/5c88b080a96af48d4324ba16] nodejs.TypeError: Cannot read property 'id' of undefined
+    at UserController.destroy (/Users/richard/github/IntelligentTourMap/app/controller/user.js:19:30)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:45:18)
+    at /Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+    at /Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:36:12
+
+pid: 38750
+hostname: richard-MacBook-Pro.local
+
+2019-03-13 16:52:15,797 ERROR 40163 [-/127.0.0.1/-/2ms DELETE /user/destroy/5c88b080a96af48d4324ba16] nodejs.ReferenceError: params is not defined
+    at UserService.destroy (/Users/richard/github/IntelligentTourMap/app/service/user.js:47:48)
+    at UserController.destroy (/Users/richard/github/IntelligentTourMap/app/controller/user.js:18:50)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:45:18)
+    at /Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+
+pid: 40163
+hostname: richard-MacBook-Pro.local
+
