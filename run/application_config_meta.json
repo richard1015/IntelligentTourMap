@@ -57,6 +57,38 @@
       "checkAddress": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js"
     }
   },
+  "swaggerdoc": {
+    "dirScanner": "/Users/richard/github/IntelligentTourMap/config/config.default.js",
+    "apiInfo": {
+      "title": "/Users/richard/github/IntelligentTourMap/config/config.default.js",
+      "description": "/Users/richard/github/IntelligentTourMap/config/config.default.js",
+      "version": "/Users/richard/github/IntelligentTourMap/config/config.default.js"
+    },
+    "schemes": "/Users/richard/github/IntelligentTourMap/config/config.default.js",
+    "consumes": "/Users/richard/github/IntelligentTourMap/config/config.default.js",
+    "produces": "/Users/richard/github/IntelligentTourMap/config/config.default.js",
+    "securityDefinitions": "/Users/richard/github/IntelligentTourMap/config/config.default.js",
+    "enableSecurity": "/Users/richard/github/IntelligentTourMap/config/config.default.js",
+    "routerMap": "/Users/richard/github/IntelligentTourMap/config/config.default.js",
+    "enable": "/Users/richard/github/IntelligentTourMap/config/config.default.js",
+    "basePath": "/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/config/config.default.js"
+  },
+  "multipart": {
+    "fileExtensions": "/Users/richard/github/IntelligentTourMap/config/config.default.js",
+    "mode": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
   "mongodbUrl": "/Users/richard/github/IntelligentTourMap/config/config.default.js",
   "mongodbName": "/Users/richard/github/IntelligentTourMap/config/config.default.js",
   "session": {
@@ -100,22 +132,6 @@
   },
   "schedule": {
     "directory": "/Users/richard/github/IntelligentTourMap/node_modules/egg-schedule/config/config.default.js"
-  },
-  "multipart": {
-    "mode": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
-    "autoFields": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
-    "defaultCharset": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
-    "fieldNameSize": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
-    "fieldSize": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
-    "fields": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
-    "fileSize": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
-    "files": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
-    "fileExtensions": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
-    "whitelist": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
-    "tmpdir": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js",
-    "cleanSchedule": {
-      "cron": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart/config/config.default.js"
-    }
   },
   "development": {
     "watchDirs": "/Users/richard/github/IntelligentTourMap/node_modules/egg-development/config/config.default.js",
@@ -165,6 +181,7 @@
     "dependencies": {
       "egg": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
       "egg-scripts": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "egg-swagger-doc": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
       "mongodb": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {

@@ -2,7 +2,8 @@
 
 const Service = require('egg').Service;
 const ObjectId = require('mongodb').ObjectId;
-
+const fs = require('fs');
+const path = require('path');
 class BaseService extends Service {
     getConllection(collection) {
         return new Promise((resolve, reject) => {
@@ -12,13 +13,21 @@ class BaseService extends Service {
             })
         });
     }
-    _list(col) {
+    _list(col, pageIndex = 1, pageSize = 10) {
         return new Promise((resolve, reject) => {
             this.getConllection(col).then(({ collection, client }) => {
-                collection.find({}).toArray(function (err, docs) {
+                collection.find({}).toArray(function (err, result) {
                     if (err) throw reject(err);
                     client.close();
-                    resolve(docs);
+                    let totalCount = result.length;
+                    let arrays = result.filter((el, index) => index > (pageIndex - 1) * pageSize - 1 && index < pageIndex * pageSize - 1);
+                    resolve({
+                        arrays,
+                        pageIndex,
+                        pageSize,
+                        totalCount,
+                        hasNextPage: pageIndex * pageSize < totalCount
+                    });
                 })
             });
         })
@@ -61,6 +70,15 @@ class BaseService extends Service {
                 });
             });
         });
+    }
+    async uploadImg(origin, stream) {
+        const writerStream = fs.createWriteStream(path.join(this.config.baseDir, `app/public/${stream.filename}`));
+
+        stream.pipe(writerStream);
+
+        let imgUrl = `${origin}/public/${stream.filename}`;
+
+        return imgUrl;
     }
 }
 

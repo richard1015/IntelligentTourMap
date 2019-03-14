@@ -2203,3 +2203,735 @@ hostname: richard-MacBook-Pro.local
 2019-03-13 16:56:47,406 INFO 40485 [egg:core] dump config after load, 6ms
 2019-03-13 16:56:47,448 INFO 40485 [egg-watcher:application] watcher start success
 2019-03-13 16:56:47,454 INFO 40485 [egg:core] dump config after ready, 4ms
+2019-03-14 09:26:04,278 INFO 48727 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 09:26:04,315 INFO 48727 [egg-multipart] stream mode enable
+2019-03-14 09:26:04,524 INFO 48727 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 09:26:04,527 INFO 48727 [egg-security] use methodnoallow middleware
+2019-03-14 09:26:04,527 INFO 48727 [egg-security] use noopen middleware
+2019-03-14 09:26:04,528 INFO 48727 [egg-security] use nosniff middleware
+2019-03-14 09:26:04,528 INFO 48727 [egg-security] use xssProtection middleware
+2019-03-14 09:26:04,529 INFO 48727 [egg-security] use xframe middleware
+2019-03-14 09:26:04,529 INFO 48727 [egg-security] use dta middleware
+2019-03-14 09:26:04,529 INFO 48727 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 09:26:04,541 INFO 48727 [egg:core] dump config after load, 6ms
+2019-03-14 09:26:04,591 INFO 48727 [egg:core] dump config after ready, 5ms
+2019-03-14 09:26:04,601 INFO 48727 [egg-watcher:application] watcher start success
+2019-03-14 09:28:42,179 INFO 48894 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 09:28:42,216 INFO 48894 [egg-multipart] stream mode enable
+2019-03-14 09:28:42,332 INFO 48894 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 09:28:42,334 INFO 48894 [egg-security] use methodnoallow middleware
+2019-03-14 09:28:42,335 INFO 48894 [egg-security] use noopen middleware
+2019-03-14 09:28:42,335 INFO 48894 [egg-security] use nosniff middleware
+2019-03-14 09:28:42,335 INFO 48894 [egg-security] use xssProtection middleware
+2019-03-14 09:28:42,336 INFO 48894 [egg-security] use xframe middleware
+2019-03-14 09:28:42,336 INFO 48894 [egg-security] use dta middleware
+2019-03-14 09:28:42,336 INFO 48894 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 09:28:42,346 INFO 48894 [egg:core] dump config after load, 5ms
+2019-03-14 09:28:42,420 INFO 48894 [egg-watcher:application] watcher start success
+2019-03-14 09:28:42,425 INFO 48894 [egg:core] dump config after ready, 3ms
+2019-03-14 09:31:00,149 INFO 48952 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 09:31:00,185 INFO 48952 [egg-multipart] stream mode enable
+2019-03-14 09:31:00,303 INFO 48952 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 09:31:00,306 INFO 48952 [egg-security] use methodnoallow middleware
+2019-03-14 09:31:00,306 INFO 48952 [egg-security] use noopen middleware
+2019-03-14 09:31:00,307 INFO 48952 [egg-security] use nosniff middleware
+2019-03-14 09:31:00,307 INFO 48952 [egg-security] use xssProtection middleware
+2019-03-14 09:31:00,307 INFO 48952 [egg-security] use xframe middleware
+2019-03-14 09:31:00,308 INFO 48952 [egg-security] use dta middleware
+2019-03-14 09:31:00,308 INFO 48952 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 09:31:00,319 INFO 48952 [egg:core] dump config after load, 6ms
+2019-03-14 09:31:00,392 INFO 48952 [egg-watcher:application] watcher start success
+2019-03-14 09:31:00,398 INFO 48952 [egg:core] dump config after ready, 4ms
+2019-03-14 09:33:17,144 INFO 49286 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 09:33:17,178 INFO 49286 [egg-multipart] stream mode enable
+2019-03-14 09:33:17,293 INFO 49286 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 09:33:17,295 INFO 49286 [egg-security] use methodnoallow middleware
+2019-03-14 09:33:17,295 INFO 49286 [egg-security] use noopen middleware
+2019-03-14 09:33:17,295 INFO 49286 [egg-security] use nosniff middleware
+2019-03-14 09:33:17,296 INFO 49286 [egg-security] use xssProtection middleware
+2019-03-14 09:33:17,296 INFO 49286 [egg-security] use xframe middleware
+2019-03-14 09:33:17,296 INFO 49286 [egg-security] use dta middleware
+2019-03-14 09:33:17,296 INFO 49286 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 09:33:17,306 INFO 49286 [egg:core] dump config after load, 5ms
+2019-03-14 09:33:17,381 INFO 49286 [egg-watcher:application] watcher start success
+2019-03-14 09:33:17,387 INFO 49286 [egg:core] dump config after ready, 4ms
+2019-03-14 09:38:45,751 INFO 49636 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 09:38:45,785 INFO 49636 [egg-multipart] stream mode enable
+2019-03-14 09:38:45,898 INFO 49636 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 09:38:45,900 INFO 49636 [egg-security] use methodnoallow middleware
+2019-03-14 09:38:45,901 INFO 49636 [egg-security] use noopen middleware
+2019-03-14 09:38:45,901 INFO 49636 [egg-security] use nosniff middleware
+2019-03-14 09:38:45,902 INFO 49636 [egg-security] use xssProtection middleware
+2019-03-14 09:38:45,902 INFO 49636 [egg-security] use xframe middleware
+2019-03-14 09:38:45,902 INFO 49636 [egg-security] use dta middleware
+2019-03-14 09:38:45,902 INFO 49636 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 09:38:45,912 INFO 49636 [egg:core] dump config after load, 6ms
+2019-03-14 09:38:45,986 INFO 49636 [egg-watcher:application] watcher start success
+2019-03-14 09:38:45,991 INFO 49636 [egg:core] dump config after ready, 3ms
+2019-03-14 09:46:21,828 INFO 49907 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 09:46:21,864 INFO 49907 [egg-multipart] stream mode enable
+2019-03-14 09:46:21,992 INFO 49907 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 09:46:21,995 INFO 49907 [egg-security] use methodnoallow middleware
+2019-03-14 09:46:21,995 INFO 49907 [egg-security] use noopen middleware
+2019-03-14 09:46:21,996 INFO 49907 [egg-security] use nosniff middleware
+2019-03-14 09:46:21,996 INFO 49907 [egg-security] use xssProtection middleware
+2019-03-14 09:46:21,997 INFO 49907 [egg-security] use xframe middleware
+2019-03-14 09:46:21,997 INFO 49907 [egg-security] use dta middleware
+2019-03-14 09:46:21,997 INFO 49907 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 09:46:22,007 INFO 49907 [egg:core] dump config after load, 5ms
+2019-03-14 09:46:22,083 INFO 49907 [egg-watcher:application] watcher start success
+2019-03-14 09:46:22,089 INFO 49907 [egg:core] dump config after ready, 4ms
+2019-03-14 10:11:28,116 INFO 51175 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 10:11:28,149 INFO 51175 [egg-multipart] stream mode enable
+2019-03-14 10:11:28,336 INFO 51175 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 10:11:28,339 INFO 51175 [egg-security] use methodnoallow middleware
+2019-03-14 10:11:28,339 INFO 51175 [egg-security] use noopen middleware
+2019-03-14 10:11:28,340 INFO 51175 [egg-security] use nosniff middleware
+2019-03-14 10:11:28,341 INFO 51175 [egg-security] use xssProtection middleware
+2019-03-14 10:11:28,341 INFO 51175 [egg-security] use xframe middleware
+2019-03-14 10:11:28,342 INFO 51175 [egg-security] use dta middleware
+2019-03-14 10:11:28,342 INFO 51175 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 10:11:28,352 INFO 51175 [egg:core] dump config after load, 4ms
+2019-03-14 10:11:28,428 INFO 51175 [egg-watcher:application] watcher start success
+2019-03-14 10:11:28,434 INFO 51175 [egg:core] dump config after ready, 4ms
+2019-03-14 10:12:27,378 INFO 51216 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 10:12:27,416 INFO 51216 [egg-multipart] stream mode enable
+2019-03-14 10:12:27,570 INFO 51216 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 10:12:27,573 INFO 51216 [egg-security] use methodnoallow middleware
+2019-03-14 10:12:27,573 INFO 51216 [egg-security] use noopen middleware
+2019-03-14 10:12:27,574 INFO 51216 [egg-security] use nosniff middleware
+2019-03-14 10:12:27,574 INFO 51216 [egg-security] use xssProtection middleware
+2019-03-14 10:12:27,575 INFO 51216 [egg-security] use xframe middleware
+2019-03-14 10:12:27,576 INFO 51216 [egg-security] use dta middleware
+2019-03-14 10:12:27,576 INFO 51216 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 10:12:27,587 INFO 51216 [egg:core] dump config after load, 6ms
+2019-03-14 10:12:27,665 INFO 51216 [egg-watcher:application] watcher start success
+2019-03-14 10:12:27,671 INFO 51216 [egg:core] dump config after ready, 4ms
+2019-03-14 10:12:43,882 INFO 51236 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 10:12:43,918 INFO 51236 [egg-multipart] stream mode enable
+2019-03-14 10:12:44,042 INFO 51236 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 10:12:44,044 INFO 51236 [egg-security] use methodnoallow middleware
+2019-03-14 10:12:44,044 INFO 51236 [egg-security] use noopen middleware
+2019-03-14 10:12:44,045 INFO 51236 [egg-security] use nosniff middleware
+2019-03-14 10:12:44,045 INFO 51236 [egg-security] use xssProtection middleware
+2019-03-14 10:12:44,046 INFO 51236 [egg-security] use xframe middleware
+2019-03-14 10:12:44,046 INFO 51236 [egg-security] use dta middleware
+2019-03-14 10:12:44,046 INFO 51236 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 10:12:44,056 INFO 51236 [egg:core] dump config after load, 6ms
+2019-03-14 10:12:44,126 INFO 51236 [egg-watcher:application] watcher start success
+2019-03-14 10:12:44,132 INFO 51236 [egg:core] dump config after ready, 4ms
+2019-03-14 10:14:19,707 INFO 51292 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 10:14:19,743 INFO 51292 [egg-multipart] stream mode enable
+2019-03-14 10:14:19,873 INFO 51292 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 10:14:19,876 INFO 51292 [egg-security] use methodnoallow middleware
+2019-03-14 10:14:19,876 INFO 51292 [egg-security] use noopen middleware
+2019-03-14 10:14:19,877 INFO 51292 [egg-security] use nosniff middleware
+2019-03-14 10:14:19,877 INFO 51292 [egg-security] use xssProtection middleware
+2019-03-14 10:14:19,877 INFO 51292 [egg-security] use xframe middleware
+2019-03-14 10:14:19,878 INFO 51292 [egg-security] use dta middleware
+2019-03-14 10:14:19,878 INFO 51292 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 10:14:19,888 INFO 51292 [egg:core] dump config after load, 5ms
+2019-03-14 10:14:19,967 INFO 51292 [egg-watcher:application] watcher start success
+2019-03-14 10:14:19,973 INFO 51292 [egg:core] dump config after ready, 4ms
+2019-03-14 10:14:32,243 INFO 51337 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 10:14:32,283 INFO 51337 [egg-multipart] stream mode enable
+2019-03-14 10:14:32,426 INFO 51337 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 10:14:32,429 INFO 51337 [egg-security] use methodnoallow middleware
+2019-03-14 10:14:32,430 INFO 51337 [egg-security] use noopen middleware
+2019-03-14 10:14:32,430 INFO 51337 [egg-security] use nosniff middleware
+2019-03-14 10:14:32,431 INFO 51337 [egg-security] use xssProtection middleware
+2019-03-14 10:14:32,431 INFO 51337 [egg-security] use xframe middleware
+2019-03-14 10:14:32,431 INFO 51337 [egg-security] use dta middleware
+2019-03-14 10:14:32,431 INFO 51337 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 10:14:32,441 INFO 51337 [egg:core] dump config after load, 5ms
+2019-03-14 10:14:32,519 INFO 51337 [egg-watcher:application] watcher start success
+2019-03-14 10:14:32,524 INFO 51337 [egg:core] dump config after ready, 3ms
+2019-03-14 10:15:41,347 INFO 51478 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 10:15:41,382 INFO 51478 [egg-multipart] stream mode enable
+2019-03-14 10:15:41,503 INFO 51478 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 10:15:41,505 INFO 51478 [egg-security] use methodnoallow middleware
+2019-03-14 10:15:41,505 INFO 51478 [egg-security] use noopen middleware
+2019-03-14 10:15:41,506 INFO 51478 [egg-security] use nosniff middleware
+2019-03-14 10:15:41,506 INFO 51478 [egg-security] use xssProtection middleware
+2019-03-14 10:15:41,507 INFO 51478 [egg-security] use xframe middleware
+2019-03-14 10:15:41,507 INFO 51478 [egg-security] use dta middleware
+2019-03-14 10:15:41,507 INFO 51478 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 10:15:41,517 INFO 51478 [egg:core] dump config after load, 5ms
+2019-03-14 10:15:41,594 INFO 51478 [egg-watcher:application] watcher start success
+2019-03-14 10:15:41,600 INFO 51478 [egg:core] dump config after ready, 4ms
+2019-03-14 10:16:04,710 INFO 51494 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 10:16:04,746 INFO 51494 [egg-multipart] stream mode enable
+2019-03-14 10:16:04,876 INFO 51494 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 10:16:04,878 INFO 51494 [egg-security] use methodnoallow middleware
+2019-03-14 10:16:04,878 INFO 51494 [egg-security] use noopen middleware
+2019-03-14 10:16:04,879 INFO 51494 [egg-security] use nosniff middleware
+2019-03-14 10:16:04,879 INFO 51494 [egg-security] use xssProtection middleware
+2019-03-14 10:16:04,880 INFO 51494 [egg-security] use xframe middleware
+2019-03-14 10:16:04,880 INFO 51494 [egg-security] use dta middleware
+2019-03-14 10:16:04,880 INFO 51494 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 10:16:04,891 INFO 51494 [egg:core] dump config after load, 5ms
+2019-03-14 10:16:04,977 INFO 51494 [egg-watcher:application] watcher start success
+2019-03-14 10:16:04,985 INFO 51494 [egg:core] dump config after ready, 5ms
+2019-03-14 10:20:36,934 INFO 51599 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 10:20:36,971 INFO 51599 [egg-multipart] stream mode enable
+2019-03-14 10:20:37,095 INFO 51599 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 10:20:37,098 INFO 51599 [egg-security] use methodnoallow middleware
+2019-03-14 10:20:37,099 INFO 51599 [egg-security] use noopen middleware
+2019-03-14 10:20:37,100 INFO 51599 [egg-security] use nosniff middleware
+2019-03-14 10:20:37,100 INFO 51599 [egg-security] use xssProtection middleware
+2019-03-14 10:20:37,101 INFO 51599 [egg-security] use xframe middleware
+2019-03-14 10:20:37,101 INFO 51599 [egg-security] use dta middleware
+2019-03-14 10:20:37,101 INFO 51599 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 10:20:37,111 INFO 51599 [egg:core] dump config after load, 5ms
+2019-03-14 10:20:37,190 INFO 51599 [egg-watcher:application] watcher start success
+2019-03-14 10:20:37,196 INFO 51599 [egg:core] dump config after ready, 4ms
+2019-03-14 10:22:28,680 INFO 51678 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 10:22:28,717 INFO 51678 [egg-multipart] stream mode enable
+2019-03-14 10:22:28,836 INFO 51678 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 10:22:28,839 INFO 51678 [egg-security] use methodnoallow middleware
+2019-03-14 10:22:28,839 INFO 51678 [egg-security] use noopen middleware
+2019-03-14 10:22:28,840 INFO 51678 [egg-security] use nosniff middleware
+2019-03-14 10:22:28,840 INFO 51678 [egg-security] use xssProtection middleware
+2019-03-14 10:22:28,840 INFO 51678 [egg-security] use xframe middleware
+2019-03-14 10:22:28,840 INFO 51678 [egg-security] use dta middleware
+2019-03-14 10:22:28,840 INFO 51678 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 10:22:28,850 INFO 51678 [egg:core] dump config after load, 5ms
+2019-03-14 10:22:28,927 INFO 51678 [egg-watcher:application] watcher start success
+2019-03-14 10:22:28,933 INFO 51678 [egg:core] dump config after ready, 4ms
+2019-03-14 10:22:37,673 INFO 51696 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 10:22:37,720 INFO 51696 [egg-multipart] stream mode enable
+2019-03-14 10:22:37,849 INFO 51696 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 10:22:37,851 INFO 51696 [egg-security] use methodnoallow middleware
+2019-03-14 10:22:37,851 INFO 51696 [egg-security] use noopen middleware
+2019-03-14 10:22:37,852 INFO 51696 [egg-security] use nosniff middleware
+2019-03-14 10:22:37,852 INFO 51696 [egg-security] use xssProtection middleware
+2019-03-14 10:22:37,852 INFO 51696 [egg-security] use xframe middleware
+2019-03-14 10:22:37,853 INFO 51696 [egg-security] use dta middleware
+2019-03-14 10:22:37,853 INFO 51696 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 10:22:37,862 INFO 51696 [egg:core] dump config after load, 5ms
+2019-03-14 10:22:37,930 INFO 51696 [egg-watcher:application] watcher start success
+2019-03-14 10:22:37,936 INFO 51696 [egg:core] dump config after ready, 4ms
+2019-03-14 10:22:44,919 INFO 51708 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 10:22:44,954 INFO 51708 [egg-multipart] stream mode enable
+2019-03-14 10:22:45,074 INFO 51708 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 10:22:45,076 INFO 51708 [egg-security] use methodnoallow middleware
+2019-03-14 10:22:45,077 INFO 51708 [egg-security] use noopen middleware
+2019-03-14 10:22:45,077 INFO 51708 [egg-security] use nosniff middleware
+2019-03-14 10:22:45,078 INFO 51708 [egg-security] use xssProtection middleware
+2019-03-14 10:22:45,078 INFO 51708 [egg-security] use xframe middleware
+2019-03-14 10:22:45,078 INFO 51708 [egg-security] use dta middleware
+2019-03-14 10:22:45,078 INFO 51708 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 10:22:45,088 INFO 51708 [egg:core] dump config after load, 5ms
+2019-03-14 10:22:45,163 INFO 51708 [egg-watcher:application] watcher start success
+2019-03-14 10:22:45,169 INFO 51708 [egg:core] dump config after ready, 5ms
+2019-03-14 10:24:43,470 INFO 51755 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 10:24:43,506 INFO 51755 [egg-multipart] stream mode enable
+2019-03-14 10:24:43,626 INFO 51755 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 10:24:43,628 INFO 51755 [egg-security] use methodnoallow middleware
+2019-03-14 10:24:43,628 INFO 51755 [egg-security] use noopen middleware
+2019-03-14 10:24:43,629 INFO 51755 [egg-security] use nosniff middleware
+2019-03-14 10:24:43,629 INFO 51755 [egg-security] use xssProtection middleware
+2019-03-14 10:24:43,630 INFO 51755 [egg-security] use xframe middleware
+2019-03-14 10:24:43,630 INFO 51755 [egg-security] use dta middleware
+2019-03-14 10:24:43,630 INFO 51755 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 10:24:43,640 INFO 51755 [egg:core] dump config after load, 5ms
+2019-03-14 10:24:43,716 INFO 51755 [egg-watcher:application] watcher start success
+2019-03-14 10:24:43,723 INFO 51755 [egg:core] dump config after ready, 5ms
+2019-03-14 10:25:15,709 INFO 51781 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 10:25:15,750 INFO 51781 [egg-multipart] stream mode enable
+2019-03-14 10:25:15,877 INFO 51781 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 10:25:15,880 INFO 51781 [egg-security] use methodnoallow middleware
+2019-03-14 10:25:15,880 INFO 51781 [egg-security] use noopen middleware
+2019-03-14 10:25:15,880 INFO 51781 [egg-security] use nosniff middleware
+2019-03-14 10:25:15,881 INFO 51781 [egg-security] use xssProtection middleware
+2019-03-14 10:25:15,881 INFO 51781 [egg-security] use xframe middleware
+2019-03-14 10:25:15,881 INFO 51781 [egg-security] use dta middleware
+2019-03-14 10:25:15,881 INFO 51781 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 10:25:15,892 INFO 51781 [egg:core] dump config after load, 6ms
+2019-03-14 10:25:15,967 INFO 51781 [egg-watcher:application] watcher start success
+2019-03-14 10:25:15,973 INFO 51781 [egg:core] dump config after ready, 4ms
+2019-03-14 10:30:35,898 INFO 51947 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 10:30:35,932 INFO 51947 [egg-multipart] stream mode enable
+2019-03-14 10:30:36,059 INFO 51947 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 10:30:36,061 INFO 51947 [egg-security] use methodnoallow middleware
+2019-03-14 10:30:36,062 INFO 51947 [egg-security] use noopen middleware
+2019-03-14 10:30:36,062 INFO 51947 [egg-security] use nosniff middleware
+2019-03-14 10:30:36,063 INFO 51947 [egg-security] use xssProtection middleware
+2019-03-14 10:30:36,063 INFO 51947 [egg-security] use xframe middleware
+2019-03-14 10:30:36,064 INFO 51947 [egg-security] use dta middleware
+2019-03-14 10:30:36,064 INFO 51947 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 10:30:36,077 INFO 51947 [egg:core] dump config after load, 6ms
+2019-03-14 10:30:36,156 INFO 51947 [egg-watcher:application] watcher start success
+2019-03-14 10:30:36,163 INFO 51947 [egg:core] dump config after ready, 5ms
+2019-03-14 10:43:44,624 INFO 52269 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 10:43:44,660 INFO 52269 [egg-multipart] stream mode enable
+2019-03-14 10:43:44,800 INFO 52269 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 10:43:44,802 INFO 52269 [egg-security] use methodnoallow middleware
+2019-03-14 10:43:44,803 INFO 52269 [egg-security] use noopen middleware
+2019-03-14 10:43:44,803 INFO 52269 [egg-security] use nosniff middleware
+2019-03-14 10:43:44,804 INFO 52269 [egg-security] use xssProtection middleware
+2019-03-14 10:43:44,804 INFO 52269 [egg-security] use xframe middleware
+2019-03-14 10:43:44,805 INFO 52269 [egg-security] use dta middleware
+2019-03-14 10:43:44,805 INFO 52269 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 10:43:44,817 INFO 52269 [egg:core] dump config after load, 7ms
+2019-03-14 10:43:44,904 INFO 52269 [egg-watcher:application] watcher start success
+2019-03-14 10:43:44,912 INFO 52269 [egg:core] dump config after ready, 6ms
+2019-03-14 10:43:46,586 INFO 52280 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 10:43:46,623 INFO 52280 [egg-multipart] stream mode enable
+2019-03-14 10:43:46,750 INFO 52280 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 10:43:46,752 INFO 52280 [egg-security] use methodnoallow middleware
+2019-03-14 10:43:46,753 INFO 52280 [egg-security] use noopen middleware
+2019-03-14 10:43:46,753 INFO 52280 [egg-security] use nosniff middleware
+2019-03-14 10:43:46,754 INFO 52280 [egg-security] use xssProtection middleware
+2019-03-14 10:43:46,754 INFO 52280 [egg-security] use xframe middleware
+2019-03-14 10:43:46,754 INFO 52280 [egg-security] use dta middleware
+2019-03-14 10:43:46,754 INFO 52280 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 10:43:46,764 INFO 52280 [egg:core] dump config after load, 5ms
+2019-03-14 10:43:46,838 INFO 52280 [egg-watcher:application] watcher start success
+2019-03-14 10:43:46,844 INFO 52280 [egg:core] dump config after ready, 4ms
+2019-03-14 10:45:45,386 INFO 52325 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 10:45:45,423 INFO 52325 [egg-multipart] stream mode enable
+2019-03-14 10:45:45,543 INFO 52325 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 10:45:45,545 INFO 52325 [egg-security] use methodnoallow middleware
+2019-03-14 10:45:45,545 INFO 52325 [egg-security] use noopen middleware
+2019-03-14 10:45:45,546 INFO 52325 [egg-security] use nosniff middleware
+2019-03-14 10:45:45,546 INFO 52325 [egg-security] use xssProtection middleware
+2019-03-14 10:45:45,546 INFO 52325 [egg-security] use xframe middleware
+2019-03-14 10:45:45,546 INFO 52325 [egg-security] use dta middleware
+2019-03-14 10:45:45,546 INFO 52325 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 10:45:45,561 INFO 52325 [egg:core] dump config after load, 8ms
+2019-03-14 10:45:45,645 INFO 52325 [egg-watcher:application] watcher start success
+2019-03-14 10:45:45,652 INFO 52325 [egg:core] dump config after ready, 4ms
+2019-03-14 10:46:58,065 INFO 52387 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 10:46:58,101 INFO 52387 [egg-multipart] stream mode enable
+2019-03-14 10:46:58,233 INFO 52387 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 10:46:58,236 INFO 52387 [egg-security] use methodnoallow middleware
+2019-03-14 10:46:58,236 INFO 52387 [egg-security] use noopen middleware
+2019-03-14 10:46:58,237 INFO 52387 [egg-security] use nosniff middleware
+2019-03-14 10:46:58,237 INFO 52387 [egg-security] use xssProtection middleware
+2019-03-14 10:46:58,237 INFO 52387 [egg-security] use xframe middleware
+2019-03-14 10:46:58,238 INFO 52387 [egg-security] use dta middleware
+2019-03-14 10:46:58,238 INFO 52387 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 10:46:58,248 INFO 52387 [egg:core] dump config after load, 5ms
+2019-03-14 10:46:58,323 INFO 52387 [egg-watcher:application] watcher start success
+2019-03-14 10:46:58,330 INFO 52387 [egg:core] dump config after ready, 5ms
+2019-03-14 10:52:29,769 INFO 52517 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 10:52:29,802 INFO 52517 [egg-multipart] stream mode enable
+2019-03-14 10:52:29,927 INFO 52517 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 10:52:29,929 INFO 52517 [egg-security] use methodnoallow middleware
+2019-03-14 10:52:29,929 INFO 52517 [egg-security] use noopen middleware
+2019-03-14 10:52:29,930 INFO 52517 [egg-security] use nosniff middleware
+2019-03-14 10:52:29,930 INFO 52517 [egg-security] use xssProtection middleware
+2019-03-14 10:52:29,931 INFO 52517 [egg-security] use xframe middleware
+2019-03-14 10:52:29,931 INFO 52517 [egg-security] use dta middleware
+2019-03-14 10:52:29,931 INFO 52517 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 10:52:29,941 INFO 52517 [egg:core] dump config after load, 5ms
+2019-03-14 10:52:30,022 INFO 52517 [egg-watcher:application] watcher start success
+2019-03-14 10:52:30,028 INFO 52517 [egg:core] dump config after ready, 4ms
+2019-03-14 10:54:11,765 INFO 52588 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 10:54:11,798 INFO 52588 [egg-multipart] stream mode enable
+2019-03-14 10:54:11,928 INFO 52588 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 10:54:11,932 INFO 52588 [egg-security] use methodnoallow middleware
+2019-03-14 10:54:11,932 INFO 52588 [egg-security] use noopen middleware
+2019-03-14 10:54:11,933 INFO 52588 [egg-security] use nosniff middleware
+2019-03-14 10:54:11,934 INFO 52588 [egg-security] use xssProtection middleware
+2019-03-14 10:54:11,935 INFO 52588 [egg-security] use xframe middleware
+2019-03-14 10:54:11,935 INFO 52588 [egg-security] use dta middleware
+2019-03-14 10:54:11,935 INFO 52588 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 10:54:11,947 INFO 52588 [egg:core] dump config after load, 7ms
+2019-03-14 10:54:12,018 INFO 52588 [egg:core] dump config after ready, 5ms
+2019-03-14 10:54:12,023 INFO 52588 [egg-watcher:application] watcher start success
+2019-03-14 10:54:47,431 INFO 52613 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 10:54:47,469 INFO 52613 [egg-multipart] stream mode enable
+2019-03-14 10:54:47,605 INFO 52613 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 10:54:47,608 INFO 52613 [egg-security] use methodnoallow middleware
+2019-03-14 10:54:47,608 INFO 52613 [egg-security] use noopen middleware
+2019-03-14 10:54:47,609 INFO 52613 [egg-security] use nosniff middleware
+2019-03-14 10:54:47,609 INFO 52613 [egg-security] use xssProtection middleware
+2019-03-14 10:54:47,610 INFO 52613 [egg-security] use xframe middleware
+2019-03-14 10:54:47,610 INFO 52613 [egg-security] use dta middleware
+2019-03-14 10:54:47,610 INFO 52613 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 10:54:47,625 INFO 52613 [egg:core] dump config after load, 8ms
+2019-03-14 10:54:47,681 INFO 52613 [egg:core] dump config after ready, 5ms
+2019-03-14 10:54:47,686 INFO 52613 [egg-watcher:application] watcher start success
+2019-03-14 10:55:23,087 INFO 52640 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 10:55:23,125 INFO 52640 [egg-multipart] stream mode enable
+2019-03-14 10:55:23,271 INFO 52640 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 10:55:23,274 INFO 52640 [egg-security] use methodnoallow middleware
+2019-03-14 10:55:23,274 INFO 52640 [egg-security] use noopen middleware
+2019-03-14 10:55:23,275 INFO 52640 [egg-security] use nosniff middleware
+2019-03-14 10:55:23,276 INFO 52640 [egg-security] use xssProtection middleware
+2019-03-14 10:55:23,276 INFO 52640 [egg-security] use xframe middleware
+2019-03-14 10:55:23,276 INFO 52640 [egg-security] use dta middleware
+2019-03-14 10:55:23,276 INFO 52640 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 10:55:23,289 INFO 52640 [egg:core] dump config after load, 7ms
+2019-03-14 10:55:23,343 INFO 52640 [egg:core] dump config after ready, 5ms
+2019-03-14 10:55:23,347 INFO 52640 [egg-watcher:application] watcher start success
+2019-03-14 10:59:38,272 INFO 52855 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 10:59:38,306 INFO 52855 [egg-multipart] stream mode enable
+2019-03-14 10:59:38,432 INFO 52855 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 10:59:38,434 INFO 52855 [egg-security] use methodnoallow middleware
+2019-03-14 10:59:38,435 INFO 52855 [egg-security] use noopen middleware
+2019-03-14 10:59:38,435 INFO 52855 [egg-security] use nosniff middleware
+2019-03-14 10:59:38,435 INFO 52855 [egg-security] use xssProtection middleware
+2019-03-14 10:59:38,436 INFO 52855 [egg-security] use xframe middleware
+2019-03-14 10:59:38,436 INFO 52855 [egg-security] use dta middleware
+2019-03-14 10:59:38,436 INFO 52855 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 10:59:38,447 INFO 52855 [egg:core] dump config after load, 5ms
+2019-03-14 10:59:38,522 INFO 52855 [egg-watcher:application] watcher start success
+2019-03-14 10:59:38,530 INFO 52855 [egg:core] dump config after ready, 6ms
+2019-03-14 11:00:54,628 INFO 52880 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 11:00:54,664 INFO 52880 [egg-multipart] stream mode enable
+2019-03-14 11:00:54,791 INFO 52880 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 11:00:54,793 INFO 52880 [egg-security] use methodnoallow middleware
+2019-03-14 11:00:54,794 INFO 52880 [egg-security] use noopen middleware
+2019-03-14 11:00:54,794 INFO 52880 [egg-security] use nosniff middleware
+2019-03-14 11:00:54,794 INFO 52880 [egg-security] use xssProtection middleware
+2019-03-14 11:00:54,795 INFO 52880 [egg-security] use xframe middleware
+2019-03-14 11:00:54,795 INFO 52880 [egg-security] use dta middleware
+2019-03-14 11:00:54,795 INFO 52880 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 11:00:54,804 INFO 52880 [egg:core] dump config after load, 4ms
+2019-03-14 11:00:54,849 INFO 52880 [egg:core] dump config after ready, 3ms
+2019-03-14 11:00:54,854 INFO 52880 [egg-watcher:application] watcher start success
+2019-03-14 11:02:46,658 INFO 52955 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 11:02:46,693 INFO 52955 [egg-multipart] stream mode enable
+2019-03-14 11:02:46,827 INFO 52955 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 11:02:46,829 INFO 52955 [egg-security] use methodnoallow middleware
+2019-03-14 11:02:46,830 INFO 52955 [egg-security] use noopen middleware
+2019-03-14 11:02:46,830 INFO 52955 [egg-security] use nosniff middleware
+2019-03-14 11:02:46,831 INFO 52955 [egg-security] use xssProtection middleware
+2019-03-14 11:02:46,831 INFO 52955 [egg-security] use xframe middleware
+2019-03-14 11:02:46,831 INFO 52955 [egg-security] use dta middleware
+2019-03-14 11:02:46,831 INFO 52955 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 11:02:46,842 INFO 52955 [egg:core] dump config after load, 5ms
+2019-03-14 11:02:46,898 INFO 52955 [egg:core] dump config after ready, 5ms
+2019-03-14 11:02:46,903 INFO 52955 [egg-watcher:application] watcher start success
+2019-03-14 11:02:48,034 INFO 52963 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 11:02:48,069 INFO 52963 [egg-multipart] stream mode enable
+2019-03-14 11:02:48,190 INFO 52963 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 11:02:48,192 INFO 52963 [egg-security] use methodnoallow middleware
+2019-03-14 11:02:48,192 INFO 52963 [egg-security] use noopen middleware
+2019-03-14 11:02:48,193 INFO 52963 [egg-security] use nosniff middleware
+2019-03-14 11:02:48,193 INFO 52963 [egg-security] use xssProtection middleware
+2019-03-14 11:02:48,194 INFO 52963 [egg-security] use xframe middleware
+2019-03-14 11:02:48,194 INFO 52963 [egg-security] use dta middleware
+2019-03-14 11:02:48,194 INFO 52963 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 11:02:48,203 INFO 52963 [egg:core] dump config after load, 5ms
+2019-03-14 11:02:48,248 INFO 52963 [egg:core] dump config after ready, 5ms
+2019-03-14 11:02:48,252 INFO 52963 [egg-watcher:application] watcher start success
+2019-03-14 11:03:18,725 INFO 52985 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 11:03:18,766 INFO 52985 [egg-multipart] stream mode enable
+2019-03-14 11:03:18,898 INFO 52985 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 11:03:18,901 INFO 52985 [egg-security] use methodnoallow middleware
+2019-03-14 11:03:18,901 INFO 52985 [egg-security] use noopen middleware
+2019-03-14 11:03:18,902 INFO 52985 [egg-security] use nosniff middleware
+2019-03-14 11:03:18,902 INFO 52985 [egg-security] use xssProtection middleware
+2019-03-14 11:03:18,903 INFO 52985 [egg-security] use xframe middleware
+2019-03-14 11:03:18,903 INFO 52985 [egg-security] use dta middleware
+2019-03-14 11:03:18,903 INFO 52985 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 11:03:18,913 INFO 52985 [egg:core] dump config after load, 5ms
+2019-03-14 11:03:18,961 INFO 52985 [egg:core] dump config after ready, 4ms
+2019-03-14 11:03:18,966 INFO 52985 [egg-watcher:application] watcher start success
+2019-03-14 11:03:25,447 INFO 53045 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 11:03:25,488 INFO 53045 [egg-multipart] stream mode enable
+2019-03-14 11:03:25,606 INFO 53045 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 11:03:25,608 INFO 53045 [egg-security] use methodnoallow middleware
+2019-03-14 11:03:25,608 INFO 53045 [egg-security] use noopen middleware
+2019-03-14 11:03:25,609 INFO 53045 [egg-security] use nosniff middleware
+2019-03-14 11:03:25,609 INFO 53045 [egg-security] use xssProtection middleware
+2019-03-14 11:03:25,609 INFO 53045 [egg-security] use xframe middleware
+2019-03-14 11:03:25,609 INFO 53045 [egg-security] use dta middleware
+2019-03-14 11:03:25,609 INFO 53045 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 11:03:25,618 INFO 53045 [egg:core] dump config after load, 4ms
+2019-03-14 11:03:25,662 INFO 53045 [egg:core] dump config after ready, 4ms
+2019-03-14 11:03:25,670 INFO 53045 [egg-watcher:application] watcher start success
+2019-03-14 11:05:02,585 INFO 53151 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 11:05:02,618 INFO 53151 [egg-multipart] stream mode enable
+2019-03-14 11:05:02,731 INFO 53151 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 11:05:02,734 INFO 53151 [egg-security] use methodnoallow middleware
+2019-03-14 11:05:02,734 INFO 53151 [egg-security] use noopen middleware
+2019-03-14 11:05:02,735 INFO 53151 [egg-security] use nosniff middleware
+2019-03-14 11:05:02,735 INFO 53151 [egg-security] use xssProtection middleware
+2019-03-14 11:05:02,735 INFO 53151 [egg-security] use xframe middleware
+2019-03-14 11:05:02,736 INFO 53151 [egg-security] use dta middleware
+2019-03-14 11:05:02,736 INFO 53151 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 11:05:02,745 INFO 53151 [egg:core] dump config after load, 5ms
+2019-03-14 11:05:02,818 INFO 53151 [egg-watcher:application] watcher start success
+2019-03-14 11:05:02,824 INFO 53151 [egg:core] dump config after ready, 4ms
+2019-03-14 11:08:57,747 INFO 53248 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 11:08:57,793 INFO 53248 [egg-multipart] stream mode enable
+2019-03-14 11:08:57,925 INFO 53248 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 11:08:57,927 INFO 53248 [egg-security] use methodnoallow middleware
+2019-03-14 11:08:57,928 INFO 53248 [egg-security] use noopen middleware
+2019-03-14 11:08:57,928 INFO 53248 [egg-security] use nosniff middleware
+2019-03-14 11:08:57,928 INFO 53248 [egg-security] use xssProtection middleware
+2019-03-14 11:08:57,929 INFO 53248 [egg-security] use xframe middleware
+2019-03-14 11:08:57,929 INFO 53248 [egg-security] use dta middleware
+2019-03-14 11:08:57,929 INFO 53248 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 11:08:57,940 INFO 53248 [egg:core] dump config after load, 6ms
+2019-03-14 11:08:57,992 INFO 53248 [egg:core] dump config after ready, 4ms
+2019-03-14 11:08:57,996 INFO 53248 [egg-watcher:application] watcher start success
+2019-03-14 11:09:18,040 INFO 53273 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 11:09:18,074 INFO 53273 [egg-multipart] stream mode enable
+2019-03-14 11:09:18,198 INFO 53273 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 11:09:18,200 INFO 53273 [egg-security] use methodnoallow middleware
+2019-03-14 11:09:18,201 INFO 53273 [egg-security] use noopen middleware
+2019-03-14 11:09:18,201 INFO 53273 [egg-security] use nosniff middleware
+2019-03-14 11:09:18,202 INFO 53273 [egg-security] use xssProtection middleware
+2019-03-14 11:09:18,202 INFO 53273 [egg-security] use xframe middleware
+2019-03-14 11:09:18,202 INFO 53273 [egg-security] use dta middleware
+2019-03-14 11:09:18,202 INFO 53273 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 11:09:18,214 INFO 53273 [egg:core] dump config after load, 6ms
+2019-03-14 11:09:18,291 INFO 53273 [egg-watcher:application] watcher start success
+2019-03-14 11:09:18,297 INFO 53273 [egg:core] dump config after ready, 4ms
+2019-03-14 11:11:14,951 INFO 53340 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 11:11:14,985 INFO 53340 [egg-multipart] stream mode enable
+2019-03-14 11:11:15,114 INFO 53340 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 11:11:15,117 INFO 53340 [egg-security] use methodnoallow middleware
+2019-03-14 11:11:15,117 INFO 53340 [egg-security] use noopen middleware
+2019-03-14 11:11:15,118 INFO 53340 [egg-security] use nosniff middleware
+2019-03-14 11:11:15,118 INFO 53340 [egg-security] use xssProtection middleware
+2019-03-14 11:11:15,118 INFO 53340 [egg-security] use xframe middleware
+2019-03-14 11:11:15,119 INFO 53340 [egg-security] use dta middleware
+2019-03-14 11:11:15,119 INFO 53340 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 11:11:15,131 INFO 53340 [egg:core] dump config after load, 5ms
+2019-03-14 11:11:15,205 INFO 53340 [egg-watcher:application] watcher start success
+2019-03-14 11:11:15,211 INFO 53340 [egg:core] dump config after ready, 4ms
+2019-03-14 11:11:49,948 INFO 53363 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 11:11:49,982 INFO 53363 [egg-multipart] stream mode enable
+2019-03-14 11:11:50,110 INFO 53363 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 11:11:50,113 INFO 53363 [egg-security] use methodnoallow middleware
+2019-03-14 11:11:50,113 INFO 53363 [egg-security] use noopen middleware
+2019-03-14 11:11:50,114 INFO 53363 [egg-security] use nosniff middleware
+2019-03-14 11:11:50,115 INFO 53363 [egg-security] use xssProtection middleware
+2019-03-14 11:11:50,115 INFO 53363 [egg-security] use xframe middleware
+2019-03-14 11:11:50,115 INFO 53363 [egg-security] use dta middleware
+2019-03-14 11:11:50,115 INFO 53363 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 11:11:50,126 INFO 53363 [egg:core] dump config after load, 6ms
+2019-03-14 11:11:50,201 INFO 53363 [egg-watcher:application] watcher start success
+2019-03-14 11:11:50,207 INFO 53363 [egg:core] dump config after ready, 4ms
+2019-03-14 11:12:54,288 INFO 53415 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 11:12:54,325 INFO 53415 [egg-multipart] stream mode enable
+2019-03-14 11:12:54,449 INFO 53415 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 11:12:54,451 INFO 53415 [egg-security] use methodnoallow middleware
+2019-03-14 11:12:54,451 INFO 53415 [egg-security] use noopen middleware
+2019-03-14 11:12:54,452 INFO 53415 [egg-security] use nosniff middleware
+2019-03-14 11:12:54,452 INFO 53415 [egg-security] use xssProtection middleware
+2019-03-14 11:12:54,452 INFO 53415 [egg-security] use xframe middleware
+2019-03-14 11:12:54,453 INFO 53415 [egg-security] use dta middleware
+2019-03-14 11:12:54,453 INFO 53415 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 11:12:54,462 INFO 53415 [egg:core] dump config after load, 5ms
+2019-03-14 11:12:54,536 INFO 53415 [egg-watcher:application] watcher start success
+2019-03-14 11:12:54,542 INFO 53415 [egg:core] dump config after ready, 4ms
+2019-03-14 11:15:43,903 INFO 53542 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 11:15:43,936 INFO 53542 [egg-multipart] stream mode enable
+2019-03-14 11:15:44,065 INFO 53542 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 11:15:44,067 INFO 53542 [egg-security] use methodnoallow middleware
+2019-03-14 11:15:44,068 INFO 53542 [egg-security] use noopen middleware
+2019-03-14 11:15:44,068 INFO 53542 [egg-security] use nosniff middleware
+2019-03-14 11:15:44,069 INFO 53542 [egg-security] use xssProtection middleware
+2019-03-14 11:15:44,069 INFO 53542 [egg-security] use xframe middleware
+2019-03-14 11:15:44,069 INFO 53542 [egg-security] use dta middleware
+2019-03-14 11:15:44,069 INFO 53542 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 11:15:44,081 INFO 53542 [egg:core] dump config after load, 6ms
+2019-03-14 11:15:44,158 INFO 53542 [egg-watcher:application] watcher start success
+2019-03-14 11:15:44,163 INFO 53542 [egg:core] dump config after ready, 3ms
+2019-03-14 11:19:50,099 INFO 53685 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 11:19:50,133 INFO 53685 [egg-multipart] stream mode enable
+2019-03-14 11:19:50,268 INFO 53685 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 11:19:50,270 INFO 53685 [egg-security] use methodnoallow middleware
+2019-03-14 11:19:50,271 INFO 53685 [egg-security] use noopen middleware
+2019-03-14 11:19:50,272 INFO 53685 [egg-security] use nosniff middleware
+2019-03-14 11:19:50,272 INFO 53685 [egg-security] use xssProtection middleware
+2019-03-14 11:19:50,272 INFO 53685 [egg-security] use xframe middleware
+2019-03-14 11:19:50,273 INFO 53685 [egg-security] use dta middleware
+2019-03-14 11:19:50,273 INFO 53685 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 11:19:50,284 INFO 53685 [egg:core] dump config after load, 6ms
+2019-03-14 11:19:50,356 INFO 53685 [egg-watcher:application] watcher start success
+2019-03-14 11:19:50,363 INFO 53685 [egg:core] dump config after ready, 5ms
+2019-03-14 11:20:15,379 INFO 53713 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 11:20:15,414 INFO 53713 [egg-multipart] stream mode enable
+2019-03-14 11:20:15,536 INFO 53713 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 11:20:15,538 INFO 53713 [egg-security] use methodnoallow middleware
+2019-03-14 11:20:15,538 INFO 53713 [egg-security] use noopen middleware
+2019-03-14 11:20:15,539 INFO 53713 [egg-security] use nosniff middleware
+2019-03-14 11:20:15,539 INFO 53713 [egg-security] use xssProtection middleware
+2019-03-14 11:20:15,539 INFO 53713 [egg-security] use xframe middleware
+2019-03-14 11:20:15,540 INFO 53713 [egg-security] use dta middleware
+2019-03-14 11:20:15,540 INFO 53713 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 11:20:15,550 INFO 53713 [egg:core] dump config after load, 6ms
+2019-03-14 11:20:15,624 INFO 53713 [egg-watcher:application] watcher start success
+2019-03-14 11:20:15,629 INFO 53713 [egg:core] dump config after ready, 3ms
+2019-03-14 11:20:37,866 INFO 53737 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 11:20:37,901 INFO 53737 [egg-multipart] stream mode enable
+2019-03-14 11:20:38,033 INFO 53737 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 11:20:38,035 INFO 53737 [egg-security] use methodnoallow middleware
+2019-03-14 11:20:38,036 INFO 53737 [egg-security] use noopen middleware
+2019-03-14 11:20:38,036 INFO 53737 [egg-security] use nosniff middleware
+2019-03-14 11:20:38,036 INFO 53737 [egg-security] use xssProtection middleware
+2019-03-14 11:20:38,037 INFO 53737 [egg-security] use xframe middleware
+2019-03-14 11:20:38,037 INFO 53737 [egg-security] use dta middleware
+2019-03-14 11:20:38,037 INFO 53737 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 11:20:38,047 INFO 53737 [egg:core] dump config after load, 5ms
+2019-03-14 11:20:38,116 INFO 53737 [egg-watcher:application] watcher start success
+2019-03-14 11:20:38,122 INFO 53737 [egg:core] dump config after ready, 3ms
+2019-03-14 11:21:12,356 INFO 53886 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 11:21:12,393 INFO 53886 [egg-multipart] stream mode enable
+2019-03-14 11:21:12,525 INFO 53886 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 11:21:12,528 INFO 53886 [egg-security] use methodnoallow middleware
+2019-03-14 11:21:12,528 INFO 53886 [egg-security] use noopen middleware
+2019-03-14 11:21:12,529 INFO 53886 [egg-security] use nosniff middleware
+2019-03-14 11:21:12,529 INFO 53886 [egg-security] use xssProtection middleware
+2019-03-14 11:21:12,530 INFO 53886 [egg-security] use xframe middleware
+2019-03-14 11:21:12,530 INFO 53886 [egg-security] use dta middleware
+2019-03-14 11:21:12,530 INFO 53886 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 11:21:12,540 INFO 53886 [egg:core] dump config after load, 5ms
+2019-03-14 11:21:12,617 INFO 53886 [egg-watcher:application] watcher start success
+2019-03-14 11:21:12,623 INFO 53886 [egg:core] dump config after ready, 4ms
+2019-03-14 11:22:02,325 INFO 53941 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 11:22:02,361 INFO 53941 [egg-multipart] stream mode enable
+2019-03-14 11:22:02,484 INFO 53941 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 11:22:02,486 INFO 53941 [egg-security] use methodnoallow middleware
+2019-03-14 11:22:02,487 INFO 53941 [egg-security] use noopen middleware
+2019-03-14 11:22:02,487 INFO 53941 [egg-security] use nosniff middleware
+2019-03-14 11:22:02,487 INFO 53941 [egg-security] use xssProtection middleware
+2019-03-14 11:22:02,488 INFO 53941 [egg-security] use xframe middleware
+2019-03-14 11:22:02,488 INFO 53941 [egg-security] use dta middleware
+2019-03-14 11:22:02,488 INFO 53941 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 11:22:02,499 INFO 53941 [egg:core] dump config after load, 6ms
+2019-03-14 11:22:02,570 INFO 53941 [egg-watcher:application] watcher start success
+2019-03-14 11:22:02,576 INFO 53941 [egg:core] dump config after ready, 4ms
+2019-03-14 11:23:17,902 INFO 53985 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 11:23:17,942 INFO 53985 [egg-multipart] stream mode enable
+2019-03-14 11:23:18,062 INFO 53985 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 11:23:18,064 INFO 53985 [egg-security] use methodnoallow middleware
+2019-03-14 11:23:18,064 INFO 53985 [egg-security] use noopen middleware
+2019-03-14 11:23:18,065 INFO 53985 [egg-security] use nosniff middleware
+2019-03-14 11:23:18,065 INFO 53985 [egg-security] use xssProtection middleware
+2019-03-14 11:23:18,065 INFO 53985 [egg-security] use xframe middleware
+2019-03-14 11:23:18,066 INFO 53985 [egg-security] use dta middleware
+2019-03-14 11:23:18,066 INFO 53985 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 11:23:18,075 INFO 53985 [egg:core] dump config after load, 4ms
+2019-03-14 11:23:18,146 INFO 53985 [egg-watcher:application] watcher start success
+2019-03-14 11:23:18,152 INFO 53985 [egg:core] dump config after ready, 4ms
+2019-03-14 11:23:25,292 INFO 54004 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 11:23:25,330 INFO 54004 [egg-multipart] stream mode enable
+2019-03-14 11:23:25,459 INFO 54004 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 11:23:25,461 INFO 54004 [egg-security] use methodnoallow middleware
+2019-03-14 11:23:25,461 INFO 54004 [egg-security] use noopen middleware
+2019-03-14 11:23:25,462 INFO 54004 [egg-security] use nosniff middleware
+2019-03-14 11:23:25,462 INFO 54004 [egg-security] use xssProtection middleware
+2019-03-14 11:23:25,462 INFO 54004 [egg-security] use xframe middleware
+2019-03-14 11:23:25,463 INFO 54004 [egg-security] use dta middleware
+2019-03-14 11:23:25,463 INFO 54004 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 11:23:25,473 INFO 54004 [egg:core] dump config after load, 6ms
+2019-03-14 11:23:25,556 INFO 54004 [egg-watcher:application] watcher start success
+2019-03-14 11:23:25,562 INFO 54004 [egg:core] dump config after ready, 4ms
+2019-03-14 11:23:40,928 INFO 54022 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 11:23:40,963 INFO 54022 [egg-multipart] stream mode enable
+2019-03-14 11:23:41,084 INFO 54022 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 11:23:41,086 INFO 54022 [egg-security] use methodnoallow middleware
+2019-03-14 11:23:41,086 INFO 54022 [egg-security] use noopen middleware
+2019-03-14 11:23:41,087 INFO 54022 [egg-security] use nosniff middleware
+2019-03-14 11:23:41,087 INFO 54022 [egg-security] use xssProtection middleware
+2019-03-14 11:23:41,088 INFO 54022 [egg-security] use xframe middleware
+2019-03-14 11:23:41,088 INFO 54022 [egg-security] use dta middleware
+2019-03-14 11:23:41,088 INFO 54022 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 11:23:41,097 INFO 54022 [egg:core] dump config after load, 4ms
+2019-03-14 11:23:41,167 INFO 54022 [egg-watcher:application] watcher start success
+2019-03-14 11:23:41,173 INFO 54022 [egg:core] dump config after ready, 4ms
+2019-03-14 11:26:46,256 INFO 54126 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 11:26:46,292 INFO 54126 [egg-multipart] stream mode enable
+2019-03-14 11:26:46,416 INFO 54126 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 11:26:46,418 INFO 54126 [egg-security] use methodnoallow middleware
+2019-03-14 11:26:46,419 INFO 54126 [egg-security] use noopen middleware
+2019-03-14 11:26:46,419 INFO 54126 [egg-security] use nosniff middleware
+2019-03-14 11:26:46,419 INFO 54126 [egg-security] use xssProtection middleware
+2019-03-14 11:26:46,420 INFO 54126 [egg-security] use xframe middleware
+2019-03-14 11:26:46,420 INFO 54126 [egg-security] use dta middleware
+2019-03-14 11:26:46,420 INFO 54126 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 11:26:46,431 INFO 54126 [egg:core] dump config after load, 6ms
+2019-03-14 11:26:46,506 INFO 54126 [egg-watcher:application] watcher start success
+2019-03-14 11:26:46,511 INFO 54126 [egg:core] dump config after ready, 3ms
+2019-03-14 11:27:21,460 INFO 54149 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 11:27:21,493 INFO 54149 [egg-multipart] stream mode enable
+2019-03-14 11:27:21,618 INFO 54149 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 11:27:21,620 INFO 54149 [egg-security] use methodnoallow middleware
+2019-03-14 11:27:21,621 INFO 54149 [egg-security] use noopen middleware
+2019-03-14 11:27:21,621 INFO 54149 [egg-security] use nosniff middleware
+2019-03-14 11:27:21,622 INFO 54149 [egg-security] use xssProtection middleware
+2019-03-14 11:27:21,622 INFO 54149 [egg-security] use xframe middleware
+2019-03-14 11:27:21,623 INFO 54149 [egg-security] use dta middleware
+2019-03-14 11:27:21,623 INFO 54149 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 11:27:21,634 INFO 54149 [egg:core] dump config after load, 6ms
+2019-03-14 11:27:21,712 INFO 54149 [egg-watcher:application] watcher start success
+2019-03-14 11:27:21,718 INFO 54149 [egg:core] dump config after ready, 4ms
+2019-03-14 11:29:25,064 ERROR 54149 nodejs.ReferenceError: User is not defined (uncaughtException throw 1 times on pid:54149)
+    at /Users/richard/github/IntelligentTourMap/app/service/base.js:23:38
+    at result (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at cursor.close (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/cursor_ops.js:224:62)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:893:14)
+    at _endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:904:37)
+    at Cursor._endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb-core/lib/cursor.js:195:5)
+    at Cursor._endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:226:59)
+
+pid: 54149
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 11:29:25,078 WARN 54149 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-03-14 11:29:25,080 WARN 54149 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-14 11:29:25,946 INFO 54224 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 11:29:25,979 INFO 54224 [egg-multipart] stream mode enable
+2019-03-14 11:29:26,108 INFO 54224 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 11:29:26,110 INFO 54224 [egg-security] use methodnoallow middleware
+2019-03-14 11:29:26,110 INFO 54224 [egg-security] use noopen middleware
+2019-03-14 11:29:26,111 INFO 54224 [egg-security] use nosniff middleware
+2019-03-14 11:29:26,111 INFO 54224 [egg-security] use xssProtection middleware
+2019-03-14 11:29:26,111 INFO 54224 [egg-security] use xframe middleware
+2019-03-14 11:29:26,112 INFO 54224 [egg-security] use dta middleware
+2019-03-14 11:29:26,112 INFO 54224 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 11:29:26,121 INFO 54224 [egg:core] dump config after load, 5ms
+2019-03-14 11:29:26,194 INFO 54224 [egg-watcher:application] watcher start success
+2019-03-14 11:29:26,200 INFO 54224 [egg:core] dump config after ready, 4ms
+2019-03-14 11:30:41,509 INFO 54258 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 11:30:41,553 INFO 54258 [egg-multipart] stream mode enable
+2019-03-14 11:30:41,687 INFO 54258 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 11:30:41,689 INFO 54258 [egg-security] use methodnoallow middleware
+2019-03-14 11:30:41,690 INFO 54258 [egg-security] use noopen middleware
+2019-03-14 11:30:41,690 INFO 54258 [egg-security] use nosniff middleware
+2019-03-14 11:30:41,691 INFO 54258 [egg-security] use xssProtection middleware
+2019-03-14 11:30:41,691 INFO 54258 [egg-security] use xframe middleware
+2019-03-14 11:30:41,691 INFO 54258 [egg-security] use dta middleware
+2019-03-14 11:30:41,691 INFO 54258 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 11:30:41,703 INFO 54258 [egg:core] dump config after load, 5ms
+2019-03-14 11:30:41,798 INFO 54258 [egg-watcher:application] watcher start success
+2019-03-14 11:30:41,805 INFO 54258 [egg:core] dump config after ready, 4ms
+2019-03-14 11:31:46,932 INFO 54332 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 11:31:46,967 INFO 54332 [egg-multipart] stream mode enable
+2019-03-14 11:31:47,087 INFO 54332 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 11:31:47,090 INFO 54332 [egg-security] use methodnoallow middleware
+2019-03-14 11:31:47,090 INFO 54332 [egg-security] use noopen middleware
+2019-03-14 11:31:47,091 INFO 54332 [egg-security] use nosniff middleware
+2019-03-14 11:31:47,091 INFO 54332 [egg-security] use xssProtection middleware
+2019-03-14 11:31:47,092 INFO 54332 [egg-security] use xframe middleware
+2019-03-14 11:31:47,092 INFO 54332 [egg-security] use dta middleware
+2019-03-14 11:31:47,092 INFO 54332 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 11:31:47,102 INFO 54332 [egg:core] dump config after load, 5ms
+2019-03-14 11:31:47,177 INFO 54332 [egg-watcher:application] watcher start success
+2019-03-14 11:31:47,183 INFO 54332 [egg:core] dump config after ready, 4ms
+2019-03-14 11:32:14,382 INFO 54354 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-14 11:32:14,418 INFO 54354 [egg-multipart] stream mode enable
+2019-03-14 11:32:14,797 INFO 54354 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-14 11:32:14,800 INFO 54354 [egg-security] use methodnoallow middleware
+2019-03-14 11:32:14,801 INFO 54354 [egg-security] use noopen middleware
+2019-03-14 11:32:14,802 INFO 54354 [egg-security] use nosniff middleware
+2019-03-14 11:32:14,803 INFO 54354 [egg-security] use xssProtection middleware
+2019-03-14 11:32:14,804 INFO 54354 [egg-security] use xframe middleware
+2019-03-14 11:32:14,804 INFO 54354 [egg-security] use dta middleware
+2019-03-14 11:32:14,804 INFO 54354 [egg-security] compose 6 middlewares into one security middleware
+2019-03-14 11:32:14,821 INFO 54354 [egg:core] dump config after load, 6ms
+2019-03-14 11:32:14,871 INFO 54354 [egg-watcher:application] watcher start success
+2019-03-14 11:32:14,878 INFO 54354 [egg:core] dump config after ready, 4ms

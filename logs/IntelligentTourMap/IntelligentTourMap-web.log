@@ -1361,3 +1361,1031 @@ hostname: richard-MacBook-Pro.local
 2019-03-13 16:59:15,798 INFO 40485 [-/127.0.0.1/-/1ms GET /favicon.ico] request querystring === 
 2019-03-13 16:59:15,799 INFO 40485 [-/127.0.0.1/-/2ms GET /favicon.ico] response endtime... 1552467555799
 2019-03-13 16:59:15,799 INFO 40485 [-/127.0.0.1/-/2ms GET /favicon.ico] response time... 2
+2019-03-14 09:26:04,543 WARN 48727 [egg-swagger-doc] can not found contract in app`s directory
+2019-03-14 09:26:04,544 INFO 48727 app beforeStart... begin
+2019-03-14 09:26:04,545 INFO 48727 app mongodb... begin
+2019-03-14 09:26:04,583 ERROR 48727 [-/127.0.0.1/-/1ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, scandir '/Users/richard/github/IntelligentTourMap/app/contract'
+    at Object.fs.readdirSync (fs.js:904:18)
+    at contractLoader (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/contract/index.js:39:20)
+    at generateContract (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/contract/index.js:25:3)
+    at Object.getDefinitions (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/contract/index.js:179:7)
+    at buildDocument (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:45:30)
+    at documentInit (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:459:7)
+    at module.exports.swaggerInit.app (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at app.beforeStart (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/app.js:8:5)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/lifecycle.js:248:13)
+errno: -2
+code: "ENOENT"
+syscall: "scandir"
+path: "/Users/richard/github/IntelligentTourMap/app/contract"
+name: "ENOENTError"
+pid: 48727
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 09:28:42,350 INFO 48894 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 09:28:42,377 INFO 48894 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 09:28:42,377 INFO 48894 app beforeStart... begin
+2019-03-14 09:28:42,377 INFO 48894 app mongodb... begin
+2019-03-14 09:28:49,708 INFO 48894 [-/127.0.0.1/-/1ms GET /] request starttime... 1552526929707
+2019-03-14 09:28:49,710 INFO 48894 [-/127.0.0.1/-/2ms GET /] request querystring === 
+2019-03-14 09:28:49,736 INFO 48894 [-/127.0.0.1/-/28ms GET /] response endtime... 1552526929735
+2019-03-14 09:28:49,738 INFO 48894 [-/127.0.0.1/-/31ms GET /] response time... 28
+2019-03-14 09:28:51,235 INFO 48894 [-/127.0.0.1/-/0ms GET /] request starttime... 1552526931235
+2019-03-14 09:28:51,235 INFO 48894 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 09:28:51,237 INFO 48894 [-/127.0.0.1/-/2ms GET /] response endtime... 1552526931237
+2019-03-14 09:28:51,237 INFO 48894 [-/127.0.0.1/-/2ms GET /] response time... 2
+2019-03-14 09:28:51,332 INFO 48894 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552526931332
+2019-03-14 09:28:51,332 INFO 48894 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 09:28:51,333 INFO 48894 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552526931333
+2019-03-14 09:28:51,333 INFO 48894 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 09:29:05,673 INFO 48894 [-/127.0.0.1/-/0ms GET /user] request starttime... 1552526945673
+2019-03-14 09:29:05,673 INFO 48894 [-/127.0.0.1/-/0ms GET /user] request querystring === 
+2019-03-14 09:29:05,709 INFO 48894 [-/127.0.0.1/-/36ms GET /user] response endtime... 1552526945709
+2019-03-14 09:29:05,709 INFO 48894 [-/127.0.0.1/-/36ms GET /user] response time... 36
+2019-03-14 09:31:00,323 INFO 48952 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 09:31:00,353 INFO 48952 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 09:31:00,353 INFO 48952 app beforeStart... begin
+2019-03-14 09:31:00,353 INFO 48952 app mongodb... begin
+2019-03-14 09:32:56,260 INFO 48952 [-/127.0.0.1/-/0ms GET //swaagger-ui.html] request starttime... 1552527176260
+2019-03-14 09:32:56,261 INFO 48952 [-/127.0.0.1/-/1ms GET //swaagger-ui.html] request querystring === 
+2019-03-14 09:32:56,273 INFO 48952 [-/127.0.0.1/-/13ms GET //swaagger-ui.html] response endtime... 1552527176273
+2019-03-14 09:32:56,273 INFO 48952 [-/127.0.0.1/-/13ms GET //swaagger-ui.html] response time... 13
+2019-03-14 09:32:57,183 INFO 48952 [-/127.0.0.1/-/0ms GET //swaagger-ui.html] request starttime... 1552527177183
+2019-03-14 09:32:57,183 INFO 48952 [-/127.0.0.1/-/0ms GET //swaagger-ui.html] request querystring === 
+2019-03-14 09:32:57,185 INFO 48952 [-/127.0.0.1/-/2ms GET //swaagger-ui.html] response endtime... 1552527177185
+2019-03-14 09:32:57,185 INFO 48952 [-/127.0.0.1/-/2ms GET //swaagger-ui.html] response time... 2
+2019-03-14 09:32:57,270 INFO 48952 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552527177270
+2019-03-14 09:32:57,270 INFO 48952 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 09:32:57,272 INFO 48952 [-/127.0.0.1/-/2ms GET /favicon.ico] response endtime... 1552527177272
+2019-03-14 09:32:57,272 INFO 48952 [-/127.0.0.1/-/2ms GET /favicon.ico] response time... 2
+2019-03-14 09:33:00,267 INFO 48952 [-/127.0.0.1/-/0ms GET /swaagger-ui.html] request starttime... 1552527180267
+2019-03-14 09:33:00,267 INFO 48952 [-/127.0.0.1/-/0ms GET /swaagger-ui.html] request querystring === 
+2019-03-14 09:33:00,268 INFO 48952 [-/127.0.0.1/-/1ms GET /swaagger-ui.html] response endtime... 1552527180268
+2019-03-14 09:33:00,268 INFO 48952 [-/127.0.0.1/-/1ms GET /swaagger-ui.html] response time... 1
+2019-03-14 09:33:01,454 INFO 48952 [-/127.0.0.1/-/0ms GET /swaagger-ui.html] request starttime... 1552527181454
+2019-03-14 09:33:01,454 INFO 48952 [-/127.0.0.1/-/0ms GET /swaagger-ui.html] request querystring === 
+2019-03-14 09:33:01,455 INFO 48952 [-/127.0.0.1/-/1ms GET /swaagger-ui.html] response endtime... 1552527181455
+2019-03-14 09:33:01,455 INFO 48952 [-/127.0.0.1/-/1ms GET /swaagger-ui.html] response time... 1
+2019-03-14 09:33:01,548 INFO 48952 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552527181548
+2019-03-14 09:33:01,549 INFO 48952 [-/127.0.0.1/-/1ms GET /favicon.ico] request querystring === 
+2019-03-14 09:33:01,549 INFO 48952 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552527181549
+2019-03-14 09:33:01,549 INFO 48952 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 09:33:17,310 INFO 49286 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 09:33:17,337 INFO 49286 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 09:33:17,337 INFO 49286 app beforeStart... begin
+2019-03-14 09:33:17,338 INFO 49286 app mongodb... begin
+2019-03-14 09:33:21,538 INFO 49286 [-/127.0.0.1/-/0ms GET /] request starttime... 1552527201537
+2019-03-14 09:33:21,539 INFO 49286 [-/127.0.0.1/-/2ms GET /] request querystring === 
+2019-03-14 09:33:21,558 INFO 49286 [-/127.0.0.1/-/21ms GET /] response endtime... 1552527201558
+2019-03-14 09:33:21,558 INFO 49286 [-/127.0.0.1/-/21ms GET /] response time... 21
+2019-03-14 09:33:23,737 INFO 49286 [-/127.0.0.1/-/0ms GET /swaagger-ui.html] request starttime... 1552527203737
+2019-03-14 09:33:23,738 INFO 49286 [-/127.0.0.1/-/1ms GET /swaagger-ui.html] request querystring === 
+2019-03-14 09:33:23,739 INFO 49286 [-/127.0.0.1/-/2ms GET /swaagger-ui.html] response endtime... 1552527203739
+2019-03-14 09:33:23,739 INFO 49286 [-/127.0.0.1/-/2ms GET /swaagger-ui.html] response time... 2
+2019-03-14 09:33:23,867 INFO 49286 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552527203867
+2019-03-14 09:33:23,867 INFO 49286 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 09:33:23,868 INFO 49286 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552527203868
+2019-03-14 09:33:23,868 INFO 49286 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 09:33:25,176 INFO 49286 [-/127.0.0.1/-/0ms GET /swaagger-ui.html] request starttime... 1552527205176
+2019-03-14 09:33:25,176 INFO 49286 [-/127.0.0.1/-/0ms GET /swaagger-ui.html] request querystring === 
+2019-03-14 09:33:25,176 INFO 49286 [-/127.0.0.1/-/0ms GET /swaagger-ui.html] response endtime... 1552527205176
+2019-03-14 09:33:25,176 INFO 49286 [-/127.0.0.1/-/0ms GET /swaagger-ui.html] response time... 0
+2019-03-14 09:33:25,260 INFO 49286 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552527205260
+2019-03-14 09:33:25,260 INFO 49286 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 09:33:25,260 INFO 49286 [-/127.0.0.1/-/0ms GET /favicon.ico] response endtime... 1552527205260
+2019-03-14 09:33:25,261 INFO 49286 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 0
+2019-03-14 09:38:45,915 INFO 49636 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 09:38:45,942 INFO 49636 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 09:38:45,942 INFO 49636 app beforeStart... begin
+2019-03-14 09:38:45,942 INFO 49636 app mongodb... begin
+2019-03-14 09:42:15,154 INFO 49636 [-/::1/-/1ms GET /swagger-doc] request starttime... 1552527735153
+2019-03-14 09:42:15,154 INFO 49636 [-/::1/-/1ms GET /swagger-doc] request querystring === 
+2019-03-14 09:42:15,165 INFO 49636 [-/::1/-/12ms GET /swagger-doc] response endtime... 1552527735165
+2019-03-14 09:42:15,165 INFO 49636 [-/::1/-/12ms GET /swagger-doc] response time... 12
+2019-03-14 09:42:22,176 INFO 49636 [-/::1/-/0ms GET /swagger-ui.html] request starttime... 1552527742176
+2019-03-14 09:42:22,176 INFO 49636 [-/::1/-/0ms GET /swagger-ui.html] request querystring === 
+2019-03-14 09:42:22,187 INFO 49636 [-/::1/-/11ms GET /swagger-ui.html] response endtime... 1552527742187
+2019-03-14 09:42:22,187 INFO 49636 [-/::1/-/11ms GET /swagger-ui.html] response time... 11
+2019-03-14 09:42:22,239 INFO 49636 [-/::1/-/0ms GET /swagger-ui.css] request starttime... 1552527742239
+2019-03-14 09:42:22,239 INFO 49636 [-/::1/-/0ms GET /swagger-ui.css] request querystring === 
+2019-03-14 09:42:22,242 INFO 49636 [-/::1/-/3ms GET /swagger-ui.css] response endtime... 1552527742242
+2019-03-14 09:42:22,242 INFO 49636 [-/::1/-/3ms GET /swagger-ui.css] response time... 3
+2019-03-14 09:42:22,280 INFO 49636 [-/::1/-/0ms GET /swagger-ui-bundle.js] request starttime... 1552527742280
+2019-03-14 09:42:22,281 INFO 49636 [-/::1/-/0ms GET /swagger-ui-bundle.js] request querystring === 
+2019-03-14 09:42:22,296 INFO 49636 [-/::1/-/16ms GET /swagger-ui-bundle.js] response endtime... 1552527742296
+2019-03-14 09:42:22,296 INFO 49636 [-/::1/-/16ms GET /swagger-ui-bundle.js] response time... 16
+2019-03-14 09:42:22,298 INFO 49636 [-/::1/-/0ms GET /swagger-ui-standalone-preset.js] request starttime... 1552527742298
+2019-03-14 09:42:22,298 INFO 49636 [-/::1/-/0ms GET /swagger-ui-standalone-preset.js] request querystring === 
+2019-03-14 09:42:22,301 INFO 49636 [-/::1/-/3ms GET /swagger-ui-standalone-preset.js] response endtime... 1552527742301
+2019-03-14 09:42:22,301 INFO 49636 [-/::1/-/3ms GET /swagger-ui-standalone-preset.js] response time... 3
+2019-03-14 09:42:23,625 INFO 49636 [-/::1/-/0ms GET /swagger-doc] request starttime... 1552527743625
+2019-03-14 09:42:23,625 INFO 49636 [-/::1/-/0ms GET /swagger-doc] request querystring === 
+2019-03-14 09:42:23,626 INFO 49636 [-/::1/-/1ms GET /swagger-doc] response endtime... 1552527743626
+2019-03-14 09:42:23,626 INFO 49636 [-/::1/-/1ms GET /swagger-doc] response time... 1
+2019-03-14 09:42:23,790 INFO 49636 [-/::1/-/0ms GET /favicon-32x32.png] request starttime... 1552527743790
+2019-03-14 09:42:23,790 INFO 49636 [-/::1/-/0ms GET /favicon-32x32.png] request querystring === 
+2019-03-14 09:42:23,791 INFO 49636 [-/::1/-/1ms GET /favicon-32x32.png] response endtime... 1552527743791
+2019-03-14 09:42:23,791 INFO 49636 [-/::1/-/1ms GET /favicon-32x32.png] response time... 1
+2019-03-14 09:42:46,504 INFO 49636 [-/::1/-/0ms GET /swagger-doc] request starttime... 1552527766504
+2019-03-14 09:42:46,504 INFO 49636 [-/::1/-/0ms GET /swagger-doc] request querystring === 
+2019-03-14 09:42:46,505 INFO 49636 [-/::1/-/1ms GET /swagger-doc] response endtime... 1552527766505
+2019-03-14 09:42:46,505 INFO 49636 [-/::1/-/1ms GET /swagger-doc] response time... 1
+2019-03-14 09:44:32,732 INFO 49636 [-/127.0.0.1/-/0ms GET /swagger-ui.html] request starttime... 1552527872732
+2019-03-14 09:44:32,732 INFO 49636 [-/127.0.0.1/-/0ms GET /swagger-ui.html] request querystring === 
+2019-03-14 09:44:32,734 INFO 49636 [-/127.0.0.1/-/1ms GET /swagger-ui.html] response endtime... 1552527872733
+2019-03-14 09:44:32,734 INFO 49636 [-/127.0.0.1/-/2ms GET /swagger-ui.html] response time... 1
+2019-03-14 09:44:32,797 INFO 49636 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request starttime... 1552527872797
+2019-03-14 09:44:32,797 INFO 49636 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request querystring === 
+2019-03-14 09:44:32,798 INFO 49636 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request starttime... 1552527872798
+2019-03-14 09:44:32,798 INFO 49636 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request querystring === 
+2019-03-14 09:44:32,799 INFO 49636 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request starttime... 1552527872799
+2019-03-14 09:44:32,799 INFO 49636 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request querystring === 
+2019-03-14 09:44:32,801 INFO 49636 [-/127.0.0.1/-/4ms GET /swagger-ui.css] response endtime... 1552527872801
+2019-03-14 09:44:32,801 INFO 49636 [-/127.0.0.1/-/4ms GET /swagger-ui.css] response time... 4
+2019-03-14 09:44:32,803 INFO 49636 [-/127.0.0.1/-/4ms GET /swagger-ui-standalone-preset.js] response endtime... 1552527872803
+2019-03-14 09:44:32,804 INFO 49636 [-/127.0.0.1/-/4ms GET /swagger-ui-standalone-preset.js] response time... 4
+2019-03-14 09:44:32,854 INFO 49636 [-/127.0.0.1/-/56ms GET /swagger-ui-bundle.js] response endtime... 1552527872854
+2019-03-14 09:44:32,854 INFO 49636 [-/127.0.0.1/-/56ms GET /swagger-ui-bundle.js] response time... 56
+2019-03-14 09:44:33,190 INFO 49636 [-/127.0.0.1/-/0ms GET /swagger-doc] request starttime... 1552527873190
+2019-03-14 09:44:33,190 INFO 49636 [-/127.0.0.1/-/0ms GET /swagger-doc] request querystring === 
+2019-03-14 09:44:33,190 INFO 49636 [-/127.0.0.1/-/0ms GET /swagger-doc] response endtime... 1552527873190
+2019-03-14 09:44:33,190 INFO 49636 [-/127.0.0.1/-/0ms GET /swagger-doc] response time... 0
+2019-03-14 09:44:33,350 INFO 49636 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request starttime... 1552527873350
+2019-03-14 09:44:33,350 INFO 49636 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request querystring === 
+2019-03-14 09:44:33,351 INFO 49636 [-/127.0.0.1/-/1ms GET /favicon-32x32.png] response endtime... 1552527873351
+2019-03-14 09:44:33,351 INFO 49636 [-/127.0.0.1/-/1ms GET /favicon-32x32.png] response time... 1
+2019-03-14 09:44:35,011 INFO 49636 [-/127.0.0.1/-/0ms GET /swagger-ui.html] request starttime... 1552527875011
+2019-03-14 09:44:35,011 INFO 49636 [-/127.0.0.1/-/0ms GET /swagger-ui.html] request querystring === 
+2019-03-14 09:44:35,012 INFO 49636 [-/127.0.0.1/-/1ms GET /swagger-ui.html] response endtime... 1552527875012
+2019-03-14 09:44:35,012 INFO 49636 [-/127.0.0.1/-/1ms GET /swagger-ui.html] response time... 1
+2019-03-14 09:44:35,038 INFO 49636 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request starttime... 1552527875038
+2019-03-14 09:44:35,038 INFO 49636 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request querystring === 
+2019-03-14 09:44:35,039 INFO 49636 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request starttime... 1552527875039
+2019-03-14 09:44:35,039 INFO 49636 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request querystring === 
+2019-03-14 09:44:35,040 INFO 49636 [-/127.0.0.1/-/2ms GET /swagger-ui.css] response endtime... 1552527875040
+2019-03-14 09:44:35,040 INFO 49636 [-/127.0.0.1/-/2ms GET /swagger-ui.css] response time... 1
+2019-03-14 09:44:35,040 INFO 49636 [-/127.0.0.1/-/1ms GET /swagger-ui-bundle.js] response endtime... 1552527875040
+2019-03-14 09:44:35,040 INFO 49636 [-/127.0.0.1/-/1ms GET /swagger-ui-bundle.js] response time... 1
+2019-03-14 09:44:35,041 INFO 49636 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request starttime... 1552527875041
+2019-03-14 09:44:35,042 INFO 49636 [-/127.0.0.1/-/1ms GET /swagger-ui-standalone-preset.js] request querystring === 
+2019-03-14 09:44:35,043 INFO 49636 [-/127.0.0.1/-/2ms GET /swagger-ui-standalone-preset.js] response endtime... 1552527875043
+2019-03-14 09:44:35,043 INFO 49636 [-/127.0.0.1/-/2ms GET /swagger-ui-standalone-preset.js] response time... 2
+2019-03-14 09:44:35,219 INFO 49636 [-/127.0.0.1/-/0ms GET /swagger-doc] request starttime... 1552527875219
+2019-03-14 09:44:35,219 INFO 49636 [-/127.0.0.1/-/0ms GET /swagger-doc] request querystring === 
+2019-03-14 09:44:35,220 INFO 49636 [-/127.0.0.1/-/1ms GET /swagger-doc] response endtime... 1552527875220
+2019-03-14 09:44:35,220 INFO 49636 [-/127.0.0.1/-/1ms GET /swagger-doc] response time... 1
+2019-03-14 09:44:35,232 INFO 49636 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request starttime... 1552527875232
+2019-03-14 09:44:35,232 INFO 49636 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request querystring === 
+2019-03-14 09:44:35,233 INFO 49636 [-/127.0.0.1/-/1ms GET /favicon-32x32.png] response endtime... 1552527875233
+2019-03-14 09:44:35,233 INFO 49636 [-/127.0.0.1/-/1ms GET /favicon-32x32.png] response time... 1
+2019-03-14 09:46:22,011 INFO 49907 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 09:46:22,039 INFO 49907 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 09:46:22,040 INFO 49907 app beforeStart... begin
+2019-03-14 09:46:22,040 INFO 49907 app mongodb... begin
+2019-03-14 09:46:34,927 INFO 49907 [-/127.0.0.1/-/0ms GET /] request starttime... 1552527994926
+2019-03-14 09:46:34,927 INFO 49907 [-/127.0.0.1/-/1ms GET /] request querystring === 
+2019-03-14 09:46:34,941 INFO 49907 [-/127.0.0.1/-/15ms GET /] response endtime... 1552527994941
+2019-03-14 09:46:34,941 INFO 49907 [-/127.0.0.1/-/15ms GET /] response time... 15
+2019-03-14 09:46:42,286 INFO 49907 [-/127.0.0.1/-/0ms GET /swagger-ui.html] request starttime... 1552528002286
+2019-03-14 09:46:42,286 INFO 49907 [-/127.0.0.1/-/0ms GET /swagger-ui.html] request querystring === 
+2019-03-14 09:46:42,289 INFO 49907 [-/127.0.0.1/-/3ms GET /swagger-ui.html] response endtime... 1552528002289
+2019-03-14 09:46:42,289 INFO 49907 [-/127.0.0.1/-/3ms GET /swagger-ui.html] response time... 3
+2019-03-14 09:46:42,340 INFO 49907 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request starttime... 1552528002340
+2019-03-14 09:46:42,340 INFO 49907 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request querystring === 
+2019-03-14 09:46:42,341 INFO 49907 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request starttime... 1552528002341
+2019-03-14 09:46:42,341 INFO 49907 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request querystring === 
+2019-03-14 09:46:42,342 INFO 49907 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request starttime... 1552528002342
+2019-03-14 09:46:42,342 INFO 49907 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request querystring === 
+2019-03-14 09:46:42,343 INFO 49907 [-/127.0.0.1/-/3ms GET /swagger-ui.css] response endtime... 1552528002343
+2019-03-14 09:46:42,343 INFO 49907 [-/127.0.0.1/-/3ms GET /swagger-ui.css] response time... 3
+2019-03-14 09:46:42,344 INFO 49907 [-/127.0.0.1/-/3ms GET /swagger-ui-bundle.js] response endtime... 1552528002344
+2019-03-14 09:46:42,344 INFO 49907 [-/127.0.0.1/-/3ms GET /swagger-ui-bundle.js] response time... 3
+2019-03-14 09:46:42,344 INFO 49907 [-/127.0.0.1/-/2ms GET /swagger-ui-standalone-preset.js] response endtime... 1552528002344
+2019-03-14 09:46:42,344 INFO 49907 [-/127.0.0.1/-/2ms GET /swagger-ui-standalone-preset.js] response time... 2
+2019-03-14 09:46:42,711 INFO 49907 [-/127.0.0.1/-/0ms GET /swagger-doc] request starttime... 1552528002711
+2019-03-14 09:46:42,711 INFO 49907 [-/127.0.0.1/-/0ms GET /swagger-doc] request querystring === 
+2019-03-14 09:46:42,712 INFO 49907 [-/127.0.0.1/-/1ms GET /swagger-doc] response endtime... 1552528002712
+2019-03-14 09:46:42,712 INFO 49907 [-/127.0.0.1/-/1ms GET /swagger-doc] response time... 1
+2019-03-14 09:49:22,609 INFO 49907 [-/127.0.0.1/-/0ms GET /swagger-doc] request starttime... 1552528162609
+2019-03-14 09:49:22,609 INFO 49907 [-/127.0.0.1/-/0ms GET /swagger-doc] request querystring === 
+2019-03-14 09:49:22,611 INFO 49907 [-/127.0.0.1/-/2ms GET /swagger-doc] response endtime... 1552528162611
+2019-03-14 09:49:22,611 INFO 49907 [-/127.0.0.1/-/2ms GET /swagger-doc] response time... 2
+2019-03-14 10:11:28,355 INFO 51175 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 10:11:28,386 INFO 51175 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 10:11:28,387 INFO 51175 app beforeStart... begin
+2019-03-14 10:11:28,387 INFO 51175 app mongodb... begin
+2019-03-14 10:12:27,592 INFO 51216 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 10:12:27,624 INFO 51216 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 10:12:27,624 INFO 51216 app beforeStart... begin
+2019-03-14 10:12:27,624 INFO 51216 app mongodb... begin
+2019-03-14 10:12:44,060 INFO 51236 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 10:12:44,086 INFO 51236 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 10:12:44,087 INFO 51236 app beforeStart... begin
+2019-03-14 10:12:44,087 INFO 51236 app mongodb... begin
+2019-03-14 10:14:19,895 INFO 51292 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 10:14:19,923 INFO 51292 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 10:14:19,923 INFO 51292 app beforeStart... begin
+2019-03-14 10:14:19,923 INFO 51292 app mongodb... begin
+2019-03-14 10:14:32,448 INFO 51337 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 10:14:32,476 INFO 51337 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 10:14:32,476 INFO 51337 app beforeStart... begin
+2019-03-14 10:14:32,476 INFO 51337 app mongodb... begin
+2019-03-14 10:14:40,568 INFO 51337 [-/127.0.0.1/-/1ms GET /swagger-ui.html] request starttime... 1552529680567
+2019-03-14 10:14:40,568 INFO 51337 [-/127.0.0.1/-/1ms GET /swagger-ui.html] request querystring === 
+2019-03-14 10:14:40,575 INFO 51337 [-/127.0.0.1/-/8ms GET /swagger-ui.html] response endtime... 1552529680575
+2019-03-14 10:14:40,575 INFO 51337 [-/127.0.0.1/-/8ms GET /swagger-ui.html] response time... 8
+2019-03-14 10:14:40,609 INFO 51337 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request starttime... 1552529680609
+2019-03-14 10:14:40,610 INFO 51337 [-/127.0.0.1/-/1ms GET /swagger-ui.css] request querystring === 
+2019-03-14 10:14:40,612 INFO 51337 [-/127.0.0.1/-/3ms GET /swagger-ui.css] response endtime... 1552529680612
+2019-03-14 10:14:40,612 INFO 51337 [-/127.0.0.1/-/3ms GET /swagger-ui.css] response time... 3
+2019-03-14 10:14:40,617 INFO 51337 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request starttime... 1552529680617
+2019-03-14 10:14:40,618 INFO 51337 [-/127.0.0.1/-/1ms GET /swagger-ui-bundle.js] request querystring === 
+2019-03-14 10:14:40,618 INFO 51337 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request starttime... 1552529680618
+2019-03-14 10:14:40,618 INFO 51337 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request querystring === 
+2019-03-14 10:14:40,619 INFO 51337 [-/127.0.0.1/-/2ms GET /swagger-ui-bundle.js] response endtime... 1552529680619
+2019-03-14 10:14:40,619 INFO 51337 [-/127.0.0.1/-/2ms GET /swagger-ui-bundle.js] response time... 2
+2019-03-14 10:14:40,620 INFO 51337 [-/127.0.0.1/-/2ms GET /swagger-ui-standalone-preset.js] response endtime... 1552529680620
+2019-03-14 10:14:40,620 INFO 51337 [-/127.0.0.1/-/2ms GET /swagger-ui-standalone-preset.js] response time... 2
+2019-03-14 10:14:40,849 INFO 51337 [-/127.0.0.1/-/0ms GET /swagger-doc] request starttime... 1552529680849
+2019-03-14 10:14:40,849 INFO 51337 [-/127.0.0.1/-/0ms GET /swagger-doc] request querystring === 
+2019-03-14 10:14:40,853 INFO 51337 [-/127.0.0.1/-/4ms GET /swagger-doc] response endtime... 1552529680853
+2019-03-14 10:14:40,853 INFO 51337 [-/127.0.0.1/-/4ms GET /swagger-doc] response time... 4
+2019-03-14 10:14:40,872 INFO 51337 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request starttime... 1552529680872
+2019-03-14 10:14:40,872 INFO 51337 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request querystring === 
+2019-03-14 10:14:40,881 INFO 51337 [-/127.0.0.1/-/9ms GET /favicon-32x32.png] response endtime... 1552529680881
+2019-03-14 10:14:40,881 INFO 51337 [-/127.0.0.1/-/9ms GET /favicon-32x32.png] response time... 9
+2019-03-14 10:15:41,524 INFO 51478 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 10:15:41,551 INFO 51478 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 10:15:41,551 INFO 51478 app beforeStart... begin
+2019-03-14 10:15:41,552 INFO 51478 app mongodb... begin
+2019-03-14 10:16:04,897 INFO 51494 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 10:16:04,925 INFO 51494 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 10:16:04,926 INFO 51494 app beforeStart... begin
+2019-03-14 10:16:04,926 INFO 51494 app mongodb... begin
+2019-03-14 10:16:12,659 INFO 51494 [-/127.0.0.1/-/0ms GET /swagger-ui.html] request starttime... 1552529772658
+2019-03-14 10:16:12,659 INFO 51494 [-/127.0.0.1/-/1ms GET /swagger-ui.html] request querystring === 
+2019-03-14 10:16:12,667 INFO 51494 [-/127.0.0.1/-/9ms GET /swagger-ui.html] response endtime... 1552529772667
+2019-03-14 10:16:12,667 INFO 51494 [-/127.0.0.1/-/9ms GET /swagger-ui.html] response time... 9
+2019-03-14 10:16:12,693 INFO 51494 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request starttime... 1552529772693
+2019-03-14 10:16:12,693 INFO 51494 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request querystring === 
+2019-03-14 10:16:12,695 INFO 51494 [-/127.0.0.1/-/2ms GET /swagger-ui.css] response endtime... 1552529772695
+2019-03-14 10:16:12,695 INFO 51494 [-/127.0.0.1/-/2ms GET /swagger-ui.css] response time... 2
+2019-03-14 10:16:12,696 INFO 51494 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request starttime... 1552529772696
+2019-03-14 10:16:12,696 INFO 51494 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request querystring === 
+2019-03-14 10:16:12,696 INFO 51494 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request starttime... 1552529772696
+2019-03-14 10:16:12,696 INFO 51494 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request querystring === 
+2019-03-14 10:16:12,697 INFO 51494 [-/127.0.0.1/-/1ms GET /swagger-ui-bundle.js] response endtime... 1552529772697
+2019-03-14 10:16:12,697 INFO 51494 [-/127.0.0.1/-/1ms GET /swagger-ui-bundle.js] response time... 1
+2019-03-14 10:16:12,698 INFO 51494 [-/127.0.0.1/-/2ms GET /swagger-ui-standalone-preset.js] response endtime... 1552529772698
+2019-03-14 10:16:12,698 INFO 51494 [-/127.0.0.1/-/2ms GET /swagger-ui-standalone-preset.js] response time... 2
+2019-03-14 10:16:12,899 INFO 51494 [-/127.0.0.1/-/0ms GET /swagger-doc] request starttime... 1552529772899
+2019-03-14 10:16:12,899 INFO 51494 [-/127.0.0.1/-/0ms GET /swagger-doc] request querystring === 
+2019-03-14 10:16:12,903 INFO 51494 [-/127.0.0.1/-/4ms GET /swagger-doc] response endtime... 1552529772903
+2019-03-14 10:16:12,903 INFO 51494 [-/127.0.0.1/-/4ms GET /swagger-doc] response time... 4
+2019-03-14 10:16:12,918 INFO 51494 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request starttime... 1552529772918
+2019-03-14 10:16:12,918 INFO 51494 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request querystring === 
+2019-03-14 10:16:12,925 INFO 51494 [-/127.0.0.1/-/7ms GET /favicon-32x32.png] response endtime... 1552529772925
+2019-03-14 10:16:12,925 INFO 51494 [-/127.0.0.1/-/7ms GET /favicon-32x32.png] response time... 7
+2019-03-14 10:20:37,122 INFO 51599 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 10:20:37,150 INFO 51599 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 10:20:37,151 INFO 51599 app beforeStart... begin
+2019-03-14 10:20:37,151 INFO 51599 app mongodb... begin
+2019-03-14 10:20:42,395 INFO 51599 [-/127.0.0.1/-/0ms GET /swagger-ui.html] request starttime... 1552530042395
+2019-03-14 10:20:42,396 INFO 51599 [-/127.0.0.1/-/1ms GET /swagger-ui.html] request querystring === 
+2019-03-14 10:20:42,405 INFO 51599 [-/127.0.0.1/-/9ms GET /swagger-ui.html] response endtime... 1552530042404
+2019-03-14 10:20:42,405 INFO 51599 [-/127.0.0.1/-/10ms GET /swagger-ui.html] response time... 9
+2019-03-14 10:20:42,428 INFO 51599 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request starttime... 1552530042428
+2019-03-14 10:20:42,429 INFO 51599 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request querystring === 
+2019-03-14 10:20:42,431 INFO 51599 [-/127.0.0.1/-/3ms GET /swagger-ui.css] response endtime... 1552530042431
+2019-03-14 10:20:42,431 INFO 51599 [-/127.0.0.1/-/3ms GET /swagger-ui.css] response time... 3
+2019-03-14 10:20:42,431 INFO 51599 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request starttime... 1552530042431
+2019-03-14 10:20:42,432 INFO 51599 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request querystring === 
+2019-03-14 10:20:42,432 INFO 51599 [-/127.0.0.1/-/1ms GET /swagger-ui-bundle.js] response endtime... 1552530042432
+2019-03-14 10:20:42,432 INFO 51599 [-/127.0.0.1/-/1ms GET /swagger-ui-bundle.js] response time... 1
+2019-03-14 10:20:42,433 INFO 51599 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request starttime... 1552530042433
+2019-03-14 10:20:42,433 INFO 51599 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request querystring === 
+2019-03-14 10:20:42,433 INFO 51599 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] response endtime... 1552530042433
+2019-03-14 10:20:42,433 INFO 51599 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] response time... 0
+2019-03-14 10:20:42,637 INFO 51599 [-/127.0.0.1/-/0ms GET /swagger-doc] request starttime... 1552530042637
+2019-03-14 10:20:42,637 INFO 51599 [-/127.0.0.1/-/0ms GET /swagger-doc] request querystring === 
+2019-03-14 10:20:42,642 INFO 51599 [-/127.0.0.1/-/5ms GET /swagger-doc] response endtime... 1552530042642
+2019-03-14 10:20:42,642 INFO 51599 [-/127.0.0.1/-/5ms GET /swagger-doc] response time... 5
+2019-03-14 10:20:42,655 INFO 51599 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request starttime... 1552530042655
+2019-03-14 10:20:42,656 INFO 51599 [-/127.0.0.1/-/1ms GET /favicon-32x32.png] request querystring === 
+2019-03-14 10:20:42,662 INFO 51599 [-/127.0.0.1/-/7ms GET /favicon-32x32.png] response endtime... 1552530042662
+2019-03-14 10:20:42,662 INFO 51599 [-/127.0.0.1/-/7ms GET /favicon-32x32.png] response time... 7
+2019-03-14 10:22:28,857 INFO 51678 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 10:22:28,886 INFO 51678 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 10:22:28,886 INFO 51678 app beforeStart... begin
+2019-03-14 10:22:28,886 INFO 51678 app mongodb... begin
+2019-03-14 10:22:37,870 INFO 51696 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 10:22:37,896 INFO 51696 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 10:22:37,896 INFO 51696 app beforeStart... begin
+2019-03-14 10:22:37,896 INFO 51696 app mongodb... begin
+2019-03-14 10:22:39,137 INFO 51696 [-/127.0.0.1/-/0ms GET /swagger-ui.html] request starttime... 1552530159136
+2019-03-14 10:22:39,137 INFO 51696 [-/127.0.0.1/-/1ms GET /swagger-ui.html] request querystring === 
+2019-03-14 10:22:39,144 INFO 51696 [-/127.0.0.1/-/8ms GET /swagger-ui.html] response endtime... 1552530159144
+2019-03-14 10:22:39,144 INFO 51696 [-/127.0.0.1/-/8ms GET /swagger-ui.html] response time... 8
+2019-03-14 10:22:39,171 INFO 51696 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request starttime... 1552530159171
+2019-03-14 10:22:39,171 INFO 51696 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request querystring === 
+2019-03-14 10:22:39,173 INFO 51696 [-/127.0.0.1/-/2ms GET /swagger-ui.css] response endtime... 1552530159173
+2019-03-14 10:22:39,173 INFO 51696 [-/127.0.0.1/-/2ms GET /swagger-ui.css] response time... 2
+2019-03-14 10:22:39,174 INFO 51696 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request starttime... 1552530159174
+2019-03-14 10:22:39,174 INFO 51696 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request querystring === 
+2019-03-14 10:22:39,174 INFO 51696 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request starttime... 1552530159174
+2019-03-14 10:22:39,174 INFO 51696 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request querystring === 
+2019-03-14 10:22:39,175 INFO 51696 [-/127.0.0.1/-/1ms GET /swagger-ui-bundle.js] response endtime... 1552530159175
+2019-03-14 10:22:39,175 INFO 51696 [-/127.0.0.1/-/1ms GET /swagger-ui-bundle.js] response time... 1
+2019-03-14 10:22:39,175 INFO 51696 [-/127.0.0.1/-/1ms GET /swagger-ui-standalone-preset.js] response endtime... 1552530159175
+2019-03-14 10:22:39,176 INFO 51696 [-/127.0.0.1/-/2ms GET /swagger-ui-standalone-preset.js] response time... 1
+2019-03-14 10:22:39,404 INFO 51696 [-/127.0.0.1/-/0ms GET /swagger-doc] request starttime... 1552530159404
+2019-03-14 10:22:39,404 INFO 51696 [-/127.0.0.1/-/0ms GET /swagger-doc] request querystring === 
+2019-03-14 10:22:39,408 INFO 51696 [-/127.0.0.1/-/4ms GET /swagger-doc] response endtime... 1552530159408
+2019-03-14 10:22:39,408 INFO 51696 [-/127.0.0.1/-/4ms GET /swagger-doc] response time... 4
+2019-03-14 10:22:39,423 INFO 51696 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request starttime... 1552530159423
+2019-03-14 10:22:39,423 INFO 51696 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request querystring === 
+2019-03-14 10:22:39,427 INFO 51696 [-/127.0.0.1/-/4ms GET /favicon-32x32.png] response endtime... 1552530159427
+2019-03-14 10:22:39,427 INFO 51696 [-/127.0.0.1/-/4ms GET /favicon-32x32.png] response time... 4
+2019-03-14 10:22:45,096 INFO 51708 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 10:22:45,124 INFO 51708 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 10:22:45,124 INFO 51708 app beforeStart... begin
+2019-03-14 10:22:45,124 INFO 51708 app mongodb... begin
+2019-03-14 10:24:43,648 INFO 51755 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 10:24:43,675 INFO 51755 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 10:24:43,675 INFO 51755 app beforeStart... begin
+2019-03-14 10:24:43,675 INFO 51755 app mongodb... begin
+2019-03-14 10:24:45,312 INFO 51755 [-/127.0.0.1/-/1ms GET /swagger-ui.html] request starttime... 1552530285311
+2019-03-14 10:24:45,312 INFO 51755 [-/127.0.0.1/-/1ms GET /swagger-ui.html] request querystring === 
+2019-03-14 10:24:45,321 INFO 51755 [-/127.0.0.1/-/10ms GET /swagger-ui.html] response endtime... 1552530285321
+2019-03-14 10:24:45,321 INFO 51755 [-/127.0.0.1/-/10ms GET /swagger-ui.html] response time... 10
+2019-03-14 10:24:45,345 INFO 51755 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request starttime... 1552530285345
+2019-03-14 10:24:45,346 INFO 51755 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request querystring === 
+2019-03-14 10:24:45,347 INFO 51755 [-/127.0.0.1/-/2ms GET /swagger-ui.css] response endtime... 1552530285347
+2019-03-14 10:24:45,348 INFO 51755 [-/127.0.0.1/-/3ms GET /swagger-ui.css] response time... 2
+2019-03-14 10:24:45,348 INFO 51755 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request starttime... 1552530285348
+2019-03-14 10:24:45,348 INFO 51755 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request querystring === 
+2019-03-14 10:24:45,349 INFO 51755 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request starttime... 1552530285349
+2019-03-14 10:24:45,349 INFO 51755 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request querystring === 
+2019-03-14 10:24:45,349 INFO 51755 [-/127.0.0.1/-/1ms GET /swagger-ui-bundle.js] response endtime... 1552530285349
+2019-03-14 10:24:45,349 INFO 51755 [-/127.0.0.1/-/1ms GET /swagger-ui-bundle.js] response time... 1
+2019-03-14 10:24:45,350 INFO 51755 [-/127.0.0.1/-/1ms GET /swagger-ui-standalone-preset.js] response endtime... 1552530285350
+2019-03-14 10:24:45,350 INFO 51755 [-/127.0.0.1/-/1ms GET /swagger-ui-standalone-preset.js] response time... 1
+2019-03-14 10:24:45,551 INFO 51755 [-/127.0.0.1/-/0ms GET /swagger-doc] request starttime... 1552530285551
+2019-03-14 10:24:45,551 INFO 51755 [-/127.0.0.1/-/0ms GET /swagger-doc] request querystring === 
+2019-03-14 10:24:45,555 INFO 51755 [-/127.0.0.1/-/4ms GET /swagger-doc] response endtime... 1552530285555
+2019-03-14 10:24:45,555 INFO 51755 [-/127.0.0.1/-/4ms GET /swagger-doc] response time... 4
+2019-03-14 10:24:45,567 INFO 51755 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request starttime... 1552530285567
+2019-03-14 10:24:45,568 INFO 51755 [-/127.0.0.1/-/1ms GET /favicon-32x32.png] request querystring === 
+2019-03-14 10:24:45,573 INFO 51755 [-/127.0.0.1/-/6ms GET /favicon-32x32.png] response endtime... 1552530285573
+2019-03-14 10:24:45,573 INFO 51755 [-/127.0.0.1/-/6ms GET /favicon-32x32.png] response time... 6
+2019-03-14 10:25:15,900 INFO 51781 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 10:25:15,928 INFO 51781 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 10:25:15,928 INFO 51781 app beforeStart... begin
+2019-03-14 10:25:15,928 INFO 51781 app mongodb... begin
+2019-03-14 10:25:16,314 INFO 51781 [-/127.0.0.1/-/0ms GET /swagger-ui.html] request starttime... 1552530316313
+2019-03-14 10:25:16,314 INFO 51781 [-/127.0.0.1/-/1ms GET /swagger-ui.html] request querystring === 
+2019-03-14 10:25:16,321 INFO 51781 [-/127.0.0.1/-/8ms GET /swagger-ui.html] response endtime... 1552530316321
+2019-03-14 10:25:16,321 INFO 51781 [-/127.0.0.1/-/8ms GET /swagger-ui.html] response time... 8
+2019-03-14 10:25:16,347 INFO 51781 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request starttime... 1552530316347
+2019-03-14 10:25:16,347 INFO 51781 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request querystring === 
+2019-03-14 10:25:16,350 INFO 51781 [-/127.0.0.1/-/3ms GET /swagger-ui.css] response endtime... 1552530316350
+2019-03-14 10:25:16,350 INFO 51781 [-/127.0.0.1/-/3ms GET /swagger-ui.css] response time... 3
+2019-03-14 10:25:16,350 INFO 51781 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request starttime... 1552530316350
+2019-03-14 10:25:16,350 INFO 51781 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request querystring === 
+2019-03-14 10:25:16,350 INFO 51781 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request starttime... 1552530316350
+2019-03-14 10:25:16,351 INFO 51781 [-/127.0.0.1/-/1ms GET /swagger-ui-standalone-preset.js] request querystring === 
+2019-03-14 10:25:16,351 INFO 51781 [-/127.0.0.1/-/1ms GET /swagger-ui-bundle.js] response endtime... 1552530316351
+2019-03-14 10:25:16,351 INFO 51781 [-/127.0.0.1/-/1ms GET /swagger-ui-bundle.js] response time... 1
+2019-03-14 10:25:16,352 INFO 51781 [-/127.0.0.1/-/2ms GET /swagger-ui-standalone-preset.js] response endtime... 1552530316352
+2019-03-14 10:25:16,352 INFO 51781 [-/127.0.0.1/-/2ms GET /swagger-ui-standalone-preset.js] response time... 2
+2019-03-14 10:25:16,565 INFO 51781 [-/127.0.0.1/-/0ms GET /swagger-doc] request starttime... 1552530316565
+2019-03-14 10:25:16,565 INFO 51781 [-/127.0.0.1/-/0ms GET /swagger-doc] request querystring === 
+2019-03-14 10:25:16,568 INFO 51781 [-/127.0.0.1/-/3ms GET /swagger-doc] response endtime... 1552530316568
+2019-03-14 10:25:16,568 INFO 51781 [-/127.0.0.1/-/3ms GET /swagger-doc] response time... 3
+2019-03-14 10:25:16,580 INFO 51781 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request starttime... 1552530316580
+2019-03-14 10:25:16,580 INFO 51781 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request querystring === 
+2019-03-14 10:25:16,586 INFO 51781 [-/127.0.0.1/-/6ms GET /favicon-32x32.png] response endtime... 1552530316586
+2019-03-14 10:25:16,586 INFO 51781 [-/127.0.0.1/-/6ms GET /favicon-32x32.png] response time... 6
+2019-03-14 10:30:36,085 INFO 51947 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 10:30:36,113 INFO 51947 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 10:30:36,114 INFO 51947 app beforeStart... begin
+2019-03-14 10:30:36,114 INFO 51947 app mongodb... begin
+2019-03-14 10:41:02,216 INFO 51947 [-/127.0.0.1/-/0ms GET /swagger-ui.html] request starttime... 1552531262216
+2019-03-14 10:41:02,217 INFO 51947 [-/127.0.0.1/-/1ms GET /swagger-ui.html] request querystring === 
+2019-03-14 10:41:02,224 INFO 51947 [-/127.0.0.1/-/8ms GET /swagger-ui.html] response endtime... 1552531262224
+2019-03-14 10:41:02,224 INFO 51947 [-/127.0.0.1/-/8ms GET /swagger-ui.html] response time... 8
+2019-03-14 10:41:02,249 INFO 51947 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request starttime... 1552531262249
+2019-03-14 10:41:02,249 INFO 51947 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request querystring === 
+2019-03-14 10:41:02,251 INFO 51947 [-/127.0.0.1/-/2ms GET /swagger-ui.css] response endtime... 1552531262251
+2019-03-14 10:41:02,251 INFO 51947 [-/127.0.0.1/-/2ms GET /swagger-ui.css] response time... 2
+2019-03-14 10:41:02,252 INFO 51947 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request starttime... 1552531262252
+2019-03-14 10:41:02,252 INFO 51947 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request querystring === 
+2019-03-14 10:41:02,253 INFO 51947 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request starttime... 1552531262252
+2019-03-14 10:41:02,253 INFO 51947 [-/127.0.0.1/-/1ms GET /swagger-ui-standalone-preset.js] request querystring === 
+2019-03-14 10:41:02,253 INFO 51947 [-/127.0.0.1/-/1ms GET /swagger-ui-bundle.js] response endtime... 1552531262253
+2019-03-14 10:41:02,254 INFO 51947 [-/127.0.0.1/-/1ms GET /swagger-ui-bundle.js] response time... 1
+2019-03-14 10:41:02,254 INFO 51947 [-/127.0.0.1/-/2ms GET /swagger-ui-standalone-preset.js] response endtime... 1552531262254
+2019-03-14 10:41:02,254 INFO 51947 [-/127.0.0.1/-/2ms GET /swagger-ui-standalone-preset.js] response time... 2
+2019-03-14 10:41:02,454 INFO 51947 [-/127.0.0.1/-/0ms GET /swagger-doc] request starttime... 1552531262454
+2019-03-14 10:41:02,455 INFO 51947 [-/127.0.0.1/-/1ms GET /swagger-doc] request querystring === 
+2019-03-14 10:41:02,459 INFO 51947 [-/127.0.0.1/-/5ms GET /swagger-doc] response endtime... 1552531262459
+2019-03-14 10:41:02,459 INFO 51947 [-/127.0.0.1/-/5ms GET /swagger-doc] response time... 5
+2019-03-14 10:41:02,466 INFO 51947 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request starttime... 1552531262465
+2019-03-14 10:41:02,466 INFO 51947 [-/127.0.0.1/-/1ms GET /favicon-32x32.png] request querystring === 
+2019-03-14 10:41:02,473 INFO 51947 [-/127.0.0.1/-/8ms GET /favicon-32x32.png] response endtime... 1552531262473
+2019-03-14 10:41:02,474 INFO 51947 [-/127.0.0.1/-/9ms GET /favicon-32x32.png] response time... 8
+2019-03-14 10:42:26,625 INFO 51947 [-/127.0.0.1/-/0ms GET /user/query?pageIndex=1&pageSize=10] request starttime... 1552531346625
+2019-03-14 10:42:26,625 INFO 51947 [-/127.0.0.1/-/0ms GET /user/query?pageIndex=1&pageSize=10] request querystring === pageIndex=1&pageSize=10
+2019-03-14 10:42:26,628 INFO 51947 [-/127.0.0.1/-/3ms GET /user/query?pageIndex=1&pageSize=10] response endtime... 1552531346628
+2019-03-14 10:42:26,628 INFO 51947 [-/127.0.0.1/-/3ms GET /user/query?pageIndex=1&pageSize=10] response time... 3
+2019-03-14 10:42:57,485 INFO 51947 [-/127.0.0.1/-/0ms GET /user/query?pageIndex=1&pageSize=10] request starttime... 1552531377485
+2019-03-14 10:42:57,485 INFO 51947 [-/127.0.0.1/-/0ms GET /user/query?pageIndex=1&pageSize=10] request querystring === pageIndex=1&pageSize=10
+2019-03-14 10:42:57,487 INFO 51947 [-/127.0.0.1/-/2ms GET /user/query?pageIndex=1&pageSize=10] response endtime... 1552531377487
+2019-03-14 10:42:57,487 INFO 51947 [-/127.0.0.1/-/2ms GET /user/query?pageIndex=1&pageSize=10] response time... 2
+2019-03-14 10:43:03,099 INFO 51947 [-/127.0.0.1/-/0ms GET /user/query] request starttime... 1552531383099
+2019-03-14 10:43:03,099 INFO 51947 [-/127.0.0.1/-/0ms GET /user/query] request querystring === 
+2019-03-14 10:43:03,100 INFO 51947 [-/127.0.0.1/-/1ms GET /user/query] response endtime... 1552531383100
+2019-03-14 10:43:03,100 INFO 51947 [-/127.0.0.1/-/1ms GET /user/query] response time... 1
+2019-03-14 10:43:04,713 INFO 51947 [-/127.0.0.1/-/0ms GET /user/query] request starttime... 1552531384713
+2019-03-14 10:43:04,713 INFO 51947 [-/127.0.0.1/-/0ms GET /user/query] request querystring === 
+2019-03-14 10:43:04,714 INFO 51947 [-/127.0.0.1/-/1ms GET /user/query] response endtime... 1552531384714
+2019-03-14 10:43:04,714 INFO 51947 [-/127.0.0.1/-/1ms GET /user/query] response time... 1
+2019-03-14 10:43:04,803 INFO 51947 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552531384803
+2019-03-14 10:43:04,803 INFO 51947 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 10:43:04,804 INFO 51947 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552531384804
+2019-03-14 10:43:04,804 INFO 51947 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 10:43:44,827 INFO 52269 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 10:43:44,858 INFO 52269 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 10:43:44,859 INFO 52269 app beforeStart... begin
+2019-03-14 10:43:44,859 INFO 52269 app mongodb... begin
+2019-03-14 10:43:46,771 INFO 52280 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 10:43:46,800 INFO 52280 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 10:43:46,800 INFO 52280 app beforeStart... begin
+2019-03-14 10:43:46,800 INFO 52280 app mongodb... begin
+2019-03-14 10:45:45,571 INFO 52325 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 10:45:45,602 INFO 52325 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 10:45:45,602 INFO 52325 app beforeStart... begin
+2019-03-14 10:45:45,602 INFO 52325 app mongodb... begin
+2019-03-14 10:45:50,875 INFO 52325 [-/127.0.0.1/-/0ms GET /user/query] request starttime... 1552531550875
+2019-03-14 10:45:50,876 INFO 52325 [-/127.0.0.1/-/1ms GET /user/query] request querystring === 
+2019-03-14 10:45:50,881 ERROR 52325 [-/127.0.0.1/-/6ms GET /user/query] nodejs.ReferenceError: ctx is not defined
+    at UserController.query (/Users/richard/github/IntelligentTourMap/app/controller/user.js:17:32)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:45:18)
+    at /Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+    at /Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:36:12
+
+pid: 52325
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 10:45:50,912 INFO 52325 [-/127.0.0.1/-/37ms GET /user/query] response endtime... 1552531550912
+2019-03-14 10:45:50,912 INFO 52325 [-/127.0.0.1/-/37ms GET /user/query] response time... 37
+2019-03-14 10:45:51,298 INFO 52325 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552531551298
+2019-03-14 10:45:51,299 INFO 52325 [-/127.0.0.1/-/1ms GET /favicon.ico] request querystring === 
+2019-03-14 10:45:51,301 INFO 52325 [-/127.0.0.1/-/3ms GET /favicon.ico] response endtime... 1552531551301
+2019-03-14 10:45:51,301 INFO 52325 [-/127.0.0.1/-/3ms GET /favicon.ico] response time... 3
+2019-03-14 10:46:58,256 INFO 52387 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 10:46:58,283 INFO 52387 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 10:46:58,283 INFO 52387 app beforeStart... begin
+2019-03-14 10:46:58,283 INFO 52387 app mongodb... begin
+2019-03-14 10:47:00,273 INFO 52387 [-/127.0.0.1/-/0ms GET /user/query] request starttime... 1552531620272
+2019-03-14 10:47:00,273 INFO 52387 [-/127.0.0.1/-/1ms GET /user/query] request querystring === 
+2019-03-14 10:47:00,310 INFO 52387 [-/127.0.0.1/-/38ms GET /user/query] response endtime... 1552531620310
+2019-03-14 10:47:00,310 INFO 52387 [-/127.0.0.1/-/38ms GET /user/query] response time... 38
+2019-03-14 10:47:00,482 INFO 52387 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552531620482
+2019-03-14 10:47:00,482 INFO 52387 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 10:47:00,483 INFO 52387 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552531620483
+2019-03-14 10:47:00,483 INFO 52387 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 10:47:15,760 INFO 52387 [-/127.0.0.1/-/0ms GET /school/query] request starttime... 1552531635760
+2019-03-14 10:47:15,760 INFO 52387 [-/127.0.0.1/-/0ms GET /school/query] request querystring === 
+2019-03-14 10:47:15,769 INFO 52387 [-/127.0.0.1/-/9ms GET /school/query] response endtime... 1552531635769
+2019-03-14 10:47:15,769 INFO 52387 [-/127.0.0.1/-/9ms GET /school/query] response time... 9
+2019-03-14 10:47:17,493 INFO 52387 [-/127.0.0.1/-/0ms GET /school/query] request starttime... 1552531637493
+2019-03-14 10:47:17,493 INFO 52387 [-/127.0.0.1/-/0ms GET /school/query] request querystring === 
+2019-03-14 10:47:17,499 INFO 52387 [-/127.0.0.1/-/6ms GET /school/query] response endtime... 1552531637499
+2019-03-14 10:47:17,499 INFO 52387 [-/127.0.0.1/-/6ms GET /school/query] response time... 6
+2019-03-14 10:47:17,651 INFO 52387 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552531637651
+2019-03-14 10:47:17,651 INFO 52387 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 10:47:17,651 INFO 52387 [-/127.0.0.1/-/0ms GET /favicon.ico] response endtime... 1552531637651
+2019-03-14 10:47:17,652 INFO 52387 [-/127.0.0.1/-/0ms GET /favicon.ico] response time... 0
+2019-03-14 10:47:49,564 INFO 52387 [-/127.0.0.1/-/0ms GET /school/destroy/5c876ceed623439c0e17d52b] request starttime... 1552531669564
+2019-03-14 10:47:49,564 INFO 52387 [-/127.0.0.1/-/0ms GET /school/destroy/5c876ceed623439c0e17d52b] request querystring === 
+2019-03-14 10:47:49,569 INFO 52387 [-/127.0.0.1/-/5ms GET /school/destroy/5c876ceed623439c0e17d52b] response endtime... 1552531669569
+2019-03-14 10:47:49,569 INFO 52387 [-/127.0.0.1/-/5ms GET /school/destroy/5c876ceed623439c0e17d52b] response time... 5
+2019-03-14 10:48:26,847 INFO 52387 [-/127.0.0.1/-/0ms GET /user/query?pageIndex=1&pageSize=10] request starttime... 1552531706847
+2019-03-14 10:48:26,847 INFO 52387 [-/127.0.0.1/-/0ms GET /user/query?pageIndex=1&pageSize=10] request querystring === pageIndex=1&pageSize=10
+2019-03-14 10:48:26,851 INFO 52387 [-/127.0.0.1/-/4ms GET /user/query?pageIndex=1&pageSize=10] response endtime... 1552531706851
+2019-03-14 10:48:26,851 INFO 52387 [-/127.0.0.1/-/4ms GET /user/query?pageIndex=1&pageSize=10] response time... 4
+2019-03-14 10:49:10,757 INFO 52387 [-/127.0.0.1/-/0ms POST /user/update] request starttime... 1552531750757
+2019-03-14 10:49:10,757 INFO 52387 [-/127.0.0.1/-/0ms POST /user/update] request querystring === 
+2019-03-14 10:49:10,783 INFO 52387 [-/127.0.0.1/-/26ms POST /user/update] response endtime... 1552531750783
+2019-03-14 10:49:10,783 INFO 52387 [-/127.0.0.1/-/26ms POST /user/update] response time... 26
+2019-03-14 10:49:35,555 INFO 52387 [-/127.0.0.1/-/0ms GET /user/query?pageIndex=1&pageSize=10] request starttime... 1552531775555
+2019-03-14 10:49:35,555 INFO 52387 [-/127.0.0.1/-/0ms GET /user/query?pageIndex=1&pageSize=10] request querystring === pageIndex=1&pageSize=10
+2019-03-14 10:49:35,561 INFO 52387 [-/127.0.0.1/-/6ms GET /user/query?pageIndex=1&pageSize=10] response endtime... 1552531775561
+2019-03-14 10:49:35,561 INFO 52387 [-/127.0.0.1/-/6ms GET /user/query?pageIndex=1&pageSize=10] response time... 6
+2019-03-14 10:52:29,951 INFO 52517 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 10:52:29,978 INFO 52517 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 10:52:29,979 INFO 52517 app beforeStart... begin
+2019-03-14 10:52:29,979 INFO 52517 app mongodb... begin
+2019-03-14 10:54:11,957 INFO 52588 app beforeStart... begin
+2019-03-14 10:54:11,958 INFO 52588 app mongodb... begin
+2019-03-14 10:54:12,002 ERROR 52588 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] error at get:/school/query ,the type of response parameter does not exit
+    at generateResponse (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:362:17)
+    at getTag_Path (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:131:35)
+    at buildDocument (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:459:7)
+    at module.exports.swaggerInit.app (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at app.beforeStart (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/app.js:8:5)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 52588
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 10:54:47,634 INFO 52613 app beforeStart... begin
+2019-03-14 10:54:47,635 INFO 52613 app mongodb... begin
+2019-03-14 10:54:47,673 ERROR 52613 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] error at get:/school/query ,the type of response parameter does not exit
+    at generateResponse (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:362:17)
+    at getTag_Path (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:131:35)
+    at buildDocument (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:459:7)
+    at module.exports.swaggerInit.app (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at app.beforeStart (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/app.js:8:5)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 52613
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 10:55:23,297 INFO 52640 app beforeStart... begin
+2019-03-14 10:55:23,298 INFO 52640 app mongodb... begin
+2019-03-14 10:55:23,334 ERROR 52640 [-/127.0.0.1/-/1ms GET /] nodejs.Error: [egg-swagger-doc] error at get:/school/query ,the type of response parameter does not exit
+    at generateResponse (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:362:17)
+    at getTag_Path (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:131:35)
+    at buildDocument (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:459:7)
+    at module.exports.swaggerInit.app (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at app.beforeStart (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/app.js:8:5)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 52640
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 10:59:38,454 INFO 52855 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 10:59:38,482 INFO 52855 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 10:59:38,482 INFO 52855 app beforeStart... begin
+2019-03-14 10:59:38,482 INFO 52855 app mongodb... begin
+2019-03-14 11:00:54,808 INFO 52880 app beforeStart... begin
+2019-03-14 11:00:54,809 INFO 52880 app mongodb... begin
+2019-03-14 11:00:54,843 ERROR 52880 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] app/contract/model.js: listResponse.arrays.itemType is necessary
+    at buildDefinition (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/contract/index.js:97:17)
+    at Object.getDefinitions (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/contract/index.js:183:23)
+    at buildDocument (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:45:30)
+    at documentInit (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:459:7)
+    at module.exports.swaggerInit.app (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at app.beforeStart (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/app.js:8:5)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 52880
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 11:02:46,847 INFO 52955 app beforeStart... begin
+2019-03-14 11:02:46,848 INFO 52955 app mongodb... begin
+2019-03-14 11:02:46,885 ERROR 52955 [-/127.0.0.1/-/1ms GET /] nodejs.Error: [egg-swagger-doc] app/contract/model.js: listResponse.arrays.itemType is necessary
+    at buildDefinition (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/contract/index.js:97:17)
+    at Object.getDefinitions (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/contract/index.js:183:23)
+    at buildDocument (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:45:30)
+    at documentInit (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:459:7)
+    at module.exports.swaggerInit.app (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at app.beforeStart (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/app.js:8:5)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 52955
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 11:02:48,206 INFO 52963 app beforeStart... begin
+2019-03-14 11:02:48,207 INFO 52963 app mongodb... begin
+2019-03-14 11:02:48,241 ERROR 52963 [-/127.0.0.1/-/1ms GET /] nodejs.Error: [egg-swagger-doc] app/contract/model.js: listResponse.arrays.itemType is necessary
+    at buildDefinition (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/contract/index.js:97:17)
+    at Object.getDefinitions (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/contract/index.js:183:23)
+    at buildDocument (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:45:30)
+    at documentInit (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:459:7)
+    at module.exports.swaggerInit.app (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at app.beforeStart (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/app.js:8:5)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 52963
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 11:03:18,917 INFO 52985 app beforeStart... begin
+2019-03-14 11:03:18,918 INFO 52985 app mongodb... begin
+2019-03-14 11:03:18,955 ERROR 52985 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] app/contract/model.js: listResponse.arrays.itemType is necessary
+    at buildDefinition (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/contract/index.js:97:17)
+    at Object.getDefinitions (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/contract/index.js:183:23)
+    at buildDocument (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:45:30)
+    at documentInit (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:459:7)
+    at module.exports.swaggerInit.app (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at app.beforeStart (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/app.js:8:5)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 52985
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 11:03:25,622 INFO 53045 app beforeStart... begin
+2019-03-14 11:03:25,622 INFO 53045 app mongodb... begin
+2019-03-14 11:03:25,656 ERROR 53045 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] app/contract/model.js: listResponse.arrays.itemType is necessary
+    at buildDefinition (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/contract/index.js:97:17)
+    at Object.getDefinitions (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/contract/index.js:183:23)
+    at buildDocument (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:45:30)
+    at documentInit (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:459:7)
+    at module.exports.swaggerInit.app (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at app.beforeStart (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/app.js:8:5)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 53045
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 11:05:02,753 INFO 53151 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 11:05:02,779 INFO 53151 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 11:05:02,780 INFO 53151 app beforeStart... begin
+2019-03-14 11:05:02,780 INFO 53151 app mongodb... begin
+2019-03-14 11:05:09,716 INFO 53151 [-/127.0.0.1/-/0ms GET /swagger-ui.html] request starttime... 1552532709715
+2019-03-14 11:05:09,716 INFO 53151 [-/127.0.0.1/-/1ms GET /swagger-ui.html] request querystring === 
+2019-03-14 11:05:09,725 INFO 53151 [-/127.0.0.1/-/10ms GET /swagger-ui.html] response endtime... 1552532709725
+2019-03-14 11:05:09,725 INFO 53151 [-/127.0.0.1/-/10ms GET /swagger-ui.html] response time... 10
+2019-03-14 11:05:09,749 INFO 53151 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request starttime... 1552532709749
+2019-03-14 11:05:09,749 INFO 53151 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request querystring === 
+2019-03-14 11:05:09,751 INFO 53151 [-/127.0.0.1/-/2ms GET /swagger-ui.css] response endtime... 1552532709751
+2019-03-14 11:05:09,751 INFO 53151 [-/127.0.0.1/-/2ms GET /swagger-ui.css] response time... 2
+2019-03-14 11:05:09,752 INFO 53151 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request starttime... 1552532709752
+2019-03-14 11:05:09,752 INFO 53151 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request querystring === 
+2019-03-14 11:05:09,753 INFO 53151 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request starttime... 1552532709752
+2019-03-14 11:05:09,753 INFO 53151 [-/127.0.0.1/-/1ms GET /swagger-ui-standalone-preset.js] request querystring === 
+2019-03-14 11:05:09,754 INFO 53151 [-/127.0.0.1/-/1ms GET /swagger-ui-bundle.js] response endtime... 1552532709753
+2019-03-14 11:05:09,754 INFO 53151 [-/127.0.0.1/-/2ms GET /swagger-ui-bundle.js] response time... 1
+2019-03-14 11:05:09,754 INFO 53151 [-/127.0.0.1/-/2ms GET /swagger-ui-standalone-preset.js] response endtime... 1552532709754
+2019-03-14 11:05:09,754 INFO 53151 [-/127.0.0.1/-/2ms GET /swagger-ui-standalone-preset.js] response time... 2
+2019-03-14 11:05:09,982 INFO 53151 [-/127.0.0.1/-/0ms GET /swagger-doc] request starttime... 1552532709982
+2019-03-14 11:05:09,982 INFO 53151 [-/127.0.0.1/-/0ms GET /swagger-doc] request querystring === 
+2019-03-14 11:05:09,986 INFO 53151 [-/127.0.0.1/-/4ms GET /swagger-doc] response endtime... 1552532709986
+2019-03-14 11:05:09,986 INFO 53151 [-/127.0.0.1/-/4ms GET /swagger-doc] response time... 4
+2019-03-14 11:05:10,001 INFO 53151 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request starttime... 1552532710001
+2019-03-14 11:05:10,001 INFO 53151 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request querystring === 
+2019-03-14 11:05:10,008 INFO 53151 [-/127.0.0.1/-/6ms GET /favicon-32x32.png] response endtime... 1552532710007
+2019-03-14 11:05:10,008 INFO 53151 [-/127.0.0.1/-/7ms GET /favicon-32x32.png] response time... 6
+2019-03-14 11:05:25,635 INFO 53151 [-/127.0.0.1/-/0ms GET /school/query] request starttime... 1552532725635
+2019-03-14 11:05:25,636 INFO 53151 [-/127.0.0.1/-/1ms GET /school/query] request querystring === 
+2019-03-14 11:05:25,665 INFO 53151 [-/127.0.0.1/-/30ms GET /school/query] response endtime... 1552532725665
+2019-03-14 11:05:25,665 INFO 53151 [-/127.0.0.1/-/30ms GET /school/query] response time... 30
+2019-03-14 11:05:45,913 INFO 53151 [-/127.0.0.1/-/0ms POST /school/update] request starttime... 1552532745913
+2019-03-14 11:05:45,913 INFO 53151 [-/127.0.0.1/-/0ms POST /school/update] request querystring === 
+2019-03-14 11:05:45,938 INFO 53151 [-/127.0.0.1/-/25ms POST /school/update] response endtime... 1552532745938
+2019-03-14 11:05:45,938 INFO 53151 [-/127.0.0.1/-/25ms POST /school/update] response time... 25
+2019-03-14 11:05:53,368 INFO 53151 [-/127.0.0.1/-/0ms GET /school/query] request starttime... 1552532753368
+2019-03-14 11:05:53,368 INFO 53151 [-/127.0.0.1/-/0ms GET /school/query] request querystring === 
+2019-03-14 11:05:53,374 INFO 53151 [-/127.0.0.1/-/6ms GET /school/query] response endtime... 1552532753374
+2019-03-14 11:05:53,374 INFO 53151 [-/127.0.0.1/-/6ms GET /school/query] response time... 6
+2019-03-14 11:05:57,825 INFO 53151 [-/127.0.0.1/-/0ms GET /swagger-ui.html] request starttime... 1552532757825
+2019-03-14 11:05:57,825 INFO 53151 [-/127.0.0.1/-/0ms GET /swagger-ui.html] request querystring === 
+2019-03-14 11:05:57,826 INFO 53151 [-/127.0.0.1/-/1ms GET /swagger-ui.html] response endtime... 1552532757826
+2019-03-14 11:05:57,826 INFO 53151 [-/127.0.0.1/-/1ms GET /swagger-ui.html] response time... 1
+2019-03-14 11:05:57,852 INFO 53151 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request starttime... 1552532757852
+2019-03-14 11:05:57,852 INFO 53151 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request querystring === 
+2019-03-14 11:05:57,855 INFO 53151 [-/127.0.0.1/-/3ms GET /swagger-ui.css] response endtime... 1552532757855
+2019-03-14 11:05:57,855 INFO 53151 [-/127.0.0.1/-/3ms GET /swagger-ui.css] response time... 3
+2019-03-14 11:05:57,856 INFO 53151 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request starttime... 1552532757856
+2019-03-14 11:05:57,856 INFO 53151 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request querystring === 
+2019-03-14 11:05:57,857 INFO 53151 [-/127.0.0.1/-/1ms GET /swagger-ui-bundle.js] response endtime... 1552532757857
+2019-03-14 11:05:57,857 INFO 53151 [-/127.0.0.1/-/1ms GET /swagger-ui-bundle.js] response time... 1
+2019-03-14 11:05:57,858 INFO 53151 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request starttime... 1552532757857
+2019-03-14 11:05:57,858 INFO 53151 [-/127.0.0.1/-/1ms GET /swagger-ui-standalone-preset.js] request querystring === 
+2019-03-14 11:05:57,859 INFO 53151 [-/127.0.0.1/-/1ms GET /swagger-ui-standalone-preset.js] response endtime... 1552532757858
+2019-03-14 11:05:57,859 INFO 53151 [-/127.0.0.1/-/2ms GET /swagger-ui-standalone-preset.js] response time... 1
+2019-03-14 11:05:58,074 INFO 53151 [-/127.0.0.1/-/0ms GET /swagger-doc] request starttime... 1552532758074
+2019-03-14 11:05:58,074 INFO 53151 [-/127.0.0.1/-/0ms GET /swagger-doc] request querystring === 
+2019-03-14 11:05:58,076 INFO 53151 [-/127.0.0.1/-/2ms GET /swagger-doc] response endtime... 1552532758076
+2019-03-14 11:05:58,076 INFO 53151 [-/127.0.0.1/-/2ms GET /swagger-doc] response time... 2
+2019-03-14 11:05:58,087 INFO 53151 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request starttime... 1552532758087
+2019-03-14 11:05:58,088 INFO 53151 [-/127.0.0.1/-/1ms GET /favicon-32x32.png] request querystring === 
+2019-03-14 11:05:58,090 INFO 53151 [-/127.0.0.1/-/3ms GET /favicon-32x32.png] response endtime... 1552532758090
+2019-03-14 11:05:58,090 INFO 53151 [-/127.0.0.1/-/3ms GET /favicon-32x32.png] response time... 3
+2019-03-14 11:08:57,945 INFO 53248 app beforeStart... begin
+2019-03-14 11:08:57,946 INFO 53248 app mongodb... begin
+2019-03-14 11:08:57,985 ERROR 53248 [-/127.0.0.1/-/1ms GET /] nodejs.Error: [egg-swagger-doc] error at get:/school/query ,the type of response parameter does not exit
+    at generateResponse (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:362:17)
+    at getTag_Path (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:131:35)
+    at buildDocument (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:459:7)
+    at module.exports.swaggerInit.app (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at app.beforeStart (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/app.js:8:5)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 53248
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 11:09:18,221 INFO 53273 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 11:09:18,248 INFO 53273 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 11:09:18,249 INFO 53273 app beforeStart... begin
+2019-03-14 11:09:18,249 INFO 53273 app mongodb... begin
+2019-03-14 11:09:22,543 INFO 53273 [-/127.0.0.1/-/0ms GET /swagger-ui.html] request starttime... 1552532962543
+2019-03-14 11:09:22,544 INFO 53273 [-/127.0.0.1/-/1ms GET /swagger-ui.html] request querystring === 
+2019-03-14 11:09:22,551 INFO 53273 [-/127.0.0.1/-/8ms GET /swagger-ui.html] response endtime... 1552532962551
+2019-03-14 11:09:22,551 INFO 53273 [-/127.0.0.1/-/8ms GET /swagger-ui.html] response time... 8
+2019-03-14 11:09:22,577 INFO 53273 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request starttime... 1552532962577
+2019-03-14 11:09:22,577 INFO 53273 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request querystring === 
+2019-03-14 11:09:22,579 INFO 53273 [-/127.0.0.1/-/2ms GET /swagger-ui.css] response endtime... 1552532962579
+2019-03-14 11:09:22,579 INFO 53273 [-/127.0.0.1/-/2ms GET /swagger-ui.css] response time... 2
+2019-03-14 11:09:22,580 INFO 53273 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request starttime... 1552532962580
+2019-03-14 11:09:22,580 INFO 53273 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request querystring === 
+2019-03-14 11:09:22,581 INFO 53273 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request starttime... 1552532962581
+2019-03-14 11:09:22,581 INFO 53273 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request querystring === 
+2019-03-14 11:09:22,582 INFO 53273 [-/127.0.0.1/-/2ms GET /swagger-ui-bundle.js] response endtime... 1552532962582
+2019-03-14 11:09:22,582 INFO 53273 [-/127.0.0.1/-/2ms GET /swagger-ui-bundle.js] response time... 2
+2019-03-14 11:09:22,582 INFO 53273 [-/127.0.0.1/-/1ms GET /swagger-ui-standalone-preset.js] response endtime... 1552532962582
+2019-03-14 11:09:22,582 INFO 53273 [-/127.0.0.1/-/1ms GET /swagger-ui-standalone-preset.js] response time... 1
+2019-03-14 11:09:22,783 INFO 53273 [-/127.0.0.1/-/0ms GET /swagger-doc] request starttime... 1552532962783
+2019-03-14 11:09:22,783 INFO 53273 [-/127.0.0.1/-/0ms GET /swagger-doc] request querystring === 
+2019-03-14 11:09:22,787 INFO 53273 [-/127.0.0.1/-/4ms GET /swagger-doc] response endtime... 1552532962787
+2019-03-14 11:09:22,787 INFO 53273 [-/127.0.0.1/-/4ms GET /swagger-doc] response time... 4
+2019-03-14 11:09:22,798 INFO 53273 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request starttime... 1552532962798
+2019-03-14 11:09:22,798 INFO 53273 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request querystring === 
+2019-03-14 11:09:22,805 INFO 53273 [-/127.0.0.1/-/7ms GET /favicon-32x32.png] response endtime... 1552532962805
+2019-03-14 11:09:22,805 INFO 53273 [-/127.0.0.1/-/7ms GET /favicon-32x32.png] response time... 7
+2019-03-14 11:10:40,742 INFO 53273 [-/127.0.0.1/-/0ms GET /swagger-ui.html] request starttime... 1552533040742
+2019-03-14 11:10:40,742 INFO 53273 [-/127.0.0.1/-/0ms GET /swagger-ui.html] request querystring === 
+2019-03-14 11:10:40,744 INFO 53273 [-/127.0.0.1/-/2ms GET /swagger-ui.html] response endtime... 1552533040744
+2019-03-14 11:10:40,744 INFO 53273 [-/127.0.0.1/-/2ms GET /swagger-ui.html] response time... 2
+2019-03-14 11:10:40,784 INFO 53273 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request starttime... 1552533040784
+2019-03-14 11:10:40,784 INFO 53273 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request querystring === 
+2019-03-14 11:10:40,785 INFO 53273 [-/127.0.0.1/-/1ms GET /swagger-ui.css] response endtime... 1552533040785
+2019-03-14 11:10:40,785 INFO 53273 [-/127.0.0.1/-/1ms GET /swagger-ui.css] response time... 1
+2019-03-14 11:10:40,786 INFO 53273 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request starttime... 1552533040786
+2019-03-14 11:10:40,786 INFO 53273 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request querystring === 
+2019-03-14 11:10:40,787 INFO 53273 [-/127.0.0.1/-/1ms GET /swagger-ui-bundle.js] response endtime... 1552533040787
+2019-03-14 11:10:40,787 INFO 53273 [-/127.0.0.1/-/1ms GET /swagger-ui-bundle.js] response time... 1
+2019-03-14 11:10:40,787 INFO 53273 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request starttime... 1552533040787
+2019-03-14 11:10:40,787 INFO 53273 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request querystring === 
+2019-03-14 11:10:40,788 INFO 53273 [-/127.0.0.1/-/1ms GET /swagger-ui-standalone-preset.js] response endtime... 1552533040788
+2019-03-14 11:10:40,788 INFO 53273 [-/127.0.0.1/-/1ms GET /swagger-ui-standalone-preset.js] response time... 1
+2019-03-14 11:10:40,994 INFO 53273 [-/127.0.0.1/-/0ms GET /swagger-doc] request starttime... 1552533040994
+2019-03-14 11:10:40,994 INFO 53273 [-/127.0.0.1/-/0ms GET /swagger-doc] request querystring === 
+2019-03-14 11:10:40,995 INFO 53273 [-/127.0.0.1/-/1ms GET /swagger-doc] response endtime... 1552533040995
+2019-03-14 11:10:40,995 INFO 53273 [-/127.0.0.1/-/1ms GET /swagger-doc] response time... 1
+2019-03-14 11:10:41,009 INFO 53273 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request starttime... 1552533041009
+2019-03-14 11:10:41,009 INFO 53273 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request querystring === 
+2019-03-14 11:10:41,011 INFO 53273 [-/127.0.0.1/-/2ms GET /favicon-32x32.png] response endtime... 1552533041011
+2019-03-14 11:10:41,011 INFO 53273 [-/127.0.0.1/-/2ms GET /favicon-32x32.png] response time... 2
+2019-03-14 11:11:15,138 INFO 53340 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 11:11:15,165 INFO 53340 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 11:11:15,166 INFO 53340 app beforeStart... begin
+2019-03-14 11:11:15,166 INFO 53340 app mongodb... begin
+2019-03-14 11:11:50,133 INFO 53363 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 11:11:50,161 INFO 53363 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 11:11:50,161 INFO 53363 app beforeStart... begin
+2019-03-14 11:11:50,161 INFO 53363 app mongodb... begin
+2019-03-14 11:12:54,469 INFO 53415 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 11:12:54,497 INFO 53415 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 11:12:54,498 INFO 53415 app beforeStart... begin
+2019-03-14 11:12:54,498 INFO 53415 app mongodb... begin
+2019-03-14 11:15:44,087 INFO 53542 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 11:15:44,117 INFO 53542 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 11:15:44,118 INFO 53542 app beforeStart... begin
+2019-03-14 11:15:44,118 INFO 53542 app mongodb... begin
+2019-03-14 11:19:50,292 INFO 53685 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 11:19:50,319 INFO 53685 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 11:19:50,319 INFO 53685 app beforeStart... begin
+2019-03-14 11:19:50,319 INFO 53685 app mongodb... begin
+2019-03-14 11:20:15,558 INFO 53713 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 11:20:15,585 INFO 53713 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 11:20:15,585 INFO 53713 app beforeStart... begin
+2019-03-14 11:20:15,585 INFO 53713 app mongodb... begin
+2019-03-14 11:20:17,370 INFO 53713 [-/127.0.0.1/-/0ms GET /swagger-ui.html] request starttime... 1552533617369
+2019-03-14 11:20:17,370 INFO 53713 [-/127.0.0.1/-/1ms GET /swagger-ui.html] request querystring === 
+2019-03-14 11:20:17,379 INFO 53713 [-/127.0.0.1/-/10ms GET /swagger-ui.html] response endtime... 1552533617379
+2019-03-14 11:20:17,379 INFO 53713 [-/127.0.0.1/-/10ms GET /swagger-ui.html] response time... 10
+2019-03-14 11:20:17,408 INFO 53713 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request starttime... 1552533617407
+2019-03-14 11:20:17,408 INFO 53713 [-/127.0.0.1/-/1ms GET /swagger-ui.css] request querystring === 
+2019-03-14 11:20:17,411 INFO 53713 [-/127.0.0.1/-/4ms GET /swagger-ui.css] response endtime... 1552533617411
+2019-03-14 11:20:17,411 INFO 53713 [-/127.0.0.1/-/4ms GET /swagger-ui.css] response time... 4
+2019-03-14 11:20:17,411 INFO 53713 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request starttime... 1552533617411
+2019-03-14 11:20:17,411 INFO 53713 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request querystring === 
+2019-03-14 11:20:17,412 INFO 53713 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request starttime... 1552533617412
+2019-03-14 11:20:17,412 INFO 53713 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request querystring === 
+2019-03-14 11:20:17,413 INFO 53713 [-/127.0.0.1/-/2ms GET /swagger-ui-bundle.js] response endtime... 1552533617413
+2019-03-14 11:20:17,413 INFO 53713 [-/127.0.0.1/-/2ms GET /swagger-ui-bundle.js] response time... 2
+2019-03-14 11:20:17,413 INFO 53713 [-/127.0.0.1/-/1ms GET /swagger-ui-standalone-preset.js] response endtime... 1552533617413
+2019-03-14 11:20:17,413 INFO 53713 [-/127.0.0.1/-/1ms GET /swagger-ui-standalone-preset.js] response time... 1
+2019-03-14 11:20:17,625 INFO 53713 [-/127.0.0.1/-/0ms GET /swagger-doc] request starttime... 1552533617625
+2019-03-14 11:20:17,625 INFO 53713 [-/127.0.0.1/-/0ms GET /swagger-doc] request querystring === 
+2019-03-14 11:20:17,629 INFO 53713 [-/127.0.0.1/-/4ms GET /swagger-doc] response endtime... 1552533617629
+2019-03-14 11:20:17,629 INFO 53713 [-/127.0.0.1/-/4ms GET /swagger-doc] response time... 4
+2019-03-14 11:20:17,647 INFO 53713 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request starttime... 1552533617647
+2019-03-14 11:20:17,647 INFO 53713 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request querystring === 
+2019-03-14 11:20:17,653 INFO 53713 [-/127.0.0.1/-/6ms GET /favicon-32x32.png] response endtime... 1552533617653
+2019-03-14 11:20:17,653 INFO 53713 [-/127.0.0.1/-/6ms GET /favicon-32x32.png] response time... 6
+2019-03-14 11:20:38,054 INFO 53737 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 11:20:38,081 INFO 53737 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 11:20:38,082 INFO 53737 app beforeStart... begin
+2019-03-14 11:20:38,082 INFO 53737 app mongodb... begin
+2019-03-14 11:20:39,240 INFO 53737 [-/127.0.0.1/-/0ms GET /swagger-ui.html] request starttime... 1552533639240
+2019-03-14 11:20:39,241 INFO 53737 [-/127.0.0.1/-/1ms GET /swagger-ui.html] request querystring === 
+2019-03-14 11:20:39,248 INFO 53737 [-/127.0.0.1/-/8ms GET /swagger-ui.html] response endtime... 1552533639248
+2019-03-14 11:20:39,249 INFO 53737 [-/127.0.0.1/-/9ms GET /swagger-ui.html] response time... 8
+2019-03-14 11:20:39,274 INFO 53737 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request starttime... 1552533639274
+2019-03-14 11:20:39,274 INFO 53737 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request querystring === 
+2019-03-14 11:20:39,276 INFO 53737 [-/127.0.0.1/-/2ms GET /swagger-ui.css] response endtime... 1552533639276
+2019-03-14 11:20:39,276 INFO 53737 [-/127.0.0.1/-/2ms GET /swagger-ui.css] response time... 2
+2019-03-14 11:20:39,277 INFO 53737 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request starttime... 1552533639277
+2019-03-14 11:20:39,277 INFO 53737 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request querystring === 
+2019-03-14 11:20:39,277 INFO 53737 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request starttime... 1552533639277
+2019-03-14 11:20:39,277 INFO 53737 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request querystring === 
+2019-03-14 11:20:39,278 INFO 53737 [-/127.0.0.1/-/1ms GET /swagger-ui-bundle.js] response endtime... 1552533639278
+2019-03-14 11:20:39,278 INFO 53737 [-/127.0.0.1/-/1ms GET /swagger-ui-bundle.js] response time... 1
+2019-03-14 11:20:39,278 INFO 53737 [-/127.0.0.1/-/1ms GET /swagger-ui-standalone-preset.js] response endtime... 1552533639278
+2019-03-14 11:20:39,278 INFO 53737 [-/127.0.0.1/-/1ms GET /swagger-ui-standalone-preset.js] response time... 1
+2019-03-14 11:20:39,479 INFO 53737 [-/127.0.0.1/-/0ms GET /swagger-doc] request starttime... 1552533639479
+2019-03-14 11:20:39,479 INFO 53737 [-/127.0.0.1/-/0ms GET /swagger-doc] request querystring === 
+2019-03-14 11:20:39,483 INFO 53737 [-/127.0.0.1/-/4ms GET /swagger-doc] response endtime... 1552533639483
+2019-03-14 11:20:39,483 INFO 53737 [-/127.0.0.1/-/4ms GET /swagger-doc] response time... 4
+2019-03-14 11:20:39,496 INFO 53737 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request starttime... 1552533639496
+2019-03-14 11:20:39,496 INFO 53737 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request querystring === 
+2019-03-14 11:20:39,503 INFO 53737 [-/127.0.0.1/-/7ms GET /favicon-32x32.png] response endtime... 1552533639503
+2019-03-14 11:20:39,503 INFO 53737 [-/127.0.0.1/-/7ms GET /favicon-32x32.png] response time... 7
+2019-03-14 11:21:12,547 INFO 53886 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 11:21:12,574 INFO 53886 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 11:21:12,575 INFO 53886 app beforeStart... begin
+2019-03-14 11:21:12,575 INFO 53886 app mongodb... begin
+2019-03-14 11:21:26,404 INFO 53886 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request starttime... 1552533686404
+2019-03-14 11:21:26,405 INFO 53886 [-/127.0.0.1/-/1ms GET /favicon-32x32.png] request querystring === 
+2019-03-14 11:21:26,414 INFO 53886 [-/127.0.0.1/-/10ms GET /favicon-32x32.png] response endtime... 1552533686414
+2019-03-14 11:21:26,414 INFO 53886 [-/127.0.0.1/-/10ms GET /favicon-32x32.png] response time... 10
+2019-03-14 11:21:33,739 INFO 53886 [-/127.0.0.1/-/0ms GET /swagger-ui.html] request starttime... 1552533693739
+2019-03-14 11:21:33,739 INFO 53886 [-/127.0.0.1/-/0ms GET /swagger-ui.html] request querystring === 
+2019-03-14 11:21:33,743 INFO 53886 [-/127.0.0.1/-/4ms GET /swagger-ui.html] response endtime... 1552533693743
+2019-03-14 11:21:33,743 INFO 53886 [-/127.0.0.1/-/4ms GET /swagger-ui.html] response time... 4
+2019-03-14 11:21:33,769 INFO 53886 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request starttime... 1552533693769
+2019-03-14 11:21:33,769 INFO 53886 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request querystring === 
+2019-03-14 11:21:33,776 INFO 53886 [-/127.0.0.1/-/7ms GET /swagger-ui.css] response endtime... 1552533693776
+2019-03-14 11:21:33,776 INFO 53886 [-/127.0.0.1/-/7ms GET /swagger-ui.css] response time... 7
+2019-03-14 11:21:33,777 INFO 53886 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request starttime... 1552533693777
+2019-03-14 11:21:33,777 INFO 53886 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request querystring === 
+2019-03-14 11:21:33,781 INFO 53886 [-/127.0.0.1/-/4ms GET /swagger-ui-bundle.js] response endtime... 1552533693781
+2019-03-14 11:21:33,781 INFO 53886 [-/127.0.0.1/-/4ms GET /swagger-ui-bundle.js] response time... 4
+2019-03-14 11:21:33,781 INFO 53886 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request starttime... 1552533693781
+2019-03-14 11:21:33,781 INFO 53886 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request querystring === 
+2019-03-14 11:21:33,785 INFO 53886 [-/127.0.0.1/-/4ms GET /swagger-ui-standalone-preset.js] response endtime... 1552533693785
+2019-03-14 11:21:33,785 INFO 53886 [-/127.0.0.1/-/4ms GET /swagger-ui-standalone-preset.js] response time... 4
+2019-03-14 11:21:34,010 INFO 53886 [-/127.0.0.1/-/0ms GET /swagger-doc] request starttime... 1552533694010
+2019-03-14 11:21:34,011 INFO 53886 [-/127.0.0.1/-/1ms GET /swagger-doc] request querystring === 
+2019-03-14 11:21:34,018 INFO 53886 [-/127.0.0.1/-/8ms GET /swagger-doc] response endtime... 1552533694018
+2019-03-14 11:21:34,018 INFO 53886 [-/127.0.0.1/-/8ms GET /swagger-doc] response time... 8
+2019-03-14 11:21:34,026 INFO 53886 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request starttime... 1552533694026
+2019-03-14 11:21:34,026 INFO 53886 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request querystring === 
+2019-03-14 11:21:34,037 INFO 53886 [-/127.0.0.1/-/11ms GET /favicon-32x32.png] response endtime... 1552533694037
+2019-03-14 11:21:34,037 INFO 53886 [-/127.0.0.1/-/11ms GET /favicon-32x32.png] response time... 11
+2019-03-14 11:22:02,506 INFO 53941 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 11:22:02,534 INFO 53941 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 11:22:02,535 INFO 53941 app beforeStart... begin
+2019-03-14 11:22:02,535 INFO 53941 app mongodb... begin
+2019-03-14 11:22:07,404 INFO 53941 [-/127.0.0.1/-/1ms POST /school/upload] request starttime... 1552533727403
+2019-03-14 11:22:07,404 INFO 53941 [-/127.0.0.1/-/1ms POST /school/upload] request querystring === 
+2019-03-14 11:22:51,240 INFO 53941 [-/127.0.0.1/-/43837ms POST /school/upload] response endtime... 1552533771240
+2019-03-14 11:22:51,240 INFO 53941 [-/127.0.0.1/-/43837ms POST /school/upload] response time... 43837
+2019-03-14 11:23:00,994 INFO 53941 [-/127.0.0.1/-/0ms GET /public/0.jpeg] request starttime... 1552533780994
+2019-03-14 11:23:00,994 INFO 53941 [-/127.0.0.1/-/0ms GET /public/0.jpeg] request querystring === 
+2019-03-14 11:23:01,008 INFO 53941 [-/127.0.0.1/-/14ms GET /public/0.jpeg] response endtime... 1552533781008
+2019-03-14 11:23:01,008 INFO 53941 [-/127.0.0.1/-/14ms GET /public/0.jpeg] response time... 14
+2019-03-14 11:23:18,081 INFO 53985 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 11:23:18,110 INFO 53985 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 11:23:18,110 INFO 53985 app beforeStart... begin
+2019-03-14 11:23:18,110 INFO 53985 app mongodb... begin
+2019-03-14 11:23:25,480 INFO 54004 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 11:23:25,512 INFO 54004 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 11:23:25,513 INFO 54004 app beforeStart... begin
+2019-03-14 11:23:25,513 INFO 54004 app mongodb... begin
+2019-03-14 11:23:41,104 INFO 54022 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 11:23:41,130 INFO 54022 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 11:23:41,131 INFO 54022 app beforeStart... begin
+2019-03-14 11:23:41,131 INFO 54022 app mongodb... begin
+2019-03-14 11:26:46,438 INFO 54126 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 11:26:46,465 INFO 54126 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 11:26:46,466 INFO 54126 app beforeStart... begin
+2019-03-14 11:26:46,466 INFO 54126 app mongodb... begin
+2019-03-14 11:27:21,640 INFO 54149 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 11:27:21,668 INFO 54149 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 11:27:21,669 INFO 54149 app beforeStart... begin
+2019-03-14 11:27:21,669 INFO 54149 app mongodb... begin
+2019-03-14 11:27:24,639 INFO 54149 [-/127.0.0.1/-/0ms GET /swagger-ui.html] request starttime... 1552534044638
+2019-03-14 11:27:24,640 INFO 54149 [-/127.0.0.1/-/2ms GET /swagger-ui.html] request querystring === 
+2019-03-14 11:27:24,650 INFO 54149 [-/127.0.0.1/-/12ms GET /swagger-ui.html] response endtime... 1552534044650
+2019-03-14 11:27:24,650 INFO 54149 [-/127.0.0.1/-/12ms GET /swagger-ui.html] response time... 12
+2019-03-14 11:27:24,675 INFO 54149 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request starttime... 1552534044675
+2019-03-14 11:27:24,675 INFO 54149 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request querystring === 
+2019-03-14 11:27:24,679 INFO 54149 [-/127.0.0.1/-/4ms GET /swagger-ui.css] response endtime... 1552534044679
+2019-03-14 11:27:24,679 INFO 54149 [-/127.0.0.1/-/4ms GET /swagger-ui.css] response time... 4
+2019-03-14 11:27:24,680 INFO 54149 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request starttime... 1552534044680
+2019-03-14 11:27:24,680 INFO 54149 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request querystring === 
+2019-03-14 11:27:24,683 INFO 54149 [-/127.0.0.1/-/3ms GET /swagger-ui-bundle.js] response endtime... 1552534044683
+2019-03-14 11:27:24,683 INFO 54149 [-/127.0.0.1/-/3ms GET /swagger-ui-bundle.js] response time... 3
+2019-03-14 11:27:24,684 INFO 54149 [-/127.0.0.1/-/1ms GET /swagger-ui-standalone-preset.js] request starttime... 1552534044683
+2019-03-14 11:27:24,684 INFO 54149 [-/127.0.0.1/-/1ms GET /swagger-ui-standalone-preset.js] request querystring === 
+2019-03-14 11:27:24,687 INFO 54149 [-/127.0.0.1/-/4ms GET /swagger-ui-standalone-preset.js] response endtime... 1552534044687
+2019-03-14 11:27:24,687 INFO 54149 [-/127.0.0.1/-/4ms GET /swagger-ui-standalone-preset.js] response time... 4
+2019-03-14 11:27:24,893 INFO 54149 [-/127.0.0.1/-/0ms GET /swagger-doc] request starttime... 1552534044893
+2019-03-14 11:27:24,894 INFO 54149 [-/127.0.0.1/-/1ms GET /swagger-doc] request querystring === 
+2019-03-14 11:27:24,901 INFO 54149 [-/127.0.0.1/-/8ms GET /swagger-doc] response endtime... 1552534044901
+2019-03-14 11:27:24,901 INFO 54149 [-/127.0.0.1/-/8ms GET /swagger-doc] response time... 8
+2019-03-14 11:27:24,909 INFO 54149 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request starttime... 1552534044909
+2019-03-14 11:27:24,909 INFO 54149 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request querystring === 
+2019-03-14 11:27:24,920 INFO 54149 [-/127.0.0.1/-/11ms GET /favicon-32x32.png] response endtime... 1552534044920
+2019-03-14 11:27:24,920 INFO 54149 [-/127.0.0.1/-/11ms GET /favicon-32x32.png] response time... 11
+2019-03-14 11:27:38,165 INFO 54149 [-/127.0.0.1/-/1ms GET /school/query] request starttime... 1552534058164
+2019-03-14 11:27:38,165 INFO 54149 [-/127.0.0.1/-/1ms GET /school/query] request querystring === 
+2019-03-14 11:29:26,128 INFO 54224 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 11:29:26,155 INFO 54224 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 11:29:26,155 INFO 54224 app beforeStart... begin
+2019-03-14 11:29:26,155 INFO 54224 app mongodb... begin
+2019-03-14 11:30:18,521 INFO 54224 [-/127.0.0.1/-/1ms GET /school/query] request starttime... 1552534218520
+2019-03-14 11:30:18,522 INFO 54224 [-/127.0.0.1/-/2ms GET /school/query] request querystring === 
+2019-03-14 11:30:40,423 INFO 54224 [-/127.0.0.1/-/21903ms GET /school/query] response endtime... 1552534240423
+2019-03-14 11:30:40,423 INFO 54224 [-/127.0.0.1/-/21903ms GET /school/query] response time... 21903
+2019-03-14 11:30:41,710 INFO 54258 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 11:30:41,738 INFO 54258 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 11:30:41,739 INFO 54258 app beforeStart... begin
+2019-03-14 11:30:41,739 INFO 54258 app mongodb... begin
+2019-03-14 11:30:44,163 INFO 54258 [-/127.0.0.1/-/1ms GET /school/query] request starttime... 1552534244162
+2019-03-14 11:30:44,164 INFO 54258 [-/127.0.0.1/-/2ms GET /school/query] request querystring === 
+2019-03-14 11:31:45,873 INFO 54258 [-/127.0.0.1/-/61711ms GET /school/query] response endtime... 1552534305873
+2019-03-14 11:31:45,873 INFO 54258 [-/127.0.0.1/-/61711ms GET /school/query] response time... 61711
+2019-03-14 11:31:47,108 INFO 54332 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 11:31:47,136 INFO 54332 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 11:31:47,136 INFO 54332 app beforeStart... begin
+2019-03-14 11:31:47,136 INFO 54332 app mongodb... begin
+2019-03-14 11:31:52,187 INFO 54332 [-/127.0.0.1/-/0ms GET /school/query] request starttime... 1552534312186
+2019-03-14 11:31:52,187 INFO 54332 [-/127.0.0.1/-/1ms GET /school/query] request querystring === 
+2019-03-14 11:31:52,236 INFO 54332 [-/127.0.0.1/-/50ms GET /school/query] response endtime... 1552534312236
+2019-03-14 11:31:52,236 INFO 54332 [-/127.0.0.1/-/50ms GET /school/query] response time... 50
+2019-03-14 11:31:56,996 INFO 54332 [-/127.0.0.1/-/0ms GET /swagger-ui.html] request starttime... 1552534316996
+2019-03-14 11:31:56,996 INFO 54332 [-/127.0.0.1/-/0ms GET /swagger-ui.html] request querystring === 
+2019-03-14 11:31:57,001 INFO 54332 [-/127.0.0.1/-/4ms GET /swagger-ui.html] response endtime... 1552534317000
+2019-03-14 11:31:57,001 INFO 54332 [-/127.0.0.1/-/5ms GET /swagger-ui.html] response time... 4
+2019-03-14 11:31:57,030 INFO 54332 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request starttime... 1552534317030
+2019-03-14 11:31:57,030 INFO 54332 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request querystring === 
+2019-03-14 11:31:57,035 INFO 54332 [-/127.0.0.1/-/5ms GET /swagger-ui.css] response endtime... 1552534317035
+2019-03-14 11:31:57,036 INFO 54332 [-/127.0.0.1/-/6ms GET /swagger-ui.css] response time... 5
+2019-03-14 11:31:57,037 INFO 54332 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request starttime... 1552534317037
+2019-03-14 11:31:57,037 INFO 54332 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request querystring === 
+2019-03-14 11:31:57,041 INFO 54332 [-/127.0.0.1/-/4ms GET /swagger-ui-bundle.js] response endtime... 1552534317041
+2019-03-14 11:31:57,041 INFO 54332 [-/127.0.0.1/-/4ms GET /swagger-ui-bundle.js] response time... 4
+2019-03-14 11:31:57,041 INFO 54332 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request starttime... 1552534317041
+2019-03-14 11:31:57,041 INFO 54332 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request querystring === 
+2019-03-14 11:31:57,045 INFO 54332 [-/127.0.0.1/-/4ms GET /swagger-ui-standalone-preset.js] response endtime... 1552534317045
+2019-03-14 11:31:57,046 INFO 54332 [-/127.0.0.1/-/5ms GET /swagger-ui-standalone-preset.js] response time... 4
+2019-03-14 11:31:57,237 INFO 54332 [-/127.0.0.1/-/0ms GET /swagger-doc] request starttime... 1552534317237
+2019-03-14 11:31:57,237 INFO 54332 [-/127.0.0.1/-/0ms GET /swagger-doc] request querystring === 
+2019-03-14 11:31:57,241 INFO 54332 [-/127.0.0.1/-/4ms GET /swagger-doc] response endtime... 1552534317241
+2019-03-14 11:31:57,242 INFO 54332 [-/127.0.0.1/-/5ms GET /swagger-doc] response time... 4
+2019-03-14 11:31:57,252 INFO 54332 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request starttime... 1552534317252
+2019-03-14 11:31:57,253 INFO 54332 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request querystring === 
+2019-03-14 11:31:57,263 INFO 54332 [-/127.0.0.1/-/11ms GET /favicon-32x32.png] response endtime... 1552534317263
+2019-03-14 11:31:57,263 INFO 54332 [-/127.0.0.1/-/11ms GET /favicon-32x32.png] response time... 11
+2019-03-14 11:32:14,829 INFO 54354 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 11:32:14,860 INFO 54354 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 11:32:14,861 INFO 54354 app beforeStart... begin
+2019-03-14 11:32:14,861 INFO 54354 app mongodb... begin
+2019-03-14 11:32:23,338 INFO 54354 [-/127.0.0.1/-/0ms GET /user/query] request starttime... 1552534343338
+2019-03-14 11:32:23,339 INFO 54354 [-/127.0.0.1/-/1ms GET /user/query] request querystring === 
+2019-03-14 11:32:23,383 INFO 54354 [-/127.0.0.1/-/45ms GET /user/query] response endtime... 1552534343383
+2019-03-14 11:32:23,383 INFO 54354 [-/127.0.0.1/-/45ms GET /user/query] response time... 45

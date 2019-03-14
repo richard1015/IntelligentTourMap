@@ -607,3 +607,196 @@ hostname: richard-MacBook-Pro.local
 pid: 40163
 hostname: richard-MacBook-Pro.local
 
+2019-03-14 09:26:04,583 ERROR 48727 [-/127.0.0.1/-/1ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, scandir '/Users/richard/github/IntelligentTourMap/app/contract'
+    at Object.fs.readdirSync (fs.js:904:18)
+    at contractLoader (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/contract/index.js:39:20)
+    at generateContract (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/contract/index.js:25:3)
+    at Object.getDefinitions (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/contract/index.js:179:7)
+    at buildDocument (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:45:30)
+    at documentInit (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:459:7)
+    at module.exports.swaggerInit.app (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at app.beforeStart (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/app.js:8:5)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/lifecycle.js:248:13)
+errno: -2
+code: "ENOENT"
+syscall: "scandir"
+path: "/Users/richard/github/IntelligentTourMap/app/contract"
+name: "ENOENTError"
+pid: 48727
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 10:45:50,881 ERROR 52325 [-/127.0.0.1/-/6ms GET /user/query] nodejs.ReferenceError: ctx is not defined
+    at UserController.query (/Users/richard/github/IntelligentTourMap/app/controller/user.js:17:32)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:45:18)
+    at /Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+    at /Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:36:12
+
+pid: 52325
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 10:54:12,002 ERROR 52588 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] error at get:/school/query ,the type of response parameter does not exit
+    at generateResponse (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:362:17)
+    at getTag_Path (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:131:35)
+    at buildDocument (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:459:7)
+    at module.exports.swaggerInit.app (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at app.beforeStart (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/app.js:8:5)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 52588
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 10:54:47,673 ERROR 52613 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] error at get:/school/query ,the type of response parameter does not exit
+    at generateResponse (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:362:17)
+    at getTag_Path (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:131:35)
+    at buildDocument (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:459:7)
+    at module.exports.swaggerInit.app (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at app.beforeStart (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/app.js:8:5)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 52613
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 10:55:23,333 ERROR 52640 [-/127.0.0.1/-/1ms GET /] nodejs.Error: [egg-swagger-doc] error at get:/school/query ,the type of response parameter does not exit
+    at generateResponse (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:362:17)
+    at getTag_Path (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:131:35)
+    at buildDocument (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:459:7)
+    at module.exports.swaggerInit.app (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at app.beforeStart (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/app.js:8:5)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 52640
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 11:00:54,843 ERROR 52880 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] app/contract/model.js: listResponse.arrays.itemType is necessary
+    at buildDefinition (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/contract/index.js:97:17)
+    at Object.getDefinitions (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/contract/index.js:183:23)
+    at buildDocument (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:45:30)
+    at documentInit (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:459:7)
+    at module.exports.swaggerInit.app (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at app.beforeStart (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/app.js:8:5)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 52880
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 11:02:46,885 ERROR 52955 [-/127.0.0.1/-/1ms GET /] nodejs.Error: [egg-swagger-doc] app/contract/model.js: listResponse.arrays.itemType is necessary
+    at buildDefinition (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/contract/index.js:97:17)
+    at Object.getDefinitions (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/contract/index.js:183:23)
+    at buildDocument (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:45:30)
+    at documentInit (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:459:7)
+    at module.exports.swaggerInit.app (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at app.beforeStart (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/app.js:8:5)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 52955
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 11:02:48,241 ERROR 52963 [-/127.0.0.1/-/1ms GET /] nodejs.Error: [egg-swagger-doc] app/contract/model.js: listResponse.arrays.itemType is necessary
+    at buildDefinition (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/contract/index.js:97:17)
+    at Object.getDefinitions (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/contract/index.js:183:23)
+    at buildDocument (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:45:30)
+    at documentInit (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:459:7)
+    at module.exports.swaggerInit.app (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at app.beforeStart (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/app.js:8:5)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 52963
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 11:03:18,955 ERROR 52985 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] app/contract/model.js: listResponse.arrays.itemType is necessary
+    at buildDefinition (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/contract/index.js:97:17)
+    at Object.getDefinitions (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/contract/index.js:183:23)
+    at buildDocument (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:45:30)
+    at documentInit (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:459:7)
+    at module.exports.swaggerInit.app (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at app.beforeStart (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/app.js:8:5)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 52985
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 11:03:25,656 ERROR 53045 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] app/contract/model.js: listResponse.arrays.itemType is necessary
+    at buildDefinition (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/contract/index.js:97:17)
+    at Object.getDefinitions (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/contract/index.js:183:23)
+    at buildDocument (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:45:30)
+    at documentInit (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:459:7)
+    at module.exports.swaggerInit.app (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at app.beforeStart (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/app.js:8:5)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 53045
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 11:08:57,985 ERROR 53248 [-/127.0.0.1/-/1ms GET /] nodejs.Error: [egg-swagger-doc] error at get:/school/query ,the type of response parameter does not exit
+    at generateResponse (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:362:17)
+    at getTag_Path (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:131:35)
+    at buildDocument (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/document/index.js:459:7)
+    at module.exports.swaggerInit.app (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at app.beforeStart (/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/app.js:8:5)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 53248
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 11:28:31,500 ERROR 53880 nodejs.ClusterClientNoResponseError: client no response in 69789ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/richard/github/IntelligentTourMap/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 53880
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 11:29:25,064 ERROR 54149 nodejs.ReferenceError: User is not defined (uncaughtException throw 1 times on pid:54149)
+    at /Users/richard/github/IntelligentTourMap/app/service/base.js:23:38
+    at result (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at cursor.close (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/cursor_ops.js:224:62)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:893:14)
+    at _endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:904:37)
+    at Cursor._endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb-core/lib/cursor.js:195:5)
+    at Cursor._endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:226:59)
+
+pid: 54149
+hostname: richard-MacBook-Pro.local
+

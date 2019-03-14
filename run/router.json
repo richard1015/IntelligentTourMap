@@ -6,8 +6,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/user",
-    "regexp": "/^\\/user(?:\\/(?=$))?$/",
+    "path": "/user/query",
+    "regexp": "/^\\/user\\/query(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -54,8 +54,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/school",
-    "regexp": "/^\\/school(?:\\/(?=$))?$/",
+    "path": "/school/query",
+    "regexp": "/^\\/school\\/query(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -68,6 +68,18 @@
     "paramNames": [],
     "path": "/school/update",
     "regexp": "/^\\/school\\/update(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/school/upload",
+    "regexp": "/^\\/school\\/upload(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -91,6 +103,19 @@
     ],
     "path": "/school/destroy/:id",
     "regexp": "/^\\/school\\/destroy\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/swagger-doc",
+    "regexp": "/^\\/swagger-doc(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
