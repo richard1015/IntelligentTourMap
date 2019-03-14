@@ -800,3 +800,118 @@ hostname: richard-MacBook-Pro.local
 pid: 54149
 hostname: richard-MacBook-Pro.local
 
+2019-03-14 15:52:39,771 ERROR 60047 nodejs.ClusterClientNoResponseError: client no response in 73153ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/richard/github/IntelligentTourMap/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 60047
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 16:14:27,964 ERROR 61329 nodejs.TypeError: Cannot read property 'count' of undefined
+    at Promise (/Users/richard/github/IntelligentTourMap/app/service/base.js:18:24)
+    at new Promise (<anonymous>)
+    at SchoolService.getConllectionCount (/Users/richard/github/IntelligentTourMap/app/service/base.js:17:16)
+    at SchoolService._list (/Users/richard/github/IntelligentTourMap/app/service/base.js:26:37)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 61329
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 16:14:41,219 ERROR 61329 nodejs.TypeError: Cannot read property 'count' of undefined
+    at Promise (/Users/richard/github/IntelligentTourMap/app/service/base.js:18:24)
+    at new Promise (<anonymous>)
+    at SchoolService.getConllectionCount (/Users/richard/github/IntelligentTourMap/app/service/base.js:17:16)
+    at SchoolService._list (/Users/richard/github/IntelligentTourMap/app/service/base.js:26:37)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 61329
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 16:15:16,864 ERROR 61358 nodejs.ReferenceError: resolve is not defined (uncaughtException throw 1 times on pid:61358)
+    at /Users/richard/github/IntelligentTourMap/app/service/base.js:30:13
+    at result (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at cursor.close (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/cursor_ops.js:224:62)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:893:14)
+    at _endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:904:37)
+    at Cursor._endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb-core/lib/cursor.js:195:5)
+    at Cursor._endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:226:59)
+
+pid: 61358
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 16:15:46,633 ERROR 61398 nodejs.ReferenceError: resolve is not defined (uncaughtException throw 1 times on pid:61398)
+    at /Users/richard/github/IntelligentTourMap/app/service/base.js:31:13
+    at result (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at cursor.close (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/cursor_ops.js:224:62)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:893:14)
+    at _endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:904:37)
+    at Cursor._endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb-core/lib/cursor.js:195:5)
+    at Cursor._endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:226:59)
+
+pid: 61398
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 16:16:12,433 ERROR 61431 nodejs.ReferenceError: resolve is not defined (uncaughtException throw 1 times on pid:61431)
+    at /Users/richard/github/IntelligentTourMap/app/service/base.js:31:13
+    at result (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at cursor.close (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/cursor_ops.js:224:62)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:893:14)
+    at _endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:904:37)
+    at Cursor._endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb-core/lib/cursor.js:195:5)
+    at Cursor._endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:226:59)
+
+pid: 61431
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 16:16:13,107 ERROR 61431 nodejs.ReferenceError: resolve is not defined (uncaughtException throw 2 times on pid:61431)
+    at /Users/richard/github/IntelligentTourMap/app/service/base.js:31:13
+    at result (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at cursor.close (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/cursor_ops.js:224:62)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:893:14)
+    at _endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:904:37)
+    at Cursor._endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb-core/lib/cursor.js:195:5)
+    at Cursor._endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:226:59)
+
+pid: 61431
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 16:16:36,193 ERROR 61502 nodejs.ReferenceError: resolve is not defined (uncaughtException throw 1 times on pid:61502)
+    at /Users/richard/github/IntelligentTourMap/app/service/base.js:31:13
+    at result (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at cursor.close (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/operations/cursor_ops.js:224:62)
+    at handleCallback (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:893:14)
+    at _endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:904:37)
+    at Cursor._endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb-core/lib/cursor.js:195:5)
+    at Cursor._endSession (/Users/richard/github/IntelligentTourMap/node_modules/mongodb/lib/cursor.js:226:59)
+
+pid: 61502
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 16:20:32,790 ERROR 61772 nodejs.ServerNoResponseError: server 127.0.0.1:50177 no response in 20979ms, maybe the socket is end on the other side. (address: 127.0.0.1:50177)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (/Users/richard/github/IntelligentTourMap/node_modules/tcp-base/lib/base.js:427:21)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ServerNoResponseError"
+pid: 61772
+hostname: richard-MacBook-Pro.local
+

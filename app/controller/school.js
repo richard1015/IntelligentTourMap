@@ -21,8 +21,8 @@ class SchoolController extends Controller {
         this.success(await service.school.list(pageIndex, pageSize))
     }
     /**
-     * @summary 更新用户/创建用户
-     * @description 创建用户 更新用户传 _id 创建用户不传
+     * @summary 更新/创建
+     * @description 创建 更新传 _id 创建不传_id
      * @router post /school/update
      * @request body school *body
      * @response 200 response 更新成功
@@ -31,28 +31,14 @@ class SchoolController extends Controller {
         this.success(await this.ctx.service.school.update(this.ctx.params))
     }
     /**
-     * @summary 删除标注点
-     * @description 删除标注点
+     * @summary 删除
+     * @description 删除
      * @router delete /school/destroy/{id}
      * @request path string *id
      * @response 200 response 删除成功
      */
     async destroy() {
         this.success(await this.ctx.service.school.destroy(this.ctx.params.id))
-    }
-    /**
-     * @summary 上传文件
-     * @description 上传文件
-     * @router post /school/upload
-     * @request formData file *file
-     * @response 200 response 上传成功
-     */
-    async upload() {
-        const { ctx, service } = this;
-        const stream = await ctx.getFileStream();
-        // const id = stream.fields.id;
-        const origin = ctx.origin;
-        this.success(await service.base.uploadImg(origin, stream))
     }
 }
 

@@ -2,6 +2,18 @@
   {
     "name": null,
     "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/common/upload",
+    "regexp": "/^\\/common\\/upload(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
       "HEAD",
       "GET"
     ],
@@ -68,18 +80,6 @@
     "paramNames": [],
     "path": "/school/update",
     "regexp": "/^\\/school\\/update(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/school/upload",
-    "regexp": "/^\\/school\\/upload(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

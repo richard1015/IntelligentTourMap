@@ -5,7 +5,7 @@ module.exports = {
         success: { type: 'boolean', required: true },
         errorMessage: { type: 'string' }
     },
-   
+
     userResponse: {
         arrays: { type: 'array', itemType: "user" },
         pageIndex: { type: 'integer' },

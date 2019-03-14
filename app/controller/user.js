@@ -20,8 +20,8 @@ class UserController extends Controller {
         this.success(await service.user.list(pageIndex, pageSize))
     }
     /**
-     * @summary 更新用户/创建用户
-     * @description 创建用户 更新用户传 _id 创建用户不传
+     * @summary 更新/创建
+     * @description 更新传 _id 创建不传 _id
      * @router post /user/update
      * @request body user *body
      * @response 200 response 更新成功
@@ -30,8 +30,8 @@ class UserController extends Controller {
         this.success(await this.ctx.service.user.update(this.ctx.params))
     }
     /**
-     * @summary 删除用户
-     * @description 删除用户信息
+     * @summary 删除
+     * @description 删除
      * @router delete /user/destroy/{id}
      * @request path string *id
      * @response 200 response 删除成功
