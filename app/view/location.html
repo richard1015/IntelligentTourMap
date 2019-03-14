@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>地图</title>
+    <meta charset="utf-8" />
+    <style>
+        body, #mapContainer {
+            margin: 0;
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        .panel {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+        }
+
+        .qrcodetxt {
+            background-color: #0D9BF2;
+            padding: 6px;
+            color: white;
+        }
+
+        .center {
+            position: absolute;
+            width: 100%;
+            bottom: 24px;
+        }
+
+        .btmtip {
+            cursor: pointer;
+            border-radius: 5px;
+            background-color: #0D9BF2;
+            padding: 12px;
+            width: 200px;
+            color: white;
+            margin: 0 auto;
+        }
+          .amap-marker-label {
+            position: absolute;
+            z-index: 2;
+            border: 0px solid #00f;
+            border-radius: 5px;
+            background-color: #fff;
+            white-space: nowrap;
+            cursor: default;
+            padding: 3px;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+            color: #2bace5;
+        }
+    </style>
+</head>
+<body>
+    <div id="mapContainer"></div>
+    <div class='center'>
+        <div id='bt' style="font-size: 17px;" class="btmtip">查看路线</div>
+    </div>
+    <div id="tip" style="top: inherit;"></div>
+    <script src="/lib/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/H-ui.js"></script>
+    <script type="text/javascript" src="/js/H-ui.admin.js"></script>
+    <script src="/js/Config.js"></script>
+    <link rel="stylesheet" href="https://cache.amap.com/lbs/static/main.css?v=1.0" />
+    <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.3&key=6ce1fe79bdeee8ff525a19dd4f98eca2&plugin=AMap.Geocoder"></script>
+    <script type="text/javascript">
+        //高德地图
+        var geolocation;
+        var map = new AMap.Map("mapContainer", {
+            resizeEnable: true,
+            center: [116.397428, 39.90923],//地图中心点
+            zoom: 15,//地图显示的缩放级别
+            keyboardEnable: false
+        });
+        //更改title
+        function GetQueryString(name) {
+            var reg = new RegExp("(^|&)" +
+            name + "=([^&]*)(&|$)");
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null) return decodeURI(r[2]);//默认编码uncode
+            return null;
+        }
+        $("title").html(GetQueryString("titleName"));
+       
+        map = new AMap.Map("mapContainer");
+        //定位当前位置
+        map.plugin('AMap.Geolocation', function () {
+            geolocation = new AMap.Geolocation({
+                enableHighAccuracy: true,//是否使用高精度定位，默认:true
+                timeout: 10000,          //超过10秒后停止定位，默认：无穷大
+                maximumAge: 0,           //定位结果缓存0毫秒，默认：0
+                convert: true,           //自动偏移坐标，偏移后的坐标为高德坐标，默认：true
+                showButton: false,        //显示定位按钮，默认：true
+                buttonPosition: 'RB',    //定位按钮停靠位置，默认：'LB'，左下角
+                buttonOffset: new AMap.Pixel(10, 20),//定位按钮与设置的停靠位置的偏移量，默认：Pixel(10, 20)
+                showMarker: false,        //定位成功后在定位到的位置显示点标记，默认：true
+                showCircle: false,        //定位成功后用圆圈表示定位精度范围，默认：true
+                panToLocation: false,     //定位成功后将定位到的位置作为地图中心点，默认：true
+                zoomToAccuracy: true      //定位成功后调整地图视野范围使定位位置及精度范围视野内可见，默认：false
+            });
+            map.addControl(geolocation);
+            geolocation.getCurrentPosition();
+            AMap.event.addListener(geolocation, 'complete', onComplete);//返回定位信息
+            AMap.event.addListener(geolocation, 'error', onError);      //返回定位出错信息
+        });
+        //解析定位结果
+        function onComplete(data) {
+            var str = ['定位成功'];
+            str.push('经度：' + data.position.getLng());
+            str.push('纬度：' + data.position.getLat());
+            str.push('精度：' + data.accuracy + ' 米');
+            str.push('是否经过偏移：' + (data.isConverted ? '是' : '否'));
+         //   document.getElementById('tip').innerHTML = str.join('<br>');
+
+            initInfo(data.position.getLng(), data.position.getLat());
+        }
+        //解析定位错误信息
+        function onError(data) {
+            document.getElementById('tip').innerHTML = '定位失败';
+        }
+        function initInfo(currentLng, currentLat) {
+            //搜索
+            var obj = new Object();
+            obj.PageSize = 9999;
+            obj.PageIndex = 1;
+            obj.ID = "";
+            obj.SID = request('id');
+
+            var param = YjlyRequestsign.format(JSON.stringify(JSON.stringify(obj)), "FrH5ScenicCoordList", "FrIntegratedH5", LANGUAGEID);
+            $.ajax({
+                url: "/Handler/YjlyHandler.ashx",
+                async: true, // 注意此处需要同步
+                type: "POST",
+                dataType: "json",
+                data: jQuery.parseJSON(param),
+                success: function (data) {
+                    var value = eval(data); if (value.state == 6) { layer.alert(value.msg, { icon: 2 }, function (index) { window.open('/', '_top'); }); return; }
+                    var createTable = "";
+                    if (value.state == 0) {
+                        var JsonTable = eval('(' + value.value + ')');
+                        for (var i = 0; i < JsonTable.length; i++) {
+                            Lng = JsonTable[i].GaoDeLon;
+                            Lat = JsonTable[i].GaoDeLat;
+                            var titleStr = JsonTable[i].Name;
+                            if (Lng && Lat) {
+                                var tempLonLat = [Lng, Lat];
+                                var marker = new AMap.Marker({
+                                    position: tempLonLat,
+                                    map: map,
+                                    title: titleStr
+                                });
+                                var xPx = titleStr.length * 3.6;
+                                marker.setLabel({
+                                    offset: new AMap.Pixel(-xPx, -26),//修改label相对于maker的位置
+                                    content: titleStr,
+                                    className: 'amap-marker-label'
+                                });
+                                map.setFitView();
+                                var button = document.getElementById('bt');
+                                button.onclick = function () {
+                                    AMap.plugin(["AMap.Driving"], function () {
+                                        var drivingOption = {
+                                            policy: AMap.DrivingPolicy.LEAST_TIME,
+                                            map: map
+                                        };
+                                        var driving = new AMap.Driving(drivingOption); //构造驾车导航类
+                                        driving.searchOnAMAP({
+                                            origin: [currentLng, currentLat],//起点坐标
+                                            originName: "我的位置",//起点名称
+                                            destination: tempLonLat,//终点坐标
+                                            destinationName: titleStr //终点名称
+                                        });
+                                    });
+                                };
+                            }
+                        }
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>

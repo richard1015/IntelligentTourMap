@@ -105,6 +105,7 @@
         "/Users/richard/github/IntelligentTourMap/node_modules/egg-static/config/locales",
         "/Users/richard/github/IntelligentTourMap/node_modules/egg-view/config/locales",
         "/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc/config/locales",
+        "/Users/richard/github/IntelligentTourMap/node_modules/egg-view-ejs/config/locales",
         "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/locales",
         "/Users/richard/github/IntelligentTourMap/config/locales"
       ],
@@ -172,11 +173,15 @@
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Users/richard/github/IntelligentTourMap/app/view",
+      "root": [
+        "/Users/richard/github/IntelligentTourMap/app/view"
+      ],
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
-      "mapping": {}
+      "mapping": {
+        ".html": "ejs"
+      }
     },
     "swaggerdoc": {
       "dirScanner": "./app/controller",
@@ -201,6 +206,14 @@
       "routerMap": false,
       "enable": true
     },
+    "ejs": {
+      "root": "/Users/richard/github/IntelligentTourMap/app/view",
+      "cache": false,
+      "debug": false,
+      "compileDebug": true,
+      "delimiter": null,
+      "strict": false
+    },
     "env": "local",
     "name": "IntelligentTourMap",
     "keys": "<String len: 37>",
@@ -220,6 +233,7 @@
         "egg": "^2.15.1",
         "egg-scripts": "^2.11.0",
         "egg-swagger-doc": "^2.2.9",
+        "egg-view-ejs": "^2.0.0",
         "mongodb": "^3.1.13"
       },
       "devDependencies": {
@@ -538,6 +552,19 @@
       "from": "/Users/richard/github/IntelligentTourMap/config/plugin.js",
       "path": "/Users/richard/github/IntelligentTourMap/node_modules/egg-swagger-doc",
       "version": "2.2.9"
+    },
+    "ejs": {
+      "enable": true,
+      "package": "egg-view-ejs",
+      "name": "ejs",
+      "dependencies": [
+        "view"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/richard/github/IntelligentTourMap/config/plugin.js",
+      "path": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view-ejs",
+      "version": "2.0.0"
     }
   }
 }

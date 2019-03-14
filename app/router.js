@@ -5,6 +5,8 @@
  */
 module.exports = app => {
   const { router, controller } = app;
+  // home router
+  router.get('/', controller.home.index);
   // common router
   router.post('/common/upload', controller.common.upload);
   // user router

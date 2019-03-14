@@ -71,6 +71,10 @@ module.exports = appInfo => {
   // mongodbUrl
   config.mongodbUrl = 'mongodb://127.0.0.1:27017';
   config.mongodbName = 'IntelligentTourMap';
+  
+  config.view = {
+    mapping: { '.html': 'ejs' } //左边写成.html后缀，会自动渲染.html文件
+  };
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',

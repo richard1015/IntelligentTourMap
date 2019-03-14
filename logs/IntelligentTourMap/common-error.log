@@ -915,3 +915,419 @@ name: "ServerNoResponseError"
 pid: 61772
 hostname: richard-MacBook-Pro.local
 
+2019-03-14 16:56:31,650 ERROR 63689 [-/127.0.0.1/-/7ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 63689
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:00:12,312 ERROR 63944 [-/127.0.0.1/-/7ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find /map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 63944
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:00:13,530 ERROR 63944 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find /map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 63944
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:00:26,156 ERROR 63956 [-/127.0.0.1/-/7ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ../views/map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 63956
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:01:02,610 ERROR 63976 [-/127.0.0.1/-/7ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find news/map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 63976
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:01:03,570 ERROR 63976 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find news/map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 63976
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:01:04,078 ERROR 63976 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find news/map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 63976
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:01:04,302 ERROR 63976 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find news/map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 63976
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:01:04,512 ERROR 63976 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find news/map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 63976
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:01:04,751 ERROR 63976 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find news/map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 63976
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:01:04,835 ERROR 63976 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find news/map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 63976
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:01:05,017 ERROR 63976 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find news/map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 63976
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:09:24,774 ERROR 64351 [-/127.0.0.1/-/7ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64351
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:09:33,335 ERROR 64351 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64351
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:09:34,118 ERROR 64351 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64351
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:09:34,344 ERROR 64351 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64351
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:09:34,557 ERROR 64351 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64351
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:10:05,726 ERROR 64447 [-/127.0.0.1/-/7ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find map from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64447
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:10:06,492 ERROR 64447 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find map from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64447
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:10:06,708 ERROR 64447 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find map from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64447
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:10:06,944 ERROR 64447 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find map from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64447
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:10:07,167 ERROR 64447 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find map from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64447
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:10:07,231 ERROR 64447 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find map from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64447
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:12:16,944 ERROR 64447 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find map from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64447
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:12:18,137 ERROR 64447 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find map from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64447
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:13:30,734 ERROR 64795 [-/127.0.0.1/-/9ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64795
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:15:43,770 ERROR 64795 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64795
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:16:00,614 ERROR 64923 [-/127.0.0.1/-/8ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64923
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:16:01,260 ERROR 64923 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64923
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:16:01,477 ERROR 64923 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64923
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:16:01,684 ERROR 64923 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64923
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:16:01,902 ERROR 64923 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64923
+hostname: richard-MacBook-Pro.local
+

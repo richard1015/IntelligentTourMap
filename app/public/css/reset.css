@@ -1,0 +1,150 @@
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+a,
+address,
+big,
+cite,
+em,
+img,
+q,
+small,
+strong,
+sub,
+sup,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+label,
+table,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+footer,
+header,
+menu,
+nav,
+output,
+section,
+time,
+audio,
+video,
+button,
+input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: PingFang SC,Hiragino Sans GB,NotoSansCJKsc,Helvetica Neue,Roboto,"Microsoft Yahei";
+  -webkit-overflow-scrolling: touch;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: .28rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+img{
+  vertical-align: middle;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul,li {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  -webkit-appearance: none;
+  background: none;
+  outline: none;
+  color: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+input,
+textarea {
+  border: none;
+  outline: none;
+  background: none;
+  resize: none;
+}
+
+.clear {
+  zoom: 1;
+}
+
+.clear:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+.multi-ellipsis {
+  overflow:  hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}

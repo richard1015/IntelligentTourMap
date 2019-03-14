@@ -2677,3 +2677,1735 @@ hostname: richard-MacBook-Pro.local
 2019-03-14 16:34:17,908 INFO 62641 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request querystring === 
 2019-03-14 16:34:17,914 INFO 62641 [-/127.0.0.1/-/6ms GET /favicon-32x32.png] response endtime... 1552552457914
 2019-03-14 16:34:17,914 INFO 62641 [-/127.0.0.1/-/6ms GET /favicon-32x32.png] response time... 6
+2019-03-14 16:38:17,858 INFO 62641 [-/127.0.0.1/-/0ms POST /common/upload] request starttime... 1552552697858
+2019-03-14 16:38:17,858 INFO 62641 [-/127.0.0.1/-/0ms POST /common/upload] request querystring === 
+2019-03-14 16:38:17,870 INFO 62641 [-/127.0.0.1/-/12ms POST /common/upload] response endtime... 1552552697870
+2019-03-14 16:38:17,870 INFO 62641 [-/127.0.0.1/-/12ms POST /common/upload] response time... 12
+2019-03-14 16:38:26,061 INFO 62641 [-/127.0.0.1/-/0ms GET /public/IMG_3729.JPG] request starttime... 1552552706061
+2019-03-14 16:38:26,062 INFO 62641 [-/127.0.0.1/-/1ms GET /public/IMG_3729.JPG] request querystring === 
+2019-03-14 16:38:26,515 INFO 62641 [-/127.0.0.1/-/454ms GET /public/IMG_3729.JPG] response endtime... 1552552706515
+2019-03-14 16:38:26,515 INFO 62641 [-/127.0.0.1/-/454ms GET /public/IMG_3729.JPG] response time... 454
+2019-03-14 16:38:32,152 INFO 62641 [-/127.0.0.1/-/0ms GET /swagger-ui.html] request starttime... 1552552712151
+2019-03-14 16:38:32,152 INFO 62641 [-/127.0.0.1/-/1ms GET /swagger-ui.html] request querystring === 
+2019-03-14 16:38:32,153 INFO 62641 [-/127.0.0.1/-/2ms GET /swagger-ui.html] response endtime... 1552552712153
+2019-03-14 16:38:32,153 INFO 62641 [-/127.0.0.1/-/2ms GET /swagger-ui.html] response time... 2
+2019-03-14 16:38:32,181 INFO 62641 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request starttime... 1552552712181
+2019-03-14 16:38:32,181 INFO 62641 [-/127.0.0.1/-/0ms GET /swagger-ui.css] request querystring === 
+2019-03-14 16:38:32,183 INFO 62641 [-/127.0.0.1/-/2ms GET /swagger-ui.css] response endtime... 1552552712183
+2019-03-14 16:38:32,183 INFO 62641 [-/127.0.0.1/-/2ms GET /swagger-ui.css] response time... 2
+2019-03-14 16:38:32,183 INFO 62641 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request starttime... 1552552712183
+2019-03-14 16:38:32,183 INFO 62641 [-/127.0.0.1/-/0ms GET /swagger-ui-bundle.js] request querystring === 
+2019-03-14 16:38:32,184 INFO 62641 [-/127.0.0.1/-/1ms GET /swagger-ui-bundle.js] response endtime... 1552552712184
+2019-03-14 16:38:32,184 INFO 62641 [-/127.0.0.1/-/1ms GET /swagger-ui-bundle.js] response time... 1
+2019-03-14 16:38:32,185 INFO 62641 [-/127.0.0.1/-/0ms GET /swagger-ui-standalone-preset.js] request starttime... 1552552712184
+2019-03-14 16:38:32,185 INFO 62641 [-/127.0.0.1/-/1ms GET /swagger-ui-standalone-preset.js] request querystring === 
+2019-03-14 16:38:32,185 INFO 62641 [-/127.0.0.1/-/1ms GET /swagger-ui-standalone-preset.js] response endtime... 1552552712185
+2019-03-14 16:38:32,185 INFO 62641 [-/127.0.0.1/-/1ms GET /swagger-ui-standalone-preset.js] response time... 1
+2019-03-14 16:38:32,387 INFO 62641 [-/127.0.0.1/-/0ms GET /swagger-doc] request starttime... 1552552712387
+2019-03-14 16:38:32,388 INFO 62641 [-/127.0.0.1/-/1ms GET /swagger-doc] request querystring === 
+2019-03-14 16:38:32,389 INFO 62641 [-/127.0.0.1/-/2ms GET /swagger-doc] response endtime... 1552552712389
+2019-03-14 16:38:32,389 INFO 62641 [-/127.0.0.1/-/2ms GET /swagger-doc] response time... 2
+2019-03-14 16:38:32,399 INFO 62641 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request starttime... 1552552712399
+2019-03-14 16:38:32,399 INFO 62641 [-/127.0.0.1/-/0ms GET /favicon-32x32.png] request querystring === 
+2019-03-14 16:38:32,401 INFO 62641 [-/127.0.0.1/-/2ms GET /favicon-32x32.png] response endtime... 1552552712401
+2019-03-14 16:38:32,401 INFO 62641 [-/127.0.0.1/-/2ms GET /favicon-32x32.png] response time... 2
+2019-03-14 16:41:57,904 INFO 62949 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 16:41:57,935 INFO 62949 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 16:41:57,935 INFO 62949 app beforeStart... begin
+2019-03-14 16:41:57,935 INFO 62949 app mongodb... begin
+2019-03-14 16:42:18,410 INFO 62965 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 16:42:18,439 INFO 62965 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 16:42:18,439 INFO 62965 app beforeStart... begin
+2019-03-14 16:42:18,440 INFO 62965 app mongodb... begin
+2019-03-14 16:43:34,371 INFO 62997 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 16:43:34,398 INFO 62997 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 16:43:34,399 INFO 62997 app beforeStart... begin
+2019-03-14 16:43:34,399 INFO 62997 app mongodb... begin
+2019-03-14 16:55:20,671 INFO 63593 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 16:55:20,698 INFO 63593 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 16:55:20,698 INFO 63593 app beforeStart... begin
+2019-03-14 16:55:20,698 INFO 63593 app mongodb... begin
+2019-03-14 16:55:29,172 INFO 63593 [-/127.0.0.1/-/0ms GET /] request starttime... 1552553729172
+2019-03-14 16:55:29,173 INFO 63593 [-/127.0.0.1/-/1ms GET /] request querystring === 
+2019-03-14 16:55:29,184 INFO 63593 [-/127.0.0.1/-/12ms GET /] response endtime... 1552553729184
+2019-03-14 16:55:29,184 INFO 63593 [-/127.0.0.1/-/12ms GET /] response time... 12
+2019-03-14 16:55:31,048 INFO 63593 [-/127.0.0.1/-/0ms GET /] request starttime... 1552553731048
+2019-03-14 16:55:31,048 INFO 63593 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 16:55:31,050 INFO 63593 [-/127.0.0.1/-/2ms GET /] response endtime... 1552553731050
+2019-03-14 16:55:31,050 INFO 63593 [-/127.0.0.1/-/2ms GET /] response time... 2
+2019-03-14 16:55:31,137 INFO 63593 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552553731137
+2019-03-14 16:55:31,137 INFO 63593 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 16:55:31,138 INFO 63593 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552553731138
+2019-03-14 16:55:31,138 INFO 63593 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 16:56:30,851 INFO 63689 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 16:56:30,878 INFO 63689 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 16:56:30,878 INFO 63689 app beforeStart... begin
+2019-03-14 16:56:30,879 INFO 63689 app mongodb... begin
+2019-03-14 16:56:31,642 INFO 63689 [-/127.0.0.1/-/0ms GET /] request starttime... 1552553791642
+2019-03-14 16:56:31,643 INFO 63689 [-/127.0.0.1/-/1ms GET /] request querystring === 
+2019-03-14 16:56:31,650 ERROR 63689 [-/127.0.0.1/-/7ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 63689
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 16:56:31,678 INFO 63689 [-/127.0.0.1/-/36ms GET /] response endtime... 1552553791677
+2019-03-14 16:56:31,678 INFO 63689 [-/127.0.0.1/-/36ms GET /] response time... 35
+2019-03-14 16:56:32,051 INFO 63689 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552553792051
+2019-03-14 16:56:32,051 INFO 63689 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 16:56:32,053 INFO 63689 [-/127.0.0.1/-/2ms GET /favicon.ico] response endtime... 1552553792053
+2019-03-14 16:56:32,053 INFO 63689 [-/127.0.0.1/-/2ms GET /favicon.ico] response time... 2
+2019-03-14 16:59:33,137 INFO 63895 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 16:59:33,164 INFO 63895 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 16:59:33,165 INFO 63895 app beforeStart... begin
+2019-03-14 16:59:33,166 INFO 63895 app mongodb... begin
+2019-03-14 16:59:55,877 INFO 63916 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 16:59:55,906 INFO 63916 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 16:59:55,906 INFO 63916 app beforeStart... begin
+2019-03-14 16:59:55,907 INFO 63916 app mongodb... begin
+2019-03-14 17:00:04,694 INFO 63944 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 17:00:04,722 INFO 63944 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 17:00:04,723 INFO 63944 app beforeStart... begin
+2019-03-14 17:00:04,723 INFO 63944 app mongodb... begin
+2019-03-14 17:00:12,305 INFO 63944 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554012305
+2019-03-14 17:00:12,306 INFO 63944 [-/127.0.0.1/-/1ms GET /] request querystring === 
+2019-03-14 17:00:12,312 ERROR 63944 [-/127.0.0.1/-/7ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find /map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 63944
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:00:12,341 INFO 63944 [-/127.0.0.1/-/36ms GET /] response endtime... 1552554012341
+2019-03-14 17:00:12,341 INFO 63944 [-/127.0.0.1/-/36ms GET /] response time... 36
+2019-03-14 17:00:12,611 INFO 63944 [-/127.0.0.1/-/1ms GET /favicon.ico] request starttime... 1552554012610
+2019-03-14 17:00:12,611 INFO 63944 [-/127.0.0.1/-/1ms GET /favicon.ico] request querystring === 
+2019-03-14 17:00:12,612 INFO 63944 [-/127.0.0.1/-/2ms GET /favicon.ico] response endtime... 1552554012612
+2019-03-14 17:00:12,612 INFO 63944 [-/127.0.0.1/-/2ms GET /favicon.ico] response time... 2
+2019-03-14 17:00:13,529 INFO 63944 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554013529
+2019-03-14 17:00:13,529 INFO 63944 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:00:13,530 ERROR 63944 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find /map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 63944
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:00:13,533 INFO 63944 [-/127.0.0.1/-/4ms GET /] response endtime... 1552554013533
+2019-03-14 17:00:13,533 INFO 63944 [-/127.0.0.1/-/4ms GET /] response time... 4
+2019-03-14 17:00:13,766 INFO 63944 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552554013766
+2019-03-14 17:00:13,766 INFO 63944 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:00:13,767 INFO 63944 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552554013767
+2019-03-14 17:00:13,767 INFO 63944 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 17:00:24,631 INFO 63956 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 17:00:24,660 INFO 63956 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 17:00:24,660 INFO 63956 app beforeStart... begin
+2019-03-14 17:00:24,660 INFO 63956 app mongodb... begin
+2019-03-14 17:00:26,148 INFO 63956 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554026148
+2019-03-14 17:00:26,149 INFO 63956 [-/127.0.0.1/-/1ms GET /] request querystring === 
+2019-03-14 17:00:26,156 ERROR 63956 [-/127.0.0.1/-/7ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ../views/map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 63956
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:00:26,184 INFO 63956 [-/127.0.0.1/-/36ms GET /] response endtime... 1552554026184
+2019-03-14 17:00:26,184 INFO 63956 [-/127.0.0.1/-/36ms GET /] response time... 36
+2019-03-14 17:00:26,458 INFO 63956 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552554026458
+2019-03-14 17:00:26,458 INFO 63956 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:00:26,460 INFO 63956 [-/127.0.0.1/-/2ms GET /favicon.ico] response endtime... 1552554026460
+2019-03-14 17:00:26,460 INFO 63956 [-/127.0.0.1/-/2ms GET /favicon.ico] response time... 2
+2019-03-14 17:00:47,686 INFO 63976 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 17:00:47,715 INFO 63976 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 17:00:47,715 INFO 63976 app beforeStart... begin
+2019-03-14 17:00:47,715 INFO 63976 app mongodb... begin
+2019-03-14 17:01:02,603 INFO 63976 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554062602
+2019-03-14 17:01:02,603 INFO 63976 [-/127.0.0.1/-/1ms GET /] request querystring === 
+2019-03-14 17:01:02,610 ERROR 63976 [-/127.0.0.1/-/7ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find news/map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 63976
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:01:02,655 INFO 63976 [-/127.0.0.1/-/53ms GET /] response endtime... 1552554062655
+2019-03-14 17:01:02,655 INFO 63976 [-/127.0.0.1/-/53ms GET /] response time... 53
+2019-03-14 17:01:02,924 INFO 63976 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552554062924
+2019-03-14 17:01:02,924 INFO 63976 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:01:02,927 INFO 63976 [-/127.0.0.1/-/2ms GET /favicon.ico] response endtime... 1552554062926
+2019-03-14 17:01:02,927 INFO 63976 [-/127.0.0.1/-/3ms GET /favicon.ico] response time... 2
+2019-03-14 17:01:03,569 INFO 63976 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554063569
+2019-03-14 17:01:03,569 INFO 63976 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:01:03,570 ERROR 63976 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find news/map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 63976
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:01:03,573 INFO 63976 [-/127.0.0.1/-/4ms GET /] response endtime... 1552554063573
+2019-03-14 17:01:03,573 INFO 63976 [-/127.0.0.1/-/4ms GET /] response time... 4
+2019-03-14 17:01:03,789 INFO 63976 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552554063789
+2019-03-14 17:01:03,789 INFO 63976 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:01:03,790 INFO 63976 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552554063790
+2019-03-14 17:01:03,790 INFO 63976 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 17:01:04,077 INFO 63976 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554064077
+2019-03-14 17:01:04,078 INFO 63976 [-/127.0.0.1/-/1ms GET /] request querystring === 
+2019-03-14 17:01:04,078 ERROR 63976 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find news/map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 63976
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:01:04,081 INFO 63976 [-/127.0.0.1/-/4ms GET /] response endtime... 1552554064081
+2019-03-14 17:01:04,081 INFO 63976 [-/127.0.0.1/-/4ms GET /] response time... 4
+2019-03-14 17:01:04,302 INFO 63976 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554064302
+2019-03-14 17:01:04,302 INFO 63976 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:01:04,302 ERROR 63976 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find news/map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 63976
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:01:04,306 INFO 63976 [-/127.0.0.1/-/4ms GET /] response endtime... 1552554064306
+2019-03-14 17:01:04,306 INFO 63976 [-/127.0.0.1/-/4ms GET /] response time... 4
+2019-03-14 17:01:04,307 INFO 63976 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552554064307
+2019-03-14 17:01:04,307 INFO 63976 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:01:04,307 INFO 63976 [-/127.0.0.1/-/0ms GET /favicon.ico] response endtime... 1552554064307
+2019-03-14 17:01:04,307 INFO 63976 [-/127.0.0.1/-/0ms GET /favicon.ico] response time... 0
+2019-03-14 17:01:04,511 INFO 63976 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554064511
+2019-03-14 17:01:04,511 INFO 63976 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:01:04,512 ERROR 63976 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find news/map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 63976
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:01:04,514 INFO 63976 [-/127.0.0.1/-/3ms GET /] response endtime... 1552554064514
+2019-03-14 17:01:04,514 INFO 63976 [-/127.0.0.1/-/3ms GET /] response time... 3
+2019-03-14 17:01:04,750 INFO 63976 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554064750
+2019-03-14 17:01:04,750 INFO 63976 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:01:04,751 ERROR 63976 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find news/map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 63976
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:01:04,753 INFO 63976 [-/127.0.0.1/-/3ms GET /] response endtime... 1552554064753
+2019-03-14 17:01:04,753 INFO 63976 [-/127.0.0.1/-/3ms GET /] response time... 3
+2019-03-14 17:01:04,834 INFO 63976 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554064834
+2019-03-14 17:01:04,835 INFO 63976 [-/127.0.0.1/-/1ms GET /] request querystring === 
+2019-03-14 17:01:04,835 ERROR 63976 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find news/map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 63976
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:01:04,839 INFO 63976 [-/127.0.0.1/-/5ms GET /] response endtime... 1552554064839
+2019-03-14 17:01:04,839 INFO 63976 [-/127.0.0.1/-/5ms GET /] response time... 5
+2019-03-14 17:01:05,016 INFO 63976 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554065016
+2019-03-14 17:01:05,016 INFO 63976 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:01:05,017 ERROR 63976 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find news/map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 63976
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:01:05,020 INFO 63976 [-/127.0.0.1/-/4ms GET /] response endtime... 1552554065020
+2019-03-14 17:01:05,020 INFO 63976 [-/127.0.0.1/-/4ms GET /] response time... 4
+2019-03-14 17:01:05,328 INFO 63976 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552554065328
+2019-03-14 17:01:05,328 INFO 63976 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:01:05,329 INFO 63976 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552554065329
+2019-03-14 17:01:05,329 INFO 63976 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 17:08:35,139 INFO 64291 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 17:08:35,169 INFO 64291 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 17:08:35,170 INFO 64291 app beforeStart... begin
+2019-03-14 17:08:35,170 INFO 64291 app mongodb... begin
+2019-03-14 17:08:53,144 INFO 64313 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 17:08:53,177 INFO 64313 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 17:08:53,178 INFO 64313 app beforeStart... begin
+2019-03-14 17:08:53,178 INFO 64313 app mongodb... begin
+2019-03-14 17:09:15,423 INFO 64351 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 17:09:15,451 INFO 64351 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 17:09:15,451 INFO 64351 app beforeStart... begin
+2019-03-14 17:09:15,451 INFO 64351 app mongodb... begin
+2019-03-14 17:09:24,768 INFO 64351 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554564767
+2019-03-14 17:09:24,768 INFO 64351 [-/127.0.0.1/-/1ms GET /] request querystring === 
+2019-03-14 17:09:24,775 ERROR 64351 [-/127.0.0.1/-/7ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64351
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:09:24,827 INFO 64351 [-/127.0.0.1/-/60ms GET /] response endtime... 1552554564827
+2019-03-14 17:09:24,827 INFO 64351 [-/127.0.0.1/-/60ms GET /] response time... 60
+2019-03-14 17:09:25,093 INFO 64351 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552554565093
+2019-03-14 17:09:25,093 INFO 64351 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:09:25,094 INFO 64351 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552554565094
+2019-03-14 17:09:25,094 INFO 64351 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 17:09:33,334 INFO 64351 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554573334
+2019-03-14 17:09:33,334 INFO 64351 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:09:33,335 ERROR 64351 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64351
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:09:33,338 INFO 64351 [-/127.0.0.1/-/4ms GET /] response endtime... 1552554573338
+2019-03-14 17:09:33,338 INFO 64351 [-/127.0.0.1/-/4ms GET /] response time... 4
+2019-03-14 17:09:33,595 INFO 64351 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552554573595
+2019-03-14 17:09:33,595 INFO 64351 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:09:33,595 INFO 64351 [-/127.0.0.1/-/0ms GET /favicon.ico] response endtime... 1552554573595
+2019-03-14 17:09:33,595 INFO 64351 [-/127.0.0.1/-/0ms GET /favicon.ico] response time... 0
+2019-03-14 17:09:34,117 INFO 64351 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554574117
+2019-03-14 17:09:34,117 INFO 64351 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:09:34,118 ERROR 64351 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64351
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:09:34,120 INFO 64351 [-/127.0.0.1/-/3ms GET /] response endtime... 1552554574120
+2019-03-14 17:09:34,120 INFO 64351 [-/127.0.0.1/-/3ms GET /] response time... 3
+2019-03-14 17:09:34,343 INFO 64351 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554574343
+2019-03-14 17:09:34,343 INFO 64351 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:09:34,344 ERROR 64351 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64351
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:09:34,349 INFO 64351 [-/127.0.0.1/-/6ms GET /] response endtime... 1552554574349
+2019-03-14 17:09:34,349 INFO 64351 [-/127.0.0.1/-/6ms GET /] response time... 6
+2019-03-14 17:09:34,556 INFO 64351 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554574556
+2019-03-14 17:09:34,556 INFO 64351 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:09:34,557 ERROR 64351 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find map.html from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64351
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:09:34,560 INFO 64351 [-/127.0.0.1/-/4ms GET /] response endtime... 1552554574560
+2019-03-14 17:09:34,560 INFO 64351 [-/127.0.0.1/-/4ms GET /] response time... 4
+2019-03-14 17:09:34,798 INFO 64351 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552554574798
+2019-03-14 17:09:34,798 INFO 64351 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:09:34,798 INFO 64351 [-/127.0.0.1/-/0ms GET /favicon.ico] response endtime... 1552554574798
+2019-03-14 17:09:34,798 INFO 64351 [-/127.0.0.1/-/0ms GET /favicon.ico] response time... 0
+2019-03-14 17:09:41,831 INFO 64431 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 17:09:41,861 INFO 64431 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 17:09:41,862 INFO 64431 app beforeStart... begin
+2019-03-14 17:09:41,862 INFO 64431 app mongodb... begin
+2019-03-14 17:09:59,378 INFO 64447 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 17:09:59,413 INFO 64447 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 17:09:59,414 INFO 64447 app beforeStart... begin
+2019-03-14 17:09:59,414 INFO 64447 app mongodb... begin
+2019-03-14 17:10:05,720 INFO 64447 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554605719
+2019-03-14 17:10:05,720 INFO 64447 [-/127.0.0.1/-/1ms GET /] request querystring === 
+2019-03-14 17:10:05,727 ERROR 64447 [-/127.0.0.1/-/7ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find map from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64447
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:10:05,755 INFO 64447 [-/127.0.0.1/-/36ms GET /] response endtime... 1552554605755
+2019-03-14 17:10:05,755 INFO 64447 [-/127.0.0.1/-/36ms GET /] response time... 36
+2019-03-14 17:10:06,033 INFO 64447 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552554606033
+2019-03-14 17:10:06,033 INFO 64447 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:10:06,034 INFO 64447 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552554606034
+2019-03-14 17:10:06,034 INFO 64447 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 17:10:06,492 INFO 64447 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554606492
+2019-03-14 17:10:06,492 INFO 64447 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:10:06,493 ERROR 64447 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find map from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64447
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:10:06,496 INFO 64447 [-/127.0.0.1/-/4ms GET /] response endtime... 1552554606496
+2019-03-14 17:10:06,496 INFO 64447 [-/127.0.0.1/-/4ms GET /] response time... 4
+2019-03-14 17:10:06,708 INFO 64447 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554606707
+2019-03-14 17:10:06,708 INFO 64447 [-/127.0.0.1/-/1ms GET /] request querystring === 
+2019-03-14 17:10:06,708 ERROR 64447 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find map from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64447
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:10:06,711 INFO 64447 [-/127.0.0.1/-/4ms GET /] response endtime... 1552554606711
+2019-03-14 17:10:06,711 INFO 64447 [-/127.0.0.1/-/4ms GET /] response time... 4
+2019-03-14 17:10:06,943 INFO 64447 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554606943
+2019-03-14 17:10:06,944 INFO 64447 [-/127.0.0.1/-/1ms GET /] request querystring === 
+2019-03-14 17:10:06,944 ERROR 64447 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find map from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64447
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:10:06,947 INFO 64447 [-/127.0.0.1/-/4ms GET /] response endtime... 1552554606947
+2019-03-14 17:10:06,947 INFO 64447 [-/127.0.0.1/-/4ms GET /] response time... 4
+2019-03-14 17:10:07,166 INFO 64447 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554607166
+2019-03-14 17:10:07,166 INFO 64447 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:10:07,167 ERROR 64447 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find map from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64447
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:10:07,170 INFO 64447 [-/127.0.0.1/-/4ms GET /] response endtime... 1552554607170
+2019-03-14 17:10:07,170 INFO 64447 [-/127.0.0.1/-/4ms GET /] response time... 4
+2019-03-14 17:10:07,231 INFO 64447 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554607231
+2019-03-14 17:10:07,231 INFO 64447 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:10:07,231 ERROR 64447 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find map from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64447
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:10:07,234 INFO 64447 [-/127.0.0.1/-/3ms GET /] response endtime... 1552554607234
+2019-03-14 17:10:07,234 INFO 64447 [-/127.0.0.1/-/3ms GET /] response time... 3
+2019-03-14 17:10:07,683 INFO 64447 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552554607683
+2019-03-14 17:10:07,683 INFO 64447 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:10:07,684 INFO 64447 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552554607684
+2019-03-14 17:10:07,684 INFO 64447 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 17:12:16,943 INFO 64447 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554736943
+2019-03-14 17:12:16,943 INFO 64447 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:12:16,944 ERROR 64447 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find map from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64447
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:12:16,948 INFO 64447 [-/127.0.0.1/-/5ms GET /] response endtime... 1552554736948
+2019-03-14 17:12:16,948 INFO 64447 [-/127.0.0.1/-/5ms GET /] response time... 5
+2019-03-14 17:12:17,196 INFO 64447 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552554737196
+2019-03-14 17:12:17,196 INFO 64447 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:12:17,196 INFO 64447 [-/127.0.0.1/-/0ms GET /favicon.ico] response endtime... 1552554737196
+2019-03-14 17:12:17,197 INFO 64447 [-/127.0.0.1/-/0ms GET /favicon.ico] response time... 0
+2019-03-14 17:12:18,136 INFO 64447 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554738136
+2019-03-14 17:12:18,136 INFO 64447 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:12:18,137 ERROR 64447 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find map from 
+    at Map.resolve (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64447
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:12:18,141 INFO 64447 [-/127.0.0.1/-/5ms GET /] response endtime... 1552554738141
+2019-03-14 17:12:18,141 INFO 64447 [-/127.0.0.1/-/5ms GET /] response time... 5
+2019-03-14 17:12:18,373 INFO 64447 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552554738373
+2019-03-14 17:12:18,374 INFO 64447 [-/127.0.0.1/-/1ms GET /favicon.ico] request querystring === 
+2019-03-14 17:12:18,374 INFO 64447 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552554738374
+2019-03-14 17:12:18,374 INFO 64447 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 17:12:40,614 INFO 64668 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 17:12:40,641 INFO 64668 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 17:12:40,641 INFO 64668 app beforeStart... begin
+2019-03-14 17:12:40,642 INFO 64668 app mongodb... begin
+2019-03-14 17:12:43,903 INFO 64668 [-/127.0.0.1/-/1ms GET /] request starttime... 1552554763902
+2019-03-14 17:12:43,903 INFO 64668 [-/127.0.0.1/-/1ms GET /] request querystring === 
+2019-03-14 17:12:43,916 INFO 64668 [-/127.0.0.1/-/14ms GET /] response endtime... 1552554763916
+2019-03-14 17:12:43,916 INFO 64668 [-/127.0.0.1/-/14ms GET /] response time... 14
+2019-03-14 17:12:43,945 INFO 64668 [-/127.0.0.1/-/0ms GET /lib/jquery/1.9.1/jquery.min.js] request starttime... 1552554763945
+2019-03-14 17:12:43,945 INFO 64668 [-/127.0.0.1/-/0ms GET /lib/jquery/1.9.1/jquery.min.js] request querystring === 
+2019-03-14 17:12:43,949 INFO 64668 [-/127.0.0.1/-/4ms GET /lib/jquery/1.9.1/jquery.min.js] response endtime... 1552554763949
+2019-03-14 17:12:43,949 INFO 64668 [-/127.0.0.1/-/4ms GET /lib/jquery/1.9.1/jquery.min.js] response time... 4
+2019-03-14 17:12:43,950 INFO 64668 [-/127.0.0.1/-/0ms GET /lib/layer/1.9.3/layer.js] request starttime... 1552554763950
+2019-03-14 17:12:43,950 INFO 64668 [-/127.0.0.1/-/0ms GET /lib/layer/1.9.3/layer.js] request querystring === 
+2019-03-14 17:12:43,951 INFO 64668 [-/127.0.0.1/-/1ms GET /lib/layer/1.9.3/layer.js] response endtime... 1552554763951
+2019-03-14 17:12:43,951 INFO 64668 [-/127.0.0.1/-/1ms GET /lib/layer/1.9.3/layer.js] response time... 1
+2019-03-14 17:12:43,951 INFO 64668 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/laypage.js] request starttime... 1552554763951
+2019-03-14 17:12:43,952 INFO 64668 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/laypage.js] request querystring === 
+2019-03-14 17:12:43,952 INFO 64668 [-/127.0.0.1/-/1ms GET /lib/laypage/1.2/laypage.js] response endtime... 1552554763952
+2019-03-14 17:12:43,952 INFO 64668 [-/127.0.0.1/-/1ms GET /lib/laypage/1.2/laypage.js] response time... 1
+2019-03-14 17:12:43,953 INFO 64668 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/skin/laypage.css] request starttime... 1552554763953
+2019-03-14 17:12:43,953 INFO 64668 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/skin/laypage.css] request querystring === 
+2019-03-14 17:12:43,954 INFO 64668 [-/127.0.0.1/-/1ms GET /lib/laypage/1.2/skin/laypage.css] response endtime... 1552554763954
+2019-03-14 17:12:43,954 INFO 64668 [-/127.0.0.1/-/1ms GET /lib/laypage/1.2/skin/laypage.css] response time... 1
+2019-03-14 17:12:43,954 INFO 64668 [-/127.0.0.1/-/0ms GET /public/lib/jquery/1.9.1/jquery.min.js] request starttime... 1552554763954
+2019-03-14 17:12:43,954 INFO 64668 [-/127.0.0.1/-/0ms GET /public/lib/jquery/1.9.1/jquery.min.js] request querystring === 
+2019-03-14 17:12:43,956 INFO 64668 [-/127.0.0.1/-/2ms GET /public/lib/jquery/1.9.1/jquery.min.js] response endtime... 1552554763956
+2019-03-14 17:12:43,956 INFO 64668 [-/127.0.0.1/-/2ms GET /public/lib/jquery/1.9.1/jquery.min.js] response time... 2
+2019-03-14 17:12:44,006 INFO 64668 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] request starttime... 1552554764005
+2019-03-14 17:12:44,006 INFO 64668 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:12:44,006 INFO 64668 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response endtime... 1552554764006
+2019-03-14 17:12:44,006 INFO 64668 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response time... 1
+2019-03-14 17:12:44,786 INFO 64668 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552554764786
+2019-03-14 17:12:44,787 INFO 64668 [-/127.0.0.1/-/1ms GET /favicon.ico] request querystring === 
+2019-03-14 17:12:44,788 INFO 64668 [-/127.0.0.1/-/2ms GET /favicon.ico] response endtime... 1552554764788
+2019-03-14 17:12:44,788 INFO 64668 [-/127.0.0.1/-/2ms GET /favicon.ico] response time... 2
+2019-03-14 17:13:04,107 INFO 64709 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 17:13:04,135 INFO 64709 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 17:13:04,135 INFO 64709 app beforeStart... begin
+2019-03-14 17:13:04,135 INFO 64709 app mongodb... begin
+2019-03-14 17:13:18,440 INFO 64795 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 17:13:18,466 INFO 64795 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 17:13:18,467 INFO 64795 app beforeStart... begin
+2019-03-14 17:13:18,467 INFO 64795 app mongodb... begin
+2019-03-14 17:13:30,725 INFO 64795 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554810725
+2019-03-14 17:13:30,726 INFO 64795 [-/127.0.0.1/-/1ms GET /] request querystring === 
+2019-03-14 17:13:30,734 ERROR 64795 [-/127.0.0.1/-/9ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64795
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:13:30,782 INFO 64795 [-/127.0.0.1/-/57ms GET /] response endtime... 1552554810782
+2019-03-14 17:13:30,782 INFO 64795 [-/127.0.0.1/-/57ms GET /] response time... 57
+2019-03-14 17:15:43,768 INFO 64795 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554943768
+2019-03-14 17:15:43,768 INFO 64795 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:15:43,770 ERROR 64795 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64795
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:15:43,772 INFO 64795 [-/127.0.0.1/-/4ms GET /] response endtime... 1552554943772
+2019-03-14 17:15:43,772 INFO 64795 [-/127.0.0.1/-/4ms GET /] response time... 4
+2019-03-14 17:15:44,001 INFO 64795 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552554944001
+2019-03-14 17:15:44,001 INFO 64795 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:15:44,002 INFO 64795 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552554944002
+2019-03-14 17:15:44,002 INFO 64795 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 17:15:58,970 INFO 64923 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 17:15:58,997 INFO 64923 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 17:15:58,998 INFO 64923 app beforeStart... begin
+2019-03-14 17:15:58,998 INFO 64923 app mongodb... begin
+2019-03-14 17:16:00,607 INFO 64923 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554960606
+2019-03-14 17:16:00,607 INFO 64923 [-/127.0.0.1/-/1ms GET /] request querystring === 
+2019-03-14 17:16:00,614 ERROR 64923 [-/127.0.0.1/-/8ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64923
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:16:00,642 INFO 64923 [-/127.0.0.1/-/36ms GET /] response endtime... 1552554960642
+2019-03-14 17:16:00,642 INFO 64923 [-/127.0.0.1/-/36ms GET /] response time... 36
+2019-03-14 17:16:00,903 INFO 64923 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552554960903
+2019-03-14 17:16:00,903 INFO 64923 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:16:00,904 INFO 64923 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552554960904
+2019-03-14 17:16:00,904 INFO 64923 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 17:16:01,259 INFO 64923 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554961259
+2019-03-14 17:16:01,259 INFO 64923 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:16:01,260 ERROR 64923 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64923
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:16:01,263 INFO 64923 [-/127.0.0.1/-/4ms GET /] response endtime... 1552554961263
+2019-03-14 17:16:01,263 INFO 64923 [-/127.0.0.1/-/4ms GET /] response time... 4
+2019-03-14 17:16:01,476 INFO 64923 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554961476
+2019-03-14 17:16:01,476 INFO 64923 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:16:01,477 ERROR 64923 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64923
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:16:01,480 INFO 64923 [-/127.0.0.1/-/4ms GET /] response endtime... 1552554961480
+2019-03-14 17:16:01,480 INFO 64923 [-/127.0.0.1/-/4ms GET /] response time... 4
+2019-03-14 17:16:01,683 INFO 64923 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554961683
+2019-03-14 17:16:01,683 INFO 64923 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:16:01,684 ERROR 64923 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64923
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:16:01,686 INFO 64923 [-/127.0.0.1/-/3ms GET /] response endtime... 1552554961686
+2019-03-14 17:16:01,686 INFO 64923 [-/127.0.0.1/-/3ms GET /] response time... 3
+2019-03-14 17:16:01,902 INFO 64923 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554961902
+2019-03-14 17:16:01,902 INFO 64923 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:16:01,902 ERROR 64923 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/richard/github/IntelligentTourMap/node_modules/egg-view/lib/context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64923
+hostname: richard-MacBook-Pro.local
+
+2019-03-14 17:16:01,905 INFO 64923 [-/127.0.0.1/-/3ms GET /] response endtime... 1552554961905
+2019-03-14 17:16:01,905 INFO 64923 [-/127.0.0.1/-/3ms GET /] response time... 3
+2019-03-14 17:16:02,172 INFO 64923 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552554962172
+2019-03-14 17:16:02,172 INFO 64923 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:16:02,174 INFO 64923 [-/127.0.0.1/-/2ms GET /favicon.ico] response endtime... 1552554962174
+2019-03-14 17:16:02,175 INFO 64923 [-/127.0.0.1/-/3ms GET /favicon.ico] response time... 2
+2019-03-14 17:16:06,183 INFO 64935 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 17:16:06,209 INFO 64935 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 17:16:06,209 INFO 64935 app beforeStart... begin
+2019-03-14 17:16:06,209 INFO 64935 app mongodb... begin
+2019-03-14 17:16:06,846 INFO 64935 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554966846
+2019-03-14 17:16:06,847 INFO 64935 [-/127.0.0.1/-/1ms GET /] request querystring === 
+2019-03-14 17:16:06,859 INFO 64935 [-/127.0.0.1/-/13ms GET /] response endtime... 1552554966859
+2019-03-14 17:16:06,860 INFO 64935 [-/127.0.0.1/-/13ms GET /] response time... 13
+2019-03-14 17:16:06,890 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/jquery/1.9.1/jquery.min.js] request starttime... 1552554966890
+2019-03-14 17:16:06,891 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/jquery/1.9.1/jquery.min.js] request querystring === 
+2019-03-14 17:16:06,896 INFO 64935 [-/127.0.0.1/-/6ms GET /lib/jquery/1.9.1/jquery.min.js] response endtime... 1552554966896
+2019-03-14 17:16:06,896 INFO 64935 [-/127.0.0.1/-/6ms GET /lib/jquery/1.9.1/jquery.min.js] response time... 6
+2019-03-14 17:16:06,897 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/layer/1.9.3/layer.js] request starttime... 1552554966897
+2019-03-14 17:16:06,897 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/layer/1.9.3/layer.js] request querystring === 
+2019-03-14 17:16:06,898 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/layer/1.9.3/layer.js] response endtime... 1552554966898
+2019-03-14 17:16:06,898 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/layer/1.9.3/layer.js] response time... 1
+2019-03-14 17:16:06,899 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/laypage/1.2/skin/laypage.css] request starttime... 1552554966898
+2019-03-14 17:16:06,899 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/laypage/1.2/skin/laypage.css] request querystring === 
+2019-03-14 17:16:06,900 INFO 64935 [-/127.0.0.1/-/2ms GET /lib/laypage/1.2/skin/laypage.css] response endtime... 1552554966900
+2019-03-14 17:16:06,900 INFO 64935 [-/127.0.0.1/-/2ms GET /lib/laypage/1.2/skin/laypage.css] response time... 2
+2019-03-14 17:16:06,901 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/laypage.js] request starttime... 1552554966901
+2019-03-14 17:16:06,901 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/laypage.js] request querystring === 
+2019-03-14 17:16:06,902 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/laypage/1.2/laypage.js] response endtime... 1552554966902
+2019-03-14 17:16:06,902 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/laypage/1.2/laypage.js] response time... 1
+2019-03-14 17:16:06,902 INFO 64935 [-/127.0.0.1/-/0ms GET /public/lib/jquery/1.9.1/jquery.min.js] request starttime... 1552554966902
+2019-03-14 17:16:06,902 INFO 64935 [-/127.0.0.1/-/0ms GET /public/lib/jquery/1.9.1/jquery.min.js] request querystring === 
+2019-03-14 17:16:06,903 INFO 64935 [-/127.0.0.1/-/1ms GET /public/lib/jquery/1.9.1/jquery.min.js] response endtime... 1552554966903
+2019-03-14 17:16:06,903 INFO 64935 [-/127.0.0.1/-/1ms GET /public/lib/jquery/1.9.1/jquery.min.js] response time... 1
+2019-03-14 17:16:06,920 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/skin/laypage.css] request starttime... 1552554966919
+2019-03-14 17:16:06,920 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/laypage/1.2/skin/laypage.css] request querystring === 
+2019-03-14 17:16:06,920 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/laypage/1.2/skin/laypage.css] response endtime... 1552554966920
+2019-03-14 17:16:06,920 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/laypage/1.2/skin/laypage.css] response time... 1
+2019-03-14 17:16:06,945 INFO 64935 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552554966945
+2019-03-14 17:16:06,945 INFO 64935 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:16:06,946 INFO 64935 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response endtime... 1552554966946
+2019-03-14 17:16:06,946 INFO 64935 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response time... 1
+2019-03-14 17:16:07,453 INFO 64935 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552554967452
+2019-03-14 17:16:07,453 INFO 64935 [-/127.0.0.1/-/1ms GET /favicon.ico] request querystring === 
+2019-03-14 17:16:07,454 INFO 64935 [-/127.0.0.1/-/2ms GET /favicon.ico] response endtime... 1552554967454
+2019-03-14 17:16:07,454 INFO 64935 [-/127.0.0.1/-/2ms GET /favicon.ico] response time... 2
+2019-03-14 17:16:10,360 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/skin/laypage.css] request starttime... 1552554970360
+2019-03-14 17:16:10,360 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/skin/laypage.css] request querystring === 
+2019-03-14 17:16:10,360 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/skin/laypage.css] response endtime... 1552554970360
+2019-03-14 17:16:10,361 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/laypage/1.2/skin/laypage.css] response time... 0
+2019-03-14 17:16:10,817 INFO 64935 [-/127.0.0.1/-/0ms GET /] request starttime... 1552554970817
+2019-03-14 17:16:10,817 INFO 64935 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:16:10,821 INFO 64935 [-/127.0.0.1/-/4ms GET /] response endtime... 1552554970821
+2019-03-14 17:16:10,821 INFO 64935 [-/127.0.0.1/-/4ms GET /] response time... 4
+2019-03-14 17:16:10,861 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/jquery/1.9.1/jquery.min.js] request starttime... 1552554970861
+2019-03-14 17:16:10,861 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/jquery/1.9.1/jquery.min.js] request querystring === 
+2019-03-14 17:16:10,862 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/jquery/1.9.1/jquery.min.js] response endtime... 1552554970862
+2019-03-14 17:16:10,862 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/jquery/1.9.1/jquery.min.js] response time... 1
+2019-03-14 17:16:10,862 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/layer/1.9.3/layer.js] request starttime... 1552554970862
+2019-03-14 17:16:10,862 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/layer/1.9.3/layer.js] request querystring === 
+2019-03-14 17:16:10,863 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/layer/1.9.3/layer.js] response endtime... 1552554970863
+2019-03-14 17:16:10,863 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/layer/1.9.3/layer.js] response time... 1
+2019-03-14 17:16:10,863 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/laypage.js] request starttime... 1552554970863
+2019-03-14 17:16:10,863 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/laypage.js] request querystring === 
+2019-03-14 17:16:10,863 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/laypage.js] response endtime... 1552554970863
+2019-03-14 17:16:10,863 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/laypage.js] response time... 0
+2019-03-14 17:16:10,864 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/skin/laypage.css] request starttime... 1552554970864
+2019-03-14 17:16:10,864 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/skin/laypage.css] request querystring === 
+2019-03-14 17:16:10,865 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/skin/laypage.css] response endtime... 1552554970864
+2019-03-14 17:16:10,865 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/laypage/1.2/skin/laypage.css] response time... 0
+2019-03-14 17:16:10,865 INFO 64935 [-/127.0.0.1/-/0ms GET /public/lib/jquery/1.9.1/jquery.min.js] request starttime... 1552554970865
+2019-03-14 17:16:10,865 INFO 64935 [-/127.0.0.1/-/0ms GET /public/lib/jquery/1.9.1/jquery.min.js] request querystring === 
+2019-03-14 17:16:10,867 INFO 64935 [-/127.0.0.1/-/1ms GET /public/lib/jquery/1.9.1/jquery.min.js] response endtime... 1552554970866
+2019-03-14 17:16:10,867 INFO 64935 [-/127.0.0.1/-/2ms GET /public/lib/jquery/1.9.1/jquery.min.js] response time... 1
+2019-03-14 17:16:10,974 INFO 64935 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552554970974
+2019-03-14 17:16:10,974 INFO 64935 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:16:10,975 INFO 64935 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response endtime... 1552554970975
+2019-03-14 17:16:10,975 INFO 64935 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response time... 1
+2019-03-14 17:16:11,568 INFO 64935 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552554971568
+2019-03-14 17:16:11,568 INFO 64935 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:16:11,568 INFO 64935 [-/127.0.0.1/-/0ms GET /favicon.ico] response endtime... 1552554971568
+2019-03-14 17:16:11,568 INFO 64935 [-/127.0.0.1/-/0ms GET /favicon.ico] response time... 0
+2019-03-14 17:19:33,026 INFO 64935 [-/127.0.0.1/-/0ms GET /] request starttime... 1552555173026
+2019-03-14 17:19:33,026 INFO 64935 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:19:33,029 INFO 64935 [-/127.0.0.1/-/3ms GET /] response endtime... 1552555173029
+2019-03-14 17:19:33,029 INFO 64935 [-/127.0.0.1/-/3ms GET /] response time... 3
+2019-03-14 17:19:33,066 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/jquery/1.9.1/jquery.min.js] request starttime... 1552555173066
+2019-03-14 17:19:33,066 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/jquery/1.9.1/jquery.min.js] request querystring === 
+2019-03-14 17:19:33,068 INFO 64935 [-/127.0.0.1/-/2ms GET /lib/jquery/1.9.1/jquery.min.js] response endtime... 1552555173068
+2019-03-14 17:19:33,068 INFO 64935 [-/127.0.0.1/-/2ms GET /lib/jquery/1.9.1/jquery.min.js] response time... 2
+2019-03-14 17:19:33,069 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/layer/1.9.3/layer.js] request starttime... 1552555173069
+2019-03-14 17:19:33,069 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/layer/1.9.3/layer.js] request querystring === 
+2019-03-14 17:19:33,069 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/layer/1.9.3/layer.js] response endtime... 1552555173069
+2019-03-14 17:19:33,070 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/layer/1.9.3/layer.js] response time... 0
+2019-03-14 17:19:33,070 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/laypage.js] request starttime... 1552555173070
+2019-03-14 17:19:33,070 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/laypage.js] request querystring === 
+2019-03-14 17:19:33,071 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/laypage/1.2/laypage.js] response endtime... 1552555173071
+2019-03-14 17:19:33,071 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/laypage/1.2/laypage.js] response time... 1
+2019-03-14 17:19:33,071 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/skin/laypage.css] request starttime... 1552555173071
+2019-03-14 17:19:33,072 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/laypage/1.2/skin/laypage.css] request querystring === 
+2019-03-14 17:19:33,072 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/laypage/1.2/skin/laypage.css] response endtime... 1552555173072
+2019-03-14 17:19:33,072 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/laypage/1.2/skin/laypage.css] response time... 1
+2019-03-14 17:19:33,076 INFO 64935 [-/127.0.0.1/-/0ms GET /public/lib/jquery/1.9.1/jquery.min.js] request starttime... 1552555173075
+2019-03-14 17:19:33,076 INFO 64935 [-/127.0.0.1/-/1ms GET /public/lib/jquery/1.9.1/jquery.min.js] request querystring === 
+2019-03-14 17:19:33,077 INFO 64935 [-/127.0.0.1/-/2ms GET /public/lib/jquery/1.9.1/jquery.min.js] response endtime... 1552555173077
+2019-03-14 17:19:33,077 INFO 64935 [-/127.0.0.1/-/2ms GET /public/lib/jquery/1.9.1/jquery.min.js] response time... 2
+2019-03-14 17:19:33,230 INFO 64935 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552555173230
+2019-03-14 17:19:33,230 INFO 64935 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:19:33,236 INFO 64935 [-/127.0.0.1/-/6ms GET /public/images/onAuto.png] response endtime... 1552555173236
+2019-03-14 17:19:33,236 INFO 64935 [-/127.0.0.1/-/6ms GET /public/images/onAuto.png] response time... 6
+2019-03-14 17:19:33,714 INFO 64935 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552555173714
+2019-03-14 17:19:33,714 INFO 64935 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:19:33,715 INFO 64935 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552555173715
+2019-03-14 17:19:33,715 INFO 64935 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 17:19:39,361 INFO 64935 [-/127.0.0.1/-/0ms GET /] request starttime... 1552555179361
+2019-03-14 17:19:39,361 INFO 64935 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:19:39,363 INFO 64935 [-/127.0.0.1/-/2ms GET /] response endtime... 1552555179363
+2019-03-14 17:19:39,363 INFO 64935 [-/127.0.0.1/-/2ms GET /] response time... 2
+2019-03-14 17:19:39,403 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/jquery/1.9.1/jquery.min.js] request starttime... 1552555179403
+2019-03-14 17:19:39,403 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/jquery/1.9.1/jquery.min.js] request querystring === 
+2019-03-14 17:19:39,404 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/jquery/1.9.1/jquery.min.js] response endtime... 1552555179404
+2019-03-14 17:19:39,404 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/jquery/1.9.1/jquery.min.js] response time... 1
+2019-03-14 17:19:39,405 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/layer/1.9.3/layer.js] request starttime... 1552555179405
+2019-03-14 17:19:39,405 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/layer/1.9.3/layer.js] request querystring === 
+2019-03-14 17:19:39,406 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/layer/1.9.3/layer.js] response endtime... 1552555179406
+2019-03-14 17:19:39,406 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/layer/1.9.3/layer.js] response time... 1
+2019-03-14 17:19:39,407 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/skin/laypage.css] request starttime... 1552555179407
+2019-03-14 17:19:39,407 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/skin/laypage.css] request querystring === 
+2019-03-14 17:19:39,408 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/laypage/1.2/skin/laypage.css] response endtime... 1552555179408
+2019-03-14 17:19:39,408 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/laypage/1.2/skin/laypage.css] response time... 1
+2019-03-14 17:19:39,409 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/laypage.js] request starttime... 1552555179409
+2019-03-14 17:19:39,409 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/laypage.js] request querystring === 
+2019-03-14 17:19:39,409 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/laypage.js] response endtime... 1552555179409
+2019-03-14 17:19:39,409 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/laypage.js] response time... 0
+2019-03-14 17:19:39,410 INFO 64935 [-/127.0.0.1/-/0ms GET /public/lib/jquery/1.9.1/jquery.min.js] request starttime... 1552555179410
+2019-03-14 17:19:39,410 INFO 64935 [-/127.0.0.1/-/0ms GET /public/lib/jquery/1.9.1/jquery.min.js] request querystring === 
+2019-03-14 17:19:39,411 INFO 64935 [-/127.0.0.1/-/1ms GET /public/lib/jquery/1.9.1/jquery.min.js] response endtime... 1552555179411
+2019-03-14 17:19:39,411 INFO 64935 [-/127.0.0.1/-/1ms GET /public/lib/jquery/1.9.1/jquery.min.js] response time... 1
+2019-03-14 17:19:39,449 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/skin/laypage.css] request starttime... 1552555179449
+2019-03-14 17:19:39,449 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/skin/laypage.css] request querystring === 
+2019-03-14 17:19:39,450 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/laypage/1.2/skin/laypage.css] response endtime... 1552555179450
+2019-03-14 17:19:39,450 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/laypage/1.2/skin/laypage.css] response time... 1
+2019-03-14 17:19:39,477 INFO 64935 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552555179477
+2019-03-14 17:19:39,477 INFO 64935 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:19:39,478 INFO 64935 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response endtime... 1552555179478
+2019-03-14 17:19:39,478 INFO 64935 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response time... 1
+2019-03-14 17:19:39,984 INFO 64935 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552555179984
+2019-03-14 17:19:39,984 INFO 64935 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:19:39,985 INFO 64935 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552555179985
+2019-03-14 17:19:39,985 INFO 64935 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 0
+2019-03-14 17:19:43,613 INFO 64935 [-/127.0.0.1/-/0ms GET /] request starttime... 1552555183613
+2019-03-14 17:19:43,613 INFO 64935 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:19:43,616 INFO 64935 [-/127.0.0.1/-/3ms GET /] response endtime... 1552555183616
+2019-03-14 17:19:43,616 INFO 64935 [-/127.0.0.1/-/3ms GET /] response time... 3
+2019-03-14 17:19:43,661 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/jquery/1.9.1/jquery.min.js] request starttime... 1552555183661
+2019-03-14 17:19:43,661 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/jquery/1.9.1/jquery.min.js] request querystring === 
+2019-03-14 17:19:43,662 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/jquery/1.9.1/jquery.min.js] response endtime... 1552555183662
+2019-03-14 17:19:43,662 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/jquery/1.9.1/jquery.min.js] response time... 1
+2019-03-14 17:19:43,662 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/layer/1.9.3/layer.js] request starttime... 1552555183662
+2019-03-14 17:19:43,662 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/layer/1.9.3/layer.js] request querystring === 
+2019-03-14 17:19:43,663 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/layer/1.9.3/layer.js] response endtime... 1552555183663
+2019-03-14 17:19:43,663 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/layer/1.9.3/layer.js] response time... 1
+2019-03-14 17:19:43,663 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/laypage.js] request starttime... 1552555183663
+2019-03-14 17:19:43,664 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/laypage.js] request querystring === 
+2019-03-14 17:19:43,664 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/laypage/1.2/laypage.js] response endtime... 1552555183664
+2019-03-14 17:19:43,664 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/laypage/1.2/laypage.js] response time... 1
+2019-03-14 17:19:43,664 INFO 64935 [-/127.0.0.1/-/0ms GET /lib/laypage/1.2/skin/laypage.css] request starttime... 1552555183664
+2019-03-14 17:19:43,665 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/laypage/1.2/skin/laypage.css] request querystring === 
+2019-03-14 17:19:43,665 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/laypage/1.2/skin/laypage.css] response endtime... 1552555183665
+2019-03-14 17:19:43,665 INFO 64935 [-/127.0.0.1/-/1ms GET /lib/laypage/1.2/skin/laypage.css] response time... 1
+2019-03-14 17:19:43,666 INFO 64935 [-/127.0.0.1/-/0ms GET /public/lib/jquery/1.9.1/jquery.min.js] request starttime... 1552555183666
+2019-03-14 17:19:43,666 INFO 64935 [-/127.0.0.1/-/0ms GET /public/lib/jquery/1.9.1/jquery.min.js] request querystring === 
+2019-03-14 17:19:43,667 INFO 64935 [-/127.0.0.1/-/1ms GET /public/lib/jquery/1.9.1/jquery.min.js] response endtime... 1552555183667
+2019-03-14 17:19:43,667 INFO 64935 [-/127.0.0.1/-/1ms GET /public/lib/jquery/1.9.1/jquery.min.js] response time... 1
+2019-03-14 17:19:43,819 INFO 64935 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552555183819
+2019-03-14 17:19:43,819 INFO 64935 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:19:43,820 INFO 64935 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response endtime... 1552555183820
+2019-03-14 17:19:43,820 INFO 64935 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response time... 1
+2019-03-14 17:19:44,333 INFO 64935 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552555184333
+2019-03-14 17:19:44,334 INFO 64935 [-/127.0.0.1/-/1ms GET /favicon.ico] request querystring === 
+2019-03-14 17:19:44,334 INFO 64935 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552555184334
+2019-03-14 17:19:44,334 INFO 64935 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 17:22:03,941 INFO 65126 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-14 17:22:03,967 INFO 65126 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-14 17:22:03,968 INFO 65126 app beforeStart... begin
+2019-03-14 17:22:03,968 INFO 65126 app mongodb... begin
+2019-03-14 17:22:05,888 INFO 65126 [-/127.0.0.1/-/0ms GET /] request starttime... 1552555325888
+2019-03-14 17:22:05,889 INFO 65126 [-/127.0.0.1/-/1ms GET /] request querystring === 
+2019-03-14 17:22:05,902 INFO 65126 [-/127.0.0.1/-/14ms GET /] response endtime... 1552555325902
+2019-03-14 17:22:05,902 INFO 65126 [-/127.0.0.1/-/14ms GET /] response time... 14
+2019-03-14 17:22:05,941 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/jquery-3.3.1.js] request starttime... 1552555325940
+2019-03-14 17:22:05,941 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-14 17:22:05,944 INFO 65126 [-/127.0.0.1/-/0ms GET /app/public/lib/layer_mobile/layer.js] request starttime... 1552555325944
+2019-03-14 17:22:05,944 INFO 65126 [-/127.0.0.1/-/0ms GET /app/public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-14 17:22:05,949 INFO 65126 [-/127.0.0.1/-/5ms GET /app/public/lib/layer_mobile/layer.js] response endtime... 1552555325949
+2019-03-14 17:22:05,949 INFO 65126 [-/127.0.0.1/-/5ms GET /app/public/lib/layer_mobile/layer.js] response time... 5
+2019-03-14 17:22:05,957 INFO 65126 [-/127.0.0.1/-/17ms GET /public/lib/jquery-3.3.1.js] response endtime... 1552555325957
+2019-03-14 17:22:05,957 INFO 65126 [-/127.0.0.1/-/17ms GET /public/lib/jquery-3.3.1.js] response time... 17
+2019-03-14 17:22:06,012 INFO 65126 [-/127.0.0.1/-/0ms GET /app/public/lib/layer_mobile/layer.js] request starttime... 1552555326012
+2019-03-14 17:22:06,012 INFO 65126 [-/127.0.0.1/-/0ms GET /app/public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-14 17:22:06,013 INFO 65126 [-/127.0.0.1/-/1ms GET /app/public/lib/layer_mobile/layer.js] response endtime... 1552555326013
+2019-03-14 17:22:06,013 INFO 65126 [-/127.0.0.1/-/1ms GET /app/public/lib/layer_mobile/layer.js] response time... 1
+2019-03-14 17:22:06,041 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552555326041
+2019-03-14 17:22:06,041 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:22:06,043 INFO 65126 [-/127.0.0.1/-/2ms GET /public/images/onAuto.png] response endtime... 1552555326043
+2019-03-14 17:22:06,043 INFO 65126 [-/127.0.0.1/-/2ms GET /public/images/onAuto.png] response time... 2
+2019-03-14 17:22:06,414 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request starttime... 1552555326414
+2019-03-14 17:22:06,414 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request querystring === pageIndex=1&pageSize=9999
+2019-03-14 17:22:06,447 INFO 65126 [-/127.0.0.1/-/33ms GET /school/query?pageIndex=1&pageSize=9999] response endtime... 1552555326447
+2019-03-14 17:22:06,447 INFO 65126 [-/127.0.0.1/-/33ms GET /school/query?pageIndex=1&pageSize=9999] response time... 33
+2019-03-14 17:24:40,905 INFO 65126 [-/127.0.0.1/-/0ms GET /] request starttime... 1552555480905
+2019-03-14 17:24:40,905 INFO 65126 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:24:40,908 INFO 65126 [-/127.0.0.1/-/3ms GET /] response endtime... 1552555480908
+2019-03-14 17:24:40,908 INFO 65126 [-/127.0.0.1/-/3ms GET /] response time... 3
+2019-03-14 17:24:41,125 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1552555481125
+2019-03-14 17:24:41,125 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-14 17:24:41,126 INFO 65126 [-/127.0.0.1/-/0ms GET /app/public/lib/layer_mobile/layer.js] request starttime... 1552555481126
+2019-03-14 17:24:41,127 INFO 65126 [-/127.0.0.1/-/1ms GET /app/public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-14 17:24:41,128 INFO 65126 [-/127.0.0.1/-/2ms GET /app/public/lib/layer_mobile/layer.js] response endtime... 1552555481128
+2019-03-14 17:24:41,128 INFO 65126 [-/127.0.0.1/-/2ms GET /app/public/lib/layer_mobile/layer.js] response time... 2
+2019-03-14 17:24:41,129 INFO 65126 [-/127.0.0.1/-/4ms GET /public/lib/jquery-3.3.1.js] response endtime... 1552555481129
+2019-03-14 17:24:41,129 INFO 65126 [-/127.0.0.1/-/4ms GET /public/lib/jquery-3.3.1.js] response time... 4
+2019-03-14 17:24:41,182 INFO 65126 [-/127.0.0.1/-/0ms GET /app/public/lib/layer_mobile/layer.js] request starttime... 1552555481182
+2019-03-14 17:24:41,182 INFO 65126 [-/127.0.0.1/-/0ms GET /app/public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-14 17:24:41,183 INFO 65126 [-/127.0.0.1/-/1ms GET /app/public/lib/layer_mobile/layer.js] response endtime... 1552555481183
+2019-03-14 17:24:41,183 INFO 65126 [-/127.0.0.1/-/1ms GET /app/public/lib/layer_mobile/layer.js] response time... 1
+2019-03-14 17:24:41,209 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552555481209
+2019-03-14 17:24:41,209 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:24:41,210 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response endtime... 1552555481210
+2019-03-14 17:24:41,210 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response time... 1
+2019-03-14 17:24:41,499 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request starttime... 1552555481499
+2019-03-14 17:24:41,499 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request querystring === pageIndex=1&pageSize=9999
+2019-03-14 17:24:41,515 INFO 65126 [-/127.0.0.1/-/16ms GET /school/query?pageIndex=1&pageSize=9999] response endtime... 1552555481515
+2019-03-14 17:24:41,515 INFO 65126 [-/127.0.0.1/-/16ms GET /school/query?pageIndex=1&pageSize=9999] response time... 16
+2019-03-14 17:24:41,745 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552555481745
+2019-03-14 17:24:41,745 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:24:41,746 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552555481746
+2019-03-14 17:24:41,746 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 17:25:19,625 INFO 65126 [-/127.0.0.1/-/0ms GET /] request starttime... 1552555519625
+2019-03-14 17:25:19,625 INFO 65126 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:25:19,627 INFO 65126 [-/127.0.0.1/-/2ms GET /] response endtime... 1552555519627
+2019-03-14 17:25:19,627 INFO 65126 [-/127.0.0.1/-/2ms GET /] response time... 2
+2019-03-14 17:25:19,684 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1552555519684
+2019-03-14 17:25:19,684 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-14 17:25:19,685 INFO 65126 [-/127.0.0.1/-/0ms GET /app/public/lib/layer_mobile/layer.js] request starttime... 1552555519685
+2019-03-14 17:25:19,685 INFO 65126 [-/127.0.0.1/-/0ms GET /app/public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-14 17:25:19,686 INFO 65126 [-/127.0.0.1/-/1ms GET /app/public/lib/layer_mobile/layer.js] response endtime... 1552555519686
+2019-03-14 17:25:19,686 INFO 65126 [-/127.0.0.1/-/1ms GET /app/public/lib/layer_mobile/layer.js] response time... 1
+2019-03-14 17:25:19,688 INFO 65126 [-/127.0.0.1/-/4ms GET /public/lib/jquery-3.3.1.js] response endtime... 1552555519688
+2019-03-14 17:25:19,688 INFO 65126 [-/127.0.0.1/-/4ms GET /public/lib/jquery-3.3.1.js] response time... 4
+2019-03-14 17:25:19,751 INFO 65126 [-/127.0.0.1/-/0ms GET /app/public/lib/layer_mobile/layer.js] request starttime... 1552555519751
+2019-03-14 17:25:19,751 INFO 65126 [-/127.0.0.1/-/0ms GET /app/public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-14 17:25:19,752 INFO 65126 [-/127.0.0.1/-/1ms GET /app/public/lib/layer_mobile/layer.js] response endtime... 1552555519752
+2019-03-14 17:25:19,752 INFO 65126 [-/127.0.0.1/-/1ms GET /app/public/lib/layer_mobile/layer.js] response time... 1
+2019-03-14 17:25:19,779 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552555519779
+2019-03-14 17:25:19,779 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:25:19,781 INFO 65126 [-/127.0.0.1/-/2ms GET /public/images/onAuto.png] response endtime... 1552555519781
+2019-03-14 17:25:19,781 INFO 65126 [-/127.0.0.1/-/2ms GET /public/images/onAuto.png] response time... 2
+2019-03-14 17:25:20,350 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552555520350
+2019-03-14 17:25:20,350 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:25:20,351 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552555520351
+2019-03-14 17:25:20,351 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 17:25:34,020 INFO 65126 [-/127.0.0.1/-/0ms GET /] request starttime... 1552555534020
+2019-03-14 17:25:34,020 INFO 65126 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:25:34,022 INFO 65126 [-/127.0.0.1/-/2ms GET /] response endtime... 1552555534022
+2019-03-14 17:25:34,022 INFO 65126 [-/127.0.0.1/-/2ms GET /] response time... 2
+2019-03-14 17:25:34,059 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1552555534058
+2019-03-14 17:25:34,059 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-14 17:25:34,060 INFO 65126 [-/127.0.0.1/-/0ms GET /app/public/lib/layer_mobile/layer.js] request starttime... 1552555534060
+2019-03-14 17:25:34,060 INFO 65126 [-/127.0.0.1/-/0ms GET /app/public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-14 17:25:34,061 INFO 65126 [-/127.0.0.1/-/1ms GET /app/public/lib/layer_mobile/layer.js] response endtime... 1552555534061
+2019-03-14 17:25:34,061 INFO 65126 [-/127.0.0.1/-/1ms GET /app/public/lib/layer_mobile/layer.js] response time... 1
+2019-03-14 17:25:34,063 INFO 65126 [-/127.0.0.1/-/5ms GET /public/lib/jquery-3.3.1.js] response endtime... 1552555534063
+2019-03-14 17:25:34,063 INFO 65126 [-/127.0.0.1/-/5ms GET /public/lib/jquery-3.3.1.js] response time... 5
+2019-03-14 17:25:34,120 INFO 65126 [-/127.0.0.1/-/0ms GET /app/public/lib/layer_mobile/layer.js] request starttime... 1552555534120
+2019-03-14 17:25:34,120 INFO 65126 [-/127.0.0.1/-/0ms GET /app/public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-14 17:25:34,121 INFO 65126 [-/127.0.0.1/-/1ms GET /app/public/lib/layer_mobile/layer.js] response endtime... 1552555534121
+2019-03-14 17:25:34,121 INFO 65126 [-/127.0.0.1/-/1ms GET /app/public/lib/layer_mobile/layer.js] response time... 1
+2019-03-14 17:25:34,227 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552555534227
+2019-03-14 17:25:34,227 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:25:34,229 INFO 65126 [-/127.0.0.1/-/2ms GET /public/images/onAuto.png] response endtime... 1552555534229
+2019-03-14 17:25:34,229 INFO 65126 [-/127.0.0.1/-/2ms GET /public/images/onAuto.png] response time... 2
+2019-03-14 17:25:34,420 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request starttime... 1552555534420
+2019-03-14 17:25:34,420 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request querystring === pageIndex=1&pageSize=9999
+2019-03-14 17:25:34,427 INFO 65126 [-/127.0.0.1/-/7ms GET /school/query?pageIndex=1&pageSize=9999] response endtime... 1552555534427
+2019-03-14 17:25:34,427 INFO 65126 [-/127.0.0.1/-/7ms GET /school/query?pageIndex=1&pageSize=9999] response time... 7
+2019-03-14 17:25:34,639 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552555534638
+2019-03-14 17:25:34,639 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] request querystring === 
+2019-03-14 17:25:34,639 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552555534639
+2019-03-14 17:25:34,639 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 17:25:48,069 INFO 65126 [-/127.0.0.1/-/0ms GET /] request starttime... 1552555548068
+2019-03-14 17:25:48,069 INFO 65126 [-/127.0.0.1/-/1ms GET /] request querystring === 
+2019-03-14 17:25:48,070 INFO 65126 [-/127.0.0.1/-/2ms GET /] response endtime... 1552555548070
+2019-03-14 17:25:48,070 INFO 65126 [-/127.0.0.1/-/2ms GET /] response time... 2
+2019-03-14 17:25:48,112 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1552555548112
+2019-03-14 17:25:48,112 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-14 17:25:48,115 INFO 65126 [-/127.0.0.1/-/3ms GET /public/lib/jquery-3.3.1.js] response endtime... 1552555548115
+2019-03-14 17:25:48,115 INFO 65126 [-/127.0.0.1/-/3ms GET /public/lib/jquery-3.3.1.js] response time... 3
+2019-03-14 17:25:48,118 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1552555548118
+2019-03-14 17:25:48,118 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-14 17:25:48,121 INFO 65126 [-/127.0.0.1/-/3ms GET /public/lib/layer_mobile/layer.js] response endtime... 1552555548121
+2019-03-14 17:25:48,121 INFO 65126 [-/127.0.0.1/-/3ms GET /public/lib/layer_mobile/layer.js] response time... 3
+2019-03-14 17:25:48,176 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1552555548176
+2019-03-14 17:25:48,176 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-14 17:25:48,178 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1552555548178
+2019-03-14 17:25:48,178 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 2
+2019-03-14 17:25:48,199 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552555548198
+2019-03-14 17:25:48,199 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:25:48,200 INFO 65126 [-/127.0.0.1/-/2ms GET /public/images/onAuto.png] response endtime... 1552555548200
+2019-03-14 17:25:48,200 INFO 65126 [-/127.0.0.1/-/2ms GET /public/images/onAuto.png] response time... 2
+2019-03-14 17:25:48,503 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request starttime... 1552555548503
+2019-03-14 17:25:48,504 INFO 65126 [-/127.0.0.1/-/1ms GET /school/query?pageIndex=1&pageSize=9999] request querystring === pageIndex=1&pageSize=9999
+2019-03-14 17:25:48,511 INFO 65126 [-/127.0.0.1/-/8ms GET /school/query?pageIndex=1&pageSize=9999] response endtime... 1552555548511
+2019-03-14 17:25:48,511 INFO 65126 [-/127.0.0.1/-/8ms GET /school/query?pageIndex=1&pageSize=9999] response time... 8
+2019-03-14 17:25:48,822 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552555548822
+2019-03-14 17:25:48,823 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] request querystring === 
+2019-03-14 17:25:48,823 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552555548823
+2019-03-14 17:25:48,823 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 17:26:31,500 INFO 65126 [-/127.0.0.1/-/0ms GET /] request starttime... 1552555591500
+2019-03-14 17:26:31,500 INFO 65126 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:26:31,502 INFO 65126 [-/127.0.0.1/-/2ms GET /] response endtime... 1552555591502
+2019-03-14 17:26:31,503 INFO 65126 [-/127.0.0.1/-/3ms GET /] response time... 2
+2019-03-14 17:26:31,562 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1552555591562
+2019-03-14 17:26:31,563 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-14 17:26:31,564 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1552555591564
+2019-03-14 17:26:31,564 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-14 17:26:31,566 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/layer.js] response endtime... 1552555591566
+2019-03-14 17:26:31,566 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/layer.js] response time... 2
+2019-03-14 17:26:31,567 INFO 65126 [-/127.0.0.1/-/5ms GET /public/lib/jquery-3.3.1.js] response endtime... 1552555591567
+2019-03-14 17:26:31,567 INFO 65126 [-/127.0.0.1/-/5ms GET /public/lib/jquery-3.3.1.js] response time... 5
+2019-03-14 17:26:31,634 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1552555591634
+2019-03-14 17:26:31,635 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-14 17:26:31,637 INFO 65126 [-/127.0.0.1/-/3ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1552555591637
+2019-03-14 17:26:31,637 INFO 65126 [-/127.0.0.1/-/3ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 3
+2019-03-14 17:26:31,661 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552555591661
+2019-03-14 17:26:31,661 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:26:31,662 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response endtime... 1552555591662
+2019-03-14 17:26:31,662 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response time... 1
+2019-03-14 17:26:31,954 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request starttime... 1552555591954
+2019-03-14 17:26:31,954 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request querystring === pageIndex=1&pageSize=9999
+2019-03-14 17:26:31,959 INFO 65126 [-/127.0.0.1/-/5ms GET /school/query?pageIndex=1&pageSize=9999] response endtime... 1552555591959
+2019-03-14 17:26:31,959 INFO 65126 [-/127.0.0.1/-/5ms GET /school/query?pageIndex=1&pageSize=9999] response time... 5
+2019-03-14 17:26:32,195 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552555592195
+2019-03-14 17:26:32,195 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:26:32,195 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] response endtime... 1552555592195
+2019-03-14 17:26:32,195 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] response time... 0
+2019-03-14 17:26:33,618 INFO 65126 [-/127.0.0.1/-/0ms GET /] request starttime... 1552555593618
+2019-03-14 17:26:33,618 INFO 65126 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:26:33,620 INFO 65126 [-/127.0.0.1/-/2ms GET /] response endtime... 1552555593620
+2019-03-14 17:26:33,620 INFO 65126 [-/127.0.0.1/-/2ms GET /] response time... 2
+2019-03-14 17:26:33,668 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1552555593668
+2019-03-14 17:26:33,668 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-14 17:26:33,669 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1552555593669
+2019-03-14 17:26:33,669 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-14 17:26:33,672 INFO 65126 [-/127.0.0.1/-/3ms GET /public/lib/layer_mobile/layer.js] response endtime... 1552555593672
+2019-03-14 17:26:33,672 INFO 65126 [-/127.0.0.1/-/3ms GET /public/lib/layer_mobile/layer.js] response time... 3
+2019-03-14 17:26:33,673 INFO 65126 [-/127.0.0.1/-/5ms GET /public/lib/jquery-3.3.1.js] response endtime... 1552555593673
+2019-03-14 17:26:33,673 INFO 65126 [-/127.0.0.1/-/5ms GET /public/lib/jquery-3.3.1.js] response time... 5
+2019-03-14 17:26:33,731 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1552555593731
+2019-03-14 17:26:33,731 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-14 17:26:33,733 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1552555593733
+2019-03-14 17:26:33,733 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 2
+2019-03-14 17:26:33,831 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552555593831
+2019-03-14 17:26:33,831 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:26:33,833 INFO 65126 [-/127.0.0.1/-/2ms GET /public/images/onAuto.png] response endtime... 1552555593833
+2019-03-14 17:26:33,833 INFO 65126 [-/127.0.0.1/-/2ms GET /public/images/onAuto.png] response time... 2
+2019-03-14 17:26:34,022 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request starttime... 1552555594022
+2019-03-14 17:26:34,022 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request querystring === pageIndex=1&pageSize=9999
+2019-03-14 17:26:34,028 INFO 65126 [-/127.0.0.1/-/6ms GET /school/query?pageIndex=1&pageSize=9999] response endtime... 1552555594028
+2019-03-14 17:26:34,028 INFO 65126 [-/127.0.0.1/-/6ms GET /school/query?pageIndex=1&pageSize=9999] response time... 6
+2019-03-14 17:26:34,326 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552555594326
+2019-03-14 17:26:34,326 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:26:34,327 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552555594327
+2019-03-14 17:26:34,327 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 17:26:35,312 INFO 65126 [-/127.0.0.1/-/0ms GET /] request starttime... 1552555595312
+2019-03-14 17:26:35,312 INFO 65126 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:26:35,314 INFO 65126 [-/127.0.0.1/-/2ms GET /] response endtime... 1552555595314
+2019-03-14 17:26:35,314 INFO 65126 [-/127.0.0.1/-/2ms GET /] response time... 2
+2019-03-14 17:26:35,356 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1552555595356
+2019-03-14 17:26:35,356 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-14 17:26:35,357 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1552555595357
+2019-03-14 17:26:35,357 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-14 17:26:35,359 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/layer.js] response endtime... 1552555595359
+2019-03-14 17:26:35,359 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/layer.js] response time... 2
+2019-03-14 17:26:35,360 INFO 65126 [-/127.0.0.1/-/3ms GET /public/lib/jquery-3.3.1.js] response endtime... 1552555595359
+2019-03-14 17:26:35,360 INFO 65126 [-/127.0.0.1/-/4ms GET /public/lib/jquery-3.3.1.js] response time... 3
+2019-03-14 17:26:35,420 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1552555595420
+2019-03-14 17:26:35,421 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-14 17:26:35,422 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1552555595422
+2019-03-14 17:26:35,422 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 2
+2019-03-14 17:26:35,440 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552555595440
+2019-03-14 17:26:35,440 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:26:35,441 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response endtime... 1552555595441
+2019-03-14 17:26:35,441 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response time... 1
+2019-03-14 17:26:35,715 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request starttime... 1552555595715
+2019-03-14 17:26:35,716 INFO 65126 [-/127.0.0.1/-/1ms GET /school/query?pageIndex=1&pageSize=9999] request querystring === pageIndex=1&pageSize=9999
+2019-03-14 17:26:35,722 INFO 65126 [-/127.0.0.1/-/7ms GET /school/query?pageIndex=1&pageSize=9999] response endtime... 1552555595722
+2019-03-14 17:26:35,722 INFO 65126 [-/127.0.0.1/-/7ms GET /school/query?pageIndex=1&pageSize=9999] response time... 7
+2019-03-14 17:26:35,975 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552555595975
+2019-03-14 17:26:35,975 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:26:35,976 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552555595976
+2019-03-14 17:26:35,976 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 17:26:46,606 INFO 65126 [-/127.0.0.1/-/0ms GET /] request starttime... 1552555606606
+2019-03-14 17:26:46,606 INFO 65126 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:26:46,607 INFO 65126 [-/127.0.0.1/-/1ms GET /] response endtime... 1552555606607
+2019-03-14 17:26:46,608 INFO 65126 [-/127.0.0.1/-/2ms GET /] response time... 1
+2019-03-14 17:26:46,648 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1552555606648
+2019-03-14 17:26:46,649 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-14 17:26:46,650 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1552555606650
+2019-03-14 17:26:46,650 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-14 17:26:46,652 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/layer.js] response endtime... 1552555606652
+2019-03-14 17:26:46,653 INFO 65126 [-/127.0.0.1/-/3ms GET /public/lib/layer_mobile/layer.js] response time... 2
+2019-03-14 17:26:46,653 INFO 65126 [-/127.0.0.1/-/5ms GET /public/lib/jquery-3.3.1.js] response endtime... 1552555606653
+2019-03-14 17:26:46,653 INFO 65126 [-/127.0.0.1/-/5ms GET /public/lib/jquery-3.3.1.js] response time... 5
+2019-03-14 17:26:46,711 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1552555606711
+2019-03-14 17:26:46,711 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-14 17:26:46,712 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1552555606712
+2019-03-14 17:26:46,712 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 1
+2019-03-14 17:26:46,814 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552555606814
+2019-03-14 17:26:46,814 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:26:46,815 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response endtime... 1552555606815
+2019-03-14 17:26:46,815 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response time... 1
+2019-03-14 17:26:46,981 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request starttime... 1552555606981
+2019-03-14 17:26:46,981 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request querystring === pageIndex=1&pageSize=9999
+2019-03-14 17:26:46,988 INFO 65126 [-/127.0.0.1/-/7ms GET /school/query?pageIndex=1&pageSize=9999] response endtime... 1552555606988
+2019-03-14 17:26:46,988 INFO 65126 [-/127.0.0.1/-/7ms GET /school/query?pageIndex=1&pageSize=9999] response time... 7
+2019-03-14 17:26:58,581 INFO 65126 [-/127.0.0.1/-/0ms GET /] request starttime... 1552555618581
+2019-03-14 17:26:58,581 INFO 65126 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:26:58,583 INFO 65126 [-/127.0.0.1/-/2ms GET /] response endtime... 1552555618583
+2019-03-14 17:26:58,583 INFO 65126 [-/127.0.0.1/-/2ms GET /] response time... 2
+2019-03-14 17:26:58,802 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1552555618802
+2019-03-14 17:26:58,802 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-14 17:26:58,804 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1552555618804
+2019-03-14 17:26:58,804 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-14 17:26:58,806 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/layer.js] response endtime... 1552555618806
+2019-03-14 17:26:58,806 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/layer.js] response time... 2
+2019-03-14 17:26:58,807 INFO 65126 [-/127.0.0.1/-/5ms GET /public/lib/jquery-3.3.1.js] response endtime... 1552555618807
+2019-03-14 17:26:58,807 INFO 65126 [-/127.0.0.1/-/5ms GET /public/lib/jquery-3.3.1.js] response time... 5
+2019-03-14 17:26:58,872 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1552555618872
+2019-03-14 17:26:58,873 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-14 17:26:58,874 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1552555618874
+2019-03-14 17:26:58,874 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 2
+2019-03-14 17:26:58,896 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552555618896
+2019-03-14 17:26:58,896 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:26:58,898 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response endtime... 1552555618897
+2019-03-14 17:26:58,898 INFO 65126 [-/127.0.0.1/-/2ms GET /public/images/onAuto.png] response time... 1
+2019-03-14 17:26:59,198 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request starttime... 1552555619198
+2019-03-14 17:26:59,198 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request querystring === pageIndex=1&pageSize=9999
+2019-03-14 17:26:59,206 INFO 65126 [-/127.0.0.1/-/8ms GET /school/query?pageIndex=1&pageSize=9999] response endtime... 1552555619206
+2019-03-14 17:26:59,206 INFO 65126 [-/127.0.0.1/-/8ms GET /school/query?pageIndex=1&pageSize=9999] response time... 8
+2019-03-14 17:26:59,272 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request starttime... 1552555619272
+2019-03-14 17:26:59,272 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request querystring === 
+2019-03-14 17:26:59,273 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play3.png] response endtime... 1552555619273
+2019-03-14 17:26:59,273 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play3.png] response time... 1
+2019-03-14 17:26:59,533 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552555619533
+2019-03-14 17:26:59,534 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] request querystring === 
+2019-03-14 17:26:59,534 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552555619534
+2019-03-14 17:26:59,534 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 17:27:29,889 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play1.gif] request starttime... 1552555649889
+2019-03-14 17:27:29,889 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play1.gif] request querystring === 
+2019-03-14 17:27:29,890 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play1.gif] response endtime... 1552555649890
+2019-03-14 17:27:29,890 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play1.gif] response time... 1
+2019-03-14 17:28:26,855 INFO 65126 [-/127.0.0.1/-/0ms GET /] request starttime... 1552555706855
+2019-03-14 17:28:26,855 INFO 65126 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:28:26,857 INFO 65126 [-/127.0.0.1/-/2ms GET /] response endtime... 1552555706857
+2019-03-14 17:28:26,857 INFO 65126 [-/127.0.0.1/-/2ms GET /] response time... 2
+2019-03-14 17:28:26,918 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1552555706918
+2019-03-14 17:28:26,918 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-14 17:28:26,920 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1552555706920
+2019-03-14 17:28:26,920 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-14 17:28:26,925 INFO 65126 [-/127.0.0.1/-/5ms GET /public/lib/layer_mobile/layer.js] response endtime... 1552555706925
+2019-03-14 17:28:26,925 INFO 65126 [-/127.0.0.1/-/5ms GET /public/lib/layer_mobile/layer.js] response time... 5
+2019-03-14 17:28:26,927 INFO 65126 [-/127.0.0.1/-/9ms GET /public/lib/jquery-3.3.1.js] response endtime... 1552555706927
+2019-03-14 17:28:26,927 INFO 65126 [-/127.0.0.1/-/9ms GET /public/lib/jquery-3.3.1.js] response time... 9
+2019-03-14 17:28:26,994 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1552555706994
+2019-03-14 17:28:26,994 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-14 17:28:26,996 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1552555706996
+2019-03-14 17:28:26,996 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 2
+2019-03-14 17:28:27,019 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552555707019
+2019-03-14 17:28:27,019 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:28:27,020 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response endtime... 1552555707020
+2019-03-14 17:28:27,020 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response time... 1
+2019-03-14 17:28:27,317 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request starttime... 1552555707317
+2019-03-14 17:28:27,317 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request querystring === pageIndex=1&pageSize=9999
+2019-03-14 17:28:27,324 INFO 65126 [-/127.0.0.1/-/7ms GET /school/query?pageIndex=1&pageSize=9999] response endtime... 1552555707324
+2019-03-14 17:28:27,324 INFO 65126 [-/127.0.0.1/-/7ms GET /school/query?pageIndex=1&pageSize=9999] response time... 7
+2019-03-14 17:28:27,381 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request starttime... 1552555707381
+2019-03-14 17:28:27,381 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request querystring === 
+2019-03-14 17:28:27,382 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play3.png] response endtime... 1552555707382
+2019-03-14 17:28:27,382 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play3.png] response time... 1
+2019-03-14 17:28:27,703 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552555707703
+2019-03-14 17:28:27,704 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] request querystring === 
+2019-03-14 17:28:27,704 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552555707704
+2019-03-14 17:28:27,704 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 17:28:29,083 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play1.gif] request starttime... 1552555709083
+2019-03-14 17:28:29,083 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play1.gif] request querystring === 
+2019-03-14 17:28:29,084 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play1.gif] response endtime... 1552555709084
+2019-03-14 17:28:29,084 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play1.gif] response time... 1
+2019-03-14 17:29:39,662 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play2.png] request starttime... 1552555779662
+2019-03-14 17:29:39,662 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play2.png] request querystring === 
+2019-03-14 17:29:39,663 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play2.png] response endtime... 1552555779663
+2019-03-14 17:29:39,664 INFO 65126 [-/127.0.0.1/-/2ms GET /public/images/play2.png] response time... 1
+2019-03-14 17:30:48,227 INFO 65126 [-/127.0.0.1/-/0ms GET /] request starttime... 1552555848227
+2019-03-14 17:30:48,227 INFO 65126 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:30:48,230 INFO 65126 [-/127.0.0.1/-/3ms GET /] response endtime... 1552555848230
+2019-03-14 17:30:48,230 INFO 65126 [-/127.0.0.1/-/3ms GET /] response time... 3
+2019-03-14 17:30:48,276 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1552555848276
+2019-03-14 17:30:48,276 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-14 17:30:48,277 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/jquery-3.3.1.js] response endtime... 1552555848277
+2019-03-14 17:30:48,277 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/jquery-3.3.1.js] response time... 1
+2019-03-14 17:30:48,277 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1552555848277
+2019-03-14 17:30:48,277 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-14 17:30:48,278 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/layer.js] response endtime... 1552555848278
+2019-03-14 17:30:48,278 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/layer.js] response time... 1
+2019-03-14 17:30:49,246 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1552555849246
+2019-03-14 17:30:49,246 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-14 17:30:49,246 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1552555849246
+2019-03-14 17:30:49,246 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 0
+2019-03-14 17:30:49,268 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552555849268
+2019-03-14 17:30:49,269 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:30:49,269 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response endtime... 1552555849269
+2019-03-14 17:30:49,269 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response time... 1
+2019-03-14 17:30:49,846 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request starttime... 1552555849846
+2019-03-14 17:30:49,846 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request querystring === pageIndex=1&pageSize=9999
+2019-03-14 17:30:49,853 INFO 65126 [-/127.0.0.1/-/7ms GET /school/query?pageIndex=1&pageSize=9999] response endtime... 1552555849853
+2019-03-14 17:30:49,853 INFO 65126 [-/127.0.0.1/-/7ms GET /school/query?pageIndex=1&pageSize=9999] response time... 7
+2019-03-14 17:30:49,902 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request starttime... 1552555849902
+2019-03-14 17:30:49,903 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play3.png] request querystring === 
+2019-03-14 17:30:49,903 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play3.png] response endtime... 1552555849903
+2019-03-14 17:30:49,903 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play3.png] response time... 1
+2019-03-14 17:30:54,612 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play1.gif] request starttime... 1552555854612
+2019-03-14 17:30:54,612 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play1.gif] request querystring === 
+2019-03-14 17:30:54,612 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play1.gif] response endtime... 1552555854612
+2019-03-14 17:30:54,612 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play1.gif] response time... 0
+2019-03-14 17:30:56,369 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1552555856369
+2019-03-14 17:30:56,369 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-14 17:30:56,369 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1552555856369
+2019-03-14 17:30:56,370 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 0
+2019-03-14 17:30:56,638 INFO 65126 [-/127.0.0.1/-/0ms GET /] request starttime... 1552555856638
+2019-03-14 17:30:56,638 INFO 65126 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:30:56,641 INFO 65126 [-/127.0.0.1/-/3ms GET /] response endtime... 1552555856641
+2019-03-14 17:30:56,641 INFO 65126 [-/127.0.0.1/-/3ms GET /] response time... 3
+2019-03-14 17:30:56,687 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1552555856687
+2019-03-14 17:30:56,688 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-14 17:30:56,688 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/jquery-3.3.1.js] response endtime... 1552555856688
+2019-03-14 17:30:56,688 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/jquery-3.3.1.js] response time... 1
+2019-03-14 17:30:56,689 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1552555856689
+2019-03-14 17:30:56,689 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-14 17:30:56,690 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/layer.js] response endtime... 1552555856690
+2019-03-14 17:30:56,690 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/layer.js] response time... 1
+2019-03-14 17:30:56,759 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1552555856758
+2019-03-14 17:30:56,759 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-14 17:30:56,759 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1552555856759
+2019-03-14 17:30:56,759 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 1
+2019-03-14 17:30:56,782 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552555856782
+2019-03-14 17:30:56,782 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:30:56,783 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response endtime... 1552555856783
+2019-03-14 17:30:56,783 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response time... 1
+2019-03-14 17:30:57,380 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request starttime... 1552555857380
+2019-03-14 17:30:57,380 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request querystring === pageIndex=1&pageSize=9999
+2019-03-14 17:30:57,384 INFO 65126 [-/127.0.0.1/-/4ms GET /school/query?pageIndex=1&pageSize=9999] response endtime... 1552555857384
+2019-03-14 17:30:57,385 INFO 65126 [-/127.0.0.1/-/5ms GET /school/query?pageIndex=1&pageSize=9999] response time... 4
+2019-03-14 17:30:57,479 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request starttime... 1552555857479
+2019-03-14 17:30:57,479 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request querystring === 
+2019-03-14 17:30:57,480 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play3.png] response endtime... 1552555857480
+2019-03-14 17:30:57,481 INFO 65126 [-/127.0.0.1/-/2ms GET /public/images/play3.png] response time... 1
+2019-03-14 17:30:57,996 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552555857996
+2019-03-14 17:30:57,996 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:30:57,997 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552555857997
+2019-03-14 17:30:57,997 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 17:31:28,749 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552555888749
+2019-03-14 17:31:28,749 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:31:28,751 INFO 65126 [-/127.0.0.1/-/2ms GET /public/images/onAuto.png] response endtime... 1552555888751
+2019-03-14 17:31:28,751 INFO 65126 [-/127.0.0.1/-/2ms GET /public/images/onAuto.png] response time... 2
+2019-03-14 17:32:15,538 INFO 65126 [-/127.0.0.1/-/0ms GET /] request starttime... 1552555935538
+2019-03-14 17:32:15,538 INFO 65126 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:32:15,541 INFO 65126 [-/127.0.0.1/-/3ms GET /] response endtime... 1552555935541
+2019-03-14 17:32:15,541 INFO 65126 [-/127.0.0.1/-/3ms GET /] response time... 3
+2019-03-14 17:32:15,585 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1552555935585
+2019-03-14 17:32:15,585 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-14 17:32:15,586 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1552555935586
+2019-03-14 17:32:15,586 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-14 17:32:15,588 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/layer.js] response endtime... 1552555935588
+2019-03-14 17:32:15,588 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/layer.js] response time... 2
+2019-03-14 17:32:15,589 INFO 65126 [-/127.0.0.1/-/4ms GET /public/lib/jquery-3.3.1.js] response endtime... 1552555935589
+2019-03-14 17:32:15,589 INFO 65126 [-/127.0.0.1/-/4ms GET /public/lib/jquery-3.3.1.js] response time... 4
+2019-03-14 17:32:15,654 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1552555935654
+2019-03-14 17:32:15,654 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-14 17:32:15,656 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1552555935656
+2019-03-14 17:32:15,656 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 2
+2019-03-14 17:32:15,767 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552555935767
+2019-03-14 17:32:15,768 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:32:15,769 INFO 65126 [-/127.0.0.1/-/2ms GET /public/images/onAuto.png] response endtime... 1552555935769
+2019-03-14 17:32:15,769 INFO 65126 [-/127.0.0.1/-/2ms GET /public/images/onAuto.png] response time... 2
+2019-03-14 17:32:15,959 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request starttime... 1552555935959
+2019-03-14 17:32:15,959 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request querystring === pageIndex=1&pageSize=9999
+2019-03-14 17:32:15,964 INFO 65126 [-/127.0.0.1/-/5ms GET /school/query?pageIndex=1&pageSize=9999] response endtime... 1552555935964
+2019-03-14 17:32:15,965 INFO 65126 [-/127.0.0.1/-/6ms GET /school/query?pageIndex=1&pageSize=9999] response time... 5
+2019-03-14 17:32:16,013 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request starttime... 1552555936013
+2019-03-14 17:32:16,013 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request querystring === 
+2019-03-14 17:32:16,014 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play3.png] response endtime... 1552555936014
+2019-03-14 17:32:16,014 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play3.png] response time... 1
+2019-03-14 17:32:16,263 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552555936263
+2019-03-14 17:32:16,263 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:32:16,263 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] response endtime... 1552555936263
+2019-03-14 17:32:16,263 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] response time... 0
+2019-03-14 17:32:28,995 INFO 65126 [-/127.0.0.1/-/0ms GET /] request starttime... 1552555948995
+2019-03-14 17:32:28,995 INFO 65126 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:32:28,997 INFO 65126 [-/127.0.0.1/-/2ms GET /] response endtime... 1552555948997
+2019-03-14 17:32:28,997 INFO 65126 [-/127.0.0.1/-/2ms GET /] response time... 2
+2019-03-14 17:32:29,040 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1552555949040
+2019-03-14 17:32:29,040 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-14 17:32:29,042 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1552555949042
+2019-03-14 17:32:29,042 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-14 17:32:29,044 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/layer.js] response endtime... 1552555949044
+2019-03-14 17:32:29,044 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/layer.js] response time... 2
+2019-03-14 17:32:29,045 INFO 65126 [-/127.0.0.1/-/5ms GET /public/lib/jquery-3.3.1.js] response endtime... 1552555949045
+2019-03-14 17:32:29,045 INFO 65126 [-/127.0.0.1/-/5ms GET /public/lib/jquery-3.3.1.js] response time... 5
+2019-03-14 17:32:29,110 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1552555949110
+2019-03-14 17:32:29,110 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-14 17:32:29,111 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1552555949111
+2019-03-14 17:32:29,111 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 1
+2019-03-14 17:32:29,134 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552555949133
+2019-03-14 17:32:29,134 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:32:29,135 INFO 65126 [-/127.0.0.1/-/2ms GET /public/images/onAuto.png] response endtime... 1552555949135
+2019-03-14 17:32:29,135 INFO 65126 [-/127.0.0.1/-/2ms GET /public/images/onAuto.png] response time... 2
+2019-03-14 17:32:29,410 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request starttime... 1552555949410
+2019-03-14 17:32:29,410 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request querystring === pageIndex=1&pageSize=9999
+2019-03-14 17:32:29,415 INFO 65126 [-/127.0.0.1/-/5ms GET /school/query?pageIndex=1&pageSize=9999] response endtime... 1552555949415
+2019-03-14 17:32:29,415 INFO 65126 [-/127.0.0.1/-/5ms GET /school/query?pageIndex=1&pageSize=9999] response time... 5
+2019-03-14 17:32:29,463 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request starttime... 1552555949463
+2019-03-14 17:32:29,463 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request querystring === 
+2019-03-14 17:32:29,464 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play3.png] response endtime... 1552555949464
+2019-03-14 17:32:29,464 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play3.png] response time... 1
+2019-03-14 17:32:29,965 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552555949965
+2019-03-14 17:32:29,965 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:32:29,965 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] response endtime... 1552555949965
+2019-03-14 17:32:29,965 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] response time... 0
+2019-03-14 17:32:36,303 INFO 65126 [-/127.0.0.1/-/0ms GET /] request starttime... 1552555956303
+2019-03-14 17:32:36,303 INFO 65126 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:32:36,311 INFO 65126 [-/127.0.0.1/-/8ms GET /] response endtime... 1552555956311
+2019-03-14 17:32:36,311 INFO 65126 [-/127.0.0.1/-/8ms GET /] response time... 8
+2019-03-14 17:32:36,358 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1552555956358
+2019-03-14 17:32:36,359 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-14 17:32:36,360 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1552555956360
+2019-03-14 17:32:36,360 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-14 17:32:36,362 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/layer.js] response endtime... 1552555956362
+2019-03-14 17:32:36,362 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/layer.js] response time... 2
+2019-03-14 17:32:36,363 INFO 65126 [-/127.0.0.1/-/5ms GET /public/lib/jquery-3.3.1.js] response endtime... 1552555956363
+2019-03-14 17:32:36,363 INFO 65126 [-/127.0.0.1/-/5ms GET /public/lib/jquery-3.3.1.js] response time... 5
+2019-03-14 17:32:36,427 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1552555956427
+2019-03-14 17:32:36,427 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-14 17:32:36,428 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1552555956428
+2019-03-14 17:32:36,428 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 1
+2019-03-14 17:32:36,447 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552555956447
+2019-03-14 17:32:36,448 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:32:36,449 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response endtime... 1552555956448
+2019-03-14 17:32:36,449 INFO 65126 [-/127.0.0.1/-/2ms GET /public/images/onAuto.png] response time... 1
+2019-03-14 17:32:36,699 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request starttime... 1552555956699
+2019-03-14 17:32:36,699 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request querystring === pageIndex=1&pageSize=9999
+2019-03-14 17:32:36,704 INFO 65126 [-/127.0.0.1/-/5ms GET /school/query?pageIndex=1&pageSize=9999] response endtime... 1552555956704
+2019-03-14 17:32:36,704 INFO 65126 [-/127.0.0.1/-/5ms GET /school/query?pageIndex=1&pageSize=9999] response time... 5
+2019-03-14 17:32:36,756 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request starttime... 1552555956756
+2019-03-14 17:32:36,756 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request querystring === 
+2019-03-14 17:32:36,758 INFO 65126 [-/127.0.0.1/-/2ms GET /public/images/play3.png] response endtime... 1552555956758
+2019-03-14 17:32:36,758 INFO 65126 [-/127.0.0.1/-/2ms GET /public/images/play3.png] response time... 2
+2019-03-14 17:32:37,099 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552555957099
+2019-03-14 17:32:37,100 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] request querystring === 
+2019-03-14 17:32:37,100 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552555957100
+2019-03-14 17:32:37,100 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 17:32:49,876 INFO 65126 [-/127.0.0.1/-/0ms GET /] request starttime... 1552555969876
+2019-03-14 17:32:49,876 INFO 65126 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:32:49,878 INFO 65126 [-/127.0.0.1/-/2ms GET /] response endtime... 1552555969878
+2019-03-14 17:32:49,878 INFO 65126 [-/127.0.0.1/-/2ms GET /] response time... 2
+2019-03-14 17:32:49,925 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1552555969925
+2019-03-14 17:32:49,926 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-14 17:32:49,928 INFO 65126 [-/127.0.0.1/-/3ms GET /public/lib/jquery-3.3.1.js] response endtime... 1552555969928
+2019-03-14 17:32:49,928 INFO 65126 [-/127.0.0.1/-/3ms GET /public/lib/jquery-3.3.1.js] response time... 3
+2019-03-14 17:32:49,934 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1552555969934
+2019-03-14 17:32:49,934 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-14 17:32:49,935 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/layer.js] response endtime... 1552555969935
+2019-03-14 17:32:49,935 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/layer.js] response time... 1
+2019-03-14 17:32:50,016 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1552555970016
+2019-03-14 17:32:50,016 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-14 17:32:50,017 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1552555970017
+2019-03-14 17:32:50,017 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 1
+2019-03-14 17:32:50,040 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552555970040
+2019-03-14 17:32:50,040 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:32:50,041 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response endtime... 1552555970041
+2019-03-14 17:32:50,041 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response time... 1
+2019-03-14 17:32:50,366 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request starttime... 1552555970366
+2019-03-14 17:32:50,366 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request querystring === pageIndex=1&pageSize=9999
+2019-03-14 17:32:50,371 INFO 65126 [-/127.0.0.1/-/5ms GET /school/query?pageIndex=1&pageSize=9999] response endtime... 1552555970371
+2019-03-14 17:32:50,371 INFO 65126 [-/127.0.0.1/-/5ms GET /school/query?pageIndex=1&pageSize=9999] response time... 5
+2019-03-14 17:32:50,421 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request starttime... 1552555970421
+2019-03-14 17:32:50,421 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request querystring === 
+2019-03-14 17:32:50,422 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play3.png] response endtime... 1552555970422
+2019-03-14 17:32:50,423 INFO 65126 [-/127.0.0.1/-/2ms GET /public/images/play3.png] response time... 1
+2019-03-14 17:32:50,741 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552555970741
+2019-03-14 17:32:50,741 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:32:50,742 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552555970742
+2019-03-14 17:32:50,742 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 17:32:53,957 INFO 65126 [-/127.0.0.1/-/0ms GET /] request starttime... 1552555973957
+2019-03-14 17:32:53,957 INFO 65126 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:32:53,959 INFO 65126 [-/127.0.0.1/-/2ms GET /] response endtime... 1552555973959
+2019-03-14 17:32:53,959 INFO 65126 [-/127.0.0.1/-/2ms GET /] response time... 2
+2019-03-14 17:32:54,009 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1552555974009
+2019-03-14 17:32:54,009 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-14 17:32:54,010 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1552555974010
+2019-03-14 17:32:54,010 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-14 17:32:54,012 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/layer.js] response endtime... 1552555974011
+2019-03-14 17:32:54,012 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/layer.js] response time... 1
+2019-03-14 17:32:54,013 INFO 65126 [-/127.0.0.1/-/4ms GET /public/lib/jquery-3.3.1.js] response endtime... 1552555974013
+2019-03-14 17:32:54,013 INFO 65126 [-/127.0.0.1/-/4ms GET /public/lib/jquery-3.3.1.js] response time... 4
+2019-03-14 17:32:54,076 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1552555974076
+2019-03-14 17:32:54,076 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-14 17:32:54,077 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1552555974077
+2019-03-14 17:32:54,077 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 1
+2019-03-14 17:32:54,170 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552555974170
+2019-03-14 17:32:54,171 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:32:54,171 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response endtime... 1552555974171
+2019-03-14 17:32:54,172 INFO 65126 [-/127.0.0.1/-/2ms GET /public/images/onAuto.png] response time... 1
+2019-03-14 17:32:54,376 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request starttime... 1552555974376
+2019-03-14 17:32:54,376 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request querystring === pageIndex=1&pageSize=9999
+2019-03-14 17:32:54,381 INFO 65126 [-/127.0.0.1/-/5ms GET /school/query?pageIndex=1&pageSize=9999] response endtime... 1552555974381
+2019-03-14 17:32:54,381 INFO 65126 [-/127.0.0.1/-/5ms GET /school/query?pageIndex=1&pageSize=9999] response time... 5
+2019-03-14 17:32:54,437 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request starttime... 1552555974437
+2019-03-14 17:32:54,437 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request querystring === 
+2019-03-14 17:32:54,437 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] response endtime... 1552555974437
+2019-03-14 17:32:54,437 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] response time... 0
+2019-03-14 17:32:54,687 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552555974687
+2019-03-14 17:32:54,687 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:32:54,688 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552555974688
+2019-03-14 17:32:54,688 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 17:33:51,980 INFO 65126 [-/127.0.0.1/-/0ms GET /] request starttime... 1552556031980
+2019-03-14 17:33:51,980 INFO 65126 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:33:51,982 INFO 65126 [-/127.0.0.1/-/2ms GET /] response endtime... 1552556031982
+2019-03-14 17:33:51,982 INFO 65126 [-/127.0.0.1/-/2ms GET /] response time... 2
+2019-03-14 17:33:52,052 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1552556032052
+2019-03-14 17:33:52,052 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-14 17:33:52,058 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1552556032057
+2019-03-14 17:33:52,058 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-14 17:33:52,061 INFO 65126 [-/127.0.0.1/-/4ms GET /public/lib/layer_mobile/layer.js] response endtime... 1552556032061
+2019-03-14 17:33:52,061 INFO 65126 [-/127.0.0.1/-/4ms GET /public/lib/layer_mobile/layer.js] response time... 4
+2019-03-14 17:33:52,062 INFO 65126 [-/127.0.0.1/-/10ms GET /public/lib/jquery-3.3.1.js] response endtime... 1552556032062
+2019-03-14 17:33:52,062 INFO 65126 [-/127.0.0.1/-/10ms GET /public/lib/jquery-3.3.1.js] response time... 10
+2019-03-14 17:33:52,119 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1552556032119
+2019-03-14 17:33:52,119 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-14 17:33:52,120 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1552556032120
+2019-03-14 17:33:52,120 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 1
+2019-03-14 17:33:52,241 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552556032241
+2019-03-14 17:33:52,241 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:33:52,242 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response endtime... 1552556032242
+2019-03-14 17:33:52,242 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response time... 1
+2019-03-14 17:33:52,433 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request starttime... 1552556032433
+2019-03-14 17:33:52,433 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request querystring === pageIndex=1&pageSize=9999
+2019-03-14 17:33:52,440 INFO 65126 [-/127.0.0.1/-/7ms GET /school/query?pageIndex=1&pageSize=9999] response endtime... 1552556032440
+2019-03-14 17:33:52,440 INFO 65126 [-/127.0.0.1/-/7ms GET /school/query?pageIndex=1&pageSize=9999] response time... 7
+2019-03-14 17:33:52,487 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request starttime... 1552556032487
+2019-03-14 17:33:52,487 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request querystring === 
+2019-03-14 17:33:52,488 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play3.png] response endtime... 1552556032488
+2019-03-14 17:33:52,488 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play3.png] response time... 1
+2019-03-14 17:33:52,738 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552556032738
+2019-03-14 17:33:52,738 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:33:52,739 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552556032739
+2019-03-14 17:33:52,739 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 17:33:54,370 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/offAuto.png] request starttime... 1552556034370
+2019-03-14 17:33:54,371 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/offAuto.png] request querystring === 
+2019-03-14 17:33:54,372 INFO 65126 [-/127.0.0.1/-/2ms GET /public/images/offAuto.png] response endtime... 1552556034372
+2019-03-14 17:33:54,372 INFO 65126 [-/127.0.0.1/-/2ms GET /public/images/offAuto.png] response time... 2
+2019-03-14 17:33:56,328 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play1.gif] request starttime... 1552556036328
+2019-03-14 17:33:56,328 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play1.gif] request querystring === 
+2019-03-14 17:33:56,328 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play1.gif] response endtime... 1552556036328
+2019-03-14 17:33:56,328 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play1.gif] response time... 0
+2019-03-14 17:34:11,646 INFO 65126 [-/127.0.0.1/-/0ms GET /] request starttime... 1552556051646
+2019-03-14 17:34:11,646 INFO 65126 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:34:11,648 INFO 65126 [-/127.0.0.1/-/2ms GET /] response endtime... 1552556051648
+2019-03-14 17:34:11,648 INFO 65126 [-/127.0.0.1/-/2ms GET /] response time... 2
+2019-03-14 17:34:11,696 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1552556051696
+2019-03-14 17:34:11,696 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-14 17:34:11,697 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1552556051697
+2019-03-14 17:34:11,697 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-14 17:34:11,699 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/layer.js] response endtime... 1552556051699
+2019-03-14 17:34:11,699 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/layer.js] response time... 2
+2019-03-14 17:34:11,699 INFO 65126 [-/127.0.0.1/-/3ms GET /public/lib/jquery-3.3.1.js] response endtime... 1552556051699
+2019-03-14 17:34:11,699 INFO 65126 [-/127.0.0.1/-/3ms GET /public/lib/jquery-3.3.1.js] response time... 3
+2019-03-14 17:34:11,764 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1552556051764
+2019-03-14 17:34:11,765 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-14 17:34:11,766 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1552556051766
+2019-03-14 17:34:11,766 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 2
+2019-03-14 17:34:11,788 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552556051788
+2019-03-14 17:34:11,788 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:34:11,789 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response endtime... 1552556051789
+2019-03-14 17:34:11,789 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response time... 1
+2019-03-14 17:34:12,060 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request starttime... 1552556052060
+2019-03-14 17:34:12,060 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request querystring === pageIndex=1&pageSize=9999
+2019-03-14 17:34:12,065 INFO 65126 [-/127.0.0.1/-/5ms GET /school/query?pageIndex=1&pageSize=9999] response endtime... 1552556052065
+2019-03-14 17:34:12,065 INFO 65126 [-/127.0.0.1/-/5ms GET /school/query?pageIndex=1&pageSize=9999] response time... 5
+2019-03-14 17:34:12,112 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request starttime... 1552556052112
+2019-03-14 17:34:12,112 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request querystring === 
+2019-03-14 17:34:12,113 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play3.png] response endtime... 1552556052113
+2019-03-14 17:34:12,113 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play3.png] response time... 1
+2019-03-14 17:34:12,596 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552556052596
+2019-03-14 17:34:12,597 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] request querystring === 
+2019-03-14 17:34:12,597 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552556052597
+2019-03-14 17:34:12,597 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 17:34:12,912 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/offAuto.png] request starttime... 1552556052912
+2019-03-14 17:34:12,913 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/offAuto.png] request querystring === 
+2019-03-14 17:34:12,913 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/offAuto.png] response endtime... 1552556052913
+2019-03-14 17:34:12,913 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/offAuto.png] response time... 1
+2019-03-14 17:35:35,795 INFO 65126 [-/127.0.0.1/-/0ms GET /] request starttime... 1552556135795
+2019-03-14 17:35:35,796 INFO 65126 [-/127.0.0.1/-/1ms GET /] request querystring === 
+2019-03-14 17:35:35,797 INFO 65126 [-/127.0.0.1/-/2ms GET /] response endtime... 1552556135797
+2019-03-14 17:35:35,797 INFO 65126 [-/127.0.0.1/-/2ms GET /] response time... 2
+2019-03-14 17:35:35,843 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1552556135843
+2019-03-14 17:35:35,843 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-14 17:35:35,845 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/jquery-3.3.1.js] response endtime... 1552556135845
+2019-03-14 17:35:35,845 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/jquery-3.3.1.js] response time... 2
+2019-03-14 17:35:35,850 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1552556135850
+2019-03-14 17:35:35,850 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-14 17:35:35,852 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/layer.js] response endtime... 1552556135851
+2019-03-14 17:35:35,852 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/layer.js] response time... 1
+2019-03-14 17:35:35,910 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1552556135910
+2019-03-14 17:35:35,911 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-14 17:35:35,912 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1552556135912
+2019-03-14 17:35:35,912 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 2
+2019-03-14 17:35:35,930 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552556135930
+2019-03-14 17:35:35,930 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:35:35,931 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response endtime... 1552556135931
+2019-03-14 17:35:35,931 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response time... 1
+2019-03-14 17:35:36,214 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request starttime... 1552556136214
+2019-03-14 17:35:36,214 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request querystring === pageIndex=1&pageSize=9999
+2019-03-14 17:35:36,219 INFO 65126 [-/127.0.0.1/-/5ms GET /school/query?pageIndex=1&pageSize=9999] response endtime... 1552556136219
+2019-03-14 17:35:36,219 INFO 65126 [-/127.0.0.1/-/5ms GET /school/query?pageIndex=1&pageSize=9999] response time... 5
+2019-03-14 17:35:36,268 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request starttime... 1552556136268
+2019-03-14 17:35:36,268 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request querystring === 
+2019-03-14 17:35:36,270 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play3.png] response endtime... 1552556136269
+2019-03-14 17:35:36,270 INFO 65126 [-/127.0.0.1/-/2ms GET /public/images/play3.png] response time... 1
+2019-03-14 17:35:36,513 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552556136513
+2019-03-14 17:35:36,513 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:35:36,513 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] response endtime... 1552556136513
+2019-03-14 17:35:36,513 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] response time... 0
+2019-03-14 17:36:31,743 INFO 65126 [-/127.0.0.1/-/0ms GET /] request starttime... 1552556191743
+2019-03-14 17:36:31,744 INFO 65126 [-/127.0.0.1/-/1ms GET /] request querystring === 
+2019-03-14 17:36:31,746 INFO 65126 [-/127.0.0.1/-/3ms GET /] response endtime... 1552556191746
+2019-03-14 17:36:31,746 INFO 65126 [-/127.0.0.1/-/3ms GET /] response time... 3
+2019-03-14 17:36:31,788 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1552556191788
+2019-03-14 17:36:31,788 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-14 17:36:31,789 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/css/reset.css] request starttime... 1552556191789
+2019-03-14 17:36:31,789 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/css/reset.css] request querystring === 
+2019-03-14 17:36:31,792 INFO 65126 [-/127.0.0.1/-/3ms GET /public/lib/css/reset.css] response endtime... 1552556191792
+2019-03-14 17:36:31,792 INFO 65126 [-/127.0.0.1/-/3ms GET /public/lib/css/reset.css] response time... 3
+2019-03-14 17:36:31,792 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1552556191792
+2019-03-14 17:36:31,792 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-14 17:36:31,794 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/layer.js] response endtime... 1552556191794
+2019-03-14 17:36:31,794 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/layer.js] response time... 2
+2019-03-14 17:36:31,794 INFO 65126 [-/127.0.0.1/-/6ms GET /public/lib/jquery-3.3.1.js] response endtime... 1552556191794
+2019-03-14 17:36:31,794 INFO 65126 [-/127.0.0.1/-/6ms GET /public/lib/jquery-3.3.1.js] response time... 6
+2019-03-14 17:36:31,856 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1552556191856
+2019-03-14 17:36:31,857 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-14 17:36:31,857 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/css/reset.css] request starttime... 1552556191857
+2019-03-14 17:36:31,857 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/css/reset.css] request querystring === 
+2019-03-14 17:36:31,858 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/css/reset.css] response endtime... 1552556191858
+2019-03-14 17:36:31,858 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/css/reset.css] response time... 1
+2019-03-14 17:36:31,859 INFO 65126 [-/127.0.0.1/-/3ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1552556191859
+2019-03-14 17:36:31,859 INFO 65126 [-/127.0.0.1/-/3ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 3
+2019-03-14 17:36:31,981 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552556191981
+2019-03-14 17:36:31,981 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:36:31,982 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response endtime... 1552556191982
+2019-03-14 17:36:31,982 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response time... 1
+2019-03-14 17:36:32,169 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request starttime... 1552556192168
+2019-03-14 17:36:32,169 INFO 65126 [-/127.0.0.1/-/1ms GET /school/query?pageIndex=1&pageSize=9999] request querystring === pageIndex=1&pageSize=9999
+2019-03-14 17:36:32,174 INFO 65126 [-/127.0.0.1/-/6ms GET /school/query?pageIndex=1&pageSize=9999] response endtime... 1552556192174
+2019-03-14 17:36:32,174 INFO 65126 [-/127.0.0.1/-/6ms GET /school/query?pageIndex=1&pageSize=9999] response time... 6
+2019-03-14 17:36:32,221 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request starttime... 1552556192221
+2019-03-14 17:36:32,221 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request querystring === 
+2019-03-14 17:36:32,222 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play3.png] response endtime... 1552556192222
+2019-03-14 17:36:32,222 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play3.png] response time... 1
+2019-03-14 17:36:32,970 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552556192970
+2019-03-14 17:36:32,970 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:36:32,970 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] response endtime... 1552556192970
+2019-03-14 17:36:32,971 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 0
+2019-03-14 17:36:33,867 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/offAuto.png] request starttime... 1552556193867
+2019-03-14 17:36:33,867 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/offAuto.png] request querystring === 
+2019-03-14 17:36:33,868 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/offAuto.png] response endtime... 1552556193868
+2019-03-14 17:36:33,868 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/offAuto.png] response time... 1
+2019-03-14 17:36:43,827 INFO 65126 [-/127.0.0.1/-/0ms GET /] request starttime... 1552556203827
+2019-03-14 17:36:43,827 INFO 65126 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-14 17:36:43,829 INFO 65126 [-/127.0.0.1/-/2ms GET /] response endtime... 1552556203829
+2019-03-14 17:36:43,829 INFO 65126 [-/127.0.0.1/-/2ms GET /] response time... 2
+2019-03-14 17:36:43,874 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1552556203874
+2019-03-14 17:36:43,874 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-14 17:36:43,876 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/jquery-3.3.1.js] response endtime... 1552556203876
+2019-03-14 17:36:43,876 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/jquery-3.3.1.js] response time... 2
+2019-03-14 17:36:43,879 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1552556203879
+2019-03-14 17:36:43,879 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-14 17:36:43,881 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/layer.js] response endtime... 1552556203880
+2019-03-14 17:36:43,881 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/layer.js] response time... 1
+2019-03-14 17:36:43,883 INFO 65126 [-/127.0.0.1/-/0ms GET /public/css/reset.css] request starttime... 1552556203883
+2019-03-14 17:36:43,883 INFO 65126 [-/127.0.0.1/-/0ms GET /public/css/reset.css] request querystring === 
+2019-03-14 17:36:43,884 INFO 65126 [-/127.0.0.1/-/1ms GET /public/css/reset.css] response endtime... 1552556203884
+2019-03-14 17:36:43,884 INFO 65126 [-/127.0.0.1/-/1ms GET /public/css/reset.css] response time... 1
+2019-03-14 17:36:43,941 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1552556203940
+2019-03-14 17:36:43,941 INFO 65126 [-/127.0.0.1/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-14 17:36:43,942 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1552556203942
+2019-03-14 17:36:43,942 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 2
+2019-03-14 17:36:43,970 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552556203970
+2019-03-14 17:36:43,971 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:36:43,972 INFO 65126 [-/127.0.0.1/-/2ms GET /public/images/onAuto.png] response endtime... 1552556203972
+2019-03-14 17:36:43,972 INFO 65126 [-/127.0.0.1/-/2ms GET /public/images/onAuto.png] response time... 2
+2019-03-14 17:36:44,226 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request starttime... 1552556204226
+2019-03-14 17:36:44,226 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request querystring === pageIndex=1&pageSize=9999
+2019-03-14 17:36:44,232 INFO 65126 [-/127.0.0.1/-/6ms GET /school/query?pageIndex=1&pageSize=9999] response endtime... 1552556204232
+2019-03-14 17:36:44,232 INFO 65126 [-/127.0.0.1/-/6ms GET /school/query?pageIndex=1&pageSize=9999] response time... 6
+2019-03-14 17:36:44,278 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request starttime... 1552556204278
+2019-03-14 17:36:44,278 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request querystring === 
+2019-03-14 17:36:44,279 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play3.png] response endtime... 1552556204279
+2019-03-14 17:36:44,279 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play3.png] response time... 1
+2019-03-14 17:36:45,127 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/offAuto.png] request starttime... 1552556205127
+2019-03-14 17:36:45,127 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/offAuto.png] request querystring === 
+2019-03-14 17:36:45,128 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/offAuto.png] response endtime... 1552556205128
+2019-03-14 17:36:45,128 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/offAuto.png] response time... 1
+2019-03-14 17:36:45,340 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552556205340
+2019-03-14 17:36:45,340 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:36:45,341 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552556205341
+2019-03-14 17:36:45,341 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 17:36:47,561 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play1.gif] request starttime... 1552556207561
+2019-03-14 17:36:47,561 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play1.gif] request querystring === 
+2019-03-14 17:36:47,562 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play1.gif] response endtime... 1552556207562
+2019-03-14 17:36:47,562 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play1.gif] response time... 1
+2019-03-14 17:39:49,557 INFO 65126 [-/127.0.0.1/-/1ms GET /] request starttime... 1552556389556
+2019-03-14 17:39:49,557 INFO 65126 [-/127.0.0.1/-/1ms GET /] request querystring === 
+2019-03-14 17:39:49,559 INFO 65126 [-/127.0.0.1/-/3ms GET /] response endtime... 1552556389559
+2019-03-14 17:39:49,560 INFO 65126 [-/127.0.0.1/-/3ms GET /] response time... 3
+2019-03-14 17:39:49,617 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1552556389617
+2019-03-14 17:39:49,617 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-14 17:39:49,618 INFO 65126 [-/127.0.0.1/-/0ms GET /public/css/reset.css] request starttime... 1552556389618
+2019-03-14 17:39:49,618 INFO 65126 [-/127.0.0.1/-/0ms GET /public/css/reset.css] request querystring === 
+2019-03-14 17:39:49,619 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1552556389619
+2019-03-14 17:39:49,619 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-14 17:39:49,620 INFO 65126 [-/127.0.0.1/-/2ms GET /public/css/reset.css] response endtime... 1552556389620
+2019-03-14 17:39:49,620 INFO 65126 [-/127.0.0.1/-/2ms GET /public/css/reset.css] response time... 2
+2019-03-14 17:39:49,621 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/layer.js] response endtime... 1552556389621
+2019-03-14 17:39:49,621 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/layer.js] response time... 2
+2019-03-14 17:39:49,621 INFO 65126 [-/127.0.0.1/-/4ms GET /public/lib/jquery-3.3.1.js] response endtime... 1552556389621
+2019-03-14 17:39:49,621 INFO 65126 [-/127.0.0.1/-/4ms GET /public/lib/jquery-3.3.1.js] response time... 4
+2019-03-14 17:39:49,688 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1552556389688
+2019-03-14 17:39:49,688 INFO 65126 [-/127.0.0.1/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-14 17:39:49,690 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1552556389690
+2019-03-14 17:39:49,690 INFO 65126 [-/127.0.0.1/-/2ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 2
+2019-03-14 17:39:49,713 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request starttime... 1552556389713
+2019-03-14 17:39:49,713 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-14 17:39:49,714 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response endtime... 1552556389714
+2019-03-14 17:39:49,714 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/onAuto.png] response time... 1
+2019-03-14 17:39:50,029 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request starttime... 1552556390029
+2019-03-14 17:39:50,029 INFO 65126 [-/127.0.0.1/-/0ms GET /school/query?pageIndex=1&pageSize=9999] request querystring === pageIndex=1&pageSize=9999
+2019-03-14 17:39:50,034 INFO 65126 [-/127.0.0.1/-/5ms GET /school/query?pageIndex=1&pageSize=9999] response endtime... 1552556390034
+2019-03-14 17:39:50,034 INFO 65126 [-/127.0.0.1/-/5ms GET /school/query?pageIndex=1&pageSize=9999] response time... 5
+2019-03-14 17:39:50,089 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request starttime... 1552556390089
+2019-03-14 17:39:50,089 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request querystring === 
+2019-03-14 17:39:50,090 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play3.png] response endtime... 1552556390090
+2019-03-14 17:39:50,090 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play3.png] response time... 1
+2019-03-14 17:39:50,339 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1552556390339
+2019-03-14 17:39:50,339 INFO 65126 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-14 17:39:50,340 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1552556390340
+2019-03-14 17:39:50,340 INFO 65126 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-14 17:39:59,459 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play1.gif] request starttime... 1552556399459
+2019-03-14 17:39:59,459 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play1.gif] request querystring === 
+2019-03-14 17:39:59,459 INFO 65126 [-/127.0.0.1/-/0ms GET /public/images/play1.gif] response endtime... 1552556399459
+2019-03-14 17:39:59,460 INFO 65126 [-/127.0.0.1/-/1ms GET /public/images/play1.gif] response time... 0

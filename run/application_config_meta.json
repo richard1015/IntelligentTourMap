@@ -91,6 +91,15 @@
   },
   "mongodbUrl": "/Users/richard/github/IntelligentTourMap/config/config.default.js",
   "mongodbName": "/Users/richard/github/IntelligentTourMap/config/config.default.js",
+  "view": {
+    "mapping": {
+      ".html": "/Users/richard/github/IntelligentTourMap/config/config.default.js"
+    },
+    "root": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view/config/config.default.js"
+  },
   "session": {
     "maxAge": "/Users/richard/github/IntelligentTourMap/node_modules/egg-session/config/config.default.js",
     "key": "/Users/richard/github/IntelligentTourMap/node_modules/egg-session/config/config.default.js",
@@ -157,12 +166,13 @@
     "buffer": "/Users/richard/github/IntelligentTourMap/node_modules/egg-static/config/config.default.js",
     "maxFiles": "/Users/richard/github/IntelligentTourMap/node_modules/egg-static/config/config.default.js"
   },
-  "view": {
-    "root": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view/config/config.default.js",
-    "cache": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view/config/config.local.js",
-    "defaultExtension": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view/config/config.default.js",
-    "defaultViewEngine": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view/config/config.default.js",
-    "mapping": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view/config/config.default.js"
+  "ejs": {
+    "root": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view-ejs/config/config.default.js",
+    "cache": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view-ejs/config/config.local.js",
+    "debug": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view-ejs/config/config.default.js",
+    "compileDebug": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view-ejs/config/config.default.js",
+    "delimiter": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view-ejs/config/config.default.js",
+    "strict": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view-ejs/config/config.default.js"
   },
   "env": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
   "name": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
@@ -182,6 +192,7 @@
       "egg": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
       "egg-scripts": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
       "egg-swagger-doc": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "egg-view-ejs": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
       "mongodb": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
