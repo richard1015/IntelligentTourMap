@@ -182,6 +182,10 @@
       "delimiter": null,
       "strict": false
     },
+    "cors": {
+      "origin": "*",
+      "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS"
+    },
     "env": "local",
     "name": "IntelligentTourMap",
     "keys": "<String len: 37>",
@@ -199,6 +203,7 @@
       },
       "dependencies": {
         "egg": "^2.15.1",
+        "egg-cors": "^2.2.0",
         "egg-scripts": "^2.11.0",
         "egg-swagger-doc": "^2.2.9",
         "egg-view-ejs": "^2.0.0",
@@ -335,10 +340,6 @@
     },
     "onClientError": null,
     "middleware": [],
-    "cors": {
-      "origin": "*",
-      "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS"
-    },
     "mongodbUrl": "mongodb://127.0.0.1:27017",
     "mongodbName": "IntelligentTourMap",
     "coreMiddlewares": "~config~coreMiddleware",
@@ -515,6 +516,17 @@
       "from": "/Users/richard/github/IntelligentTourMap/config/plugin.js",
       "path": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view-ejs",
       "version": "2.0.0"
+    },
+    "cors": {
+      "enable": true,
+      "package": "egg-cors",
+      "name": "cors",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/richard/github/IntelligentTourMap/config/plugin.js",
+      "path": "/Users/richard/github/IntelligentTourMap/node_modules/egg-cors",
+      "version": "2.2.0"
     }
   }
 }

@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "egg": "^2.15.1",
+    "egg-cors": "^2.2.0",
     "egg-scripts": "^2.11.0",
     "egg-swagger-doc": "^2.2.9",
     "egg-view-ejs": "^2.0.0",
