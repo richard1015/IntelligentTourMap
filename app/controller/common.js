@@ -20,6 +20,27 @@ class CommonController extends Controller {
         const origin = ctx.origin;
         this.success(await service.base.uploadImg(origin, stream))
     }
+    /**
+     * @summary 登录接口
+     * @description 登录接口
+     * @router post /common/login
+     * * @request body login *body
+     * @response 200 response 登录成功
+     */
+    async login() {
+        const { ctx, service } = this;
+        const { username, password } = ctx.request.body;
+        if (username && password) {
+            try {
+                this.success(await service.base.login(ctx.request.body))
+            } catch (error) {
+                this.error(error);
+            }
+
+        } else {
+            this.error('请检查参数!')
+        }
+    }
 }
 
 module.exports = CommonController;

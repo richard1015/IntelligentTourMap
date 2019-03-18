@@ -27,7 +27,7 @@ class UserController extends Controller {
      * @response 200 response 更新成功
      */
     async update() {
-        this.success(await this.ctx.service.user.update(this.ctx.params))
+        this.success(await this.ctx.service.user.update(this.ctx.request.body))
     }
     /**
      * @summary 删除

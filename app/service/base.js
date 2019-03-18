@@ -52,6 +52,7 @@ class BaseService extends Service {
                         resolve(true)
                     });
             } else {
+                delete params._id;
                 // Insert some documents
                 collection.insertMany([
                     params
@@ -82,6 +83,32 @@ class BaseService extends Service {
         let imgUrl = `${origin}/public/${stream.filename}`;
 
         return imgUrl;
+    }
+    async login({ username, password }) {
+        const { collection, client } = await this.getConllection('user');
+        return new Promise((resolve, reject) => {
+            collection.find({ username, password }).toArray(function (err, result) {
+                if (err) throw reject(err);
+                client.close();
+                if (result.length > 0) {
+                    var radomStr = new Date().getTime() + getRadomNum(6);
+                    function getRadomNum(capacity) {
+                        var chars = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+                        var res = "";
+                        for (var i = 0; i < capacity; i++) {
+                            var id = Math.ceil(Math.random() * chars.length);
+                            res += chars[id];
+                        }
+                        return res;
+                    }
+                    resolve({
+                        token: radomStr
+                    });
+                } else {
+                    reject('账号密码错误!')
+                }
+            })
+        })
     }
 }
 

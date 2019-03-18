@@ -9,6 +9,7 @@ module.exports = app => {
   router.get('/', controller.home.index);
   // common router
   router.post('/common/upload', controller.common.upload);
+  router.post('/common/login', controller.common.login);
   // user router
   router.get('/user/query', controller.user.query);
   router.post('/user/update', controller.user.update);

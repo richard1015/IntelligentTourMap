@@ -20,9 +20,13 @@ module.exports = {
         totalCount: { type: 'integer' },
         hasNextPage: { type: 'boolean' },
     },
+    login: {
+        username: { type: 'string', required: true, description: '用户账号' },
+        password: { type: 'string', required: true, description: '密码' }
+    },
     user: {
         _id: { type: 'string', description: 'id 唯一键' },
-        username: { type: 'string', required: true, description: '用户姓名' },
+        username: { type: 'string', required: true, description: '用户账号' },
         password: { type: 'string', required: true, description: '密码' },
         phone: { type: 'string', required: true, description: '电话' },
     },

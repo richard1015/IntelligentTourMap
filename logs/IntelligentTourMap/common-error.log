@@ -1331,3 +1331,90 @@ operator: "=="
 pid: 64923
 hostname: richard-MacBook-Pro.local
 
+2019-03-18 10:35:54,985 ERROR 89401 [-/127.0.0.1/-/24ms POST /common/login] nodejs.ReferenceError: ctx is not defined
+    at CommonController.login (/Users/richard/github/IntelligentTourMap/app/controller/common.js:31:40)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:45:18)
+    at /Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+    at /Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:36:12
+
+pid: 89401
+hostname: richard-MacBook-Pro.local
+
+2019-03-18 10:35:56,163 ERROR 89401 [-/127.0.0.1/-/2ms POST /common/login] nodejs.ReferenceError: ctx is not defined
+    at CommonController.login (/Users/richard/github/IntelligentTourMap/app/controller/common.js:31:40)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:45:18)
+    at /Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+    at /Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:36:12
+
+pid: 89401
+hostname: richard-MacBook-Pro.local
+
+2019-03-18 10:36:42,569 ERROR 89430 [-/127.0.0.1/-/16355ms POST /common/login] nodejs.ReferenceError: ctx is not defined
+    at CommonController.login (/Users/richard/github/IntelligentTourMap/app/controller/common.js:32:40)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:45:18)
+    at /Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+    at /Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:36:12
+
+pid: 89430
+hostname: richard-MacBook-Pro.local
+
+2019-03-18 10:37:32,800 ERROR 89476 [-/127.0.0.1/-/17103ms POST /common/login] nodejs.TypeError: Cannot read property 'trim' of undefined
+    at CommonController.login (/Users/richard/github/IntelligentTourMap/app/controller/common.js:34:22)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/richard/github/IntelligentTourMap/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:45:18)
+    at /Users/richard/github/IntelligentTourMap/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:44:32)
+    at /Users/richard/github/IntelligentTourMap/node_modules/koa-compose/index.js:36:12
+
+pid: 89476
+hostname: richard-MacBook-Pro.local
+
+2019-03-18 10:56:32,746 ERROR 89900 nodejs.ClusterClientNoResponseError: client no response in 68671ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/richard/github/IntelligentTourMap/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 89900
+hostname: richard-MacBook-Pro.local
+
+2019-03-18 11:10:32,875 ERROR 89900 nodejs.ClusterClientNoResponseError: client no response in 79761ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/richard/github/IntelligentTourMap/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 89900
+hostname: richard-MacBook-Pro.local
+
+2019-03-18 11:12:32,439 ERROR 90506 [-/127.0.0.1/-/3214ms POST /common/login] nodejs.Error: non-error thrown: 账号密码错误!
+    at Object.app.context.onerror (/Users/richard/github/IntelligentTourMap/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/Users/richard/github/IntelligentTourMap/node_modules/koa/lib/application.js:148:32)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 90506
+hostname: richard-MacBook-Pro.local
+
