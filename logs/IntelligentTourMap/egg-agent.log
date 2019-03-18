@@ -1554,3 +1554,22 @@ hostname: richard-MacBook-Pro.local
 2019-03-18 15:00:59,206 INFO 95412 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/app.js"
 2019-03-18 15:00:59,207 INFO 95412 [egg-watcher:agent] watcher start success
 2019-03-18 15:00:59,218 INFO 95412 [egg:core] dump config after ready, 3ms
+2019-03-18 16:35:20,356 INFO 98313 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-03-18 16:35:20,540 INFO 98313 [egg:core] dump config after load, 59ms
+2019-03-18 16:35:20,586 INFO 98313 [egg-watcher] Start watching: ["/Users/richard/github/IntelligentTourMap/app","/Users/richard/github/IntelligentTourMap/config","/Users/richard/github/IntelligentTourMap/mocks","/Users/richard/github/IntelligentTourMap/mocks_proxy","/Users/richard/github/IntelligentTourMap/app.js"]
+2019-03-18 16:35:20,586 INFO 98313 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/app"
+2019-03-18 16:35:20,586 INFO 98313 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/config"
+2019-03-18 16:35:20,586 INFO 98313 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/mocks"
+2019-03-18 16:35:20,587 INFO 98313 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/mocks_proxy"
+2019-03-18 16:35:20,587 INFO 98313 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/app.js"
+2019-03-18 16:35:20,587 INFO 98313 [egg-watcher:agent] watcher start success
+2019-03-18 16:35:20,598 INFO 98313 [egg:core] dump config after ready, 3ms
+2019-03-18 16:37:40,598 ERROR 98313 nodejs.ClusterClientNoResponseError: client no response in 78775ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/richard/github/IntelligentTourMap/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 98313
+hostname: richard-MacBook-Pro.local
+

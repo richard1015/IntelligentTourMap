@@ -1418,3 +1418,12 @@ hostname: richard-MacBook-Pro.local
 pid: 90506
 hostname: richard-MacBook-Pro.local
 
+2019-03-18 16:37:40,597 ERROR 98313 nodejs.ClusterClientNoResponseError: client no response in 78775ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/richard/github/IntelligentTourMap/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 98313
+hostname: richard-MacBook-Pro.local
+
