@@ -4077,3 +4077,20 @@ hostname: richard-MacBook-Pro.local
 2019-03-18 16:35:21,819 INFO 98321 [egg:core] dump config after ready, 5ms
 2019-03-18 16:38:09,902 WARN 98321 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
 2019-03-18 16:38:09,904 WARN 98321 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-20 17:07:09,013 INFO 31085 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-20 17:07:09,050 INFO 31085 [egg-multipart] stream mode enable
+2019-03-20 17:07:09,257 INFO 31085 [egg-static] starting static serve /public/ -> /Users/richard/github/IntelligentTourMap/app/public
+2019-03-20 17:07:09,260 INFO 31085 [egg-security] use methodnoallow middleware
+2019-03-20 17:07:09,260 INFO 31085 [egg-security] use noopen middleware
+2019-03-20 17:07:09,261 INFO 31085 [egg-security] use nosniff middleware
+2019-03-20 17:07:09,262 INFO 31085 [egg-security] use xssProtection middleware
+2019-03-20 17:07:09,262 INFO 31085 [egg-security] use xframe middleware
+2019-03-20 17:07:09,263 INFO 31085 [egg-security] use dta middleware
+2019-03-20 17:07:09,263 INFO 31085 [egg-security] compose 6 middlewares into one security middleware
+2019-03-20 17:07:09,277 INFO 31085 [egg:core] dump config after load, 5ms
+2019-03-20 17:07:09,367 INFO 31085 [egg-watcher:application] watcher start success
+2019-03-20 17:07:09,376 INFO 31085 [egg:core] dump config after ready, 6ms
+2019-03-20 17:11:06,417 WARN 31085 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-03-20 17:11:06,418 WARN 31085 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-20 17:12:56,381 WARN 31085 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-03-20 17:12:56,381 WARN 31085 [ClusterClient:Watcher] follower closed, and try to init it again

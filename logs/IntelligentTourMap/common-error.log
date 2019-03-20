@@ -1427,3 +1427,30 @@ name: "ClusterClientNoResponseError"
 pid: 98313
 hostname: richard-MacBook-Pro.local
 
+2019-03-20 17:10:28,073 ERROR 31076 nodejs.ClusterClientNoResponseError: client no response in 78690ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/richard/github/IntelligentTourMap/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 31076
+hostname: richard-MacBook-Pro.local
+
+2019-03-20 17:12:48,084 ERROR 31076 nodejs.ClusterClientNoResponseError: client no response in 65373ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/richard/github/IntelligentTourMap/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 31076
+hostname: richard-MacBook-Pro.local
+
+2019-03-20 17:16:08,110 ERROR 31076 nodejs.ClusterClientNoResponseError: client no response in 71707ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/richard/github/IntelligentTourMap/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 31076
+hostname: richard-MacBook-Pro.local
+

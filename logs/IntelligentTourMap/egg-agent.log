@@ -1573,3 +1573,45 @@ name: "ClusterClientNoResponseError"
 pid: 98313
 hostname: richard-MacBook-Pro.local
 
+2019-03-20 17:07:07,888 INFO 31076 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-03-20 17:07:08,005 INFO 31076 [egg:core] dump config after load, 5ms
+2019-03-20 17:07:08,051 INFO 31076 [egg-watcher] Start watching: ["/Users/richard/github/IntelligentTourMap/app","/Users/richard/github/IntelligentTourMap/config","/Users/richard/github/IntelligentTourMap/mocks","/Users/richard/github/IntelligentTourMap/mocks_proxy","/Users/richard/github/IntelligentTourMap/app.js"]
+2019-03-20 17:07:08,051 INFO 31076 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/app"
+2019-03-20 17:07:08,051 INFO 31076 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/config"
+2019-03-20 17:07:08,051 INFO 31076 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/mocks"
+2019-03-20 17:07:08,051 INFO 31076 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/mocks_proxy"
+2019-03-20 17:07:08,051 INFO 31076 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/app.js"
+2019-03-20 17:07:08,052 INFO 31076 [egg-watcher:agent] watcher start success
+2019-03-20 17:07:08,063 INFO 31076 [egg:core] dump config after ready, 3ms
+2019-03-20 17:10:28,073 ERROR 31076 nodejs.ClusterClientNoResponseError: client no response in 78690ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/richard/github/IntelligentTourMap/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 31076
+hostname: richard-MacBook-Pro.local
+
+2019-03-20 17:11:04,816 INFO 31076 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/richard/github/IntelligentTourMap/app/public/wx45f0cd0b700d0570.o6zAJs0XpPS0cJq8JmEyO3TbmOCk.JYBan3likFASa06ddd93bb44d33a0c6e7e40fb1354d2.jpeg","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":20096753,"size":0,"blocks":0,"atimeMs":1553073064753.0356,"mtimeMs":1553073064753.0356,"ctimeMs":1553073064753.0356,"birthtimeMs":1553073064753.0356,"atime":"2019-03-20T09:11:04.753Z","mtime":"2019-03-20T09:11:04.753Z","ctime":"2019-03-20T09:11:04.753Z","birthtime":"2019-03-20T09:11:04.753Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-03-20 17:11:06,430 INFO 31076 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/richard/github/IntelligentTourMap/app/public/wx45f0cd0b700d0570.o6zAJs0XpPS0cJq8JmEyO3TbmOCk.JYBan3likFASa06ddd93bb44d33a0c6e7e40fb1354d2.jpeg","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":20096753,"size":58645,"blocks":120,"atimeMs":1553073064753.0356,"mtimeMs":1553073066416.655,"ctimeMs":1553073066416.655,"birthtimeMs":1553073064753.0356,"atime":"2019-03-20T09:11:04.753Z","mtime":"2019-03-20T09:11:06.417Z","ctime":"2019-03-20T09:11:06.417Z","birthtime":"2019-03-20T09:11:04.753Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-03-20 17:11:42,775 INFO 31076 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/richard/github/IntelligentTourMap/app/public/wx45f0cd0b700d0570.o6zAJs0XpPS0cJq8JmEyO3TbmOCk.YDtpLwgxuNFUa06ddd93bb44d33a0c6e7e40fb1354d2.jpeg","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":20096934,"size":58645,"blocks":120,"atimeMs":1553073102708.2122,"mtimeMs":1553073102711.3667,"ctimeMs":1553073102711.3667,"birthtimeMs":1553073102708.2122,"atime":"2019-03-20T09:11:42.708Z","mtime":"2019-03-20T09:11:42.711Z","ctime":"2019-03-20T09:11:42.711Z","birthtime":"2019-03-20T09:11:42.708Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-03-20 17:12:48,084 ERROR 31076 nodejs.ClusterClientNoResponseError: client no response in 65373ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/richard/github/IntelligentTourMap/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 31076
+hostname: richard-MacBook-Pro.local
+
+2019-03-20 17:12:56,440 INFO 31076 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/richard/github/IntelligentTourMap/app/public/wx45f0cd0b700d0570.o6zAJs0XpPS0cJq8JmEyO3TbmOCk.23CyL37LzLWEa06ddd93bb44d33a0c6e7e40fb1354d2.jpeg","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":20097045,"size":58645,"blocks":120,"atimeMs":1553073176377.781,"mtimeMs":1553073176381.1016,"ctimeMs":1553073176381.1016,"birthtimeMs":1553073176377.781,"atime":"2019-03-20T09:12:56.378Z","mtime":"2019-03-20T09:12:56.381Z","ctime":"2019-03-20T09:12:56.381Z","birthtime":"2019-03-20T09:12:56.378Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-03-20 17:16:08,110 ERROR 31076 nodejs.ClusterClientNoResponseError: client no response in 71707ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/richard/github/IntelligentTourMap/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 31076
+hostname: richard-MacBook-Pro.local
+
+2019-03-20 17:17:54,807 INFO 31076 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/richard/github/IntelligentTourMap/app/public/wx45f0cd0b700d0570.o6zAJs0XpPS0cJq8JmEyO3TbmOCk.OYtJH9bQvB6Ma06ddd93bb44d33a0c6e7e40fb1354d2.jpeg","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":20097754,"size":58645,"blocks":120,"atimeMs":1553073474597.538,"mtimeMs":1553073474599.725,"ctimeMs":1553073474599.725,"birthtimeMs":1553073474597.538,"atime":"2019-03-20T09:17:54.598Z","mtime":"2019-03-20T09:17:54.600Z","ctime":"2019-03-20T09:17:54.600Z","birthtime":"2019-03-20T09:17:54.598Z"},"remove":false,"isDirectory":false,"isFile":true}
