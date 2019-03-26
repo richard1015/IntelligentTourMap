@@ -4,8 +4,8 @@ const Service = require('./base');
 const collection = 'user';
 class UserService extends Service {
 
-    async list(pageIndex, pageSize) {
-        return await this._list(collection, pageIndex, pageSize);
+    async list(pageIndex, pageSize, condition) {
+        return await this._list(collection, pageIndex, pageSize, condition);
     }
     async update(params) {
         return await this._update(collection, params);

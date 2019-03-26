@@ -20,6 +20,13 @@ module.exports = {
         totalCount: { type: 'integer' },
         hasNextPage: { type: 'boolean' },
     },
+    spotResponse: {
+        arrays: { type: 'array', itemType: "spot" },
+        pageIndex: { type: 'integer' },
+        pageSize: { type: 'integer' },
+        totalCount: { type: 'integer' },
+        hasNextPage: { type: 'boolean' },
+    },
     login: {
         username: { type: 'string', required: true, description: '用户账号' },
         password: { type: 'string', required: true, description: '密码' }
@@ -32,6 +39,13 @@ module.exports = {
     },
     school: {
         _id: { type: 'string', description: 'id 唯一键' },
+        name: { type: 'string', required: true, description: '学校名称' },
+        gaoDeLon: { type: 'string', required: true, description: '经度' },
+        gaoDeLat: { type: 'string', required: true, description: '纬度' },
+    },
+    spot: {
+        _id: { type: 'string', description: 'id 唯一键' },
+        pid: { type: 'string', description: 'pid school唯一键' },
         name: { type: 'string', required: true, description: '标点名称' },
         voiceUrl: { type: 'string', required: true, description: '音频url' },
         gaoDeLon: { type: 'string', required: true, description: '经度' },

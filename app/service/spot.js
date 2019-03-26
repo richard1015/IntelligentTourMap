@@ -1,8 +1,8 @@
 'use strict';
 
 const Service = require('./base');
-const collection = 'school';
-class SchoolService extends Service {
+const collection = 'spot';
+class SpotService extends Service {
     async list(pageIndex, pageSize, condition) {
         return await this._list(collection, pageIndex, pageSize, condition);
     }
@@ -14,4 +14,4 @@ class SchoolService extends Service {
     }
 }
 
-module.exports = SchoolService;
+module.exports = SpotService;

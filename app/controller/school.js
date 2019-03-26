@@ -7,9 +7,10 @@ const Controller = require('./base');
  */
 class SchoolController extends Controller {
     /**
-     * @summary 获取所有学校标注点
-     * @description 分页获取标注点
+     * @summary 获取所有学校
+     * @description 分页获取所有学校
      * @router get /school/query
+     * @request query string keyword 模糊搜索name
      * @request query integer pageIndex 页码 默认 1
      * @request query integer pageSize 单页数量 默认 10
      * @response 200 schoolResponse 请求成功
@@ -18,7 +19,8 @@ class SchoolController extends Controller {
         const { ctx, service } = this;
         let pageIndex = Number(ctx.query.pageIndex || 1);
         let pageSize = Number(ctx.query.pageSize || 10);
-        this.success(await service.school.list(pageIndex, pageSize))
+        let keyword = ctx.query.keyword || "";
+        this.success(await service.school.list(pageIndex, pageSize, { name: { $regex: new RegExp(keyword, 'i') } }))
     }
     /**
      * @summary 更新/创建

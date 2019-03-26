@@ -228,13 +228,14 @@
         });
         function initInfo() {
             $.ajax({
-                url: "/school/query",
+                url: "/spot/query",
                 async: false, // 注意此处需要同步
                 type: "get",
                 dataType: "json",
                 data: {
                     pageIndex: 1,
-                    pageSize: 9999
+                    pageSize: 9999,
+                    pid: '5c984595dfbf7133724a2f17'
                 },
                 success: function (data) {
                     if (data.success) {

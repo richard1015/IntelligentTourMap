@@ -13,19 +13,20 @@ class BaseService extends Service {
             })
         });
     }
-    async getConllectionCount(collection) {
+    //按条件获取结果总数
+    async getConllectionCount(collection, condition) {
         return new Promise((r, rej) => {
-            collection.count((err, res) => {
-                if (err) throw rej(err);
-                r(res);
+            collection.find(condition).toArray(function (err, result) {
+                if (err) throw reject(err);
+                r(result.length);
             });
         })
     }
-    async _list(col, pageIndex = 1, pageSize = 10) {
+    async _list(col, pageIndex = 1, pageSize = 10, condition = {}) {
         const { collection, client } = await this.getConllection(col);
-        let totalCount = await this.getConllectionCount(collection);
+        let totalCount = await this.getConllectionCount(collection, condition);
         return new Promise((resolve, reject) => {
-            collection.find({}).skip((pageIndex - 1) * pageSize).limit(pageSize).toArray(function (err, result) {
+            collection.find(condition).skip((pageIndex - 1) * pageSize).limit(pageSize).toArray(function (err, result) {
                 if (err) throw reject(err);
                 client.close();
                 resolve({
@@ -41,6 +42,7 @@ class BaseService extends Service {
     async _update(col, params) {
         const { collection, client } = await this.getConllection(col);
         return new Promise((resolve, reject) => {
+            params.updateTime = new Date();
             if (params._id) {
                 let _id = ObjectId(params._id)
                 delete params._id;
@@ -76,11 +78,11 @@ class BaseService extends Service {
         })
     }
     async uploadImg(origin, stream) {
-        const writerStream = fs.createWriteStream(path.join(this.config.baseDir, `app/public/${stream.filename}`));
+        const writerStream = fs.createWriteStream(path.join(this.config.baseDir, `app/public/resources/${stream.filename}`));
 
         stream.pipe(writerStream);
 
-        let imgUrl = `${origin}/public/${stream.filename}`;
+        let imgUrl = `${origin}/public/resources/${stream.filename}`;
 
         return imgUrl;
     }

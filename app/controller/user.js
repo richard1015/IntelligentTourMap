@@ -9,6 +9,7 @@ class UserController extends Controller {
      * @summary 获取用户
      * @description 分页获取用户信息
      * @router get /user/query
+     * @request query string keyword 模糊搜索name
      * @request query integer pageIndex 页码 默认 1
      * @request query integer pageSize 单页数量 默认 10
      * @response 200 userResponse 请求成功
@@ -17,7 +18,8 @@ class UserController extends Controller {
         const { ctx, service } = this;
         let pageIndex = Number(ctx.query.pageIndex || 1);
         let pageSize = Number(ctx.query.pageSize || 10);
-        this.success(await service.user.list(pageIndex, pageSize))
+        let keyword = ctx.query.keyword || "";
+        this.success(await service.user.list(pageIndex, pageSize, { username: { $regex: new RegExp(keyword, 'i') } }))
     }
     /**
      * @summary 更新/创建
