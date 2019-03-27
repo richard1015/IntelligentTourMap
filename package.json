@@ -28,7 +28,7 @@
     "node": ">=8.9.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-IntelligentTourMap",
+    "start": "egg-scripts start --port=7002 --daemon --title=egg-server-IntelligentTourMap",
     "stop": "egg-scripts stop --title=egg-server-IntelligentTourMap",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
