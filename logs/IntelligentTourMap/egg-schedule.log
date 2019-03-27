@@ -10,3 +10,11 @@
 2019-03-26 14:45:30,483 INFO 4413 [egg-schedule]: register schedule /Users/richard/github/IntelligentTourMap/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
 2019-03-26 14:45:41,203 INFO 4432 [egg-schedule]: register schedule /Users/richard/github/IntelligentTourMap/node_modules/egg-logrotator/app/schedule/clean_log.js
 2019-03-26 14:45:41,203 INFO 4432 [egg-schedule]: register schedule /Users/richard/github/IntelligentTourMap/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-03-27 14:02:41,496 INFO 3145 [egg-schedule]: register schedule /Users/richard/github/IntelligentTourMap/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-03-27 14:02:41,496 INFO 3145 [egg-schedule]: register schedule /Users/richard/github/IntelligentTourMap/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-03-27 14:02:41,723 INFO 3144 [Timer] /Users/richard/github/IntelligentTourMap/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 35838279ms at 2019-03-28 00:00:00.002
+2019-03-27 14:02:41,723 INFO 3144 [Timer] /Users/richard/github/IntelligentTourMap/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 35839277ms at 2019-03-28 00:00:01.000
+2019-03-27 14:03:08,594 INFO 3284 [egg-schedule]: register schedule /Users/richard/github/IntelligentTourMap/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-03-27 14:03:08,594 INFO 3284 [egg-schedule]: register schedule /Users/richard/github/IntelligentTourMap/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-03-27 14:03:08,814 INFO 3283 [Timer] /Users/richard/github/IntelligentTourMap/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 35811188ms at 2019-03-28 00:00:00.002
+2019-03-27 14:03:08,815 INFO 3283 [Timer] /Users/richard/github/IntelligentTourMap/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 35812186ms at 2019-03-28 00:00:01.001

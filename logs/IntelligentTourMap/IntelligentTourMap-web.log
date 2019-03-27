@@ -1567,3 +1567,11 @@ hostname: richard-MacBook-Pro.local
 2019-03-26 14:55:10,435 INFO 4432 [-/127.0.0.1/-/1ms GET /user/query?orderBy=&pageIndex=1&pageSize=10&keyword=&timestamp=1553583310417] request querystring === orderBy=&pageIndex=1&pageSize=10&keyword=&timestamp=1553583310417
 2019-03-26 14:55:10,446 INFO 4432 [-/127.0.0.1/-/12ms GET /user/query?orderBy=&pageIndex=1&pageSize=10&keyword=&timestamp=1553583310417] response endtime... 1553583310446
 2019-03-26 14:55:10,446 INFO 4432 [-/127.0.0.1/-/12ms GET /user/query?orderBy=&pageIndex=1&pageSize=10&keyword=&timestamp=1553583310417] response time... 12
+2019-03-27 14:02:41,641 INFO 3145 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-27 14:02:41,668 INFO 3145 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-27 14:02:41,668 INFO 3145 app beforeStart... begin
+2019-03-27 14:02:41,668 INFO 3145 app mongodb... begin
+2019-03-27 14:03:08,734 INFO 3284 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-27 14:03:08,761 INFO 3284 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-27 14:03:08,761 INFO 3284 app beforeStart... begin
+2019-03-27 14:03:08,761 INFO 3284 app mongodb... begin
