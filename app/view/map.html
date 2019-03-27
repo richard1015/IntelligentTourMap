@@ -214,18 +214,18 @@
         var markers = [];
         //加载事件
         $(document).ready(function () {
-            function GetQueryString(name) {
-                var reg = new RegExp("(^|&)" +
-                    name + "=([^&]*)(&|$)");
-                var r = window.location.search.substr(1).match(reg);
-                if (r != null) return decodeURI(r[2]);
-                return null;
-            }
             $("title").html(GetQueryString("titleName"));
             //加载方法
             initInfo();
             setInterval(getLocation, 2000);
         });
+        function GetQueryString(name) {
+            var reg = new RegExp("(^|&)" +
+                name + "=([^&]*)(&|$)");
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null) return decodeURI(r[2]);
+            return null;
+        }
         function initInfo() {
             $.ajax({
                 url: "/spot/query",
@@ -235,7 +235,7 @@
                 data: {
                     pageIndex: 1,
                     pageSize: 9999,
-                    pid: '5c984595dfbf7133724a2f17'
+                    pid: GetQueryString('pid') || '5c984595dfbf7133724a2f17'
                 },
                 success: function (data) {
                     if (data.success) {

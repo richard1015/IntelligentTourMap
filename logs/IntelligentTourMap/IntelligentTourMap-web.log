@@ -1575,3 +1575,47 @@ hostname: richard-MacBook-Pro.local
 2019-03-27 14:03:08,761 INFO 3284 [egg-swagger-doc] register router: get /swagger-ui.html
 2019-03-27 14:03:08,761 INFO 3284 app beforeStart... begin
 2019-03-27 14:03:08,761 INFO 3284 app mongodb... begin
+2019-03-27 17:32:04,551 INFO 7872 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-27 17:32:04,585 INFO 7872 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-27 17:32:04,586 INFO 7872 app beforeStart... begin
+2019-03-27 17:32:04,586 INFO 7872 app mongodb... begin
+2019-03-27 17:32:13,452 INFO 7872 [-/127.0.0.1/-/1ms GET /] request starttime... 1553679133450
+2019-03-27 17:32:13,453 INFO 7872 [-/127.0.0.1/-/3ms GET /] request querystring === 
+2019-03-27 17:32:13,479 INFO 7872 [-/127.0.0.1/-/29ms GET /] response endtime... 1553679133479
+2019-03-27 17:32:13,480 INFO 7872 [-/127.0.0.1/-/30ms GET /] response time... 29
+2019-03-27 17:32:14,460 INFO 7872 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1553679134460
+2019-03-27 17:32:14,460 INFO 7872 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-27 17:32:14,462 INFO 7872 [-/127.0.0.1/-/2ms GET /favicon.ico] response endtime... 1553679134462
+2019-03-27 17:32:14,462 INFO 7872 [-/127.0.0.1/-/2ms GET /favicon.ico] response time... 2
+2019-03-27 17:32:17,457 INFO 7872 [-/127.0.0.1/-/0ms GET /] request starttime... 1553679137457
+2019-03-27 17:32:17,457 INFO 7872 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-27 17:32:17,461 INFO 7872 [-/127.0.0.1/-/4ms GET /] response endtime... 1553679137461
+2019-03-27 17:32:17,461 INFO 7872 [-/127.0.0.1/-/4ms GET /] response time... 4
+2019-03-27 17:32:18,046 INFO 7872 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1553679138046
+2019-03-27 17:32:18,047 INFO 7872 [-/127.0.0.1/-/1ms GET /favicon.ico] request querystring === 
+2019-03-27 17:32:18,047 INFO 7872 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1553679138047
+2019-03-27 17:32:18,048 INFO 7872 [-/127.0.0.1/-/2ms GET /favicon.ico] response time... 1
+2019-03-27 17:32:50,645 INFO 7872 [-/127.0.0.1/-/0ms GET /] request starttime... 1553679170645
+2019-03-27 17:32:50,645 INFO 7872 [-/127.0.0.1/-/0ms GET /] request querystring === 
+2019-03-27 17:32:50,647 INFO 7872 [-/127.0.0.1/-/2ms GET /] response endtime... 1553679170647
+2019-03-27 17:32:50,647 INFO 7872 [-/127.0.0.1/-/2ms GET /] response time... 2
+2019-03-27 17:32:51,100 INFO 7872 [-/127.0.0.1/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c984595dfbf7133724a2f17] request starttime... 1553679171100
+2019-03-27 17:32:51,100 INFO 7872 [-/127.0.0.1/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c984595dfbf7133724a2f17] request querystring === pageIndex=1&pageSize=9999&pid=5c984595dfbf7133724a2f17
+2019-03-27 17:32:51,155 INFO 7872 [-/127.0.0.1/-/55ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c984595dfbf7133724a2f17] response endtime... 1553679171155
+2019-03-27 17:32:51,155 INFO 7872 [-/127.0.0.1/-/55ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c984595dfbf7133724a2f17] response time... 55
+2019-03-27 17:32:51,227 INFO 7872 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request starttime... 1553679171227
+2019-03-27 17:32:51,227 INFO 7872 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request querystring === 
+2019-03-27 17:32:51,235 INFO 7872 [-/127.0.0.1/-/8ms GET /public/images/play3.png] response endtime... 1553679171235
+2019-03-27 17:32:51,236 INFO 7872 [-/127.0.0.1/-/9ms GET /public/images/play3.png] response time... 8
+2019-03-27 17:32:51,465 INFO 7872 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1553679171465
+2019-03-27 17:32:51,465 INFO 7872 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-27 17:32:51,466 INFO 7872 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1553679171466
+2019-03-27 17:32:51,466 INFO 7872 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-27 17:32:58,267 INFO 7872 [-/127.0.0.1/-/0ms GET /?pid=123] request starttime... 1553679178267
+2019-03-27 17:32:58,267 INFO 7872 [-/127.0.0.1/-/0ms GET /?pid=123] request querystring === pid=123
+2019-03-27 17:32:58,272 INFO 7872 [-/127.0.0.1/-/5ms GET /?pid=123] response endtime... 1553679178272
+2019-03-27 17:32:58,272 INFO 7872 [-/127.0.0.1/-/5ms GET /?pid=123] response time... 5
+2019-03-27 17:32:58,661 INFO 7872 [-/127.0.0.1/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=123] request starttime... 1553679178661
+2019-03-27 17:32:58,661 INFO 7872 [-/127.0.0.1/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=123] request querystring === pageIndex=1&pageSize=9999&pid=123
+2019-03-27 17:32:58,668 INFO 7872 [-/127.0.0.1/-/7ms GET /spot/query?pageIndex=1&pageSize=9999&pid=123] response endtime... 1553679178668
+2019-03-27 17:32:58,668 INFO 7872 [-/127.0.0.1/-/7ms GET /spot/query?pageIndex=1&pageSize=9999&pid=123] response time... 7
