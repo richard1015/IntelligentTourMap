@@ -1619,3 +1619,567 @@ hostname: richard-MacBook-Pro.local
 2019-03-27 17:32:58,661 INFO 7872 [-/127.0.0.1/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=123] request querystring === pageIndex=1&pageSize=9999&pid=123
 2019-03-27 17:32:58,668 INFO 7872 [-/127.0.0.1/-/7ms GET /spot/query?pageIndex=1&pageSize=9999&pid=123] response endtime... 1553679178668
 2019-03-27 17:32:58,668 INFO 7872 [-/127.0.0.1/-/7ms GET /spot/query?pageIndex=1&pageSize=9999&pid=123] response time... 7
+2019-03-27 17:43:31,642 INFO 8362 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-27 17:43:31,670 INFO 8362 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-27 17:43:31,670 INFO 8362 app beforeStart... begin
+2019-03-27 17:43:31,670 INFO 8362 app mongodb... begin
+2019-03-27 17:43:33,509 INFO 8362 [-/127.0.0.1/-/0ms GET /] request starttime... 1553679813508
+2019-03-27 17:43:33,510 INFO 8362 [-/127.0.0.1/-/1ms GET /] request querystring === 
+2019-03-27 17:43:33,533 INFO 8362 [-/127.0.0.1/-/25ms GET /] response endtime... 1553679813533
+2019-03-27 17:43:33,533 INFO 8362 [-/127.0.0.1/-/25ms GET /] response time... 25
+2019-03-27 17:43:34,234 INFO 8362 [-/127.0.0.1/-/1ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c984595dfbf7133724a2f17] request starttime... 1553679814233
+2019-03-27 17:43:34,234 INFO 8362 [-/127.0.0.1/-/1ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c984595dfbf7133724a2f17] request querystring === pageIndex=1&pageSize=9999&pid=5c984595dfbf7133724a2f17
+2019-03-27 17:43:34,274 INFO 8362 [-/127.0.0.1/-/41ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c984595dfbf7133724a2f17] response endtime... 1553679814274
+2019-03-27 17:43:34,274 INFO 8362 [-/127.0.0.1/-/41ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c984595dfbf7133724a2f17] response time... 41
+2019-03-27 17:43:34,394 INFO 8362 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request starttime... 1553679814394
+2019-03-27 17:43:34,395 INFO 8362 [-/127.0.0.1/-/1ms GET /public/images/play3.png] request querystring === 
+2019-03-27 17:43:34,397 INFO 8362 [-/127.0.0.1/-/3ms GET /public/images/play3.png] response endtime... 1553679814397
+2019-03-27 17:43:34,397 INFO 8362 [-/127.0.0.1/-/3ms GET /public/images/play3.png] response time... 3
+2019-03-27 17:45:09,914 INFO 8401 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-27 17:45:09,943 INFO 8401 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-27 17:45:09,943 INFO 8401 app beforeStart... begin
+2019-03-27 17:45:09,943 INFO 8401 app mongodb... begin
+2019-03-27 17:45:29,905 INFO 8401 [-/127.0.0.1/-/0ms GET /?pid=5c9847a198162634690c116a] request starttime... 1553679929905
+2019-03-27 17:45:29,906 INFO 8401 [-/127.0.0.1/-/1ms GET /?pid=5c9847a198162634690c116a] request querystring === pid=5c9847a198162634690c116a
+2019-03-27 17:45:29,925 INFO 8401 [-/127.0.0.1/-/20ms GET /?pid=5c9847a198162634690c116a] response endtime... 1553679929925
+2019-03-27 17:45:29,925 INFO 8401 [-/127.0.0.1/-/20ms GET /?pid=5c9847a198162634690c116a] response time... 20
+2019-03-27 17:45:30,306 INFO 8401 [-/127.0.0.1/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request starttime... 1553679930306
+2019-03-27 17:45:30,306 INFO 8401 [-/127.0.0.1/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request querystring === pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a
+2019-03-27 17:45:30,396 INFO 8401 [-/127.0.0.1/-/90ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response endtime... 1553679930396
+2019-03-27 17:45:30,396 INFO 8401 [-/127.0.0.1/-/90ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response time... 90
+2019-03-27 17:45:30,425 INFO 8401 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request starttime... 1553679930425
+2019-03-27 17:45:30,425 INFO 8401 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request querystring === 
+2019-03-27 17:45:30,428 INFO 8401 [-/127.0.0.1/-/3ms GET /public/images/play3.png] response endtime... 1553679930428
+2019-03-27 17:45:30,428 INFO 8401 [-/127.0.0.1/-/3ms GET /public/images/play3.png] response time... 3
+2019-03-27 17:45:31,793 INFO 8401 [-/127.0.0.1/-/0ms GET /?pid=5c9847a198162634690c116a] request starttime... 1553679931793
+2019-03-27 17:45:31,793 INFO 8401 [-/127.0.0.1/-/0ms GET /?pid=5c9847a198162634690c116a] request querystring === pid=5c9847a198162634690c116a
+2019-03-27 17:45:31,798 INFO 8401 [-/127.0.0.1/-/5ms GET /?pid=5c9847a198162634690c116a] response endtime... 1553679931798
+2019-03-27 17:45:31,799 INFO 8401 [-/127.0.0.1/-/6ms GET /?pid=5c9847a198162634690c116a] response time... 5
+2019-03-27 17:45:32,441 INFO 8401 [-/127.0.0.1/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request starttime... 1553679932441
+2019-03-27 17:45:32,441 INFO 8401 [-/127.0.0.1/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request querystring === pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a
+2019-03-27 17:45:32,488 INFO 8401 [-/127.0.0.1/-/47ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response endtime... 1553679932488
+2019-03-27 17:45:32,488 INFO 8401 [-/127.0.0.1/-/47ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response time... 47
+2019-03-27 17:45:32,513 INFO 8401 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request starttime... 1553679932513
+2019-03-27 17:45:32,513 INFO 8401 [-/127.0.0.1/-/0ms GET /public/images/play3.png] request querystring === 
+2019-03-27 17:45:32,515 INFO 8401 [-/127.0.0.1/-/2ms GET /public/images/play3.png] response endtime... 1553679932515
+2019-03-27 17:45:32,515 INFO 8401 [-/127.0.0.1/-/2ms GET /public/images/play3.png] response time... 2
+2019-03-27 17:45:32,937 INFO 8401 [-/127.0.0.1/-/0ms GET /favicon.ico] request starttime... 1553679932937
+2019-03-27 17:45:32,937 INFO 8401 [-/127.0.0.1/-/0ms GET /favicon.ico] request querystring === 
+2019-03-27 17:45:32,938 INFO 8401 [-/127.0.0.1/-/1ms GET /favicon.ico] response endtime... 1553679932938
+2019-03-27 17:45:32,938 INFO 8401 [-/127.0.0.1/-/1ms GET /favicon.ico] response time... 1
+2019-03-27 17:45:41,007 INFO 8401 [-/192.168.1.101/-/0ms GET /?pid=5c9847a198162634690c116a] request starttime... 1553679941007
+2019-03-27 17:45:41,008 INFO 8401 [-/192.168.1.101/-/1ms GET /?pid=5c9847a198162634690c116a] request querystring === pid=5c9847a198162634690c116a
+2019-03-27 17:45:41,014 INFO 8401 [-/192.168.1.101/-/7ms GET /?pid=5c9847a198162634690c116a] response endtime... 1553679941014
+2019-03-27 17:45:41,015 INFO 8401 [-/192.168.1.101/-/7ms GET /?pid=5c9847a198162634690c116a] response time... 7
+2019-03-27 17:45:41,094 INFO 8401 [-/192.168.1.101/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1553679941094
+2019-03-27 17:45:41,095 INFO 8401 [-/192.168.1.101/-/0ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-27 17:45:41,101 INFO 8401 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1553679941101
+2019-03-27 17:45:41,101 INFO 8401 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-27 17:45:41,103 INFO 8401 [-/192.168.1.101/-/0ms GET /public/css/reset.css] request starttime... 1553679941103
+2019-03-27 17:45:41,104 INFO 8401 [-/192.168.1.101/-/0ms GET /public/css/reset.css] request querystring === 
+2019-03-27 17:45:41,110 INFO 8401 [-/192.168.1.101/-/9ms GET /public/lib/layer_mobile/layer.js] response endtime... 1553679941110
+2019-03-27 17:45:41,110 INFO 8401 [-/192.168.1.101/-/9ms GET /public/lib/layer_mobile/layer.js] response time... 9
+2019-03-27 17:45:41,111 INFO 8401 [-/192.168.1.101/-/17ms GET /public/lib/jquery-3.3.1.js] response endtime... 1553679941111
+2019-03-27 17:45:41,111 INFO 8401 [-/192.168.1.101/-/17ms GET /public/lib/jquery-3.3.1.js] response time... 17
+2019-03-27 17:45:41,112 INFO 8401 [-/192.168.1.101/-/9ms GET /public/css/reset.css] response endtime... 1553679941112
+2019-03-27 17:45:41,118 INFO 8401 [-/192.168.1.101/-/15ms GET /public/css/reset.css] response time... 9
+2019-03-27 17:45:41,220 INFO 8401 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1553679941220
+2019-03-27 17:45:41,220 INFO 8401 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-27 17:45:41,222 INFO 8401 [-/192.168.1.101/-/2ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1553679941222
+2019-03-27 17:45:41,222 INFO 8401 [-/192.168.1.101/-/2ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 2
+2019-03-27 17:45:41,260 INFO 8401 [-/192.168.1.101/-/0ms GET /public/images/onAuto.png] request starttime... 1553679941260
+2019-03-27 17:45:41,260 INFO 8401 [-/192.168.1.101/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-27 17:45:41,262 INFO 8401 [-/192.168.1.101/-/2ms GET /public/images/onAuto.png] response endtime... 1553679941262
+2019-03-27 17:45:41,262 INFO 8401 [-/192.168.1.101/-/2ms GET /public/images/onAuto.png] response time... 2
+2019-03-27 17:45:41,668 INFO 8401 [-/192.168.1.101/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request starttime... 1553679941668
+2019-03-27 17:45:41,668 INFO 8401 [-/192.168.1.101/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request querystring === pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a
+2019-03-27 17:45:41,725 INFO 8401 [-/192.168.1.101/-/57ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response endtime... 1553679941725
+2019-03-27 17:45:41,725 INFO 8401 [-/192.168.1.101/-/57ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response time... 57
+2019-03-27 17:45:41,791 INFO 8401 [-/192.168.1.101/-/0ms GET /public/images/play3.png] request starttime... 1553679941791
+2019-03-27 17:45:41,791 INFO 8401 [-/192.168.1.101/-/0ms GET /public/images/play3.png] request querystring === 
+2019-03-27 17:45:41,794 INFO 8401 [-/192.168.1.101/-/3ms GET /public/images/play3.png] response endtime... 1553679941794
+2019-03-27 17:45:41,794 INFO 8401 [-/192.168.1.101/-/3ms GET /public/images/play3.png] response time... 3
+2019-03-27 17:45:41,989 INFO 8401 [-/192.168.1.101/-/0ms GET /favicon.ico] request starttime... 1553679941989
+2019-03-27 17:45:41,989 INFO 8401 [-/192.168.1.101/-/0ms GET /favicon.ico] request querystring === 
+2019-03-27 17:45:41,990 INFO 8401 [-/192.168.1.101/-/1ms GET /favicon.ico] response endtime... 1553679941990
+2019-03-27 17:45:41,990 INFO 8401 [-/192.168.1.101/-/1ms GET /favicon.ico] response time... 1
+2019-03-27 17:45:43,564 INFO 8401 [-/192.168.1.101/-/0ms GET /?pid=5c9847a198162634690c116a] request starttime... 1553679943564
+2019-03-27 17:45:43,564 INFO 8401 [-/192.168.1.101/-/0ms GET /?pid=5c9847a198162634690c116a] request querystring === pid=5c9847a198162634690c116a
+2019-03-27 17:45:43,565 INFO 8401 [-/192.168.1.101/-/1ms GET /?pid=5c9847a198162634690c116a] response endtime... 1553679943565
+2019-03-27 17:45:43,565 INFO 8401 [-/192.168.1.101/-/1ms GET /?pid=5c9847a198162634690c116a] response time... 1
+2019-03-27 17:45:43,611 INFO 8401 [-/192.168.1.101/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1553679943611
+2019-03-27 17:45:43,611 INFO 8401 [-/192.168.1.101/-/0ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-27 17:45:43,612 INFO 8401 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1553679943612
+2019-03-27 17:45:43,612 INFO 8401 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-27 17:45:43,613 INFO 8401 [-/192.168.1.101/-/2ms GET /public/lib/jquery-3.3.1.js] response endtime... 1553679943613
+2019-03-27 17:45:43,613 INFO 8401 [-/192.168.1.101/-/2ms GET /public/lib/jquery-3.3.1.js] response time... 2
+2019-03-27 17:45:43,613 INFO 8401 [-/192.168.1.101/-/1ms GET /public/lib/layer_mobile/layer.js] response endtime... 1553679943613
+2019-03-27 17:45:43,613 INFO 8401 [-/192.168.1.101/-/1ms GET /public/lib/layer_mobile/layer.js] response time... 1
+2019-03-27 17:45:43,619 INFO 8401 [-/192.168.1.101/-/0ms GET /public/css/reset.css] request starttime... 1553679943619
+2019-03-27 17:45:43,619 INFO 8401 [-/192.168.1.101/-/0ms GET /public/css/reset.css] request querystring === 
+2019-03-27 17:45:43,620 INFO 8401 [-/192.168.1.101/-/1ms GET /public/css/reset.css] response endtime... 1553679943620
+2019-03-27 17:45:43,620 INFO 8401 [-/192.168.1.101/-/1ms GET /public/css/reset.css] response time... 1
+2019-03-27 17:45:43,688 INFO 8401 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1553679943688
+2019-03-27 17:45:43,688 INFO 8401 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-27 17:45:43,689 INFO 8401 [-/192.168.1.101/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1553679943689
+2019-03-27 17:45:43,689 INFO 8401 [-/192.168.1.101/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 1
+2019-03-27 17:45:43,732 INFO 8401 [-/192.168.1.101/-/0ms GET /public/images/onAuto.png] request starttime... 1553679943732
+2019-03-27 17:45:43,733 INFO 8401 [-/192.168.1.101/-/1ms GET /public/images/onAuto.png] request querystring === 
+2019-03-27 17:45:43,734 INFO 8401 [-/192.168.1.101/-/2ms GET /public/images/onAuto.png] response endtime... 1553679943734
+2019-03-27 17:45:43,734 INFO 8401 [-/192.168.1.101/-/2ms GET /public/images/onAuto.png] response time... 2
+2019-03-27 17:45:43,981 INFO 8401 [-/192.168.1.101/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request starttime... 1553679943981
+2019-03-27 17:45:43,981 INFO 8401 [-/192.168.1.101/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request querystring === pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a
+2019-03-27 17:45:44,051 INFO 8401 [-/192.168.1.101/-/70ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response endtime... 1553679944051
+2019-03-27 17:45:44,051 INFO 8401 [-/192.168.1.101/-/70ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response time... 70
+2019-03-27 17:45:44,080 INFO 8401 [-/192.168.1.101/-/0ms GET /public/images/play3.png] request starttime... 1553679944080
+2019-03-27 17:45:44,081 INFO 8401 [-/192.168.1.101/-/0ms GET /public/images/play3.png] request querystring === 
+2019-03-27 17:45:44,081 INFO 8401 [-/192.168.1.101/-/1ms GET /public/images/play3.png] response endtime... 1553679944081
+2019-03-27 17:45:44,081 INFO 8401 [-/192.168.1.101/-/1ms GET /public/images/play3.png] response time... 1
+2019-03-27 17:45:44,279 INFO 8401 [-/192.168.1.101/-/0ms GET /favicon.ico] request starttime... 1553679944279
+2019-03-27 17:45:44,279 INFO 8401 [-/192.168.1.101/-/0ms GET /favicon.ico] request querystring === 
+2019-03-27 17:45:44,280 INFO 8401 [-/192.168.1.101/-/1ms GET /favicon.ico] response endtime... 1553679944280
+2019-03-27 17:45:44,280 INFO 8401 [-/192.168.1.101/-/1ms GET /favicon.ico] response time... 1
+2019-03-27 17:46:05,936 INFO 8401 [-/192.168.1.101/-/0ms GET /?pid=5c9847a198162634690c116a] request starttime... 1553679965936
+2019-03-27 17:46:05,936 INFO 8401 [-/192.168.1.101/-/0ms GET /?pid=5c9847a198162634690c116a] request querystring === pid=5c9847a198162634690c116a
+2019-03-27 17:46:05,938 INFO 8401 [-/192.168.1.101/-/2ms GET /?pid=5c9847a198162634690c116a] response endtime... 1553679965938
+2019-03-27 17:46:05,938 INFO 8401 [-/192.168.1.101/-/2ms GET /?pid=5c9847a198162634690c116a] response time... 2
+2019-03-27 17:46:05,993 INFO 8401 [-/192.168.1.101/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1553679965992
+2019-03-27 17:46:05,993 INFO 8401 [-/192.168.1.101/-/1ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-27 17:46:05,993 INFO 8401 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1553679965993
+2019-03-27 17:46:05,993 INFO 8401 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-27 17:46:05,994 INFO 8401 [-/192.168.1.101/-/2ms GET /public/lib/jquery-3.3.1.js] response endtime... 1553679965994
+2019-03-27 17:46:05,994 INFO 8401 [-/192.168.1.101/-/2ms GET /public/lib/jquery-3.3.1.js] response time... 2
+2019-03-27 17:46:05,995 INFO 8401 [-/192.168.1.101/-/2ms GET /public/lib/layer_mobile/layer.js] response endtime... 1553679965995
+2019-03-27 17:46:05,995 INFO 8401 [-/192.168.1.101/-/2ms GET /public/lib/layer_mobile/layer.js] response time... 2
+2019-03-27 17:46:05,995 INFO 8401 [-/192.168.1.101/-/0ms GET /public/css/reset.css] request starttime... 1553679965995
+2019-03-27 17:46:05,995 INFO 8401 [-/192.168.1.101/-/0ms GET /public/css/reset.css] request querystring === 
+2019-03-27 17:46:05,996 INFO 8401 [-/192.168.1.101/-/1ms GET /public/css/reset.css] response endtime... 1553679965996
+2019-03-27 17:46:05,996 INFO 8401 [-/192.168.1.101/-/1ms GET /public/css/reset.css] response time... 1
+2019-03-27 17:46:06,059 INFO 8401 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1553679966059
+2019-03-27 17:46:06,060 INFO 8401 [-/192.168.1.101/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-27 17:46:06,060 INFO 8401 [-/192.168.1.101/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1553679966060
+2019-03-27 17:46:06,060 INFO 8401 [-/192.168.1.101/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 1
+2019-03-27 17:46:06,168 INFO 8401 [-/192.168.1.101/-/0ms GET /public/images/onAuto.png] request starttime... 1553679966168
+2019-03-27 17:46:06,168 INFO 8401 [-/192.168.1.101/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-27 17:46:06,169 INFO 8401 [-/192.168.1.101/-/1ms GET /public/images/onAuto.png] response endtime... 1553679966169
+2019-03-27 17:46:06,169 INFO 8401 [-/192.168.1.101/-/1ms GET /public/images/onAuto.png] response time... 1
+2019-03-27 17:46:06,345 INFO 8401 [-/192.168.1.101/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request starttime... 1553679966345
+2019-03-27 17:46:06,345 INFO 8401 [-/192.168.1.101/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request querystring === pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a
+2019-03-27 17:46:06,397 INFO 8401 [-/192.168.1.101/-/52ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response endtime... 1553679966397
+2019-03-27 17:46:06,397 INFO 8401 [-/192.168.1.101/-/52ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response time... 52
+2019-03-27 17:46:06,439 INFO 8401 [-/192.168.1.101/-/0ms GET /public/images/play3.png] request starttime... 1553679966439
+2019-03-27 17:46:06,440 INFO 8401 [-/192.168.1.101/-/1ms GET /public/images/play3.png] request querystring === 
+2019-03-27 17:46:06,440 INFO 8401 [-/192.168.1.101/-/1ms GET /public/images/play3.png] response endtime... 1553679966440
+2019-03-27 17:46:06,441 INFO 8401 [-/192.168.1.101/-/2ms GET /public/images/play3.png] response time... 1
+2019-03-27 17:46:06,612 INFO 8401 [-/192.168.1.101/-/0ms GET /favicon.ico] request starttime... 1553679966612
+2019-03-27 17:46:06,612 INFO 8401 [-/192.168.1.101/-/0ms GET /favicon.ico] request querystring === 
+2019-03-27 17:46:06,613 INFO 8401 [-/192.168.1.101/-/1ms GET /favicon.ico] response endtime... 1553679966613
+2019-03-27 17:46:06,613 INFO 8401 [-/192.168.1.101/-/1ms GET /favicon.ico] response time... 1
+2019-03-27 17:46:08,573 INFO 8401 [-/192.168.1.101/-/0ms GET /?pid=5c9847a198162634690c116a] request starttime... 1553679968572
+2019-03-27 17:46:08,573 INFO 8401 [-/192.168.1.101/-/1ms GET /?pid=5c9847a198162634690c116a] request querystring === pid=5c9847a198162634690c116a
+2019-03-27 17:46:08,575 INFO 8401 [-/192.168.1.101/-/3ms GET /?pid=5c9847a198162634690c116a] response endtime... 1553679968575
+2019-03-27 17:46:08,575 INFO 8401 [-/192.168.1.101/-/3ms GET /?pid=5c9847a198162634690c116a] response time... 3
+2019-03-27 17:46:08,662 INFO 8401 [-/192.168.1.101/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1553679968662
+2019-03-27 17:46:08,662 INFO 8401 [-/192.168.1.101/-/0ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-27 17:46:08,663 INFO 8401 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1553679968663
+2019-03-27 17:46:08,663 INFO 8401 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-27 17:46:08,665 INFO 8401 [-/192.168.1.101/-/2ms GET /public/lib/layer_mobile/layer.js] response endtime... 1553679968665
+2019-03-27 17:46:08,665 INFO 8401 [-/192.168.1.101/-/2ms GET /public/lib/layer_mobile/layer.js] response time... 2
+2019-03-27 17:46:08,666 INFO 8401 [-/192.168.1.101/-/0ms GET /public/css/reset.css] request starttime... 1553679968666
+2019-03-27 17:46:08,666 INFO 8401 [-/192.168.1.101/-/0ms GET /public/css/reset.css] request querystring === 
+2019-03-27 17:46:08,668 INFO 8401 [-/192.168.1.101/-/5ms GET /public/lib/jquery-3.3.1.js] response endtime... 1553679968667
+2019-03-27 17:46:08,668 INFO 8401 [-/192.168.1.101/-/6ms GET /public/lib/jquery-3.3.1.js] response time... 5
+2019-03-27 17:46:08,668 INFO 8401 [-/192.168.1.101/-/2ms GET /public/css/reset.css] response endtime... 1553679968668
+2019-03-27 17:46:08,668 INFO 8401 [-/192.168.1.101/-/2ms GET /public/css/reset.css] response time... 2
+2019-03-27 17:46:08,739 INFO 8401 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1553679968739
+2019-03-27 17:46:08,740 INFO 8401 [-/192.168.1.101/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-27 17:46:08,741 INFO 8401 [-/192.168.1.101/-/2ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1553679968741
+2019-03-27 17:46:08,741 INFO 8401 [-/192.168.1.101/-/2ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 2
+2019-03-27 17:46:08,774 INFO 8401 [-/192.168.1.101/-/0ms GET /public/images/onAuto.png] request starttime... 1553679968774
+2019-03-27 17:46:08,775 INFO 8401 [-/192.168.1.101/-/1ms GET /public/images/onAuto.png] request querystring === 
+2019-03-27 17:46:08,776 INFO 8401 [-/192.168.1.101/-/2ms GET /public/images/onAuto.png] response endtime... 1553679968776
+2019-03-27 17:46:08,776 INFO 8401 [-/192.168.1.101/-/2ms GET /public/images/onAuto.png] response time... 2
+2019-03-27 17:46:09,089 INFO 8401 [-/192.168.1.101/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request starttime... 1553679969089
+2019-03-27 17:46:09,089 INFO 8401 [-/192.168.1.101/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request querystring === pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a
+2019-03-27 17:46:09,138 INFO 8401 [-/192.168.1.101/-/49ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response endtime... 1553679969138
+2019-03-27 17:46:09,139 INFO 8401 [-/192.168.1.101/-/50ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response time... 49
+2019-03-27 17:46:09,172 INFO 8401 [-/192.168.1.101/-/0ms GET /public/images/play3.png] request starttime... 1553679969172
+2019-03-27 17:46:09,172 INFO 8401 [-/192.168.1.101/-/0ms GET /public/images/play3.png] request querystring === 
+2019-03-27 17:46:09,173 INFO 8401 [-/192.168.1.101/-/1ms GET /public/images/play3.png] response endtime... 1553679969173
+2019-03-27 17:46:09,173 INFO 8401 [-/192.168.1.101/-/1ms GET /public/images/play3.png] response time... 1
+2019-03-27 17:46:09,348 INFO 8401 [-/192.168.1.101/-/0ms GET /favicon.ico] request starttime... 1553679969348
+2019-03-27 17:46:09,349 INFO 8401 [-/192.168.1.101/-/1ms GET /favicon.ico] request querystring === 
+2019-03-27 17:46:09,349 INFO 8401 [-/192.168.1.101/-/1ms GET /favicon.ico] response endtime... 1553679969349
+2019-03-27 17:46:09,349 INFO 8401 [-/192.168.1.101/-/1ms GET /favicon.ico] response time... 1
+2019-03-27 17:46:31,414 INFO 8401 [-/192.168.1.101/-/0ms GET /?pid=5c9847a198162634690c116a] request starttime... 1553679991414
+2019-03-27 17:46:31,414 INFO 8401 [-/192.168.1.101/-/0ms GET /?pid=5c9847a198162634690c116a] request querystring === pid=5c9847a198162634690c116a
+2019-03-27 17:46:31,416 INFO 8401 [-/192.168.1.101/-/2ms GET /?pid=5c9847a198162634690c116a] response endtime... 1553679991416
+2019-03-27 17:46:31,416 INFO 8401 [-/192.168.1.101/-/2ms GET /?pid=5c9847a198162634690c116a] response time... 2
+2019-03-27 17:46:31,495 INFO 8401 [-/192.168.1.101/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1553679991495
+2019-03-27 17:46:31,495 INFO 8401 [-/192.168.1.101/-/0ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-27 17:46:31,496 INFO 8401 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1553679991496
+2019-03-27 17:46:31,496 INFO 8401 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-27 17:46:31,497 INFO 8401 [-/192.168.1.101/-/2ms GET /public/lib/jquery-3.3.1.js] response endtime... 1553679991497
+2019-03-27 17:46:31,497 INFO 8401 [-/192.168.1.101/-/2ms GET /public/lib/jquery-3.3.1.js] response time... 2
+2019-03-27 17:46:31,498 INFO 8401 [-/192.168.1.101/-/2ms GET /public/lib/layer_mobile/layer.js] response endtime... 1553679991498
+2019-03-27 17:46:31,498 INFO 8401 [-/192.168.1.101/-/2ms GET /public/lib/layer_mobile/layer.js] response time... 2
+2019-03-27 17:46:31,498 INFO 8401 [-/192.168.1.101/-/0ms GET /public/css/reset.css] request starttime... 1553679991498
+2019-03-27 17:46:31,498 INFO 8401 [-/192.168.1.101/-/0ms GET /public/css/reset.css] request querystring === 
+2019-03-27 17:46:31,499 INFO 8401 [-/192.168.1.101/-/1ms GET /public/css/reset.css] response endtime... 1553679991499
+2019-03-27 17:46:31,499 INFO 8401 [-/192.168.1.101/-/1ms GET /public/css/reset.css] response time... 1
+2019-03-27 17:46:31,567 INFO 8401 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1553679991567
+2019-03-27 17:46:31,568 INFO 8401 [-/192.168.1.101/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-27 17:46:31,570 INFO 8401 [-/192.168.1.101/-/3ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1553679991570
+2019-03-27 17:46:31,570 INFO 8401 [-/192.168.1.101/-/3ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 3
+2019-03-27 17:46:31,694 INFO 8401 [-/192.168.1.101/-/0ms GET /public/images/onAuto.png] request starttime... 1553679991694
+2019-03-27 17:46:31,694 INFO 8401 [-/192.168.1.101/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-27 17:46:31,695 INFO 8401 [-/192.168.1.101/-/1ms GET /public/images/onAuto.png] response endtime... 1553679991695
+2019-03-27 17:46:31,695 INFO 8401 [-/192.168.1.101/-/1ms GET /public/images/onAuto.png] response time... 1
+2019-03-27 17:50:29,389 INFO 8401 [-/192.168.1.101/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request starttime... 1553680229389
+2019-03-27 17:50:29,389 INFO 8401 [-/192.168.1.101/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request querystring === pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a
+2019-03-27 17:50:29,470 INFO 8401 [-/192.168.1.101/-/81ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response endtime... 1553680229470
+2019-03-27 17:50:29,470 INFO 8401 [-/192.168.1.101/-/81ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response time... 81
+2019-03-27 17:50:29,529 INFO 8401 [-/192.168.1.101/-/0ms GET /public/images/play3.png] request starttime... 1553680229529
+2019-03-27 17:50:29,529 INFO 8401 [-/192.168.1.101/-/0ms GET /public/images/play3.png] request querystring === 
+2019-03-27 17:50:29,530 INFO 8401 [-/192.168.1.101/-/1ms GET /public/images/play3.png] response endtime... 1553680229530
+2019-03-27 17:50:29,530 INFO 8401 [-/192.168.1.101/-/1ms GET /public/images/play3.png] response time... 1
+2019-03-27 17:50:29,654 INFO 8401 [-/192.168.1.101/-/0ms GET /favicon.ico] request starttime... 1553680229654
+2019-03-27 17:50:29,654 INFO 8401 [-/192.168.1.101/-/0ms GET /favicon.ico] request querystring === 
+2019-03-27 17:50:29,655 INFO 8401 [-/192.168.1.101/-/1ms GET /favicon.ico] response endtime... 1553680229655
+2019-03-27 17:50:29,655 INFO 8401 [-/192.168.1.101/-/1ms GET /favicon.ico] response time... 1
+2019-03-27 17:57:33,419 INFO 8598 [egg-swagger-doc] register router: get /swagger-doc
+2019-03-27 17:57:33,449 INFO 8598 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-03-27 17:57:33,449 INFO 8598 app beforeStart... begin
+2019-03-27 17:57:33,449 INFO 8598 app mongodb... begin
+2019-03-27 17:57:34,075 INFO 8598 [-/192.168.1.101/-/1ms GET /?pid=5c9847a198162634690c116a] request starttime... 1553680654074
+2019-03-27 17:57:34,075 INFO 8598 [-/192.168.1.101/-/1ms GET /?pid=5c9847a198162634690c116a] request querystring === pid=5c9847a198162634690c116a
+2019-03-27 17:57:34,092 INFO 8598 [-/192.168.1.101/-/18ms GET /?pid=5c9847a198162634690c116a] response endtime... 1553680654092
+2019-03-27 17:57:34,093 INFO 8598 [-/192.168.1.101/-/19ms GET /?pid=5c9847a198162634690c116a] response time... 18
+2019-03-27 17:57:34,140 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1553680654140
+2019-03-27 17:57:34,140 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-27 17:57:34,142 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1553680654142
+2019-03-27 17:57:34,142 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-27 17:57:34,146 INFO 8598 [-/192.168.1.101/-/6ms GET /public/lib/jquery-3.3.1.js] response endtime... 1553680654146
+2019-03-27 17:57:34,146 INFO 8598 [-/192.168.1.101/-/6ms GET /public/lib/jquery-3.3.1.js] response time... 6
+2019-03-27 17:57:34,148 INFO 8598 [-/192.168.1.101/-/5ms GET /public/lib/layer_mobile/layer.js] response endtime... 1553680654147
+2019-03-27 17:57:34,148 INFO 8598 [-/192.168.1.101/-/6ms GET /public/lib/layer_mobile/layer.js] response time... 5
+2019-03-27 17:57:34,149 INFO 8598 [-/192.168.1.101/-/0ms GET /public/css/reset.css] request starttime... 1553680654149
+2019-03-27 17:57:34,149 INFO 8598 [-/192.168.1.101/-/0ms GET /public/css/reset.css] request querystring === 
+2019-03-27 17:57:34,150 INFO 8598 [-/192.168.1.101/-/1ms GET /public/css/reset.css] response endtime... 1553680654150
+2019-03-27 17:57:34,150 INFO 8598 [-/192.168.1.101/-/1ms GET /public/css/reset.css] response time... 1
+2019-03-27 17:57:34,208 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1553680654207
+2019-03-27 17:57:34,208 INFO 8598 [-/192.168.1.101/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-27 17:57:34,209 INFO 8598 [-/192.168.1.101/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1553680654208
+2019-03-27 17:57:34,209 INFO 8598 [-/192.168.1.101/-/2ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 1
+2019-03-27 17:57:34,324 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/onAuto.png] request starttime... 1553680654324
+2019-03-27 17:57:34,324 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-27 17:57:34,325 INFO 8598 [-/192.168.1.101/-/1ms GET /public/images/onAuto.png] response endtime... 1553680654325
+2019-03-27 17:57:34,325 INFO 8598 [-/192.168.1.101/-/1ms GET /public/images/onAuto.png] response time... 1
+2019-03-27 17:57:34,534 INFO 8598 [-/192.168.1.101/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request starttime... 1553680654534
+2019-03-27 17:57:34,534 INFO 8598 [-/192.168.1.101/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request querystring === pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a
+2019-03-27 17:57:34,647 INFO 8598 [-/192.168.1.101/-/113ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response endtime... 1553680654647
+2019-03-27 17:57:34,647 INFO 8598 [-/192.168.1.101/-/113ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response time... 113
+2019-03-27 17:57:34,683 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/play3.png] request starttime... 1553680654683
+2019-03-27 17:57:34,683 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/play3.png] request querystring === 
+2019-03-27 17:57:34,684 INFO 8598 [-/192.168.1.101/-/1ms GET /public/images/play3.png] response endtime... 1553680654684
+2019-03-27 17:57:34,684 INFO 8598 [-/192.168.1.101/-/1ms GET /public/images/play3.png] response time... 1
+2019-03-27 17:57:34,857 INFO 8598 [-/192.168.1.101/-/0ms GET /favicon.ico] request starttime... 1553680654857
+2019-03-27 17:57:34,857 INFO 8598 [-/192.168.1.101/-/0ms GET /favicon.ico] request querystring === 
+2019-03-27 17:57:34,858 INFO 8598 [-/192.168.1.101/-/1ms GET /favicon.ico] response endtime... 1553680654858
+2019-03-27 17:57:34,858 INFO 8598 [-/192.168.1.101/-/1ms GET /favicon.ico] response time... 1
+2019-03-27 17:57:37,362 INFO 8598 [-/192.168.1.101/-/0ms GET /?pid=5c9847a198162634690c116a] request starttime... 1553680657362
+2019-03-27 17:57:37,362 INFO 8598 [-/192.168.1.101/-/0ms GET /?pid=5c9847a198162634690c116a] request querystring === pid=5c9847a198162634690c116a
+2019-03-27 17:57:37,365 INFO 8598 [-/192.168.1.101/-/3ms GET /?pid=5c9847a198162634690c116a] response endtime... 1553680657365
+2019-03-27 17:57:37,365 INFO 8598 [-/192.168.1.101/-/3ms GET /?pid=5c9847a198162634690c116a] response time... 3
+2019-03-27 17:57:37,419 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1553680657419
+2019-03-27 17:57:37,419 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-27 17:57:37,420 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1553680657420
+2019-03-27 17:57:37,420 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-27 17:57:37,420 INFO 8598 [-/192.168.1.101/-/0ms GET /public/css/reset.css] request starttime... 1553680657420
+2019-03-27 17:57:37,420 INFO 8598 [-/192.168.1.101/-/0ms GET /public/css/reset.css] request querystring === 
+2019-03-27 17:57:37,421 INFO 8598 [-/192.168.1.101/-/2ms GET /public/lib/jquery-3.3.1.js] response endtime... 1553680657421
+2019-03-27 17:57:37,421 INFO 8598 [-/192.168.1.101/-/2ms GET /public/lib/jquery-3.3.1.js] response time... 2
+2019-03-27 17:57:37,422 INFO 8598 [-/192.168.1.101/-/2ms GET /public/lib/layer_mobile/layer.js] response endtime... 1553680657422
+2019-03-27 17:57:37,422 INFO 8598 [-/192.168.1.101/-/2ms GET /public/lib/layer_mobile/layer.js] response time... 2
+2019-03-27 17:57:37,422 INFO 8598 [-/192.168.1.101/-/2ms GET /public/css/reset.css] response endtime... 1553680657422
+2019-03-27 17:57:37,422 INFO 8598 [-/192.168.1.101/-/2ms GET /public/css/reset.css] response time... 2
+2019-03-27 17:57:37,484 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1553680657484
+2019-03-27 17:57:37,485 INFO 8598 [-/192.168.1.101/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-27 17:57:37,485 INFO 8598 [-/192.168.1.101/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1553680657485
+2019-03-27 17:57:37,485 INFO 8598 [-/192.168.1.101/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 1
+2019-03-27 17:57:37,594 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/onAuto.png] request starttime... 1553680657594
+2019-03-27 17:57:37,594 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-27 17:57:37,595 INFO 8598 [-/192.168.1.101/-/1ms GET /public/images/onAuto.png] response endtime... 1553680657595
+2019-03-27 17:57:37,595 INFO 8598 [-/192.168.1.101/-/1ms GET /public/images/onAuto.png] response time... 1
+2019-03-27 17:57:37,797 INFO 8598 [-/192.168.1.101/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request starttime... 1553680657797
+2019-03-27 17:57:37,797 INFO 8598 [-/192.168.1.101/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request querystring === pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a
+2019-03-27 17:57:37,858 INFO 8598 [-/192.168.1.101/-/61ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response endtime... 1553680657858
+2019-03-27 17:57:37,858 INFO 8598 [-/192.168.1.101/-/61ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response time... 61
+2019-03-27 17:57:37,906 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/play3.png] request starttime... 1553680657906
+2019-03-27 17:57:37,906 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/play3.png] request querystring === 
+2019-03-27 17:57:37,906 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/play3.png] response endtime... 1553680657906
+2019-03-27 17:57:37,906 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/play3.png] response time... 0
+2019-03-27 17:57:38,519 INFO 8598 [-/192.168.1.101/-/0ms GET /?pid=5c9847a198162634690c116a] request starttime... 1553680658519
+2019-03-27 17:57:38,519 INFO 8598 [-/192.168.1.101/-/0ms GET /?pid=5c9847a198162634690c116a] request querystring === pid=5c9847a198162634690c116a
+2019-03-27 17:57:38,521 INFO 8598 [-/192.168.1.101/-/2ms GET /?pid=5c9847a198162634690c116a] response endtime... 1553680658521
+2019-03-27 17:57:38,521 INFO 8598 [-/192.168.1.101/-/2ms GET /?pid=5c9847a198162634690c116a] response time... 2
+2019-03-27 17:57:38,573 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1553680658573
+2019-03-27 17:57:38,574 INFO 8598 [-/192.168.1.101/-/1ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-27 17:57:38,574 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1553680658574
+2019-03-27 17:57:38,574 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-27 17:57:38,574 INFO 8598 [-/192.168.1.101/-/0ms GET /public/css/reset.css] request starttime... 1553680658574
+2019-03-27 17:57:38,574 INFO 8598 [-/192.168.1.101/-/0ms GET /public/css/reset.css] request querystring === 
+2019-03-27 17:57:38,575 INFO 8598 [-/192.168.1.101/-/2ms GET /public/lib/jquery-3.3.1.js] response endtime... 1553680658575
+2019-03-27 17:57:38,575 INFO 8598 [-/192.168.1.101/-/2ms GET /public/lib/jquery-3.3.1.js] response time... 2
+2019-03-27 17:57:38,575 INFO 8598 [-/192.168.1.101/-/1ms GET /public/lib/layer_mobile/layer.js] response endtime... 1553680658575
+2019-03-27 17:57:38,575 INFO 8598 [-/192.168.1.101/-/1ms GET /public/lib/layer_mobile/layer.js] response time... 1
+2019-03-27 17:57:38,576 INFO 8598 [-/192.168.1.101/-/2ms GET /public/css/reset.css] response endtime... 1553680658576
+2019-03-27 17:57:38,576 INFO 8598 [-/192.168.1.101/-/2ms GET /public/css/reset.css] response time... 2
+2019-03-27 17:57:38,632 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1553680658632
+2019-03-27 17:57:38,632 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-27 17:57:38,633 INFO 8598 [-/192.168.1.101/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1553680658633
+2019-03-27 17:57:38,633 INFO 8598 [-/192.168.1.101/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 1
+2019-03-27 17:57:38,727 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/onAuto.png] request starttime... 1553680658727
+2019-03-27 17:57:38,727 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-27 17:57:38,728 INFO 8598 [-/192.168.1.101/-/1ms GET /public/images/onAuto.png] response endtime... 1553680658728
+2019-03-27 17:57:38,728 INFO 8598 [-/192.168.1.101/-/1ms GET /public/images/onAuto.png] response time... 1
+2019-03-27 17:57:38,898 INFO 8598 [-/192.168.1.101/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request starttime... 1553680658898
+2019-03-27 17:57:38,898 INFO 8598 [-/192.168.1.101/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request querystring === pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a
+2019-03-27 17:57:38,948 INFO 8598 [-/192.168.1.101/-/50ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response endtime... 1553680658948
+2019-03-27 17:57:38,948 INFO 8598 [-/192.168.1.101/-/50ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response time... 50
+2019-03-27 17:57:39,010 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/play3.png] request starttime... 1553680659010
+2019-03-27 17:57:39,010 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/play3.png] request querystring === 
+2019-03-27 17:57:39,011 INFO 8598 [-/192.168.1.101/-/1ms GET /public/images/play3.png] response endtime... 1553680659011
+2019-03-27 17:57:39,011 INFO 8598 [-/192.168.1.101/-/1ms GET /public/images/play3.png] response time... 1
+2019-03-27 17:57:39,200 INFO 8598 [-/192.168.1.101/-/0ms GET /favicon.ico] request starttime... 1553680659200
+2019-03-27 17:57:39,200 INFO 8598 [-/192.168.1.101/-/0ms GET /favicon.ico] request querystring === 
+2019-03-27 17:57:39,201 INFO 8598 [-/192.168.1.101/-/1ms GET /favicon.ico] response endtime... 1553680659201
+2019-03-27 17:57:39,201 INFO 8598 [-/192.168.1.101/-/1ms GET /favicon.ico] response time... 1
+2019-03-27 17:57:46,756 INFO 8598 [-/192.168.1.100/-/0ms GET /?pid=5c9847a198162634690c116a] request starttime... 1553680666756
+2019-03-27 17:57:46,756 INFO 8598 [-/192.168.1.100/-/0ms GET /?pid=5c9847a198162634690c116a] request querystring === pid=5c9847a198162634690c116a
+2019-03-27 17:57:46,760 INFO 8598 [-/192.168.1.100/-/4ms GET /?pid=5c9847a198162634690c116a] response endtime... 1553680666760
+2019-03-27 17:57:46,760 INFO 8598 [-/192.168.1.100/-/4ms GET /?pid=5c9847a198162634690c116a] response time... 4
+2019-03-27 17:57:46,808 INFO 8598 [-/192.168.1.100/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1553680666808
+2019-03-27 17:57:46,808 INFO 8598 [-/192.168.1.100/-/0ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-27 17:57:46,840 INFO 8598 [-/192.168.1.100/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1553680666840
+2019-03-27 17:57:46,841 INFO 8598 [-/192.168.1.100/-/1ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-27 17:57:46,842 INFO 8598 [-/192.168.1.100/-/0ms GET /public/css/reset.css] request starttime... 1553680666842
+2019-03-27 17:57:46,842 INFO 8598 [-/192.168.1.100/-/0ms GET /public/css/reset.css] request querystring === 
+2019-03-27 17:57:46,843 INFO 8598 [-/192.168.1.100/-/3ms GET /public/lib/layer_mobile/layer.js] response endtime... 1553680666843
+2019-03-27 17:57:46,843 INFO 8598 [-/192.168.1.100/-/3ms GET /public/lib/layer_mobile/layer.js] response time... 3
+2019-03-27 17:57:46,844 INFO 8598 [-/192.168.1.100/-/2ms GET /public/css/reset.css] response endtime... 1553680666844
+2019-03-27 17:57:46,844 INFO 8598 [-/192.168.1.100/-/2ms GET /public/css/reset.css] response time... 2
+2019-03-27 17:57:46,920 INFO 8598 [-/192.168.1.100/-/112ms GET /public/lib/jquery-3.3.1.js] response endtime... 1553680666920
+2019-03-27 17:57:46,920 INFO 8598 [-/192.168.1.100/-/112ms GET /public/lib/jquery-3.3.1.js] response time... 112
+2019-03-27 17:57:47,002 INFO 8598 [-/192.168.1.100/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1553680667001
+2019-03-27 17:57:47,002 INFO 8598 [-/192.168.1.100/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-27 17:57:47,003 INFO 8598 [-/192.168.1.100/-/2ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1553680667003
+2019-03-27 17:57:47,003 INFO 8598 [-/192.168.1.100/-/2ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 2
+2019-03-27 17:57:47,061 INFO 8598 [-/192.168.1.100/-/0ms GET /public/images/onAuto.png] request starttime... 1553680667061
+2019-03-27 17:57:47,061 INFO 8598 [-/192.168.1.100/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-27 17:57:47,063 INFO 8598 [-/192.168.1.100/-/2ms GET /public/images/onAuto.png] response endtime... 1553680667063
+2019-03-27 17:57:47,063 INFO 8598 [-/192.168.1.100/-/2ms GET /public/images/onAuto.png] response time... 1
+2019-03-27 17:57:47,349 INFO 8598 [-/192.168.1.100/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request starttime... 1553680667349
+2019-03-27 17:57:47,349 INFO 8598 [-/192.168.1.100/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request querystring === pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a
+2019-03-27 17:57:47,425 INFO 8598 [-/192.168.1.100/-/76ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response endtime... 1553680667425
+2019-03-27 17:57:47,425 INFO 8598 [-/192.168.1.100/-/76ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response time... 76
+2019-03-27 17:57:47,878 INFO 8598 [-/192.168.1.100/-/0ms GET /public/images/play3.png] request starttime... 1553680667878
+2019-03-27 17:57:47,878 INFO 8598 [-/192.168.1.100/-/0ms GET /public/images/play3.png] request querystring === 
+2019-03-27 17:57:47,880 INFO 8598 [-/192.168.1.100/-/2ms GET /public/images/play3.png] response endtime... 1553680667880
+2019-03-27 17:57:47,880 INFO 8598 [-/192.168.1.100/-/2ms GET /public/images/play3.png] response time... 2
+2019-03-27 17:57:47,923 INFO 8598 [-/192.168.1.100/-/0ms GET /favicon.ico] request starttime... 1553680667923
+2019-03-27 17:57:47,923 INFO 8598 [-/192.168.1.100/-/0ms GET /favicon.ico] request querystring === 
+2019-03-27 17:57:47,924 INFO 8598 [-/192.168.1.100/-/1ms GET /favicon.ico] response endtime... 1553680667924
+2019-03-27 17:57:47,924 INFO 8598 [-/192.168.1.100/-/1ms GET /favicon.ico] response time... 1
+2019-03-27 17:58:05,370 INFO 8598 [-/192.168.1.100/-/0ms GET /public/images/play1.gif] request starttime... 1553680685370
+2019-03-27 17:58:05,370 INFO 8598 [-/192.168.1.100/-/0ms GET /public/images/play1.gif] request querystring === 
+2019-03-27 17:58:05,373 INFO 8598 [-/192.168.1.100/-/3ms GET /public/images/play1.gif] response endtime... 1553680685373
+2019-03-27 17:58:05,373 INFO 8598 [-/192.168.1.100/-/3ms GET /public/images/play1.gif] response time... 3
+2019-03-27 17:58:07,118 INFO 8598 [-/192.168.1.100/-/0ms GET /public/images/play2.png] request starttime... 1553680687118
+2019-03-27 17:58:07,118 INFO 8598 [-/192.168.1.100/-/0ms GET /public/images/play2.png] request querystring === 
+2019-03-27 17:58:07,121 INFO 8598 [-/192.168.1.100/-/3ms GET /public/images/play2.png] response endtime... 1553680687121
+2019-03-27 17:58:07,121 INFO 8598 [-/192.168.1.100/-/3ms GET /public/images/play2.png] response time... 3
+2019-03-27 17:58:15,410 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/play1.gif] request starttime... 1553680695410
+2019-03-27 17:58:15,410 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/play1.gif] request querystring === 
+2019-03-27 17:58:15,411 INFO 8598 [-/192.168.1.101/-/1ms GET /public/images/play1.gif] response endtime... 1553680695411
+2019-03-27 17:58:15,411 INFO 8598 [-/192.168.1.101/-/1ms GET /public/images/play1.gif] response time... 1
+2019-03-27 17:58:16,618 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/play2.png] request starttime... 1553680696618
+2019-03-27 17:58:16,618 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/play2.png] request querystring === 
+2019-03-27 17:58:16,619 INFO 8598 [-/192.168.1.101/-/1ms GET /public/images/play2.png] response endtime... 1553680696619
+2019-03-27 17:58:16,619 INFO 8598 [-/192.168.1.101/-/1ms GET /public/images/play2.png] response time... 1
+2019-03-27 17:58:16,969 INFO 8598 [-/192.168.1.100/-/0ms GET /public/images/play1.gif] request starttime... 1553680696969
+2019-03-27 17:58:16,969 INFO 8598 [-/192.168.1.100/-/0ms GET /public/images/play1.gif] request querystring === 
+2019-03-27 17:58:16,970 INFO 8598 [-/192.168.1.100/-/1ms GET /public/images/play1.gif] response endtime... 1553680696970
+2019-03-27 17:58:16,970 INFO 8598 [-/192.168.1.100/-/1ms GET /public/images/play1.gif] response time... 1
+2019-03-27 17:58:48,511 INFO 8598 [-/192.168.1.101/-/0ms GET /?pid=5c9847a198162634690c116a] request starttime... 1553680728511
+2019-03-27 17:58:48,512 INFO 8598 [-/192.168.1.101/-/1ms GET /?pid=5c9847a198162634690c116a] request querystring === pid=5c9847a198162634690c116a
+2019-03-27 17:58:48,513 INFO 8598 [-/192.168.1.101/-/2ms GET /?pid=5c9847a198162634690c116a] response endtime... 1553680728513
+2019-03-27 17:58:48,514 INFO 8598 [-/192.168.1.101/-/3ms GET /?pid=5c9847a198162634690c116a] response time... 2
+2019-03-27 17:58:48,558 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1553680728558
+2019-03-27 17:58:48,558 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-27 17:58:48,558 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1553680728558
+2019-03-27 17:58:48,558 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-27 17:58:48,559 INFO 8598 [-/192.168.1.101/-/1ms GET /public/lib/jquery-3.3.1.js] response endtime... 1553680728559
+2019-03-27 17:58:48,559 INFO 8598 [-/192.168.1.101/-/1ms GET /public/lib/jquery-3.3.1.js] response time... 1
+2019-03-27 17:58:48,559 INFO 8598 [-/192.168.1.101/-/1ms GET /public/lib/layer_mobile/layer.js] response endtime... 1553680728559
+2019-03-27 17:58:48,560 INFO 8598 [-/192.168.1.101/-/2ms GET /public/lib/layer_mobile/layer.js] response time... 1
+2019-03-27 17:58:48,567 INFO 8598 [-/192.168.1.101/-/0ms GET /public/css/reset.css] request starttime... 1553680728567
+2019-03-27 17:58:48,568 INFO 8598 [-/192.168.1.101/-/1ms GET /public/css/reset.css] request querystring === 
+2019-03-27 17:58:48,568 INFO 8598 [-/192.168.1.101/-/1ms GET /public/css/reset.css] response endtime... 1553680728568
+2019-03-27 17:58:48,569 INFO 8598 [-/192.168.1.101/-/2ms GET /public/css/reset.css] response time... 1
+2019-03-27 17:58:48,623 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1553680728622
+2019-03-27 17:58:48,623 INFO 8598 [-/192.168.1.101/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-27 17:58:48,623 INFO 8598 [-/192.168.1.101/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1553680728623
+2019-03-27 17:58:48,623 INFO 8598 [-/192.168.1.101/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 1
+2019-03-27 17:58:48,650 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/onAuto.png] request starttime... 1553680728650
+2019-03-27 17:58:48,650 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-27 17:58:48,651 INFO 8598 [-/192.168.1.101/-/1ms GET /public/images/onAuto.png] response endtime... 1553680728651
+2019-03-27 17:58:48,651 INFO 8598 [-/192.168.1.101/-/1ms GET /public/images/onAuto.png] response time... 1
+2019-03-27 17:58:49,480 INFO 8598 [-/192.168.1.101/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request starttime... 1553680729480
+2019-03-27 17:58:49,480 INFO 8598 [-/192.168.1.101/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request querystring === pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a
+2019-03-27 17:58:49,727 INFO 8598 [-/192.168.1.101/-/247ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response endtime... 1553680729727
+2019-03-27 17:58:49,727 INFO 8598 [-/192.168.1.101/-/247ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response time... 247
+2019-03-27 17:58:49,759 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/play3.png] request starttime... 1553680729758
+2019-03-27 17:58:49,759 INFO 8598 [-/192.168.1.101/-/1ms GET /public/images/play3.png] request querystring === 
+2019-03-27 17:58:49,759 INFO 8598 [-/192.168.1.101/-/1ms GET /public/images/play3.png] response endtime... 1553680729759
+2019-03-27 17:58:49,759 INFO 8598 [-/192.168.1.101/-/1ms GET /public/images/play3.png] response time... 1
+2019-03-27 17:58:49,938 INFO 8598 [-/192.168.1.101/-/0ms GET /favicon.ico] request starttime... 1553680729938
+2019-03-27 17:58:49,938 INFO 8598 [-/192.168.1.101/-/0ms GET /favicon.ico] request querystring === 
+2019-03-27 17:58:49,939 INFO 8598 [-/192.168.1.101/-/1ms GET /favicon.ico] response endtime... 1553680729939
+2019-03-27 17:58:49,939 INFO 8598 [-/192.168.1.101/-/1ms GET /favicon.ico] response time... 1
+2019-03-27 17:59:11,961 INFO 8598 [-/192.168.1.100/-/0ms GET /?pid=5c9847a198162634690c116a] request starttime... 1553680751961
+2019-03-27 17:59:11,961 INFO 8598 [-/192.168.1.100/-/0ms GET /?pid=5c9847a198162634690c116a] request querystring === pid=5c9847a198162634690c116a
+2019-03-27 17:59:11,965 INFO 8598 [-/192.168.1.100/-/4ms GET /?pid=5c9847a198162634690c116a] response endtime... 1553680751965
+2019-03-27 17:59:11,965 INFO 8598 [-/192.168.1.100/-/4ms GET /?pid=5c9847a198162634690c116a] response time... 4
+2019-03-27 17:59:12,723 INFO 8598 [-/192.168.1.100/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1553680752723
+2019-03-27 17:59:12,724 INFO 8598 [-/192.168.1.100/-/1ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-27 17:59:12,725 INFO 8598 [-/192.168.1.100/-/2ms GET /public/lib/jquery-3.3.1.js] response endtime... 1553680752725
+2019-03-27 17:59:12,725 INFO 8598 [-/192.168.1.100/-/2ms GET /public/lib/jquery-3.3.1.js] response time... 2
+2019-03-27 17:59:12,726 INFO 8598 [-/192.168.1.100/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1553680752726
+2019-03-27 17:59:12,726 INFO 8598 [-/192.168.1.100/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-27 17:59:12,726 INFO 8598 [-/192.168.1.100/-/0ms GET /public/lib/layer_mobile/layer.js] response endtime... 1553680752726
+2019-03-27 17:59:12,727 INFO 8598 [-/192.168.1.100/-/1ms GET /public/lib/layer_mobile/layer.js] response time... 0
+2019-03-27 17:59:12,727 INFO 8598 [-/192.168.1.100/-/0ms GET /public/css/reset.css] request starttime... 1553680752727
+2019-03-27 17:59:12,727 INFO 8598 [-/192.168.1.100/-/0ms GET /public/css/reset.css] request querystring === 
+2019-03-27 17:59:12,727 INFO 8598 [-/192.168.1.100/-/0ms GET /public/css/reset.css] response endtime... 1553680752727
+2019-03-27 17:59:12,727 INFO 8598 [-/192.168.1.100/-/0ms GET /public/css/reset.css] response time... 0
+2019-03-27 17:59:12,781 INFO 8598 [-/192.168.1.100/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1553680752781
+2019-03-27 17:59:12,782 INFO 8598 [-/192.168.1.100/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-27 17:59:12,782 INFO 8598 [-/192.168.1.100/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1553680752782
+2019-03-27 17:59:12,782 INFO 8598 [-/192.168.1.100/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 1
+2019-03-27 17:59:12,837 INFO 8598 [-/192.168.1.100/-/0ms GET /public/images/onAuto.png] request starttime... 1553680752836
+2019-03-27 17:59:12,837 INFO 8598 [-/192.168.1.100/-/1ms GET /public/images/onAuto.png] request querystring === 
+2019-03-27 17:59:12,837 INFO 8598 [-/192.168.1.100/-/1ms GET /public/images/onAuto.png] response endtime... 1553680752837
+2019-03-27 17:59:12,837 INFO 8598 [-/192.168.1.100/-/1ms GET /public/images/onAuto.png] response time... 1
+2019-03-27 17:59:12,933 INFO 8598 [-/192.168.1.100/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request starttime... 1553680752933
+2019-03-27 17:59:12,933 INFO 8598 [-/192.168.1.100/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request querystring === pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a
+2019-03-27 17:59:12,985 INFO 8598 [-/192.168.1.100/-/52ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response endtime... 1553680752985
+2019-03-27 17:59:12,986 INFO 8598 [-/192.168.1.100/-/52ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response time... 52
+2019-03-27 17:59:13,495 INFO 8598 [-/192.168.1.100/-/0ms GET /public/images/play3.png] request starttime... 1553680753495
+2019-03-27 17:59:13,495 INFO 8598 [-/192.168.1.100/-/0ms GET /public/images/play3.png] request querystring === 
+2019-03-27 17:59:13,497 INFO 8598 [-/192.168.1.100/-/2ms GET /public/images/play3.png] response endtime... 1553680753497
+2019-03-27 17:59:13,497 INFO 8598 [-/192.168.1.100/-/2ms GET /public/images/play3.png] response time... 2
+2019-03-27 17:59:57,987 INFO 8598 [-/192.168.1.101/-/0ms GET /?pid=5c9847a198162634690c116a] request starttime... 1553680797987
+2019-03-27 17:59:57,988 INFO 8598 [-/192.168.1.101/-/1ms GET /?pid=5c9847a198162634690c116a] request querystring === pid=5c9847a198162634690c116a
+2019-03-27 17:59:57,990 INFO 8598 [-/192.168.1.101/-/3ms GET /?pid=5c9847a198162634690c116a] response endtime... 1553680797990
+2019-03-27 17:59:57,990 INFO 8598 [-/192.168.1.101/-/3ms GET /?pid=5c9847a198162634690c116a] response time... 3
+2019-03-27 17:59:58,056 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1553680798056
+2019-03-27 17:59:58,057 INFO 8598 [-/192.168.1.101/-/1ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-27 17:59:58,057 INFO 8598 [-/192.168.1.101/-/1ms GET /public/lib/jquery-3.3.1.js] response endtime... 1553680798057
+2019-03-27 17:59:58,057 INFO 8598 [-/192.168.1.101/-/1ms GET /public/lib/jquery-3.3.1.js] response time... 1
+2019-03-27 17:59:58,066 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1553680798066
+2019-03-27 17:59:58,066 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-27 17:59:58,068 INFO 8598 [-/192.168.1.101/-/0ms GET /public/css/reset.css] request starttime... 1553680798068
+2019-03-27 17:59:58,068 INFO 8598 [-/192.168.1.101/-/0ms GET /public/css/reset.css] request querystring === 
+2019-03-27 17:59:58,069 INFO 8598 [-/192.168.1.101/-/3ms GET /public/lib/layer_mobile/layer.js] response endtime... 1553680798069
+2019-03-27 17:59:58,069 INFO 8598 [-/192.168.1.101/-/3ms GET /public/lib/layer_mobile/layer.js] response time... 3
+2019-03-27 17:59:58,069 INFO 8598 [-/192.168.1.101/-/1ms GET /public/css/reset.css] response endtime... 1553680798069
+2019-03-27 17:59:58,069 INFO 8598 [-/192.168.1.101/-/1ms GET /public/css/reset.css] response time... 1
+2019-03-27 17:59:58,120 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1553680798120
+2019-03-27 17:59:58,120 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-27 17:59:58,120 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1553680798120
+2019-03-27 17:59:58,121 INFO 8598 [-/192.168.1.101/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 0
+2019-03-27 17:59:58,225 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/onAuto.png] request starttime... 1553680798225
+2019-03-27 17:59:58,225 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-27 17:59:58,226 INFO 8598 [-/192.168.1.101/-/1ms GET /public/images/onAuto.png] response endtime... 1553680798226
+2019-03-27 17:59:58,226 INFO 8598 [-/192.168.1.101/-/1ms GET /public/images/onAuto.png] response time... 1
+2019-03-27 17:59:58,417 INFO 8598 [-/192.168.1.101/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request starttime... 1553680798417
+2019-03-27 17:59:58,417 INFO 8598 [-/192.168.1.101/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request querystring === pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a
+2019-03-27 17:59:58,482 INFO 8598 [-/192.168.1.101/-/65ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response endtime... 1553680798482
+2019-03-27 17:59:58,482 INFO 8598 [-/192.168.1.101/-/65ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response time... 65
+2019-03-27 17:59:58,522 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/play3.png] request starttime... 1553680798522
+2019-03-27 17:59:58,522 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/play3.png] request querystring === 
+2019-03-27 17:59:58,522 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/play3.png] response endtime... 1553680798522
+2019-03-27 17:59:58,522 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/play3.png] response time... 0
+2019-03-27 17:59:58,692 INFO 8598 [-/192.168.1.101/-/0ms GET /favicon.ico] request starttime... 1553680798692
+2019-03-27 17:59:58,692 INFO 8598 [-/192.168.1.101/-/0ms GET /favicon.ico] request querystring === 
+2019-03-27 17:59:58,692 INFO 8598 [-/192.168.1.101/-/0ms GET /favicon.ico] response endtime... 1553680798692
+2019-03-27 17:59:58,693 INFO 8598 [-/192.168.1.101/-/1ms GET /favicon.ico] response time... 0
+2019-03-27 18:00:42,280 INFO 8598 [-/192.168.1.101/-/0ms GET /?pid=5c9847a198162634690c116a] request starttime... 1553680842280
+2019-03-27 18:00:42,280 INFO 8598 [-/192.168.1.101/-/0ms GET /?pid=5c9847a198162634690c116a] request querystring === pid=5c9847a198162634690c116a
+2019-03-27 18:00:42,282 INFO 8598 [-/192.168.1.101/-/2ms GET /?pid=5c9847a198162634690c116a] response endtime... 1553680842282
+2019-03-27 18:00:42,283 INFO 8598 [-/192.168.1.101/-/3ms GET /?pid=5c9847a198162634690c116a] response time... 2
+2019-03-27 18:00:42,332 INFO 8598 [-/192.168.1.101/-/1ms GET /public/lib/jquery-3.3.1.js] request starttime... 1553680842331
+2019-03-27 18:00:42,332 INFO 8598 [-/192.168.1.101/-/1ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-27 18:00:42,332 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1553680842332
+2019-03-27 18:00:42,332 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-27 18:00:42,335 INFO 8598 [-/192.168.1.101/-/4ms GET /public/lib/jquery-3.3.1.js] response endtime... 1553680842335
+2019-03-27 18:00:42,335 INFO 8598 [-/192.168.1.101/-/4ms GET /public/lib/jquery-3.3.1.js] response time... 4
+2019-03-27 18:00:42,336 INFO 8598 [-/192.168.1.101/-/4ms GET /public/lib/layer_mobile/layer.js] response endtime... 1553680842336
+2019-03-27 18:00:42,336 INFO 8598 [-/192.168.1.101/-/4ms GET /public/lib/layer_mobile/layer.js] response time... 4
+2019-03-27 18:00:42,336 INFO 8598 [-/192.168.1.101/-/0ms GET /public/css/reset.css] request starttime... 1553680842336
+2019-03-27 18:00:42,336 INFO 8598 [-/192.168.1.101/-/0ms GET /public/css/reset.css] request querystring === 
+2019-03-27 18:00:42,337 INFO 8598 [-/192.168.1.101/-/1ms GET /public/css/reset.css] response endtime... 1553680842337
+2019-03-27 18:00:42,337 INFO 8598 [-/192.168.1.101/-/1ms GET /public/css/reset.css] response time... 1
+2019-03-27 18:00:42,397 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1553680842397
+2019-03-27 18:00:42,397 INFO 8598 [-/192.168.1.101/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-27 18:00:42,398 INFO 8598 [-/192.168.1.101/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1553680842398
+2019-03-27 18:00:42,398 INFO 8598 [-/192.168.1.101/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 1
+2019-03-27 18:00:42,453 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/onAuto.png] request starttime... 1553680842453
+2019-03-27 18:00:42,453 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-27 18:00:42,454 INFO 8598 [-/192.168.1.101/-/1ms GET /public/images/onAuto.png] response endtime... 1553680842454
+2019-03-27 18:00:42,454 INFO 8598 [-/192.168.1.101/-/1ms GET /public/images/onAuto.png] response time... 1
+2019-03-27 18:00:42,781 INFO 8598 [-/192.168.1.101/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request starttime... 1553680842781
+2019-03-27 18:00:42,781 INFO 8598 [-/192.168.1.101/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request querystring === pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a
+2019-03-27 18:00:42,849 INFO 8598 [-/192.168.1.101/-/68ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response endtime... 1553680842849
+2019-03-27 18:00:42,849 INFO 8598 [-/192.168.1.101/-/68ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response time... 68
+2019-03-27 18:00:42,883 INFO 8598 [-/192.168.1.101/-/0ms GET /public/images/play3.png] request starttime... 1553680842883
+2019-03-27 18:00:42,884 INFO 8598 [-/192.168.1.101/-/1ms GET /public/images/play3.png] request querystring === 
+2019-03-27 18:00:42,884 INFO 8598 [-/192.168.1.101/-/1ms GET /public/images/play3.png] response endtime... 1553680842884
+2019-03-27 18:00:42,884 INFO 8598 [-/192.168.1.101/-/1ms GET /public/images/play3.png] response time... 1
+2019-03-27 18:00:43,108 INFO 8598 [-/192.168.1.101/-/0ms GET /favicon.ico] request starttime... 1553680843108
+2019-03-27 18:00:43,108 INFO 8598 [-/192.168.1.101/-/0ms GET /favicon.ico] request querystring === 
+2019-03-27 18:00:43,108 INFO 8598 [-/192.168.1.101/-/0ms GET /favicon.ico] response endtime... 1553680843108
+2019-03-27 18:00:43,108 INFO 8598 [-/192.168.1.101/-/0ms GET /favicon.ico] response time... 0
+2019-03-27 18:00:48,381 INFO 8598 [-/192.168.1.100/-/0ms GET /?pid=5c9847a198162634690c116a] request starttime... 1553680848381
+2019-03-27 18:00:48,381 INFO 8598 [-/192.168.1.100/-/0ms GET /?pid=5c9847a198162634690c116a] request querystring === pid=5c9847a198162634690c116a
+2019-03-27 18:00:48,384 INFO 8598 [-/192.168.1.100/-/3ms GET /?pid=5c9847a198162634690c116a] response endtime... 1553680848384
+2019-03-27 18:00:48,385 INFO 8598 [-/192.168.1.100/-/4ms GET /?pid=5c9847a198162634690c116a] response time... 3
+2019-03-27 18:00:48,779 INFO 8598 [-/192.168.1.100/-/0ms GET /public/lib/jquery-3.3.1.js] request starttime... 1553680848779
+2019-03-27 18:00:48,779 INFO 8598 [-/192.168.1.100/-/0ms GET /public/lib/jquery-3.3.1.js] request querystring === 
+2019-03-27 18:00:48,781 INFO 8598 [-/192.168.1.100/-/2ms GET /public/lib/jquery-3.3.1.js] response endtime... 1553680848781
+2019-03-27 18:00:48,781 INFO 8598 [-/192.168.1.100/-/2ms GET /public/lib/jquery-3.3.1.js] response time... 2
+2019-03-27 18:00:48,781 INFO 8598 [-/192.168.1.100/-/0ms GET /public/lib/layer_mobile/layer.js] request starttime... 1553680848781
+2019-03-27 18:00:48,781 INFO 8598 [-/192.168.1.100/-/0ms GET /public/lib/layer_mobile/layer.js] request querystring === 
+2019-03-27 18:00:48,782 INFO 8598 [-/192.168.1.100/-/1ms GET /public/lib/layer_mobile/layer.js] response endtime... 1553680848782
+2019-03-27 18:00:48,782 INFO 8598 [-/192.168.1.100/-/1ms GET /public/lib/layer_mobile/layer.js] response time... 1
+2019-03-27 18:00:48,797 INFO 8598 [-/192.168.1.100/-/0ms GET /public/css/reset.css] request starttime... 1553680848797
+2019-03-27 18:00:48,797 INFO 8598 [-/192.168.1.100/-/0ms GET /public/css/reset.css] request querystring === 
+2019-03-27 18:00:48,797 INFO 8598 [-/192.168.1.100/-/0ms GET /public/css/reset.css] response endtime... 1553680848797
+2019-03-27 18:00:48,797 INFO 8598 [-/192.168.1.100/-/0ms GET /public/css/reset.css] response time... 0
+2019-03-27 18:00:48,903 INFO 8598 [-/192.168.1.100/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request starttime... 1553680848903
+2019-03-27 18:00:48,903 INFO 8598 [-/192.168.1.100/-/0ms GET /public/lib/layer_mobile/need/layer.css?2.0] request querystring === 2.0
+2019-03-27 18:00:48,904 INFO 8598 [-/192.168.1.100/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response endtime... 1553680848904
+2019-03-27 18:00:48,904 INFO 8598 [-/192.168.1.100/-/1ms GET /public/lib/layer_mobile/need/layer.css?2.0] response time... 1
+2019-03-27 18:00:49,050 INFO 8598 [-/192.168.1.100/-/0ms GET /public/images/onAuto.png] request starttime... 1553680849050
+2019-03-27 18:00:49,051 INFO 8598 [-/192.168.1.100/-/0ms GET /public/images/onAuto.png] request querystring === 
+2019-03-27 18:00:49,051 INFO 8598 [-/192.168.1.100/-/1ms GET /public/images/onAuto.png] response endtime... 1553680849051
+2019-03-27 18:00:49,051 INFO 8598 [-/192.168.1.100/-/1ms GET /public/images/onAuto.png] response time... 1
+2019-03-27 18:00:49,119 INFO 8598 [-/192.168.1.100/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request starttime... 1553680849119
+2019-03-27 18:00:49,119 INFO 8598 [-/192.168.1.100/-/0ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] request querystring === pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a
+2019-03-27 18:00:49,163 INFO 8598 [-/192.168.1.100/-/44ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response endtime... 1553680849163
+2019-03-27 18:00:49,164 INFO 8598 [-/192.168.1.100/-/45ms GET /spot/query?pageIndex=1&pageSize=9999&pid=5c9847a198162634690c116a] response time... 44
+2019-03-27 18:00:49,757 INFO 8598 [-/192.168.1.100/-/1ms GET /public/images/play3.png] request starttime... 1553680849756
+2019-03-27 18:00:49,757 INFO 8598 [-/192.168.1.100/-/1ms GET /public/images/play3.png] request querystring === 
+2019-03-27 18:00:49,757 INFO 8598 [-/192.168.1.100/-/1ms GET /public/images/play3.png] response endtime... 1553680849757
+2019-03-27 18:00:49,758 INFO 8598 [-/192.168.1.100/-/2ms GET /public/images/play3.png] response time... 1

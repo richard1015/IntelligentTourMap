@@ -19,3 +19,12 @@ name: "EPIPEError"
 pid: 4166
 hostname: richard-MacBook-Pro.local
 
+2019-03-27 18:41:06,273 ERROR 8597 nodejs.ClusterClientNoResponseError: client no response in 2392742ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/richard/github/IntelligentTourMap/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 8597
+hostname: richard-MacBook-Pro.local
+

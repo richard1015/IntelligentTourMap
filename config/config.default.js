@@ -69,7 +69,8 @@ module.exports = appInfo => {
     fileExtensions: ['.mp3'],
   };
   // mongodbUrl
-  config.mongodbUrl = 'mongodb://127.0.0.1:27017';
+  config.mongodbUrl = 'mongodb://zhuzhida.vip:27017';
+  // config.mongodbUrl = 'mongodb://127.0.0.1:27017';
   config.mongodbName = 'IntelligentTourMap';
   
   config.view = {

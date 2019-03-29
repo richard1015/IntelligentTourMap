@@ -380,7 +380,7 @@
     },
     "onClientError": null,
     "middleware": [],
-    "mongodbUrl": "mongodb://127.0.0.1:27017",
+    "mongodbUrl": "mongodb://zhuzhida.vip:27017",
     "mongodbName": "IntelligentTourMap",
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
