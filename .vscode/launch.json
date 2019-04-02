@@ -12,7 +12,6 @@
             "runtimeArgs": [
                 "run",
                 "debug",
-                "--",
             ],
             "console": "integratedTerminal",
             "restart": true,
