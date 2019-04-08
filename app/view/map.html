@@ -176,7 +176,7 @@
                 if (markers[i].bestDistance) {
                     if (markers[i].bestDistance == "0")
                         markers[i].bestDistance = 50;
-                    if (markers[i].distance <= markers[i].bestDistance) {
+                    if (markers[i].distance * 1 <= markers[i].bestDistance * 1) {
                         if (markers[i].isPlay)
                             continue;
                         markers[i].emit('click', { target: markers[i] });//注册点击事件
@@ -241,7 +241,7 @@
                 data: {
                     pageIndex: 1,
                     pageSize: 9999,
-                    pid: GetQueryString('pid') || '5c984595dfbf7133724a2f17'
+                    pid: GetQueryString('pid') || '5c9e0c136630fd0fa457e47b'
                 },
                 success: function (data) {
                     if (data.success) {
