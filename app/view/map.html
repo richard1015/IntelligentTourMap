@@ -62,11 +62,11 @@
     <button class="btn btn radius size-XL mt-40 onAuto" onclick="autoPlay(this);"></button>
     <div id="mapContainer"></div>
     <div id="tip" style="top: inherit;"></div>
-    <audio style="display:none;" id='audioAtuo' src="" controls="controls">Your browser does not support the audio
+    <audio style="display:none;" id='audioAuto' src="" controls="controls">Your browser does not support the audio
         tag.</audio>
     <link rel="stylesheet" href="https://cache.amap.com/lbs/static/main.css?v=1.0" />
     <script type="text/javascript"
-        src="https://webapi.amap.com/maps?v=1.3&key=e1119a9354008a370234c40c04cf1298&plugin=AMap.Geocoder"></script>
+        src="https://webapi.amap.com/maps?v=1.3&key=e1119a9354008a370234c40c04cf1298&plugin=AMap.ToolBar,AMap.Geocoder"></script>
     <script type="text/javascript">
         //默认开启自动播放
         var autoPlayState = true;
@@ -89,36 +89,62 @@
                 autoPlayState = false;
             }
         }
-        var playIndex;
+        var oldMp3url = "";
         //播放音频
-        function playMp3(name, mp3url) {
-            if (playIndex)
-                layer.close(playIndex);
-            $('#audioAtuo').attr("src", mp3url);
-            var audio = document.getElementById('audioAtuo');
-            audio.play();
+        function playMp3(name, mp3url, playState) {
+            var audio = document.getElementById('audioAuto');
+            if (!playState) {
+                console.log('暂停' + name);
+                audio.pause();// 这个就是暂停
+            } else {
+                if (oldMp3url != mp3url) {
+                    $('#audioAuto').attr("src", mp3url);
+                    console.log('切播' + name);
+
+                } else {
+                    console.log('续播' + name);
+                }
+                audio.play();
+            }
+            oldMp3url = mp3url;
             //   $('#tip').append('<br>当前播放：' + name);
         }
         //document.addEventListener("WeixinJSBridgeReady", function () {
         //    WeixinJSBridge.invoke('getNetworkType', {}, function (e) {
         //        alert('');
-        //        var audio = document.getElementById('audioAtuo');
+        //        var audio = document.getElementById('audioAuto');
         //        audio.play();
         //        document.addEventListener("WeixinJSBridgeReady", function () {
         //            audio.play();
         //        }, false);
         //    });
         //}, false);
+
+
         //高德地图
         var markers = [];
         var geolocation;
+        var driving;
+        var currentLng;
+        var currentLat;
         var map = new AMap.Map("mapContainer", {
             resizeEnable: true,
             center: [116.397428, 39.90923],//地图中心点
             zoom: 15,//地图显示的缩放级别
             keyboardEnable: false
         });
-        map.plugin('AMap.Geolocation', function () {
+        map.plugin(['AMap.ToolBar', 'AMap.Geolocation', "AMap.Driving"], function () {
+            //放大缩小控件
+            var toolbar = new AMap.ToolBar();
+            map.addControl(toolbar);
+            //导航控件
+            var drivingOption = {
+                policy: AMap.DrivingPolicy.LEAST_TIME,
+                map: map
+            };
+            driving = new AMap.Driving(drivingOption); //构造驾车导航类
+
+            //定位控件
             geolocation = new AMap.Geolocation({
                 enableHighAccuracy: true,//是否使用高精度定位，默认:true
                 timeout: 10000,          //超过10秒后停止定位，默认：无穷大
@@ -137,6 +163,15 @@
             AMap.event.addListener(geolocation, 'complete', onComplete);//返回定位信息
             AMap.event.addListener(geolocation, 'error', onError);      //返回定位出错信息
         });
+        //导航
+        function driver(toLonLat = [], name = '终点名称') {
+            driving.searchOnAMAP({
+                origin: [currentLng, currentLat],//起点坐标
+                originName: "我的位置",//起点名称
+                destination: toLonLat,//终点坐标
+                destinationName: name //终点名称
+            });
+        }
         //定位当前位置
         function getLocation() {
             if (!autoPlayState)
@@ -151,12 +186,15 @@
             str.push('纬度：' + data.position.getLat());
             str.push('精度：' + data.accuracy + ' 米');
             str.push('是否经过偏移：' + (data.isConverted ? '是' : '否'));
-            document.getElementById('tip').innerHTML = str.join('<br>');
-
-            calcDistance(data.position.getLng(), data.position.getLat());
+            // document.getElementById('tip').innerHTML = str.join('<br>');
+            // console.info(str)
+            currentLng = data.position.getLng();
+            currentLat = data.position.getLat();
+            calcDistance(currentLng, currentLat);
         }
         //解析定位错误信息
         function onError(data) {
+            console.error(data)
             document.getElementById('tip').innerHTML = '定位失败';
         }
         //经纬度计算距离
@@ -179,6 +217,7 @@
                     if (markers[i].distance * 1 <= markers[i].bestDistance * 1) {
                         if (markers[i].isPlay)
                             continue;
+                        markers[i]['isAuto'] = true;
                         markers[i].emit('click', { target: markers[i] });//注册点击事件
                         break;
                     }
@@ -186,6 +225,7 @@
                     if (markers[i].distance <= 50) {
                         if (markers[i].isPlay)
                             continue;
+                        markers[i]['isAuto'] = true;
                         markers[i].emit('click', { target: markers[i] });//注册点击事件
                         break;
                     }
@@ -206,15 +246,24 @@
         function markerPlayClick(e) {
             var mp3Url = e.target.mp3Url;
             var name = e.target.name;
-            e.target.isPlay = true;
+            e.target.isPlay = !e.target.isPlay;
+            //人为点击 触发提示框导航
+            if (!e.target.isAuto) {
+                var r = confirm("是否导航到>" + name)
+                if (r == true) {
+                    driver(e.target.G.position, name)
+                }
+            }
 
             if (markOld) {
                 setIcon(markOld, '/public/images/play2.png');
             }
-            markOld = e;
             //(e.target.getIcon().I.image == "") {
-            setIcon(e, '/public/images/play1.gif');
-            playMp3(name, mp3Url);
+            if (e.target.isPlay) {
+                setIcon(e, '/public/images/play1.gif');
+            }
+            markOld = e;
+            playMp3(name, mp3Url, e.target.isPlay);
         }
         //所有景点标点
         var markers = [];
@@ -223,7 +272,7 @@
             $("title").html(GetQueryString("titleName"));
             //加载方法
             initInfo();
-            setInterval(getLocation, 2000);
+            setInterval(getLocation, 3000);
         });
         function GetQueryString(name) {
             var reg = new RegExp("(^|&)" +

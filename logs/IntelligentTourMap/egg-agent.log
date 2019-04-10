@@ -22,3 +22,53 @@
 2019-04-08 17:58:39,216 INFO 5790 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/richard/github/IntelligentTourMap/app/view/map.html","stat":{"dev":16777220,"mode":33279,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":19795980,"size":12594,"blocks":32,"atimeMs":1554717518338.2883,"mtimeMs":1554717519204.5608,"ctimeMs":1554717519204.5608,"birthtimeMs":1483671498000,"atime":"2019-04-08T09:58:38.338Z","mtime":"2019-04-08T09:58:39.205Z","ctime":"2019-04-08T09:58:39.205Z","birthtime":"2017-01-06T02:58:18.000Z"},"remove":false,"isDirectory":false,"isFile":true}
 2019-04-08 17:58:39,267 INFO 5790 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/richard/github/IntelligentTourMap/app/view/map.html","stat":{"dev":16777220,"mode":33279,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":19795980,"size":12594,"blocks":32,"atimeMs":1554717518338.2883,"mtimeMs":1554717519204.5608,"ctimeMs":1554717519204.5608,"birthtimeMs":1483671498000,"atime":"2019-04-08T09:58:38.338Z","mtime":"2019-04-08T09:58:39.205Z","ctime":"2019-04-08T09:58:39.205Z","birthtime":"2017-01-06T02:58:18.000Z"},"remove":false,"isDirectory":false,"isFile":true}
 2019-04-08 17:59:08,704 INFO 5790 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/richard/github/IntelligentTourMap/app/view/map.html","stat":{"dev":16777220,"mode":33279,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":19795980,"size":12594,"blocks":32,"atimeMs":1554717537886.608,"mtimeMs":1554717548643.728,"ctimeMs":1554717548643.728,"birthtimeMs":1483671498000,"atime":"2019-04-08T09:58:57.887Z","mtime":"2019-04-08T09:59:08.644Z","ctime":"2019-04-08T09:59:08.644Z","birthtime":"2017-01-06T02:58:18.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-09 10:16:49,264 INFO 7768 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-04-09 10:16:49,383 INFO 7768 [egg:core] dump config after load, 5ms
+2019-04-09 10:16:49,424 INFO 7768 [egg-watcher] Start watching: ["/Users/richard/github/IntelligentTourMap/app","/Users/richard/github/IntelligentTourMap/config","/Users/richard/github/IntelligentTourMap/mocks","/Users/richard/github/IntelligentTourMap/mocks_proxy","/Users/richard/github/IntelligentTourMap/app.js"]
+2019-04-09 10:16:49,424 INFO 7768 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/app"
+2019-04-09 10:16:49,424 INFO 7768 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/config"
+2019-04-09 10:16:49,424 INFO 7768 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/mocks"
+2019-04-09 10:16:49,424 INFO 7768 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/mocks_proxy"
+2019-04-09 10:16:49,424 INFO 7768 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/app.js"
+2019-04-09 10:16:49,425 INFO 7768 [egg-watcher:agent] watcher start success
+2019-04-09 10:16:49,436 INFO 7768 [egg:core] dump config after ready, 4ms
+2019-04-10 14:20:19,968 INFO 14259 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-04-10 14:20:20,088 INFO 14259 [egg:core] dump config after load, 5ms
+2019-04-10 14:20:20,132 INFO 14259 [egg-watcher] Start watching: ["/Users/richard/github/IntelligentTourMap/app","/Users/richard/github/IntelligentTourMap/config","/Users/richard/github/IntelligentTourMap/mocks","/Users/richard/github/IntelligentTourMap/mocks_proxy","/Users/richard/github/IntelligentTourMap/app.js"]
+2019-04-10 14:20:20,132 INFO 14259 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/app"
+2019-04-10 14:20:20,132 INFO 14259 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/config"
+2019-04-10 14:20:20,132 INFO 14259 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/mocks"
+2019-04-10 14:20:20,132 INFO 14259 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/mocks_proxy"
+2019-04-10 14:20:20,133 INFO 14259 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/app.js"
+2019-04-10 14:20:20,133 INFO 14259 [egg-watcher:agent] watcher start success
+2019-04-10 14:20:20,148 INFO 14259 [egg:core] dump config after ready, 6ms
+2019-04-10 14:30:19,280 INFO 15191 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-04-10 14:30:19,394 INFO 15191 [egg:core] dump config after load, 5ms
+2019-04-10 14:30:19,436 INFO 15191 [egg-watcher] Start watching: ["/Users/richard/github/IntelligentTourMap/app","/Users/richard/github/IntelligentTourMap/config","/Users/richard/github/IntelligentTourMap/mocks","/Users/richard/github/IntelligentTourMap/mocks_proxy","/Users/richard/github/IntelligentTourMap/app.js"]
+2019-04-10 14:30:19,436 INFO 15191 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/app"
+2019-04-10 14:30:19,437 INFO 15191 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/config"
+2019-04-10 14:30:19,437 INFO 15191 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/mocks"
+2019-04-10 14:30:19,437 INFO 15191 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/mocks_proxy"
+2019-04-10 14:30:19,437 INFO 15191 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/app.js"
+2019-04-10 14:30:19,437 INFO 15191 [egg-watcher:agent] watcher start success
+2019-04-10 14:30:19,448 INFO 15191 [egg:core] dump config after ready, 4ms
+2019-04-10 14:30:50,026 INFO 15267 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-04-10 14:30:50,113 INFO 15267 [egg:core] dump config after load, 4ms
+2019-04-10 14:30:50,148 INFO 15267 [egg-watcher] Start watching: ["/Users/richard/github/IntelligentTourMap/app","/Users/richard/github/IntelligentTourMap/config","/Users/richard/github/IntelligentTourMap/mocks","/Users/richard/github/IntelligentTourMap/mocks_proxy","/Users/richard/github/IntelligentTourMap/app.js"]
+2019-04-10 14:30:50,148 INFO 15267 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/app"
+2019-04-10 14:30:50,149 INFO 15267 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/config"
+2019-04-10 14:30:50,149 INFO 15267 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/mocks"
+2019-04-10 14:30:50,149 INFO 15267 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/mocks_proxy"
+2019-04-10 14:30:50,149 INFO 15267 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/app.js"
+2019-04-10 14:30:50,150 INFO 15267 [egg-watcher:agent] watcher start success
+2019-04-10 14:30:50,160 INFO 15267 [egg:core] dump config after ready, 4ms
+2019-04-10 14:31:13,196 INFO 15355 [egg:logger] init all loggers with options: {"dir":"/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"IntelligentTourMap-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-04-10 14:31:13,284 INFO 15355 [egg:core] dump config after load, 5ms
+2019-04-10 14:31:13,321 INFO 15355 [egg-watcher] Start watching: ["/Users/richard/github/IntelligentTourMap/app","/Users/richard/github/IntelligentTourMap/config","/Users/richard/github/IntelligentTourMap/mocks","/Users/richard/github/IntelligentTourMap/mocks_proxy","/Users/richard/github/IntelligentTourMap/app.js"]
+2019-04-10 14:31:13,321 INFO 15355 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/app"
+2019-04-10 14:31:13,321 INFO 15355 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/config"
+2019-04-10 14:31:13,321 INFO 15355 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/mocks"
+2019-04-10 14:31:13,321 INFO 15355 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/mocks_proxy"
+2019-04-10 14:31:13,321 INFO 15355 [egg-watcher] Start watching: "/Users/richard/github/IntelligentTourMap/app.js"
+2019-04-10 14:31:13,322 INFO 15355 [egg-watcher:agent] watcher start success
+2019-04-10 14:31:13,332 INFO 15355 [egg:core] dump config after ready, 3ms

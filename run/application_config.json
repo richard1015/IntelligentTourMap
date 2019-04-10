@@ -125,7 +125,7 @@
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap/egg-schedule.log"
+        "file": "/Users/richard/github/IntelligentTourMap/logs/intelligent_tour_map/egg-schedule.log"
       }
     },
     "schedule": {
@@ -144,7 +144,7 @@
         ".mp3"
       ],
       "whitelist": null,
-      "tmpdir": "/var/folders/jj/wb7tp7gx3kb33lxhhyj8kpyc0000gn/T/egg-multipart-tmp/IntelligentTourMap",
+      "tmpdir": "/var/folders/jj/wb7tp7gx3kb33lxhhyj8kpyc0000gn/T/egg-multipart-tmp/intelligent_tour_map",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -220,14 +220,14 @@
       "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS"
     },
     "env": "local",
-    "name": "IntelligentTourMap",
-    "keys": "<String len: 37>",
+    "name": "intelligent_tour_map",
+    "keys": "<String len: 39>",
     "proxy": false,
     "protocolHeaders": "x-forwarded-proto",
     "ipHeaders": "x-forwarded-for",
     "hostHeaders": "",
     "pkg": {
-      "name": "IntelligentTourMap",
+      "name": "intelligent_tour_map",
       "version": "1.0.0",
       "description": "毕业设计",
       "private": true,
@@ -259,7 +259,7 @@
         "start": "egg-scripts start --port=7002 --daemon --title=egg-server-IntelligentTourMap",
         "stop": "egg-scripts stop --title=egg-server-IntelligentTourMap",
         "dev": "egg-bin dev --port=7002",
-        "debug": "egg-bin debug",
+        "debug": "egg-bin debug --port=7002",
         "test": "npm run lint -- --fix && npm run test-local",
         "test-local": "egg-bin test",
         "cov": "egg-bin cov",
@@ -310,7 +310,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/richard/github/IntelligentTourMap/logs/IntelligentTourMap",
+      "dir": "/Users/richard/github/IntelligentTourMap/logs/intelligent_tour_map",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -318,7 +318,7 @@
       "disableConsoleAfterReady": false,
       "outputJSON": false,
       "buffer": true,
-      "appLogName": "IntelligentTourMap-web.log",
+      "appLogName": "intelligent_tour_map-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
