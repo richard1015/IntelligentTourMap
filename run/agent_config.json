@@ -226,7 +226,7 @@
         "start": "egg-scripts start --port=7002 --daemon --title=egg-server-IntelligentTourMap",
         "stop": "egg-scripts stop --title=egg-server-IntelligentTourMap",
         "dev": "egg-bin dev --port=7002",
-        "debug": "egg-bin debug --port=7002",
+        "debug": "egg-bin debug --port=7001",
         "test": "npm run lint -- --fix && npm run test-local",
         "test-local": "egg-bin test",
         "cov": "egg-bin cov",

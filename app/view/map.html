@@ -247,13 +247,6 @@
             var mp3Url = e.target.mp3Url;
             var name = e.target.name;
             e.target.isPlay = !e.target.isPlay;
-            //人为点击 触发提示框导航
-            if (!e.target.isAuto) {
-                var r = confirm("是否导航到>" + name)
-                if (r == true) {
-                    driver(e.target.G.position, name)
-                }
-            }
 
             if (markOld) {
                 setIcon(markOld, '/public/images/play2.png');
@@ -264,6 +257,14 @@
             }
             markOld = e;
             playMp3(name, mp3Url, e.target.isPlay);
+
+            //人为点击 触发提示框导航
+            if (!e.target.isAuto) {
+                var r = confirm("是否导航到>" + name)
+                if (r == true) {
+                    driver(e.target.G.position, name)
+                }
+            }
         }
         //所有景点标点
         var markers = [];
