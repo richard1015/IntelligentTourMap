@@ -14,6 +14,8 @@ class CommonController extends Controller {
      * @response 200 response 上传成功
      */
     async upload() {
+        //token验证
+        if (!this.checked) return;
         const { ctx, service } = this;
         const stream = await ctx.getFileStream();
         // const id = stream.fields.id;

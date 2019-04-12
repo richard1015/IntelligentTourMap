@@ -15,6 +15,8 @@ class UserController extends Controller {
      * @response 200 userResponse 请求成功
      */
     async query() {
+        //token验证
+        if (!this.checked) return;
         const { ctx, service } = this;
         let pageIndex = Number(ctx.query.pageIndex || 1);
         let pageSize = Number(ctx.query.pageSize || 10);
@@ -29,6 +31,8 @@ class UserController extends Controller {
      * @response 200 response 更新成功
      */
     async update() {
+        //token验证
+        if (!this.checked) return;
         this.success(await this.ctx.service.user.update(this.ctx.request.body))
     }
     /**
@@ -39,6 +43,8 @@ class UserController extends Controller {
      * @response 200 response 删除成功
      */
     async destroy() {
+        //token验证
+        if (!this.checked) return;
         this.success(await this.ctx.service.user.destroy(this.ctx.params.id))
     }
 }

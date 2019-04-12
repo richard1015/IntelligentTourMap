@@ -15,10 +15,13 @@ module.exports = app => {
         MongoClient.connect(app.config.mongodbUrl, function (err, client) {
           if (err) throw reject(err);
           const db = client.db(app.config.mongodbName);
-          resolve({db,client});
+          resolve({ db, client });
         });
       })
     }
+    // 后续数据的更新由定时任务自动触发
+    app.logger.info('app cache token reset ');
+    app.cache = { tokens: [] };
   });
 
   app.once('server', server => {

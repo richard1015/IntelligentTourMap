@@ -36,6 +36,8 @@ class SpotController extends Controller {
      * @response 200 response 更新成功
      */
     async update() {
+        //token验证
+        if (!this.checked) return;
         // new sopt(this.ctx.request.body)
         this.success(await this.ctx.service.spot.update(this.ctx.request.body))
     }
@@ -47,6 +49,8 @@ class SpotController extends Controller {
      * @response 200 response 删除成功
      */
     async destroy() {
+        //token验证
+        if (!this.checked) return;
         this.success(await this.ctx.service.spot.destroy(this.ctx.params.id))
     }
 }

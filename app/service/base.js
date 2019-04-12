@@ -87,13 +87,14 @@ class BaseService extends Service {
         return imgUrl;
     }
     async login({ username, password }) {
+        const self = this;
         const { collection, client } = await this.getConllection('user');
         return new Promise((resolve, reject) => {
             collection.find({ username, password }).toArray(function (err, result) {
                 if (err) throw reject(err);
                 client.close();
                 if (result.length > 0) {
-                    var radomStr = new Date().getTime() + getRadomNum(6);
+                    var token = new Date().getTime() + getRadomNum(6);
                     function getRadomNum(capacity) {
                         var chars = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
                         var res = "";
@@ -103,8 +104,9 @@ class BaseService extends Service {
                         }
                         return res;
                     }
+                    self.app.cache.tokens.push(token);
                     resolve({
-                        token: radomStr
+                        token
                     });
                 } else {
                     reject('账号密码错误!')
