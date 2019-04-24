@@ -82,7 +82,8 @@ class BaseService extends Service {
 
         stream.pipe(writerStream);
 
-        let imgUrl = `${origin}/public/resources/${stream.filename}`;
+        // let imgUrl = `${origin}/public/resources/${stream.filename}`;
+        let imgUrl = `/public/resources/${stream.filename}`;
 
         return imgUrl;
     }

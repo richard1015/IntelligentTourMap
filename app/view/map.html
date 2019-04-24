@@ -260,10 +260,15 @@
 
             //人为点击 触发提示框导航
             if (!e.target.isAuto) {
-                var r = confirm("是否导航到>" + name)
-                if (r == true) {
-                    driver(e.target.G.position, name)
-                }
+                //询问框
+                layer.open({
+                    content: '是否导航到>' + name
+                    , btn: ['确定', '取消']
+                    , yes: function (index) {
+                        driver(e.target.G.position, name)
+                        layer.close(index);
+                    }
+                });
             }
         }
         //所有景点标点
