@@ -98,7 +98,7 @@
                 audio.pause();// 这个就是暂停
             } else {
                 if (oldMp3url != mp3url) {
-                    $('#audioAuto').attr("src", mp3url);
+                    $('#audioAuto').attr("src", window.location.origin + mp3url);
                     console.log('切播' + name);
 
                 } else {
