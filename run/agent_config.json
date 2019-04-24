@@ -85,7 +85,7 @@
       "cookieMaxAge": "1y"
     },
     "watcher": {
-      "type": "default",
+      "type": "development",
       "eventSources": {
         "default": "/Users/richard/github/IntelligentTourMap/node_modules/egg-watcher/lib/event-sources/default",
         "development": "/Users/richard/github/IntelligentTourMap/node_modules/egg-watcher/lib/event-sources/development"
@@ -94,7 +94,7 @@
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "/Users/richard/logs/intelligent_tour_map/egg-schedule.log"
+        "file": "/Users/richard/github/IntelligentTourMap/logs/intelligent_tour_map/egg-schedule.log"
       }
     },
     "schedule": {
@@ -118,6 +118,13 @@
         "cron": "0 30 4 * * *"
       }
     },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false
+    },
     "logrotator": {
       "filesRotateByHour": null,
       "hourDelimiter": "-",
@@ -132,13 +139,12 @@
       "dir": "/Users/richard/github/IntelligentTourMap/app/public",
       "dynamic": true,
       "preload": false,
-      "buffer": true,
-      "maxFiles": 1000,
-      "maxAge": 31536000
+      "buffer": false,
+      "maxFiles": 1000
     },
     "view": {
       "root": "/Users/richard/github/IntelligentTourMap/app/view",
-      "cache": true,
+      "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {
@@ -170,7 +176,7 @@
     },
     "ejs": {
       "root": "/Users/richard/github/IntelligentTourMap/app/view",
-      "cache": true,
+      "cache": false,
       "debug": false,
       "compileDebug": true,
       "delimiter": null,
@@ -180,7 +186,7 @@
       "origin": "*",
       "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS"
     },
-    "env": "prod",
+    "env": "local",
     "name": "intelligent_tour_map",
     "keys": "<String len: 39>",
     "proxy": false,
@@ -270,19 +276,21 @@
       }
     },
     "logger": {
-      "dir": "/Users/richard/logs/intelligent_tour_map",
+      "dir": "/Users/richard/github/IntelligentTourMap/logs/intelligent_tour_map",
       "encoding": "utf8",
-      "env": "prod",
+      "env": "local",
       "level": "INFO",
       "consoleLevel": "INFO",
-      "disableConsoleAfterReady": true,
+      "disableConsoleAfterReady": false,
       "outputJSON": false,
       "buffer": true,
       "appLogName": "intelligent_tour_map-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {},
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
       "allowDebugAtProd": false,
       "type": "agent"
     },
@@ -434,6 +442,21 @@
       "from": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/plugin.js",
       "path": "/Users/richard/github/IntelligentTourMap/node_modules/egg-multipart",
       "version": "2.4.0"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/plugin.js",
+      "path": "/Users/richard/github/IntelligentTourMap/node_modules/egg-development",
+      "version": "2.4.2"
     },
     "logrotator": {
       "enable": true,

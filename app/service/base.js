@@ -78,14 +78,21 @@ class BaseService extends Service {
         })
     }
     async uploadImg(origin, stream) {
-        const writerStream = fs.createWriteStream(path.join(this.config.baseDir, `app/public/resources/${stream.filename}`));
-
+        let index = stream.filename.lastIndexOf('.');
+        let filename = this.getRadomNum(8) + stream.filename.substring(index);
+        const writerStream = fs.createWriteStream(path.join(this.config.baseDir, `app/public/resources/${filename}`));
         stream.pipe(writerStream);
-
-        // let imgUrl = `${origin}/public/resources/${stream.filename}`;
-        let imgUrl = `/public/resources/${stream.filename}`;
-
-        return imgUrl;
+        return `/public/resources/${filename}`;
+    }
+    //随机数生成
+    getRadomNum(capacity) {
+        var chars = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+        var res = "";
+        for (var i = 0; i < capacity; i++) {
+            var id = Math.ceil(Math.random() * chars.length);
+            res += chars[id];
+        }
+        return res;
     }
     async login({ username, password }) {
         const self = this;
@@ -95,16 +102,8 @@ class BaseService extends Service {
                 if (err) throw reject(err);
                 client.close();
                 if (result.length > 0) {
-                    var token = new Date().getTime() + getRadomNum(6);
-                    function getRadomNum(capacity) {
-                        var chars = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
-                        var res = "";
-                        for (var i = 0; i < capacity; i++) {
-                            var id = Math.ceil(Math.random() * chars.length);
-                            res += chars[id];
-                        }
-                        return res;
-                    }
+                    var token = new Date().getTime() + self.getRadomNum(6);
+
                     self.app.cache.tokens.push(token);
                     resolve({
                         token
