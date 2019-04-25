@@ -42,6 +42,7 @@ module.exports = {
         name: { type: 'string', required: true, description: '学校名称' },
         gaoDeLon: { type: 'string', required: true, description: '经度' },
         gaoDeLat: { type: 'string', required: true, description: '纬度' },
+        count: { type: 'int', description: '访问量' }
     },
     spot: {
         _id: { type: 'string', description: 'id 唯一键' },
@@ -51,6 +52,7 @@ module.exports = {
         gaoDeLon: { type: 'string', required: true, description: '经度' },
         gaoDeLat: { type: 'string', required: true, description: '纬度' },
         distance: { type: 'string', required: true, description: '智能播放距离' },
+        count: { type: 'int', description: '访问量' }
     }
 };
 

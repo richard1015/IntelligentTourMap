@@ -91,7 +91,7 @@
         }
         var oldMp3url = "";
         //播放音频
-        function playMp3(name, mp3url, playState) {
+        function playMp3(name, mp3url, playState, _id) {
             var audio = document.getElementById('audioAuto');
             if (!playState) {
                 console.log('暂停' + name);
@@ -104,6 +104,7 @@
                 } else {
                     console.log('续播' + name);
                 }
+                new Image().src = "/spot/visit/" + _id;
                 audio.play();
             }
             oldMp3url = mp3url;
@@ -246,6 +247,7 @@
         function markerPlayClick(e) {
             var mp3Url = e.target.mp3Url;
             var name = e.target.name;
+            var _id = e.target._id;
             e.target.isPlay = !e.target.isPlay;
 
             if (markOld) {
@@ -256,7 +258,8 @@
                 setIcon(e, '/public/images/play1.gif');
             }
             markOld = e;
-            playMp3(name, mp3Url, e.target.isPlay);
+
+            playMp3(name, mp3Url, e.target.isPlay, _id);
 
             //人为点击 触发提示框导航
             if (!e.target.isAuto) {
@@ -288,6 +291,9 @@
             return null;
         }
         function initInfo() {
+            var pid = GetQueryString('pid') || '5c9e0c136630fd0fa457e47b';
+            //学校访问量增加
+            (new Image()).src = "/school/visit/" + pid;
             $.ajax({
                 url: "/spot/query",
                 async: false, // 注意此处需要同步
@@ -296,7 +302,7 @@
                 data: {
                     pageIndex: 1,
                     pageSize: 9999,
-                    pid: GetQueryString('pid') || '5c9e0c136630fd0fa457e47b'
+                    pid
                 },
                 success: function (data) {
                     if (data.success) {
@@ -318,6 +324,7 @@
                                     map: map,
                                     title: titleStr
                                 });
+                                marker._id = JsonTable[i]._id;
                                 marker.mp3Url = JsonTable[i].voiceUrl;
                                 marker.name = titleStr;
                                 marker.isPlay = false;

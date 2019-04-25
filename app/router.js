@@ -18,9 +18,11 @@ module.exports = app => {
   router.get('/school/query', controller.school.query);
   router.post('/school/update', controller.school.update);
   router.delete('/school/destroy/:id', controller.school.destroy);
+  router.get('/school/visit/:id', controller.school.visit);
   // spot router
   router.get('/spot/query', controller.spot.query);
   router.post('/spot/update', controller.spot.update);
   router.delete('/spot/destroy/:id', controller.spot.destroy);
+  router.get('/spot/visit/:id', controller.spot.visit);
 
 };

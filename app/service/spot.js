@@ -12,6 +12,9 @@ class SpotService extends Service {
     async destroy(id) {
         return await this._destroy(collection, id);
     }
+    async visit(id) {
+        return await this._visit(collection, id);
+    }
 }
 
 module.exports = SpotService;

@@ -48,6 +48,16 @@ class SchoolController extends Controller {
         if (!this.checked) return;
         this.success(await this.ctx.service.school.destroy(this.ctx.params.id))
     }
+    /**
+     * @summary 学校访问量增加
+     * @description 
+     * @router get /school/visit/{id}
+     * @request path string *id
+     * @response 200 response 成功
+     */
+    async visit() {
+        this.success(await this.ctx.service.school.visit(this.ctx.params.id))
+    }
 }
 
 module.exports = SchoolController;

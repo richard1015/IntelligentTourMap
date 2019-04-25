@@ -53,6 +53,16 @@ class SpotController extends Controller {
         if (!this.checked) return;
         this.success(await this.ctx.service.spot.destroy(this.ctx.params.id))
     }
+    /**
+    * @summary 标点播放点击量增加
+    * @description 
+    * @router get /spot/visit/{id}
+    * @request path string *id
+    * @response 200 response 成功
+    */
+    async visit() {
+        this.success(await this.ctx.service.spot.visit(this.ctx.params.id))
+    }
 }
 
 module.exports = SpotController;

@@ -77,6 +77,23 @@ class BaseService extends Service {
             });
         })
     }
+    async _visit(col, id) {
+        const { collection, client } = await this.getConllection(col);
+        return new Promise((resolve, reject) => {
+            let _id = ObjectId(id)
+            // Update document 
+            collection.find({ _id }).toArray(function (err, result) {
+                let count = result[0].count || 0;
+                count += 1;
+                collection.updateOne({ _id }
+                    , { $set: { count } }, function (err, result) {
+                        if (err) throw reject(err);
+                        client.close();
+                        resolve(count)
+                    });
+            });
+        })
+    }
     async uploadImg(origin, stream) {
         let index = stream.filename.lastIndexOf('.');
         let filename = this.getRadomNum(8) + stream.filename.substring(index);
