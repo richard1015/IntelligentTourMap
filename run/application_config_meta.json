@@ -194,7 +194,8 @@
       "egg-scripts": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
       "egg-swagger-doc": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
       "egg-view-ejs": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
-      "mongodb": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js"
+      "mongodb": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
+      "ws": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
       "autod": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
