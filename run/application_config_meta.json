@@ -24,7 +24,7 @@
       "value": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.local.js",
+      "enable": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js",
       "maxAge": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js",
       "includeSubdomains": "/Users/richard/github/IntelligentTourMap/node_modules/egg-security/config/config.default.js"
     },
@@ -96,7 +96,7 @@
       ".html": "/Users/richard/github/IntelligentTourMap/config/config.default.js"
     },
     "root": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view/config/config.default.js",
-    "cache": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view/config/config.local.js",
+    "cache": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view/config/config.default.js",
     "defaultExtension": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view/config/config.default.js",
     "defaultViewEngine": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view/config/config.default.js"
   },
@@ -127,7 +127,7 @@
     "cookieMaxAge": "/Users/richard/github/IntelligentTourMap/node_modules/egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "/Users/richard/github/IntelligentTourMap/node_modules/egg-watcher/config/config.local.js",
+    "type": "/Users/richard/github/IntelligentTourMap/node_modules/egg-watcher/config/config.default.js",
     "eventSources": {
       "default": "/Users/richard/github/IntelligentTourMap/node_modules/egg-watcher/config/config.default.js",
       "development": "/Users/richard/github/IntelligentTourMap/node_modules/egg-watcher/config/config.default.js"
@@ -141,13 +141,6 @@
   },
   "schedule": {
     "directory": "/Users/richard/github/IntelligentTourMap/node_modules/egg-schedule/config/config.default.js"
-  },
-  "development": {
-    "watchDirs": "/Users/richard/github/IntelligentTourMap/node_modules/egg-development/config/config.default.js",
-    "ignoreDirs": "/Users/richard/github/IntelligentTourMap/node_modules/egg-development/config/config.default.js",
-    "fastReady": "/Users/richard/github/IntelligentTourMap/node_modules/egg-development/config/config.default.js",
-    "reloadOnDebug": "/Users/richard/github/IntelligentTourMap/node_modules/egg-development/config/config.default.js",
-    "overrideDefault": "/Users/richard/github/IntelligentTourMap/node_modules/egg-development/config/config.default.js"
   },
   "logrotator": {
     "filesRotateByHour": "/Users/richard/github/IntelligentTourMap/node_modules/egg-logrotator/config/config.default.js",
@@ -163,12 +156,13 @@
     "dir": "/Users/richard/github/IntelligentTourMap/node_modules/egg-static/config/config.default.js",
     "dynamic": "/Users/richard/github/IntelligentTourMap/node_modules/egg-static/config/config.default.js",
     "preload": "/Users/richard/github/IntelligentTourMap/node_modules/egg-static/config/config.default.js",
-    "buffer": "/Users/richard/github/IntelligentTourMap/node_modules/egg-static/config/config.default.js",
-    "maxFiles": "/Users/richard/github/IntelligentTourMap/node_modules/egg-static/config/config.default.js"
+    "buffer": "/Users/richard/github/IntelligentTourMap/node_modules/egg-static/config/config.prod.js",
+    "maxFiles": "/Users/richard/github/IntelligentTourMap/node_modules/egg-static/config/config.default.js",
+    "maxAge": "/Users/richard/github/IntelligentTourMap/node_modules/egg-static/config/config.prod.js"
   },
   "ejs": {
     "root": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view-ejs/config/config.default.js",
-    "cache": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view-ejs/config/config.local.js",
+    "cache": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view-ejs/config/config.default.js",
     "debug": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view-ejs/config/config.default.js",
     "compileDebug": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view-ejs/config/config.default.js",
     "delimiter": "/Users/richard/github/IntelligentTourMap/node_modules/egg-view-ejs/config/config.default.js",
@@ -276,9 +270,7 @@
     "coreLogName": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
     "agentLogName": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
     "errorLogName": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
-    "coreLogger": {
-      "consoleLevel": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.local.js"
-    },
+    "coreLogger": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js",
     "allowDebugAtProd": "/Users/richard/github/IntelligentTourMap/node_modules/egg/config/config.default.js"
   },
   "httpclient": {
