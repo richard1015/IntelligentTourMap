@@ -4,7 +4,9 @@ const Controller = require('egg').Controller;
 
 class BaseController extends Controller {
 
-
+    /**
+     * 检查token是否有效
+     */
     get checked() {
         let token = this.ctx.header.token
         if (token) {
