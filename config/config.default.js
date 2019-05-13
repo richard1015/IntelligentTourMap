@@ -66,7 +66,7 @@ module.exports = appInfo => {
   };
   // 配置上传文件白名单
   config.multipart = {
-    fileExtensions: ['.mp3'],
+    fileExtensions: ['.mp3','m4a'],
   };
   // mongodbUrl
   config.mongodbUrl = 'mongodb://zhuzhida.vip:27017';
