@@ -2,6 +2,10 @@
 
 const Service = require('egg').Service;
 const ObjectId = require('mongodb').ObjectId;
+//故名思意 异步二进制 写入流
+const awaitWriteStream = require('await-stream-ready').write;
+//管道读入一个虫洞。
+const sendToWormhole = require('stream-wormhole');
 const fs = require('fs');
 const path = require('path');
 class BaseService extends Service {
@@ -98,7 +102,14 @@ class BaseService extends Service {
         let index = stream.filename.lastIndexOf('.');
         let filename = this.getRadomNum(8) + stream.filename.substring(index);
         const writerStream = fs.createWriteStream(path.join(this.config.baseDir, `app/public/resources/${filename}`));
-        stream.pipe(writerStream);
+        try {
+            //异步把文件流 写入
+            await awaitWriteStream(stream.pipe(writerStream));
+        } catch (err) {
+            //如果出现错误，关闭管道
+            await sendToWormhole(stream);
+            throw err;
+        }
         return `/public/resources/${filename}`;
     }
     //随机数生成
