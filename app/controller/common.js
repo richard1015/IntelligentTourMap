@@ -11,6 +11,7 @@ class CommonController extends Controller {
      * @description 上传文件
      * @router post /common/upload
      * @request formData file *file
+     * @request header string *token
      * @response 200 response 上传成功
      */
     async upload() {

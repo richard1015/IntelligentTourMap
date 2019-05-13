@@ -14,8 +14,11 @@ class BaseController extends Controller {
                 this.error('token失效', 201);
                 return false;
             }
+        } else {
+            this.error('token失效', 201);
+            return false;
         }
-        return true
+        return true;
     }
 
     success(data) {
