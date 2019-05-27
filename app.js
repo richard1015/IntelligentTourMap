@@ -55,7 +55,7 @@ module.exports = app => {
     setInterval(() => {
       app.logger.info('当前缓存tokens' + app.cache.tokens);
       app.logger.info('当前后台实时日志在线人数' + app.wsClients.size);
-    }, 1000 * 10);
+    }, 1000 * 60 * 10);
   });
   app.on('error', (err, ctx) => {
     // report error
