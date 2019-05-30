@@ -7,6 +7,7 @@ module.exports = app => {
   const { router, controller } = app;
   // home router
   router.get('/', controller.home.index);
+  router.get('/logs', controller.home.logs);
   // common router
   router.post('/common/upload', controller.common.upload);
   router.post('/common/login', controller.common.login);
