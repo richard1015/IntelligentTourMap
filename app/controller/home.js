@@ -10,7 +10,8 @@ class HomeController extends Controller {
         if (this.ctx.query.info) {
             let loginfo = JSON.parse(this.ctx.query.info);
             loginfo.referer = this.ctx.headers.referer;
-            this.ctx.logger.error(loginfo)
+            loginfo.ip = this.ctx.ip;
+            this.ctx.logger.info(loginfo)
         }
     }
 }
