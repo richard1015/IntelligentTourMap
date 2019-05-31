@@ -12,6 +12,7 @@ module.exports = app => {
     const MongoClient = require('mongodb').MongoClient;
     app.getMongodb = () => {
       return new Promise((resolve, reject) => {
+        console.log(app)
         MongoClient.connect(app.config.mongodbUrl, function (err, client) {
           if (err) throw reject(err);
           const db = client.db(app.config.mongodbName);

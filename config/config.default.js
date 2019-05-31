@@ -69,16 +69,19 @@ module.exports = appInfo => {
     fileSize: '10mb',
     fileExtensions: ['.mp3', '.m4a'],
   };
-  // mongodbUrl
-  config.mongodbUrl = 'mongodb://zhuzhida.vip:27017';
-  // config.mongodbUrl = 'mongodb://127.0.0.1:27017';
-  config.mongodbName = 'IntelligentTourMap';
+
+  // 前置代理模式
+  config.proxy = true;
 
   config.view = {
     mapping: { '.html': 'ejs' } //左边写成.html后缀，会自动渲染.html文件
   };
   // add your user config here
   const userConfig = {
+    // mongodb config
+    mongodbUrl: 'mongodb://zhuzhida.vip:27017',
+    mongodbUrlDev: 'mongodb://127.0.0.1:27017',
+    mongodbName: 'IntelligentTourMap'
     // myAppName: 'egg',
   };
 
