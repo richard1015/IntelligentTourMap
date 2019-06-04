@@ -50,6 +50,7 @@ module.exports = app => {
       });
       ws.on('close', function (code, reason) {
         this.close();
+        app.wsClients.delete(this)
         app.logger.info('socket 断开')
       })
     });
