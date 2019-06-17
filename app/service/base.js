@@ -71,6 +71,10 @@ class BaseService extends Service {
         })
     }
     async _destroy(col, id) {
+        // 禁止删除线上数据，开发者下载源码后 可自行修改, 此处模拟删除成功
+        return new Promise((resolve, reject) => {
+            resolve(true)
+        });
         const { collection, client } = await this.getConllection(col);
         return new Promise((resolve, reject) => {
             // Delete document

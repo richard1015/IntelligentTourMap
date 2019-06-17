@@ -1,6 +1,21 @@
 # IntelligentTourMap
 
-毕业设计
+前台  https://school.zhuzhida.vip
+后台管理  http://schoolmgr.zhuzhida.vip
+API文档地址 https://school.zhuzhida.vip/swagger-ui.html
+
+智能导览图
+功能说明：
+1.目标导航
+2.根据经纬度计算 自动播放
+3.后台API 提供
+3.1 文件上传 token验证
+3.2 登录接口 
+3.3 获取学校相关接口 （增删改查）token验证
+3.4 获取标点相关接口 （增删改查）token验证
+3.5 获取用户相关接口 （增删改查）token验证
+4.后台WebSocket 日志 实时推送  token验证
+5.swaager文档插件集成
 
 ## QuickStart
 
@@ -13,7 +28,7 @@ see [egg docs][egg] for more detail.
 ```bash
 $ npm i
 $ npm run dev
-$ open http://localhost:7001/
+$ open http://localhost:7002/
 ```
 
 ### Deploy
@@ -33,8 +48,9 @@ $ npm stop
 [egg]: https://eggjs.org
 
 
-### tree
+### doc tree
 
+```bash
 ├── README.md 说明文件
 ├── app
 │   ├── contract swagger文档model类
@@ -107,3 +123,4 @@ $ npm stop
     └── config
         ├── index.d.ts
         └── plugin.d.ts
+```
