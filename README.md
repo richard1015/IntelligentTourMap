@@ -3,8 +3,10 @@
 技术栈 eggjs、MongoDB、swagger、websocket、Amap
 
 - 前台  https://school.zhuzhida.vip
-- 后台管理  http://schoolmgr.zhuzhida.vip
 - API文档地址 https://school.zhuzhida.vip/swagger-ui.html
+
+- 后台管理  http://schoolmgr.zhuzhida.vip
+- 后台管理源码 > https://github.com/richard1015/IntelligentTourMapManager
 
 ## 功能说明
 
