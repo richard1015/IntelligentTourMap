@@ -1,7 +1,10 @@
 # IntelligentTourMap 智能导览图
 
+项目地址 https://github.com/richard1015/IntelligentTourMap
+
 技术栈 eggjs、MongoDB、swagger、websocket、Amap
 
+演示地址：
 - 前台  https://school.zhuzhida.vip
 - API文档地址 https://school.zhuzhida.vip/swagger-ui.html
 
@@ -21,6 +24,12 @@
 - 4.后台WebSocket 日志 实时推送  token验证
 - 5.swaager文档插件集成
 
+## 功能截图
+
+![](https://user-gold-cdn.xitu.io/2019/6/18/16b69d110dae11a7?w=829&h=2240&f=png&s=184018)
+![](https://user-gold-cdn.xitu.io/2019/6/18/16b69d14eb0e5e05?w=389&h=684&f=png&s=192561)
+![](https://user-gold-cdn.xitu.io/2019/6/18/16b69d1600335a2a?w=386&h=685&f=png&s=123761)
+![](https://user-gold-cdn.xitu.io/2019/6/18/16b69d17307a8655?w=389&h=684&f=png&s=222285)
 ## QuickStart
 
 <!-- add docs here for user -->
