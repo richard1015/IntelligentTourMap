@@ -1,21 +1,23 @@
-# IntelligentTourMap
+# IntelligentTourMap 智能导览图
 
-前台  https://school.zhuzhida.vip
-后台管理  http://schoolmgr.zhuzhida.vip
-API文档地址 https://school.zhuzhida.vip/swagger-ui.html
+技术栈 eggjs、MongoDB、swagger、websocket、Amap
 
-智能导览图
-功能说明：
-1.目标导航
-2.根据经纬度计算 自动播放
-3.后台API 提供
-3.1 文件上传 token验证
-3.2 登录接口 
-3.3 获取学校相关接口 （增删改查）token验证
-3.4 获取标点相关接口 （增删改查）token验证
-3.5 获取用户相关接口 （增删改查）token验证
-4.后台WebSocket 日志 实时推送  token验证
-5.swaager文档插件集成
+- 前台  https://school.zhuzhida.vip
+- 后台管理  http://schoolmgr.zhuzhida.vip
+- API文档地址 https://school.zhuzhida.vip/swagger-ui.html
+
+## 功能说明
+
+- 1.目标导航
+- 2.根据经纬度计算 自动播放
+- 3.后台API 提供
+- 3.1 文件上传 token验证
+- 3.2 登录接口
+- 3.3 获取学校相关接口 （增删改查）token验证
+- 3.4 获取标点相关接口 （增删改查）token验证
+- 3.5 获取用户相关接口 （增删改查）token验证
+- 4.后台WebSocket 日志 实时推送  token验证
+- 5.swaager文档插件集成
 
 ## QuickStart
 
@@ -56,12 +58,13 @@ $ npm stop
 │   ├── contract swagger文档model类
 │   │   └── model.js
 │   ├── controller 控制器
-│   │   ├── base.js  基类
+│   │   ├── base.js  基类 token检查逻辑  通用返回标识符逻辑
 │   │   ├── common.js 通用类
-│   │   ├── home.js 
-│   │   ├── school.js
-│   │   └── user.js
-│   ├── public
+│   │   ├── home.js 默认首页逻辑
+│   │   ├── school.js  院校相关逻辑
+│   │   ├── spot.js  标点相关逻辑
+│   │   └── user.js 用户相关逻辑
+│   ├── public 静态资源存放处
 │   │   ├── css
 │   │   │   └── reset.css
 │   │   ├── images
@@ -77,22 +80,22 @@ $ npm stop
 │   │   │   │   └── need
 │   │   │   │       └── layer.css
 │   │   │   └── rem.js
-│   │   └── resources
-│   ├── router.js
+│   │   └── resources 上传文件 存放处
+│   ├── router.js 项目路由
 │   ├── service
-│   │   ├── base.js
-│   │   ├── school.js
-│   │   └── user.js
+│   │   ├── base.js 基类 MongoDB增删改查封装底层
+│   │   ├── school.js 院校数据处理逻辑
+│   │   ├── spot.js 标点数据处理逻辑
+│   │   └── user.js 后台用户数据处理逻辑
 │   └── view
-│       ├── location.html
-│       └── map.html
-├── app.js
+│       └── map.html 后台展示首页
+├── app.js 项目初始逻辑 MongoDB检测机制，websocket日志推送启动
 ├── appveyor.yml
 ├── config
-│   ├── config.default.js
-│   └── plugin.js
+│   ├── config.default.js 项目配置文件
+│   └── plugin.js 插件配置
 ├── jsconfig.json
-├── logs
+├── logs 日志文件
 │   └── IntelligentTourMap
 │       ├── IntelligentTourMap-web.log
 │       ├── common-error.log
