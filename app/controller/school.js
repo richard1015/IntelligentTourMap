@@ -13,6 +13,7 @@ class SchoolController extends Controller {
      * @request query string keyword 模糊搜索name
      * @request query integer pageIndex 页码 默认 1
      * @request query integer pageSize 单页数量 默认 10
+     * @request header string *token
      * @response 200 schoolResponse 请求成功
      */
     async query() {
@@ -29,6 +30,7 @@ class SchoolController extends Controller {
      * @description 创建 更新传 _id 创建不传_id
      * @router post /school/update
      * @request body school *body
+     * @request header string *token
      * @response 200 response 更新成功
      */
     async update() {
@@ -41,6 +43,7 @@ class SchoolController extends Controller {
      * @description 删除
      * @router delete /school/destroy/{id}
      * @request path string *id
+     * @request header string *token
      * @response 200 response 删除成功
      */
     async destroy() {
@@ -53,6 +56,7 @@ class SchoolController extends Controller {
      * @description 
      * @router get /school/visit/{id}
      * @request path string *id
+     * @request header string *token
      * @response 200 response 成功
      */
     async visit() {

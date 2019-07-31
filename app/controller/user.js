@@ -12,6 +12,7 @@ class UserController extends Controller {
      * @request query string keyword 模糊搜索name
      * @request query integer pageIndex 页码 默认 1
      * @request query integer pageSize 单页数量 默认 10
+     * @request header string *token
      * @response 200 userResponse 请求成功
      */
     async query() {
@@ -28,6 +29,7 @@ class UserController extends Controller {
      * @description 更新传 _id 创建不传 _id
      * @router post /user/update
      * @request body user *body
+     * @request header string *token
      * @response 200 response 更新成功
      */
     async update() {
@@ -40,6 +42,7 @@ class UserController extends Controller {
      * @description 删除
      * @router delete /user/destroy/{id}
      * @request path string *id
+     * @request header string *token
      * @response 200 response 删除成功
      */
     async destroy() {

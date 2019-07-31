@@ -33,12 +33,12 @@ class SpotController extends Controller {
      * @description 创建 更新传 _id 创建不传_id
      * @router post /spot/update
      * @request body spot *body
+     * @request header string *token
      * @response 200 response 更新成功
      */
     async update() {
         //token验证
         if (!this.checked) return;
-        // new sopt(this.ctx.request.body)
         this.success(await this.ctx.service.spot.update(this.ctx.request.body))
     }
     /**
@@ -46,6 +46,7 @@ class SpotController extends Controller {
      * @description 删除
      * @router delete /spot/destroy/{id}
      * @request path string *id
+     * @request header string *token
      * @response 200 response 删除成功
      */
     async destroy() {
