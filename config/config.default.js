@@ -79,8 +79,8 @@ module.exports = appInfo => {
   // add your user config here
   const userConfig = {
     // mongodb config
-    mongodbUrl: 'mongodb://zhuzhida.vip:27017',
-    mongodbUrlDev: 'mongodb://127.0.0.1:27017',
+    // mongodbUrl: 'mongodb://zhuzhida.vip:27017',
+    mongodbUrl: 'mongodb://127.0.0.1:27017',
     mongodbName: 'IntelligentTourMap'
     // myAppName: 'egg',
   };
